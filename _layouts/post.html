@@ -9,5 +9,12 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-
 </div>
+
+<ul>
+  {% for member in page.members %}
+    <li>
+      {{ page.member }}</p>
+    </li>
+  {% endfor %}
+</ul>
