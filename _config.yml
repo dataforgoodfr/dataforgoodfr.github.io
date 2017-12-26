@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: minima
 title: Projets Data for Good
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://dataforgoodfr.github.io" # the base hostname & protocol for your site
