@@ -19,3 +19,17 @@ layout: default
   </ul>
 
 </div>
+
+<div>
+  <ul>
+  {% for project_hash in site.data.projects %}
+  {% assign project = project_hash[1] %}
+    <li>
+      <a href="https://twitter.com/{{ project.twitter }}">
+        {{ project.name }}
+      </a>
+      ({{ project.members | size }} members)
+    </li>
+  {% endfor %}
+  </ul>  
+</div>
