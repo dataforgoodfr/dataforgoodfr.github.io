@@ -4,14 +4,14 @@ url: adoptez-moi.html
 title: Adoptez-moi
 description: Un bot Twitter pour les animaux à adopter.
 season: 1
-repository: https://github.com/dataforgoodfr/batch1_adoptez-moi 
+repository: https://github.com/dataforgoodfr/batch1_adoptez-moi
 members:
   - name: Fred
     twitter: seiteta
-    linkedin: fbardolle
+    linkedin: https://www.linkedin.com/in/fbardolle
     github: seiteta
     role: Data Scientist
-    image: fred.jpg
+    image: frederic-bardolle.jpg
 
   - name: Jülide
     twitter: gulewelat

@@ -21,7 +21,8 @@ layout: default
         <p>Retrouver le code source du projet <a href="{{ page.repository }}">ici</a>.</p>
         {% endif %}
       </section>
-      <hr>
+
+      <hr class="my-4">
 
       <section>
       <h2 class="animated fadeIn mb-3">L'équipe</h2>
@@ -48,7 +49,7 @@ layout: default
                     <a class="card-link" href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
                   {% endif %}
                   {% if member.linkedin %}
-                    <a class="card-link" href="https://www.linkedin.com/in/{{ member.linkedin }}"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+                    <a class="card-link" href="{{ member.linkedin }}"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
                   {% endif %}
                   {% if member.github %}
                     <a class="card-link" href="https://github.com/{{ member.github }}"><i class="fa fa-github-square fa-lg" aria-hidden="true"></i></a>
@@ -60,6 +61,22 @@ layout: default
           {% endfor %}
         </div>
       </section>
+
+      {% if page.association %} name description website image
+      <hr class="my-4">
+
+      <section>
+        <h2 class="animated fadeIn mb-3">L'association'</h2>
+        <div class="view overlay hm-white-slight hm-zoom">
+            <img src="{{ site.url }}/images/{{ association.image }}" class="img-fluid" alt="logo-{{ association.name }}">
+            <a href="{{ association.website }}">
+                <div class="mask"></div>
+            </a>
+        </div>
+
+      </section>
+      {% endif %}
+
     </div>
   </div>
 </main>
