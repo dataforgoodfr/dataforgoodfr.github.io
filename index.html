@@ -25,8 +25,8 @@ layout: default
 
                     <!--Card image-->
                     <div class="view overlay hm-white-slight">
-                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
-                        <a href="#">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%28131%29.jpg" class="img-fluid" alt="">
+                        <a href="{{ item.url }}">
                             <div class="mask"></div>
                         </a>
                     </div>
@@ -35,6 +35,7 @@ layout: default
                     <div class="card-body">
                         <!--Title-->
                         <h4 class="card-title">{{ item.title }}</h4>
+                        <hr>
                         <!--Text-->
                         <p class="card-text">{{ item.description }}</p>
                         <a href="{{ item.url }}" class="purple-text mt-1 d-flex flex-row-reverse">
@@ -44,6 +45,37 @@ layout: default
                 </div>
                 <!--/.Card-->
               </div>
+            {% endfor %}
+            <h1>Saison 2</h1>
+            {% for item in site.projects %}
+              {% if item.season == 2 %}
+                <div class="col-lg-4">
+                  <!--Card-->
+                  <div class="card wow fadeIn" data-wow-delay="0.2s" style="animation-name: none; visibility: visible;">
+
+                      <!--Card image-->
+                      <div class="view overlay hm-white-slight">
+                          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%28131%29.jpg" class="img-fluid" alt="">
+                          <a href="{{ item.url }}">
+                              <div class="mask"></div>
+                          </a>
+                      </div>
+
+                      <!--Card content-->
+                      <div class="card-body">
+                          <!--Title-->
+                          <h4 class="card-title">{{ item.title }}</h4>
+                          <hr>
+                          <!--Text-->
+                          <p class="card-text">{{ item.description }}</p>
+                          <a href="{{ item.url }}" class="purple-text mt-1 d-flex flex-row-reverse">
+                            <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
+                          </a>
+                      </div>
+                  </div>
+                  <!--/.Card-->
+                </div>
+              {% endif %}
             {% endfor %}
           </div>
         </div>
