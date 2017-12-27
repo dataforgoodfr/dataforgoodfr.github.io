@@ -62,14 +62,15 @@ layout: default
         </div>
       </section>
 
-      {% if page.association %} name description website image
+      {% if page.association %}
+      {% assign asso = page.association %}
       <hr class="my-4">
 
       <section>
         <h2 class="animated fadeIn mb-3">L'association</h2>
         <div class="view overlay hm-white-slight hm-zoom">
-            <img src="{{ site.url }}/images/{{ page.association.image }}" class="img-fluid" alt="logo-{{ page.association.name }}">
-            <a href="{{ page.association.website }}">
+            <img src="{{ site.url }}/images/{{ asso.image }}" class="img-fluid" alt="logo-{{ asso.name }}">
+            <a href="{{ asso.website }}">
                 <div class="mask"></div>
             </a>
         </div>
