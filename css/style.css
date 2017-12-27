@@ -6,40 +6,32 @@
 
 
 /* For the intro section */
-.intro-2 {
-    background: url("https://mdbootstrap.com/img/Photos/Others/architecture.jpg")no-repeat center center;
-    background-size: cover;
-}
-
 .top-nav-collapse {
-    background-color: #424f95 !important;
+    background-color: #78909c !important;
 }
-
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
 }
-
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background: #424f95 !important;
+        background: #78909c !important;
     }
 }
-
-h6 {
-    line-height: 1.7;
+h1 {
+    letter-spacing: 8px;
 }
-
-.hm-gradient .full-bg-img {
-    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
-    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+h5 {
+    letter-spacing: 3px;
 }
-
-@media (max-width: 450px) {
-    .margins {
-        margin-right: 1rem;
-        margin-left: 1rem;
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px;
     }
 }
