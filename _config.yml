@@ -6,3 +6,7 @@ twitter_username: dataforgoodfr
 
 # Build settings
 markdown: kramdown
+
+collections:
+  projects:
+    output: true
