@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<!-- Start your project here-->
 <div style="height: 20vh">
     <div class="flex-center flex-column">
         <h1 class="animated fadeIn mb-4">Data for Good</h1>
@@ -16,11 +15,11 @@ layout: default
    <div class="main-wrapper">
      <div class="container-fluid">
        <section>
-          <h5 class="animated fadeIn mb-3">Saison 3</h5>
+          <h2 class="animated fadeIn mb-3">Saison 3</h2>
           <div class="row">
             {% for item in site.projects %}
               {% if item.season == 3 %}
-                <div class="col-lg-4">
+                <div class="col-md-3 my-5">
                   <!--Card-->
                   <div class="card wow fadeIn" data-wow-delay="0.2s" style="animation-name: none; visibility: visible;">
 
@@ -49,15 +48,16 @@ layout: default
               {% endif %}
             {% endfor %}
           </div>
-          <hr>
         </section>
 
+        <hr class="my-5">
+
         <section>
-           <h5 class="animated fadeIn mb-3">Saison 2</h5>
+           <h2 class="animated fadeIn mb-3">Saison 2</h2>
            <div class="row">
              {% for item in site.projects %}
                {% if item.season == 2 %}
-                 <div class="col-lg-4">
+                 <div class="col-md-3 my-5">
                    <!--Card-->
                    <div class="card wow fadeIn" data-wow-delay="0.2s" style="animation-name: none; visibility: visible;">
 
@@ -86,15 +86,16 @@ layout: default
                {% endif %}
              {% endfor %}
            </div>
-           <hr>
          </section>
 
+         <hr class="my-5">
+
          <section>
-            <h5 class="animated fadeIn mb-3">Saison 1</h5>
+            <h2 class="animated fadeIn mb-3">Saison 1</h2>
             <div class="row">
               {% for item in site.projects %}
                 {% if item.season == 1 %}
-                  <div class="col-lg-4">
+                  <div class="col-md-3 my-5">
                     <!--Card-->
                     <div class="card wow fadeIn" data-wow-delay="0.2s" style="animation-name: none; visibility: visible;">
 

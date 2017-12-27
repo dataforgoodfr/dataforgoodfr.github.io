@@ -5,11 +5,9 @@ title: Isara
 description: Deep learning pour la langue des signes.
 season: 3
 members:
-  - name: John
-    twitter: ""
+  - name: Rizky
 
-  - name: Does
-    twitter: ""
+  - name: John
 ---
 
 Le projet Isara.

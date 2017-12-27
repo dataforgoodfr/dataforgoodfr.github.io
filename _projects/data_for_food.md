@@ -5,11 +5,9 @@ title: Data for Food
 description: Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor.
 season: 1
 members:
-  - name: Gilles
-    twitter: gi2l
+  - name: Gillesl
 
   - name: Romain
-    twitter: rom1
 ---
 
 Le projet "Data for Food"
