@@ -7,6 +7,7 @@ season: 1
 members:
   - name: Fred
     twitter: seiteta
+    image: fred.jpg
 
   - name: Jülide
     twitter: gulewelat
