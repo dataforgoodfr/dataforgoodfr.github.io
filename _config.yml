@@ -10,3 +10,6 @@ markdown: kramdown
 collections:
   projects:
     output: true
+    defaults:
+      members:
+        image: default.jpeg
