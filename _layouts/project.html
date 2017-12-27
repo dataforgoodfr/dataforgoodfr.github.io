@@ -19,8 +19,35 @@ layout: default
       <h2 class="animated fadeIn mb-3">L'équipe</h2>
         <div class="row text-center">
           {% for member in page.members %}
-            <div class="col-lg-3 col-md-6 mb-r">
-              <!--Panel-->
+          <!-- Grid column -->
+                      <div class="col-lg-3 col-md-6 mb-r">
+                          <div class="card card-body">
+                              <div class="avatar mt-3">
+                                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle" alt="First sample avatar image">
+                              </div>
+                              <h5 class="font-bold">
+                                  <strong>Anna Williams</strong>
+                              </h5>
+                              <p class="grey-text">Graphic designer</p>
+
+                              <ul class="list-unstyled">
+                                  <!-- Facebook -->
+                                  <a class="icons-sm fb-ic">
+                                      <i class="fa fa-facebook blue-text"> </i>
+                                  </a>
+                                  <!-- Twitter -->
+                                  <a class="icons-sm tw-ic">
+                                      <i class="fa fa-twitter blue-text"> </i>
+                                  </a>
+                                  <!-- Instagram -->
+                                  <a class="icons-sm ins-ic">
+                                      <i class="fa fa-instagram blue-text"> </i>
+                                  </a>
+                              </ul>
+                          </div>
+                      </div>
+            <!-- Grid column -->
+            <!-- <div class="col-lg-3 col-md-6 mb-r">
               <div class="card card-body">
                 <div class="avatar mt-3">
                   <img src="{{ site.url }}/images/{{ member.image }}" class="rounded-circle">
@@ -39,8 +66,7 @@ layout: default
 
                 </div>
               </div>
-              <!--/.Panel-->
-            </div>
+            </div> -->
           {% endfor %}
         </div>
       </section>
