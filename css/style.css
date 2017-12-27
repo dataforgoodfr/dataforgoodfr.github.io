@@ -17,10 +17,10 @@
         background: #78909c !important;
     }
 }
-h1 {
+h1-header {
     letter-spacing: 8px;
 }
-h5 {
+h5-header {
     letter-spacing: 3px;
 }
 .hr-light {
