@@ -18,10 +18,8 @@ layout: default
    <div class="main-wrapper">
      <div class="container-fluid">
         	<div class="row">
-            <!--Main column-->
-            <div class="col-lg-10 col-md-12">
-
-              {% for item in site.projects %}
+            {% for item in site.projects %}
+              <div class="col-lg-4">
                 <!--Card-->
                 <div class="card" style="width: 23rem;">
 
@@ -41,14 +39,10 @@ layout: default
                         <p class="card-text">{{ item.description }}</p>
                         <a href="{{ item.url }}" class="btn btn-primary">{{ item.title }}</a>
                     </div>
-
                 </div>
                 <!--/.Card-->
-              {% endfor %}
-
-            </div>
-            <!--/.Main column-->
-
+              </div>
+            {% endfor %}
           </div>
         </div>
       </div>
