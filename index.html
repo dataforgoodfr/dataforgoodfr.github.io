@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Start your project here-->
-<div style="height: 100vh">
+<div style="height: 20vh">
     <div class="flex-center flex-column">
         <h1 class="animated fadeIn mb-4">Data for Good</h1>
 
@@ -21,28 +21,30 @@ layout: default
             <!--Main column-->
             <div class="col-lg-10 col-md-12">
 
-              <!--Card-->
-              <div class="card" style="width: 23rem;">
+              {% for item in site.projects %}
+                <!--Card-->
+                <div class="card" style="width: 23rem;">
 
-                  <!--Card image-->
-                  <div class="view overlay hm-white-slight">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
-                      <a href="#">
-                          <div class="mask"></div>
-                      </a>
-                  </div>
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
 
-                  <!--Card content-->
-                  <div class="card-body">
-                      <!--Title-->
-                      <h4 class="card-title">Card title</h4>
-                      <!--Text-->
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Button</a>
-                  </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">{{ item.title }}</h4>
+                        <!--Text-->
+                        <p class="card-text">{{ item.description }}</p>
+                        <a href="{{ item.url }}" class="btn btn-primary">{{ item.title }}</a>
+                    </div>
 
-              </div>
-              <!--/.Card-->
+                </div>
+                <!--/.Card-->
+              {% endfor %}
 
             </div>
             <!--/.Main column-->
