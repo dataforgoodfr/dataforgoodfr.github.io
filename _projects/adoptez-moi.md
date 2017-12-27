@@ -1,4 +1,5 @@
 ---
+layout: project
 url: adoptez-moi.html
 title: Adoptez-moi
 description: Un bot Twitter pour les animaux à adopter.

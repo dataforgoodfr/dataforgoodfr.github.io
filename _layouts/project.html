@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="project">
+  <header class="project-header">
+    <h1 class="project-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="project-content">
+    {{ content }}
+  </article>
+</div>
+
+<ul>
+  {% for member in page.members %}
+    <li>
+      <p>{{ member }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+<ul>
+  {% for member in page.members %}
+    <li>
+      <p>{{ member.name }}</p>
+    </li>
+  {% endfor %}
+</ul>
