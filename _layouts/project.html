@@ -29,7 +29,7 @@ layout: default
         <div class="row text-center">
           {% for member in page.members %}
             <div class="col-lg-3 col-md-6 mb-r">
-              <div class="card card-body">
+              <div class="card card-body wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
                 <div class="mt-3 avatar">
                   {% if member.image %}
                   <img src="{{ site.url }}/images/{{ member.image }}" class="rounded-circle">
@@ -68,7 +68,7 @@ layout: default
       <section>
         <h2 class="animated fadeIn mb-3">L'association</h2>
         {% for association in page.associations %}
-        <div class="view overlay hm-white-slight hm-zoom avatar">
+        <div class="view overlay hm-white-slight hm-zoom avatar mb-3">
             <img src="{{ site.url }}/images/{{ association.image }}" class="img-fluid" alt="logo-{{ association.name }}">
             <a href="{{ association.website }}">
                 <div class="mask"></div>
