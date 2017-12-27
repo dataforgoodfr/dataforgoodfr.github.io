@@ -10,6 +10,12 @@ markdown: kramdown
 collections:
   projects:
     output: true
-    defaults:
-      members:
-        image: default.jpeg
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      image: default.jpeg
