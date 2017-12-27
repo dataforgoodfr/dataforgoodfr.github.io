@@ -1,7 +1,7 @@
 ---
 layout: project
 url: frateli.html
-title: frateli
+title: Frateli
 description: Matcher parrains et filleuls.
 season: 1
 members:
