@@ -17,22 +17,27 @@ layout: default
 
       <section>
       <h2 class="animated fadeIn mb-3">L'équipe</h2>
-        <div class="row">
+        <div class="row text-center">
           {% for member in page.members %}
             <div class="col-lg-3 col-md-6 mb-r">
               <!--Panel-->
               <div class="card card-body">
-                  <h5 class="card-title">{{ member.name }}</h5>
+                <div class="avatar mt-3">
+                  <img src="{{ site.url }}/images/{{ member.image }}" class="rounded-circle">
+                </div>
+                <h5 class="card-title">{{ member.name }}</h5>
 
-                  <p class="card-text">Data scientist.</p>
-                  <div class="avatar mt-3">
-                    <img src="{{ site.url }}/images/{{ member.image }}" class="rounded-circle">
-                  </div>
+                <p class="card-text">{{ member.role }}</p>
 
-                  <div class="flex-row">
-                      <a class="card-link" href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                      <a class="card-link">Another link</a>
-                  </div>
+                <div class="flex-row">
+                  {% if member.twitter %}
+                    <a class="card-link" href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                  {% endif %}
+                  {% if member.linkedin %}
+                    <a class="card-link" href="https://www.linkedin.com/in/{{ member.linkedin }}"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                  {% endif %}
+
+                </div>
               </div>
               <!--/.Panel-->
             </div>

@@ -7,10 +7,13 @@ season: 1
 members:
   - name: Fred
     twitter: seiteta
+    linkedin: fbardolle
+    role: Data Scientist
     image: fred.jpg
 
   - name: Jülide
     twitter: gulewelat
+    role: Data Scientist
 ---
 
 Le projet "Adoptez-moi"
