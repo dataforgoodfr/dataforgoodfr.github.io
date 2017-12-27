@@ -1,28 +1,25 @@
 ---
 layout: default
 ---
-<div class="project">
-  <header class="project-header">
-    <h1 class="project-title">{{ page.title }}</h1>
-  </header>
 
-  <article class="project-content">
-    {{ content }}
-  </article>
-</div>
+<!-- Main layout-->
 
-<ul>
-  {% for member in page.members %}
-    <li>
-      <p>{{ member }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<main>
+  <div class="main-wrapper">
+    <div class="container-fluid">
+      <h1 class="animated fadeIn mb-4">{{ page.title }}</h1>
+      <h2 class="animated fadeIn mb-3">Le projet</h2>
+      <p>{{ content }}</p>
+      <h2 class="animated fadeIn mb-3">L'équipe</h2>
+      <ul>
+        {% for member in page.members %}
+          <li>
+            <p>{{ member.name }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</main>
 
-<ul>
-  {% for member in page.members %}
-    <li>
-      <p>{{ member.name }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<!-- /.Main layout-->
