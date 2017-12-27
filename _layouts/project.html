@@ -8,33 +8,38 @@ layout: default
   <div class="main-wrapper">
     <div class="container-fluid">
       <h1 class="animated fadeIn mb-4">{{ page.title }}</h1>
-      <h2 class="animated fadeIn mb-3">Le projet</h2>
-      <p>{{ content }}</p>
+
+      <section>
+        <h2 class="animated fadeIn mb-3">Le projet</h2>
+        <p>{{ content }}</p>
+      </section>
+      <hr>
+
+      <section>
       <h2 class="animated fadeIn mb-3">L'équipe</h2>
-      <ul>
-        {% for member in page.members %}
-          <li>
-            <p>{{ member.name }}</p>
-            <a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <div class="row">
+          {% for member in page.members %}
+            <div class="col-lg-3 col-md-6 mb-r">
+              <!--Panel-->
+              <div class="card card-body">
+                  <h5 class="card-title">{{ member.name }}</h5>
 
-            <!--Panel-->
-            <div class="card card-body">
-                <h4 class="card-title">{{ member.name }}</h4>
+                  <p class="card-text">Data scientist.</p>
+                  <div class="avatar mt-3">
+                    <img src="{{ site.url }}/images/{{ member.image }}" class="rounded-circle">
+                  </div>
 
-                <p class="card-text">Data scientist.</p>
-                <img src="{{ site.url }}/images/{{ member.image }}" class="rounded-circle">
-
-
-                <div class="flex-row">
-                    <a class="card-link" href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                    <a class="card-link">Another link</a>
-                </div>
+                  <div class="flex-row">
+                      <a class="card-link" href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                      <a class="card-link">Another link</a>
+                  </div>
+              </div>
+              <!--/.Panel-->
             </div>
-            <!--/.Panel-->
+          {% endfor %}
+        </div>
+      </section>
 
-          </li>
-        {% endfor %}
-      </ul>
     </div>
   </div>
 </main>

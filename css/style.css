@@ -1,6 +1,5 @@
 /* Your custom styles */
-.rounded-circle{
+.avatar{
   max-width: 170px;
   height: auto;
-  border-radius: 50%!important;
 }
