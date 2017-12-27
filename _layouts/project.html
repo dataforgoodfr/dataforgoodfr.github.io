@@ -15,7 +15,7 @@ layout: default
       </section>
       <hr>
 
-      <section>
+      <section class="section team-section pb-5">
       <h2 class="animated fadeIn mb-3">L'équipe</h2>
         <div class="row text-center">
           {% for member in page.members %}
@@ -46,8 +46,16 @@ layout: default
                               </ul>
                           </div>
                       </div>
-            <!-- Grid column -->
-            <!-- <div class="col-lg-3 col-md-6 mb-r">
+          <!-- Grid column -->
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="section team-section pb-5">
+      <h2 class="animated fadeIn mb-3">L'équipe</h2>
+        <div class="row text-center">
+          {% for member in page.members %}
+            <div class="col-lg-3 col-md-6 mb-r">
               <div class="card card-body">
                 <div class="avatar mt-3">
                   <img src="{{ site.url }}/images/{{ member.image }}" class="rounded-circle">
@@ -66,7 +74,7 @@ layout: default
 
                 </div>
               </div>
-            </div> -->
+            </div>
           {% endfor %}
         </div>
       </section>
