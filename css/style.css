@@ -1,1 +1,6 @@
 /* Your custom styles */
+.rounded-circle{
+  max-width: 170px;
+  height: auto;
+  border-radius: 50%!important;
+}
