@@ -15,6 +15,7 @@ layout: default
         {% for member in page.members %}
           <li>
             <p>{{ member.name }}</p>
+            <a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
           </li>
         {% endfor %}
       </ul>
