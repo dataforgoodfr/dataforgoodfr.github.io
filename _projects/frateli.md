@@ -26,8 +26,9 @@ members:
     role: Data Scientist
     image: toma-gulea.jpg
 
-association:
+associations:
   - name: Frateli
+    description: Frateli oeuvre pour une société où la réussite ne dépend pas des origines sociales, économiques et culturelles, pour une société où la réussite passe par le lien social et l’engagement citoyen.
     website: https://www.frateli.org/
     image: frateli.png
 ---
