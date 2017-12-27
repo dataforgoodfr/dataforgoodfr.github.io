@@ -4,9 +4,9 @@
   height: auto;
 }
 
-.main {
-  margin-left: 5% !important;
-  margin-right: 5% !important;
+.main-wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* For the intro section */
