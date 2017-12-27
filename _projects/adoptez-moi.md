@@ -10,3 +10,5 @@ members:
   - name: Jülide
     twitter: gulewelat
 ---
+
+Le projet "Adoptez-moi"
