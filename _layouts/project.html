@@ -62,19 +62,27 @@ layout: default
         </div>
       </section>
 
-      {% if page.associations %}
+      {% if page.organizations %}
       <hr class="my-4">
 
       <section>
-        <h2 class="animated fadeIn mb-3">L'association</h2>
-        {% for association in page.associations %}
+        {% for organization in page.organizations %}
+          {% if page.organizations == association %}
+          <h2 class="animated fadeIn mb-3">L'association</h2>
+          {% elsif page.organizations == startup %}
+          <h2 class="animated fadeIn mb-3">La startup</h2>
+          {% elsif page.organizations == institution %}
+          <h2 class="animated fadeIn mb-3">L'institution</h2>
+          {% else %}
+          <h2 class="animated fadeIn mb-3">Le partenaire</h2>
+          {% endif %}
         <div class="view overlay hm-white-slight hm-zoom avatar mb-3">
-            <img src="{{ site.url }}/images/{{ association.image }}" class="img-fluid" alt="logo-{{ association.name }}">
-            <a href="{{ association.website }}">
+            <img src="{{ site.url }}/images/{{ organization.image }}" class="img-fluid" alt="logo-{{ organization.name }}">
+            <a href="{{ organization.website }}">
                 <div class="mask"></div>
             </a>
         </div>
-        <p>{{ association.description }}</p>
+        <p>{{ organization.description }}</p>
         {% endfor %}
       </section>
       {% endif %}

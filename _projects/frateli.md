@@ -25,11 +25,12 @@ members:
     role: Data Scientist
     image: toma-gulea.jpg
 
-associations:
+organizations:
   - name: Frateli
+    type: association
     description: Frateli oeuvre pour une société où la réussite ne dépend pas des origines sociales, économiques et culturelles, pour une société où la réussite passe par le lien social et l’engagement citoyen.
     website: https://www.frateli.org/
-    image: frateli.png
+    image: logo-frateli.png
 ---
 
 Optimiser le matching parrain-filleul pour Frateli afin de prévoir si un matching va réussir ou échouer grâce à un outil algorithmique d’aide à la décision pour améliorer le taux de réussite du parrainage.
