@@ -9,6 +9,10 @@
   margin-right: 5%;
 }
 
+.dark-section {
+  color: #fff;
+}
+
 :target:before {
   content:"";
   display:block;
