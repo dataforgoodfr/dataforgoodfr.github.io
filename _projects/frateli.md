@@ -29,7 +29,7 @@ members:
 organizations:
   - name: Frateli
     type: association
-    description: Frateli oeuvre pour une société où la réussite ne dépend pas des origines sociales, économiques et culturelles, pour une société où la réussite passe par le lien social et l’engagement citoyen.
+    description: Frateli développe et encadre le parrainage de jeunes étudiants boursiers à haut potentiel par des professionnels.
     website: https://www.frateli.org/
     image: logo-frateli.png
 ---

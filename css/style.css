@@ -11,14 +11,14 @@
 
 /* For the intro section */
 .top-nav-collapse {
-    background-color: #78909c !important;
+    background-color: #ffab40 !important;
 }
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background: #78909c !important;
+        background: #ffab40 !important;
     }
 }
 h1-header {
