@@ -1,5 +1,5 @@
 ---
-layout: default-projects
+layout: default-project
 ---
 
 <div style="height: 20vh">
@@ -14,7 +14,7 @@ layout: default-projects
 <main>
   <div class="main-wrapper">
     <div class="container-fluid">
-      <section>
+      <section id="project">
         <h2 class="animated fadeIn mb-3">Le projet</h2>
         <p>{{ content }}</p>
         {% if page.repository %}
@@ -24,7 +24,7 @@ layout: default-projects
 
       <hr class="my-4">
 
-      <section>
+      <section id="team">
       <h2 class="animated fadeIn mb-3">L'équipe</h2>
         <div class="row text-center">
           {% for member in page.members %}
