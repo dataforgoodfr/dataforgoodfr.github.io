@@ -1,6 +1,5 @@
 ---
 layout: project
-url: frateli.html
 title: Frateli
 description: Algorithmes de recommandation pour le parrainage d’étudiants.
 season: 1

@@ -1,9 +1,9 @@
 ---
 layout: project
-url: teen-spirit.html
 title: Teen spirit
 description: Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.
-season: 2
+season: 1
+cover: teen-spirit.png
 members:
   - name: Valentin Lehuger
 

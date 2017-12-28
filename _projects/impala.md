@@ -1,6 +1,5 @@
 ---
 layout: project
-url: impala.html
 title: Impala
 description: Aider les lycéens à s'orienter.
 season: 1

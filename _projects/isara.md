@@ -1,6 +1,5 @@
 ---
 layout: project
-url: isara.html
 title: Isara
 description: Deep learning pour la langue des signes.
 season: 3
