@@ -20,7 +20,7 @@ members:
     role: Data Scientist
     image: maxime-pierrot.jpg
 
-  - name: Fred
+  - name: Frédéric Bardolle
     twitter: seiteta
     linkedin: https://www.linkedin.com/in/fbardolle
     github: seiteta
