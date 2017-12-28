@@ -9,6 +9,13 @@
   margin-right: 5%;
 }
 
+:target:before {
+  content:"";
+  display:block;
+  height:74px; /* fixed header height*/
+  margin:-74px 0 0; /* negative fixed header height */
+}
+
 /* For the intro section */
 .top-nav-collapse {
     background-color: #ffab40 !important;
