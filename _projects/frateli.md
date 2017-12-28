@@ -33,4 +33,4 @@ associations:
     image: frateli.png
 ---
 
-Optimiser le matching parrain-filleul pour Frateli afin de prévoir si un matching va réussir ou échouer. Outil algorithmique d’aide à la décision pour améliorer le taux de réussite du parrainage
+Optimiser le matching parrain-filleul pour Frateli afin de prévoir si un matching va réussir ou échouer grâce à un outil algorithmique d’aide à la décision pour améliorer le taux de réussite du parrainage.
