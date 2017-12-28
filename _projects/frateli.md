@@ -28,7 +28,6 @@ members:
 
 organizations:
   - name: Frateli
-    type: association
     description: Frateli développe et encadre le parrainage de jeunes étudiants boursiers à haut potentiel par des professionnels.
     website: https://www.frateli.org/
     image: logo-frateli.png

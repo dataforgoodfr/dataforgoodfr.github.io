@@ -60,22 +60,14 @@ layout: default-project
 
       <section>
         {% for organization in page.organizations %}
-          {% if organization.type == 'association' %}
-          <h2 class="animated fadeIn mb-3">L'association</h2>
-          {% elsif organization.type == 'startup' %}
-          <h2 class="animated fadeIn mb-3">La startup</h2>
-          {% elsif organization.type == 'institution' %}
-          <h2 class="animated fadeIn mb-3">L'institution</h2>
-          {% else %}
           <h2 class="animated fadeIn mb-3">Le partenaire</h2>
-          {% endif %}
-        <div class="view overlay hm-white-slight hm-zoom avatar mb-3">
-            <img src="{{ site.url }}/images/organizations/{{ organization.image }}" class="img-fluid" alt="logo-{{ organization.name }}">
-            <a href="{{ organization.website }}">
-                <div class="mask"></div>
-            </a>
-        </div>
-        <p>{{ organization.description }}</p>
+          <div class="view overlay hm-white-slight hm-zoom avatar mb-3">
+              <img src="{{ site.url }}/images/organizations/{{ organization.image }}" class="img-fluid" alt="logo-{{ organization.name }}">
+              <a href="{{ organization.website }}">
+                  <div class="mask"></div>
+              </a>
+          </div>
+          <p>{{ organization.description }}</p>
         {% endfor %}
       </section>
       {% endif %}

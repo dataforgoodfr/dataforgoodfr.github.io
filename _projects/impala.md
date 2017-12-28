@@ -56,7 +56,6 @@ members:
 
 organizations:
     - name: Impala
-      type: startup
       description: L'intelligence artificielle de l'orientation.
       website: https://impala.in/
       image: logo-impala.png
