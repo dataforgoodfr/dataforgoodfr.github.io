@@ -1,13 +1,15 @@
 ---
 layout: project
-url: cresus.html
-title: Cresus
-description: Lutter contre le surrendetement.
+url: teen-spirit.html
+title: Teen spirit
+description: Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.
 season: 2
 members:
-  - name: Quentin
+  - name: Valentin Lehuger
 
-  - name: Hippolyte
+  - name: Romain Warlop
+
+  - name: Bettina Hermant
 ---
 
-Cresus est une association qui vise à accompagner les ménages en situation de surendettement et les assiste dans leurs démarches pour les aider à retrouver un équilibre financier.
+Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.
