@@ -67,11 +67,11 @@ layout: default
 
       <section>
         {% for organization in page.organizations %}
-          {% if page.organizations == association %}
+          {% if organization.type == association %}
           <h2 class="animated fadeIn mb-3">L'association</h2>
-          {% elsif page.organizations == startup %}
+          {% elsif organization.type == startup %}
           <h2 class="animated fadeIn mb-3">La startup</h2>
-          {% elsif page.organizations == institution %}
+          {% elsif organization.type == institution %}
           <h2 class="animated fadeIn mb-3">L'institution</h2>
           {% else %}
           <h2 class="animated fadeIn mb-3">Le partenaire</h2>
