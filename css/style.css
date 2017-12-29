@@ -36,6 +36,8 @@ section.dark-section {
     font-size: 1.25rem;
     line-height: 47px;
     text-align: center;
+    display: inline-block;
+    color: #fff;
 }
 
 /* For the intro section */
