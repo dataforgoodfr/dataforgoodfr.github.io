@@ -7,6 +7,7 @@
   {% if links.title == page.title %}
     {% unless forloop.first %}
       {% assign prevurl = prev.url %}
+      {% assign prevtitle = links.title %}
     {% endunless %}
     {% unless forloop.last %}
       {% assign next = document[forloop.index] %}
@@ -26,3 +27,5 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
 {% if prevurl %}<a href="{{prevurl}}" class="prev">Projet précédent</a>{% endif %}<br />
 
 {% if nexturl %}<a href="{{nexturl}}" class="nxt">Projet suivant</a>{% endif %}
+
+<h1>Titre : {{prevtitle}}</h1>
