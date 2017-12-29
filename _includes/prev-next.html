@@ -8,10 +8,13 @@
     {% unless forloop.first %}
       {% assign prevurl = prev.url %}
       {% assign prevtitle = prev.title %}
+      {% assign prevdescription = prev.description %}
     {% endunless %}
     {% unless forloop.last %}
       {% assign next = document[forloop.index] %}
       {% assign nexturl = next.url %}
+      {% assign nexttitle = next.title %}
+      {% assign nextdescription = next.description %}
     {% endunless %}
   {% endif %}
   {% assign prev = links %}
@@ -24,8 +27,30 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
 };
 </script>
 
-{% if prevurl %}<a href="{{prevurl}}" class="prev">Projet précédent</a>{% endif %}<br />
+{% if prevurl %}
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">{{ prevtitle }}</h4>
+        <hr>
+        <p class="card-text">{{ prevdescription }}</p>
+        <a href="{{prevurl}}" role="button" class="btn btn-amber">
+          <i class="fa fa-chevron-left fa-lg" aria-hidden="true">
+          </i>
+        </a>
+    </div>
+</div>
+{% endif %}
 
-{% if nexturl %}<a href="{{nexturl}}" class="nxt">Projet suivant</a>{% endif %}
-
-<h1>Titre : {{prevtitle}}</h1>
+{% if nexturl %}
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">{{ nexttitle }}</h4>
+        <hr>
+        <p class="card-text">{{ nextdescription }}</p>
+        <a href="{{nexturl}}" role="button" class="btn btn-amber">
+          <i class="fa fa-chevron-right fa-lg" aria-hidden="true">
+          </i>
+        </a>
+    </div>
+</div>
+{% endif %}
