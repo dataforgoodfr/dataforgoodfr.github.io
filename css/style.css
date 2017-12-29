@@ -29,6 +29,8 @@ section.dark-section {
     border-radius: 50%;
     -webkit-transition: .3s;
     transition: .3s;
+    position: relative;
+    margin: 10px;
 }
 
 .btn-floating i{
