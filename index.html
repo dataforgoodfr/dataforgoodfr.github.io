@@ -120,11 +120,11 @@ layout: default
                                 src="{{ site.url }}/images/projects/data-for-food-900.jpg"
                                 alt="Un chalet en bois dans les Alpes"
                                 srcset="
-                                    {{ site.url }}/images/projects/data-for-food-450.jpg 450w,
-                                    {{ site.url }}/images/projects/data-for-food-900.jpg 900w"
+                                    {{ site.url }}/images/projects/data-for-food-900.jpg 900w,
+                                    {{ site.url }}/images/projects/data-for-food-450.jpg 450w"
                                 sizes="
-                                    (max-width: 300px) 100vw,
-                                    400px">
+                                    (max-width: 768px) 100vw,
+                                    100vw">
                             </img>
                             {% else %}
                             <img src="{{ site.url }}/images/projects/default.jpg" class="img-fluid" alt="">
