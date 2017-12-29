@@ -7,7 +7,7 @@
   {% if links.title == page.title %}
     {% unless forloop.first %}
       {% assign prevurl = prev.url %}
-      {% assign prevtitle = links.title %}
+      {% assign prevtitle = prev.title %}
     {% endunless %}
     {% unless forloop.last %}
       {% assign next = document[forloop.index] %}
