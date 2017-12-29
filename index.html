@@ -114,7 +114,18 @@ layout: default
                         <!--Card image-->
                         <div class="view overlay hm-white-slight hm-zoom">
                             {% if item.cover %}
-                            <img src="{{ site.url }}/images/projects/{{ item.cover }}" class="img-fluid" alt="projet-{{ item.title }}">
+                            <!-- <img src="{{ site.url }}/images/projects/{{ item.cover }}" class="img-fluid" alt="projet-{{ item.title }}"> -->
+                            <img
+                                class="img-fluid"
+                                src="data-for-food-900.jpg"
+                                alt="Un chalet en bois dans les Alpes"
+                                srcset="
+                                    data-for-food-450.jpg 450w,
+                                    data-for-food-900.jpg 900w"
+                                sizes="
+                                    (max-width: 300px) 100vw,
+                                    400px">
+                            </img>
                             {% else %}
                             <img src="{{ site.url }}/images/projects/default.jpg" class="img-fluid" alt="">
                             {% endif %}
