@@ -21,9 +21,21 @@ section.dark-section {
 }
 
 .btn-floating {
+    z-index: 1;
+    overflow: hidden;
     width: 47px;
     height: 47px;
+    padding: 0;
     border-radius: 50%;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.btn-floating i{
+    width: inherit;
+    font-size: 1.25rem;
+    line-height: 47px;
+    text-align: center;
 }
 
 /* For the intro section */
