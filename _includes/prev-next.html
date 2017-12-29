@@ -2,8 +2,8 @@
   {% if page.collection %}
     {% assign  document = site[the_collection]  %}
   {% endif %}
-<h1>TITLE: {{ page.title }}</h1>
-{% for links in document  %}
+<h1>Autres projets</h1>
+{% for links in document %}
   {% if links.title == page.title %}
     {% unless forloop.first %}
       {% assign prevurl = prev.url %}
@@ -23,6 +23,6 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
 };
 </script>
 
-{% if prevurl %}<a href="{{prevurl}}" class="prev">PREV {{prevurl}}</a>{% endif %}<br />
+{% if prevurl %}<a href="{{prevurl}}" class="prev">Projet précédent</a>{% endif %}<br />
 
-{% if nexturl %}<a href="{{nexturl}}" class="nxt">Next {{nexturl}}</a>{% endif %}
+{% if nexturl %}<a href="{{nexturl}}" class="nxt">Projet suivant</a>{% endif %}
