@@ -4,7 +4,7 @@ title: Data for Food
 description: Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor.
 season: 1
 repository: https://github.com/dataforgoodfr/batch1_data-for-food
-cover: data-for-food.png
+cover: data-for-food.jpg
 members:
   - name: Loïc Macherel
     linkedin: https://fr.linkedin.com/in/loïc-macherel-179904a6
