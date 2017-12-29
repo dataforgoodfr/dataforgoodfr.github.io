@@ -117,11 +117,11 @@ layout: default
                             <!-- <img src="{{ site.url }}/images/projects/{{ item.cover }}" class="img-fluid" alt="projet-{{ item.title }}"> -->
                             <img
                                 class="img-fluid"
-                                src="data-for-food-900.jpg"
+                                src="{{ site.url }}/images/data-for-food-900.jpg"
                                 alt="Un chalet en bois dans les Alpes"
                                 srcset="
-                                    data-for-food-450.jpg 450w,
-                                    data-for-food-900.jpg 900w"
+                                    {{ site.url }}/images/data-for-food-450.jpg 450w,
+                                    {{ site.url }}/images/data-for-food-900.jpg 900w"
                                 sizes="
                                     (max-width: 300px) 100vw,
                                     400px">
