@@ -20,7 +20,7 @@ members:
 
   - name: Gilles Cornec
     twitter:
-    linkedin:
+    linkedin: https://fr.linkedin.com/in/gilles-cornec-529044b2
     github:
     role: Data Scientist
     image:

@@ -6,6 +6,11 @@ season: 1
 cover: teen-spirit.jpg
 members:
   - name: Valentin Lehuger
+    twitter:
+    linkedin:
+    github:
+    role: Data Scientist
+    image: valentin-lehuger.jpg
 
   - name: Romain Warlop
 
