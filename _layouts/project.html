@@ -57,12 +57,14 @@ layout: default-project
       <section>
         {% for organization in page.organizations %}
           <h2 class="animated fadeIn mb-3">Le partenaire</h2>
-          <div class="view overlay hm-white-slight hm-zoom avatar mb-3">
-              <img src="{{ site.url }}/images/organizations/{{ organization.image }}" class="img-fluid" alt="logo-{{ organization.name }}">
-              <a href="{{ organization.website }}">
-                  <div class="mask"></div>
-              </a>
-          </div>
+          {% if organization.image %}
+            <div class="view overlay hm-white-slight hm-zoom avatar mb-3">
+                <img src="{{ site.url }}/images/organizations/{{ organization.image }}" class="img-fluid" alt="logo-{{ organization.name }}">
+                <a href="{{ organization.website }}">
+                    <div class="mask"></div>
+                </a>
+            </div>
+          {{% endif %}}
           <p>{{ organization.description }}</p>
         {% endfor %}
       </section>
