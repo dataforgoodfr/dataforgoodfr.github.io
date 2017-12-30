@@ -18,14 +18,8 @@ layout: default
 
        <hr class="my-4">
 
-       {% for i in (1..3) %}
-           {{ i }}
-           <h2 class="animated fadeIn">Saison {{ i }}</h2>
-       {% endfor %}
-
-
        <section id="projects">
-          {% for season in site.number_of_season reversed %}
+          {% for season in (1..site.number_of_season) reversed %}
             <h2 class="animated fadeIn">Saison {{ season }}</h2>
             <div class="row">
               {% for item in site.projects %}
