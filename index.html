@@ -21,7 +21,7 @@ layout: default
        <section id="projects">
          <h2>Nos projets</h2>
           {% for season in (1..site.number_of_season) reversed %}
-            <h4 style="text-align:center;">Saison {{ season }}</h4>
+            <h4 class="mt-4" style="text-align:center;">Saison {{ season }}</h4>
             <div class="row">
               {% for item in site.projects %}
                 {% if item.season == season %}

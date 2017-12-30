@@ -60,6 +60,13 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="{{ site.url }}/js/mdb.min.js"></script>
 
+<!-- Scrollspy function -->
+<script>
+$(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 74});
+});
+</script>
+
 <!-- For the intro section -->
 <script>
     new WOW().init();
