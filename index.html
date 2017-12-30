@@ -42,7 +42,17 @@ layout: default
                                   40vw">
                           </img>
                           {% else %}
-                          <img src="{{ site.url }}/images/projects/default.jpg" class="img-fluid" alt="">
+                          <img
+                              class="img-fluid"
+                              src="{{ site.url }}/images/projects/{{ item.cover }}"
+                              alt="projet-{{ item.title }}"
+                              srcset="
+                                  {{ site.url }}/images/projects/900/default.jpg 900w,
+                                  {{ site.url }}/images/projects/450/default.jpg 450w"
+                              sizes="
+                                  (max-width: 767px) 100vw,
+                                  40vw">
+                          </img>
                           {% endif %}
                           <a href="{{ item.url }}">
                               <div class="mask"></div>
@@ -93,7 +103,17 @@ layout: default
                                    40vw">
                            </img>
                            {% else %}
-                           <img src="{{ site.url }}/images/projects/default.jpg" class="img-fluid" alt="">
+                           <img
+                               class="img-fluid"
+                               src="{{ site.url }}/images/projects/{{ item.cover }}"
+                               alt="projet-{{ item.title }}"
+                               srcset="
+                                   {{ site.url }}/images/projects/900/default.jpg 900w,
+                                   {{ site.url }}/images/projects/450/default.jpg 450w"
+                               sizes="
+                                   (max-width: 767px) 100vw,
+                                   40vw">
+                           </img>
                            {% endif %}
                            <a href="{{ item.url }}">
                                <div class="mask"></div>
@@ -144,7 +164,17 @@ layout: default
                                     40vw">
                             </img>
                             {% else %}
-                            <img src="{{ site.url }}/images/projects/default.jpg" class="img-fluid" alt="">
+                            <img
+                                class="img-fluid"
+                                src="{{ site.url }}/images/projects/{{ item.cover }}"
+                                alt="projet-{{ item.title }}"
+                                srcset="
+                                    {{ site.url }}/images/projects/900/default.jpg 900w,
+                                    {{ site.url }}/images/projects/450/default.jpg 450w"
+                                sizes="
+                                    (max-width: 767px) 100vw,
+                                    40vw">
+                            </img>
                             {% endif %}
                             <a href="{{ item.url }}">
                                 <div class="mask"></div>
