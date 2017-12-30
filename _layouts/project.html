@@ -22,7 +22,7 @@ layout: default-project
         <div class="row text-center">
           {% for member in page.members %}
             <div class="col-lg-3 col-md-6 mb-r">
-              <div class="card card-body wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
+              <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
                 <div class="avatar">
                   {% if member.image %}
                   <img src="{{ site.url }}/images/members/{{ member.image }}" class="rounded-circle">
@@ -30,10 +30,10 @@ layout: default-project
                   <img src="{{ site.url }}/images/members/default.png" class="rounded-circle">
                   {% endif %}
                 </div>
-
-                <h5 class="card-title mt-4">{{ member.name }}</h5>
-
-                <p class="card-text">{{ member.role }}</p>
+                <div class="card-body">
+                  <h4 class="card-title mt-4">{{ member.name }}</h4>
+                  <p class="card-text">{{ member.role }}</p>
+                </div>
 
                 <div class="flex-row">
                   {% if member.twitter %}

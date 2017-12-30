@@ -9,12 +9,14 @@
       {% assign prevurl = prev.url %}
       {% assign prevtitle = prev.title %}
       {% assign prevdescription = prev.description %}
+      {% assign prevcover = prev.cover %}
     {% endunless %}
     {% unless forloop.last %}
       {% assign next = document[forloop.index] %}
       {% assign nexturl = next.url %}
       {% assign nexttitle = next.title %}
       {% assign nextdescription = next.description %}
+      {% assign nextcover = next.cover %}
     {% endunless %}
   {% endif %}
   {% assign prev = links %}
@@ -31,9 +33,40 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
   <div class="col-lg-3 col-md-6 my-4">
     {% if prevurl %}
     <div class="card">
+      <!--Card image-->
+      <div class="view overlay hm-white-slight hm-zoom">
+          {% if prevcover %}
+          <img
+              class="img-fluid"
+              src="{{ site.url }}/images/projects/{{ prevcover }}"
+              alt="projet-{{ prevtitle }}"
+              srcset="
+                  {{ site.url }}/images/projects/900/{{ prevcover }} 900w,
+                  {{ site.url }}/images/projects/450/{{ prevcover }} 450w"
+              sizes="
+                  (max-width: 767px) 100vw,
+                  40vw">
+          </img>
+          {% else %}
+          <img
+              class="img-fluid"
+              src="{{ site.url }}/images/projects/{{ prevcover }}"
+              alt="projet-{{ prevtitle }}"
+              srcset="
+                  {{ site.url }}/images/projects/900/default.jpg 900w,
+                  {{ site.url }}/images/projects/450/default.jpg 450w"
+              sizes="
+                  (max-width: 767px) 100vw,
+                  40vw">
+          </img>
+          {% endif %}
+          <a href="{{ prevurl }}">
+              <div class="mask"></div>
+          </a>
+      </div>
         <div class="card-body">
             <h4 class="card-title">{{ prevtitle }}</h4>
-            <hr>
+
             <p class="card-text">{{ prevdescription }}</p>
             <div class="text-center">
               <a class="btn btn-amber" href="{{prevurl}}" role="button">
@@ -48,9 +81,40 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
   <div class="col-lg-3 col-md-6 my-4">
     {% if nexturl %}
     <div class="card">
+      <!--Card image-->
+      <div class="view overlay hm-white-slight hm-zoom">
+          {% if nextcover %}
+          <img
+              class="img-fluid"
+              src="{{ site.url }}/images/projects/{{ nextcover }}"
+              alt="projet-{{ nexttitle }}"
+              srcset="
+                  {{ site.url }}/images/projects/900/{{ nextcover }} 900w,
+                  {{ site.url }}/images/projects/450/{{ nextcover }} 450w"
+              sizes="
+                  (max-width: 767px) 100vw,
+                  40vw">
+          </img>
+          {% else %}
+          <img
+              class="img-fluid"
+              src="{{ site.url }}/images/projects/{{ nextcover }}"
+              alt="projet-{{ nexttitle }}"
+              srcset="
+                  {{ site.url }}/images/projects/900/default.jpg 900w,
+                  {{ site.url }}/images/projects/450/default.jpg 450w"
+              sizes="
+                  (max-width: 767px) 100vw,
+                  40vw">
+          </img>
+          {% endif %}
+          <a href="{{ nexturl }}">
+              <div class="mask"></div>
+          </a>
+      </div>
         <div class="card-body">
             <h4 class="card-title">{{ nexttitle }}</h4>
-            <hr>
+
             <p class="card-text">{{ nextdescription }}</p>
             <div class="text-center">
               <a class="btn btn-amber" href="{{nexturl}}" role="button">
