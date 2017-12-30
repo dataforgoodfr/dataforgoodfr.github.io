@@ -23,7 +23,7 @@ layout: default-project
           {% for member in page.members %}
             <div class="col-lg-3 col-md-6 mb-r">
               <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
-                <div class="avatar">
+                <div class="avatar mt-4">
                   {% if member.image %}
                   <img src="{{ site.url }}/images/members/{{ member.image }}" class="rounded-circle">
                   {% else %}
@@ -31,21 +31,19 @@ layout: default-project
                   {% endif %}
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title mt-4">{{ member.name }}</h4>
+                  <h4 class="card-title">{{ member.name }}</h4>
                   <p class="card-text">{{ member.role }}</p>
-                </div>
-
-                <div class="flex-row">
-                  {% if member.twitter %}
-                    <a class="card-link" href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square fa-lg amber-text" aria-hidden="true"></i></a>
-                  {% endif %}
-                  {% if member.linkedin %}
-                    <a class="card-link" href="{{ member.linkedin }}"><i class="fa fa-linkedin-square fa-lg amber-text" aria-hidden="true"></i></a>
-                  {% endif %}
-                  {% if member.github %}
-                    <a class="card-link" href="https://github.com/{{ member.github }}"><i class="fa fa-github-square fa-lg amber-text" aria-hidden="true"></i></a>
-                  {% endif %}
-
+                  <div class="flex-row">
+                    {% if member.twitter %}
+                      <a class="card-link" href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square fa-lg amber-text" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if member.linkedin %}
+                      <a class="card-link" href="{{ member.linkedin }}"><i class="fa fa-linkedin-square fa-lg amber-text" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if member.github %}
+                      <a class="card-link" href="https://github.com/{{ member.github }}"><i class="fa fa-github-square fa-lg amber-text" aria-hidden="true"></i></a>
+                    {% endif %}
+                  </div>
                 </div>
               </div>
             </div>
