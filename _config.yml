@@ -10,3 +10,5 @@ markdown: kramdown
 collections:
   projects:
     output: true
+
+number_of_season: 3
