@@ -30,7 +30,17 @@ layout: default
                       <!--Card image-->
                       <div class="view overlay hm-white-slight hm-zoom">
                           {% if item.cover %}
-                          <img src="{{ site.url }}/images/projects/{{ item.cover }}" class="img-fluid" alt="projet-{{ item.title }}">
+                          <img
+                              class="img-fluid"
+                              src="{{ site.url }}/images/projects/{{ item.cover }}"
+                              alt="projet-{{ item.title }}"
+                              srcset="
+                                  {{ site.url }}/images/projects/900/{{ item.cover }} 900w,
+                                  {{ site.url }}/images/projects/450/{{ item.cover }} 450w"
+                              sizes="
+                                  (max-width: 767px) 100vw,
+                                  40vw">
+                          </img>
                           {% else %}
                           <img src="{{ site.url }}/images/projects/default.jpg" class="img-fluid" alt="">
                           {% endif %}
@@ -71,7 +81,17 @@ layout: default
                        <!--Card image-->
                        <div class="view overlay hm-white-slight hm-zoom">
                            {% if item.cover %}
-                           <img src="{{ site.url }}/images/projects/{{ item.cover }}" class="img-fluid" alt="projet-{{ item.title }}">
+                           <img
+                               class="img-fluid"
+                               src="{{ site.url }}/images/projects/{{ item.cover }}"
+                               alt="projet-{{ item.title }}"
+                               srcset="
+                                   {{ site.url }}/images/projects/900/{{ item.cover }} 900w,
+                                   {{ site.url }}/images/projects/450/{{ item.cover }} 450w"
+                               sizes="
+                                   (max-width: 767px) 100vw,
+                                   40vw">
+                           </img>
                            {% else %}
                            <img src="{{ site.url }}/images/projects/default.jpg" class="img-fluid" alt="">
                            {% endif %}
@@ -121,7 +141,7 @@ layout: default
                                     {{ site.url }}/images/projects/450/{{ item.cover }} 450w"
                                 sizes="
                                     (max-width: 767px) 100vw,
-                                    20vw">
+                                    40vw">
                             </img>
                             {% else %}
                             <img src="{{ site.url }}/images/projects/default.jpg" class="img-fluid" alt="">
