@@ -20,6 +20,15 @@ section.dark-section {
   margin:-74px 0 0; /* negative fixed header height */
 }
 
+.scroll-box {
+position: relative;
+}
+
+.main-scrollspy {
+position: relative;
+overflow-y: scroll;
+height: 200px;
+}
 
 /* For the intro section */
 .top-nav-collapse {
