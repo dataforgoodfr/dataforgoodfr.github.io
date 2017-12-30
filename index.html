@@ -5,7 +5,6 @@ layout: default
 <!-- Main layout-->
 
 <main>
-  <div class="main-scrollspy z-depth-1" data-spy="scroll" data-target="#main-navbar" data-offset="0">
    <div class="main-wrapper">
      <div class="container-fluid">
 
@@ -21,8 +20,7 @@ layout: default
 
        <section id="projects">
           {% for season in (1..site.number_of_season) reversed %}
-            <h2>Nos projets</h2>
-            <h4 style="text-align:center;">Saison {{ season }}</h4>
+            <h2 class="animated fadeIn">Saison {{ season }}</h2>
             <div class="row">
               {% for item in site.projects %}
                 {% if item.season == season %}
@@ -81,6 +79,130 @@ layout: default
           {% endfor %}
         </section>
 
+        <hr class="my-4">
+
+        <section>
+           <h2 class="animated fadeIn">Saison 2</h2>
+           <div class="row">
+             {% for item in site.projects %}
+               {% if item.season == 2 %}
+                 <div class="col-lg-3 col-md-6 my-4">
+                   <!--Card-->
+                   <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
+
+                       <!--Card image-->
+                       <div class="view overlay hm-white-slight hm-zoom">
+                           {% if item.cover %}
+                           <img
+                               class="img-fluid"
+                               src="{{ site.url }}/images/projects/{{ item.cover }}"
+                               alt="projet-{{ item.title }}"
+                               srcset="
+                                   {{ site.url }}/images/projects/900/{{ item.cover }} 900w,
+                                   {{ site.url }}/images/projects/450/{{ item.cover }} 450w"
+                               sizes="
+                                   (max-width: 991px) 100vw,
+                                   20vw">
+                           </img>
+                           {% else %}
+                           <img
+                               class="img-fluid"
+                               src="{{ site.url }}/images/projects/{{ item.cover }}"
+                               alt="projet-{{ item.title }}"
+                               srcset="
+                                   {{ site.url }}/images/projects/900/default.jpg 900w,
+                                   {{ site.url }}/images/projects/450/default.jpg 450w"
+                               sizes="
+                                   (max-width: 991px) 100vw,
+                                   20vw">
+                           </img>
+                           {% endif %}
+                           <a href="{{ item.url }}">
+                               <div class="mask"></div>
+                           </a>
+                       </div>
+
+                       <!--Card content-->
+                       <div class="card-body">
+                           <!--Title-->
+                           <h4 class="card-title">{{ item.title }}</h4>
+                           <!--Text-->
+                           <p class="card-text">{{ item.description }}</p>
+                           <a href="{{ item.url }}" class="amber-text mt-1 d-flex flex-row-reverse">
+                             <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
+                           </a>
+                       </div>
+                   </div>
+                   <!--/.Card-->
+                 </div>
+               {% endif %}
+             {% endfor %}
+           </div>
+         </section>
+
+         <hr class="my-4">
+
+         <section>
+            <h2 class="animated fadeIn">Saison 1</h2>
+            <div class="row">
+              {% for item in site.projects %}
+                {% if item.season == 1 %}
+                  <div class="col-lg-3 col-md-6 my-4">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight hm-zoom">
+                            {% if item.cover %}
+                            <img
+                                class="img-fluid"
+                                src="{{ site.url }}/images/projects/{{ item.cover }}"
+                                alt="projet-{{ item.title }}"
+                                srcset="
+                                    {{ site.url }}/images/projects/900/{{ item.cover }} 900w,
+                                    {{ site.url }}/images/projects/450/{{ item.cover }} 450w"
+                                sizes="
+                                    (max-width: 991px) 100vw,
+                                    20vw">
+                            </img>
+                            {% else %}
+                            <img
+                                class="img-fluid"
+                                src="{{ site.url }}/images/projects/{{ item.cover }}"
+                                alt="projet-{{ item.title }}"
+                                srcset="
+                                    {{ site.url }}/images/projects/900/default.jpg 900w,
+                                    {{ site.url }}/images/projects/450/default.jpg 450w"
+                                sizes="
+                                    (max-width: 991px) 100vw,
+                                    20vw">
+                            </img>
+                            {% endif %}
+                            <a href="{{ item.url }}">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Title-->
+                            <h4 class="card-title">{{ item.title }}</h4>
+                            <!--Text-->
+                            <p class="card-text">{{ item.description }}</p>
+                            <a href="{{ item.url }}" class="amber-text mt-1 d-flex flex-row-reverse">
+                              <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </section>
+
+        </div>
+      </div>
 
       <div class="elegant-color py-5">
         <div class="main-wrapper py-4">
@@ -189,6 +311,6 @@ layout: default
         </div>
       </div>
 
-  </div>
+
 </main>
 <!-- /.Main layout-->
