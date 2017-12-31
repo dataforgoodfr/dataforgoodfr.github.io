@@ -1,8 +1,19 @@
-theme: minima
-title: Projets Data for Good
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://dataforgoodfr.github.io" # the base hostname & protocol for your site
-twitter_username: dataforgoodfr
+title: Data for Good
+description: La technologie au service de l'impact social
+author: Data for Good
+twitter:
+  username: dataforgoodfr
+facebook:
+  publisher: dataforgoodfr
+logo: /images/logo.png
+social:
+  links:
+    - https://twitter.com/dataforgoodfr
+    - https://www.facebook.com/dataforgoodfr
+    - https://www.linkedin.com/company/10627994/
+    - https://github.com/dataforgoodfr
+google_site_verification: googlefbb08a8e7f4c113e
+lang: fr_FR
 
 # Build settings
 markdown: kramdown
@@ -12,3 +23,6 @@ collections:
     output: true
 
 number_of_season: 3
+
+plugins:
+  - jekyll-seo-tag

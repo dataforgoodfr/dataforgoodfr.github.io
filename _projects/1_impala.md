@@ -3,7 +3,7 @@ layout: project
 title: Impala
 description: Aider les lycéens à s'orienter.
 season: 1
-cover: impala.png
+image: impala.png
 members:
   - name: Patoin Zoug
     twitter:

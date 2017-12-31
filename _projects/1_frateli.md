@@ -4,7 +4,7 @@ title: Frateli
 description: Algorithmes de recommandation pour le parrainage d’étudiants.
 season: 1
 repository: https://github.com/dataforgoodfr/batch1_frateli
-cover: frateli.jpg
+image: frateli.jpg
 members:
   - name: Armand Gilles
     twitter: arm_gilles

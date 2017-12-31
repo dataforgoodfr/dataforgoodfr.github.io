@@ -4,7 +4,7 @@ title: We answer
 description: Description courte.
 season: 3
 repository:
-cover:
+image:
 members:
   - name:
     twitter:

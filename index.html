@@ -31,14 +31,14 @@ layout: default
 
                         <!--Card image-->
                         <div class="view overlay hm-white-slight hm-zoom">
-                            {% if item.cover %}
+                            {% if item.image %}
                             <img
                                 class="img-fluid"
-                                src="{{ site.url }}/images/projects/{{ item.cover }}"
+                                src="{{ site.url }}/images/projects/{{ item.image }}"
                                 alt="projet-{{ item.title }}"
                                 srcset="
-                                    {{ site.url }}/images/projects/900/{{ item.cover }} 900w,
-                                    {{ site.url }}/images/projects/450/{{ item.cover }} 450w"
+                                    {{ site.url }}/images/projects/900/{{ item.image }} 900w,
+                                    {{ site.url }}/images/projects/450/{{ item.image }} 450w"
                                 sizes="
                                     (max-width: 991px) 100vw,
                                     20vw">
@@ -46,7 +46,7 @@ layout: default
                             {% else %}
                             <img
                                 class="img-fluid"
-                                src="{{ site.url }}/images/projects/{{ item.cover }}"
+                                src="{{ site.url }}/images/projects/{{ item.image }}"
                                 alt="projet-{{ item.title }}"
                                 srcset="
                                     {{ site.url }}/images/projects/900/default.jpg 900w,

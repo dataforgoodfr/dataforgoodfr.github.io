@@ -4,7 +4,7 @@ title: Simplon
 description: Description courte.
 season: 2
 repository:
-cover:
+image:
 members:
   - name:
     twitter:

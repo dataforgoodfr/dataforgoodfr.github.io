@@ -9,14 +9,14 @@
       {% assign prevurl = prev.url %}
       {% assign prevtitle = prev.title %}
       {% assign prevdescription = prev.description %}
-      {% assign prevcover = prev.cover %}
+      {% assign previmage = prev.image %}
     {% endunless %}
     {% unless forloop.last %}
       {% assign next = document[forloop.index] %}
       {% assign nexturl = next.url %}
       {% assign nexttitle = next.title %}
       {% assign nextdescription = next.description %}
-      {% assign nextcover = next.cover %}
+      {% assign nextimage = next.image %}
     {% endunless %}
   {% endif %}
   {% assign prev = links %}
@@ -35,14 +35,14 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
     <div class="card">
       <!--Card image-->
       <div class="view overlay hm-white-slight hm-zoom">
-          {% if prevcover %}
+          {% if previmage %}
           <img
               class="img-fluid"
-              src="{{ site.url }}/images/projects/{{ prevcover }}"
+              src="{{ site.url }}/images/projects/{{ previmage }}"
               alt="projet-{{ prevtitle }}"
               srcset="
-                  {{ site.url }}/images/projects/900/{{ prevcover }} 900w,
-                  {{ site.url }}/images/projects/450/{{ prevcover }} 450w"
+                  {{ site.url }}/images/projects/900/{{ previmage }} 900w,
+                  {{ site.url }}/images/projects/450/{{ previmage }} 450w"
               sizes="
                   (max-width: 991px) 100vw,
                   20vw">
@@ -50,7 +50,7 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
           {% else %}
           <img
               class="img-fluid"
-              src="{{ site.url }}/images/projects/{{ prevcover }}"
+              src="{{ site.url }}/images/projects/{{ previmage }}"
               alt="projet-{{ prevtitle }}"
               srcset="
                   {{ site.url }}/images/projects/900/default.jpg 900w,
@@ -83,14 +83,14 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
     <div class="card">
       <!--Card image-->
       <div class="view overlay hm-white-slight hm-zoom">
-          {% if nextcover %}
+          {% if nextimage %}
           <img
               class="img-fluid"
-              src="{{ site.url }}/images/projects/{{ nextcover }}"
+              src="{{ site.url }}/images/projects/{{ nextimage }}"
               alt="projet-{{ nexttitle }}"
               srcset="
-                  {{ site.url }}/images/projects/900/{{ nextcover }} 900w,
-                  {{ site.url }}/images/projects/450/{{ nextcover }} 450w"
+                  {{ site.url }}/images/projects/900/{{ nextimage }} 900w,
+                  {{ site.url }}/images/projects/450/{{ nextimage }} 450w"
               sizes="
                   (max-width: 991px) 100vw,
                   20vw">
@@ -98,7 +98,7 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
           {% else %}
           <img
               class="img-fluid"
-              src="{{ site.url }}/images/projects/{{ nextcover }}"
+              src="{{ site.url }}/images/projects/{{ nextimage }}"
               alt="projet-{{ nexttitle }}"
               srcset="
                   {{ site.url }}/images/projects/900/default.jpg 900w,

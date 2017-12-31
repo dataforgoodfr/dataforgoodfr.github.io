@@ -4,7 +4,7 @@ title: Ministère de l'éducation nationale
 description: Description courte.
 season: 2
 repository:
-cover:
+image:
 members:
   - name:
     twitter:

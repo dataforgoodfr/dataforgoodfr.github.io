@@ -4,7 +4,7 @@ title: NewBed
 description: Description courte.
 season: 2
 repository:
-cover:
+image:
 members:
   - name:
     twitter:
