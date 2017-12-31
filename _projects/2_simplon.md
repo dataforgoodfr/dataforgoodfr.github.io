@@ -1,6 +1,6 @@
 ---
 layout: project
-title: simplon
+title: Simplon
 description: Description courte.
 season: 2
 repository:
@@ -15,7 +15,7 @@ members:
 
 organizations:
   - name:
-    description: 
+    description:
     website:
     image:
 ---
