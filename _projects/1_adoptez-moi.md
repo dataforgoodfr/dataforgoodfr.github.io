@@ -11,7 +11,7 @@ members:
     linkedin: https://www.linkedin.com/in/j%C3%BClide-yilmaz-92ba508b/
     github: gulewelat
     role: Data Scientist
-    image: julide-yilmaz.jpg
+    image: julide-yilmaz.png
 
   - name: Maxime Pierrot
     twitter: Mpierrax
