@@ -2,7 +2,7 @@
 layout: project
 title: Cahiers de la Liberté
 description: Description courte.
-season: 3
+season: 4
 repository:
 image:
 members:
