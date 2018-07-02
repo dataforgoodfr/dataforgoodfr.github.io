@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Diafoirus
-description: Description courte.
+description: Exploiter et rendre exploitable les données médicales. 
 season: 4
 repository:
 image:

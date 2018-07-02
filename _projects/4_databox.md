@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Databox
-description: Description courte.
+description: Améliorer la plateforme derrière data.gouv.fr.
 season: 4
 repository:
 image:

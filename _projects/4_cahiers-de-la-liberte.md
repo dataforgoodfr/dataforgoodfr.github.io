@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Cahiers de la Liberté
-description: Description courte.
+title: Media checker
+description: Automatiser le fact checking des affirmations des politiques tunisiens.
 season: 4
 repository:
 image:
