@@ -22,7 +22,7 @@ collections:
   projects:
     output: true
 
-number_of_season: 3
+number_of_season: 4
 
 plugins:
   - jekyll-seo-tag
