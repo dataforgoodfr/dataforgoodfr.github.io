@@ -22,14 +22,14 @@ section.dark-section {
 
 /* For the intro section */
 .top-nav-collapse {
-    background-color: #009688 !important;
+    background-color: #fa826f !important;
 }
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background: #009688 !important;
+        background: #fa826f !important;
     }
 }
 h1-header {

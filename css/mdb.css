@@ -751,10 +751,10 @@
   background-color: #ff7043 !important; }
 
 .deep-orange {
-  background-color: #ff5722 !important; }
+  background-color: #fa826f !important; }
 
 .deep-orange-text {
-  color: #ff5722 !important; }
+  color: #fa826f !important; }
 
 .deep-orange.darken-1 {
   background-color: #f4511e !important; }
@@ -5693,15 +5693,15 @@ button:focus {
     border-color: #f57c00; }
 
 .btn-deep-orange {
-  background-color: #ff7043; }
+  background-color: #fa826f; }
   .btn-deep-orange:hover {
-    background-color: #ff835d !important; }
+    background-color: #ffb39e !important; }
   .btn-deep-orange:focus, .btn-deep-orange:active, .btn-deep-orange.active {
-    background-color: #f63b00 !important; }
+    background-color: #c35243 !important; }
   .btn-deep-orange.dropdown-toggle {
-    background-color: #ff7043 !important; }
+    background-color: #fa826f !important; }
     .btn-deep-orange.dropdown-toggle:hover, .btn-deep-orange.dropdown-toggle:focus {
-      background-color: #ff835d !important; }
+      background-color: #ffb39e !important; }
 
 .btn-outline-deep-orange {
   border: 2px solid #ff7043;
@@ -6171,7 +6171,7 @@ button:focus {
   background-color: #f57c00; }
 
 .badge-deep-orange {
-  background-color: #ff7043; }
+  background-color: #fa826f; }
 
 .badge-brown {
   background-color: #795548; }
