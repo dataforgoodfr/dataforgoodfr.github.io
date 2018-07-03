@@ -1,7 +1,7 @@
 ---
-layout:
+layout: project
 title:
-description:
+description: Description courte.
 season:
 repository:
 image:
