@@ -20,34 +20,39 @@ layout: default-project
       <section id="team">
       <h2 class="animated fadeIn mb-3">L'équipe</h2>
         <div class="row text-center">
-          {% for member in page.members %}
-            <div class="col-lg-3 col-md-6 mb-r">
-              <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
-                <div class="avatar mt-4">
-                  {% if member.image %}
-                  <img src="https://dataforgood.fr/images/members/{{ member.image }}" class="rounded-circle">
-                  {% else %}
-                  <img src="https://dataforgood.fr/images/members/default.png" class="rounded-circle">
-                  {% endif %}
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">{{ member.name }}</h4>
-                  <p class="card-text">{{ member.role }}</p>
-                  <div class="flex-row">
-                    {% if member.twitter %}
-                      <a class="card-link" href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
-                    {% endif %}
-                    {% if member.linkedin %}
-                      <a class="card-link" href="{{ member.linkedin }}"><i class="fa fa-linkedin-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
-                    {% endif %}
-                    {% if member.github %}
-                      <a class="card-link" href="https://github.com/{{ member.github }}"><i class="fa fa-github-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
-                    {% endif %}
+          {% assign project_id = page.id | remove: '/projects/' %}
+          {% for volunteer in site.volunteers %}
+            {% for project in volunteer.projects %}
+              {% if project ==  project_id %}
+                <div class="col-lg-3 col-md-6 mb-r">
+                  <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
+                    <div class="avatar mt-4">
+                      {% if volunteer.image %}
+                      <img src="https://dataforgood.fr/images/volunteers/{{ volunteer.image }}" class="rounded-circle">
+                      {% else %}
+                      <img src="https://dataforgood.fr/images/volunteers/default.png" class="rounded-circle">
+                      {% endif %}
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">{{ volunteer.name }}</h4>
+                      <p class="card-text">{{ volunteer.role }}</p>
+                      <div class="flex-row">
+                        {% if volunteer.twitter %}
+                          <a class="card-link" href="https://twitter.com/{{ volunteer.twitter }}"><i class="fa fa-twitter-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if volunteer.linkedin %}
+                          <a class="card-link" href="https://fr.linkedin.com/in/{{ volunteer.linkedin }}"><i class="fa fa-linkedin-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if volunteer.github %}
+                          <a class="card-link" href="https://github.com/{{ volunteer.github }}"><i class="fa fa-github-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
+                        {% endif %}
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
+            {% endif %}
           {% endfor %}
+        {% endfor %}
         </div>
       </section>
 
@@ -73,18 +78,6 @@ layout: default-project
       <hr class="my-4">
 
       <section class="mb-5">
-
-        {% assign project_id = page.id | remove: '/projects/' %}
-        {% for volunteer in site.volunteers %}
-          {% for project in volunteer.projects %}
-            {% if project ==  project_id %}
-              {{ volunteer.fullname }}
-              {{ volunteer.role }}
-              <br>
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-
         {% include prev-next.html %}
       </section>
     </div>
