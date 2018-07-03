@@ -73,8 +73,12 @@ layout: default-project
       <hr class="my-4">
 
       <section class="mb-5">
+        <p class="page-url">{{ page.url }}</p>
+        <p class="page-url-2">{{ page.url | split:'/' | first }}</p>
+        
         {% for volunteer in site.volunteers %}
             {{ volunteer.projects }}
+            <br>
           {% for project in volunteer.projects %}
             {{ volunteer.fullname }}
             {{ volunteer.role }}
