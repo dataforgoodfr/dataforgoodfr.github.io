@@ -28,13 +28,13 @@ layout: default-project
                   <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
                     <div class="avatar mt-4">
                       {% if volunteer.image %}
-                      <img src="https://dataforgood.fr/images/volunteers/{{ volunteer.image }}" class="rounded-circle">
+                      <img src="https://dataforgood.fr/images/volunteers/{{ volunteer.avatar }}" class="rounded-circle">
                       {% else %}
                       <img src="https://dataforgood.fr/images/volunteers/default.png" class="rounded-circle">
                       {% endif %}
                     </div>
                     <div class="card-body">
-                      <h4 class="card-title">{{ volunteer.name }}</h4>
+                      <h4 class="card-title">{{ volunteer.fullname }}</h4>
                       <p class="card-text">{{ volunteer.role }}</p>
                       <div class="flex-row">
                         {% if volunteer.twitter %}
