@@ -74,9 +74,11 @@ layout: default-project
 
       <section class="mb-5">
         {% for volunteer in site.volunteers %}
+            {{ volunteer.projects }}
           {% for project in volunteer.projects %}
             {{ volunteer.fullname }}
             {{ volunteer.role }}
+            <br>
           {% endfor %}
         {% endfor %}
         {% include prev-next.html %}
