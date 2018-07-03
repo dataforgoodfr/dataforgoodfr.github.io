@@ -21,6 +21,8 @@ markdown: kramdown
 collections:
   projects:
     output: true
+  volunteers:
+    output: true
 
 number_of_season: 4
 
