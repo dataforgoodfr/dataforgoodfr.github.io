@@ -73,21 +73,17 @@ layout: default-project
       <hr class="my-4">
 
       <section class="mb-5">
-        <p class="page-url">{{ page.url }}</p>
+
         {% assign project_id = page.id | remove: '/projects/' %}
-        <p class="page-url-2">{{ project_id }}</p>
-
-
-
         {% for volunteer in site.volunteers %}
-            {{ volunteer.projects }}
-            <br>
           {% for project in volunteer.projects %}
-            {{ volunteer.fullname }}
-            {{ volunteer.role }}
-            <br>
+            {% if project ==  project_id %}
+              {{ volunteer.fullname }}
+              {{ volunteer.role }}
+            {% endif %}
           {% endfor %}
         {% endfor %}
+
         {% include prev-next.html %}
       </section>
     </div>
