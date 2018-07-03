@@ -28,9 +28,9 @@ layout: default-project
                   <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
                     <div class="avatar mt-4">
                       {% if volunteer.avatar %}
-                      <img src="https://dataforgood.fr/images/volunteers/{{ volunteer.avatar }}" class="rounded-circle">
+                      <img src="https://dataforgood.fr/img/volunteers/{{ volunteer.avatar }}" class="rounded-circle">
                       {% else %}
-                      <img src="https://dataforgood.fr/images/volunteers/default.png" class="rounded-circle">
+                      <img src="https://dataforgood.fr/img/volunteers/default.png" class="rounded-circle">
                       {% endif %}
                     </div>
                     <div class="card-body">
@@ -64,7 +64,7 @@ layout: default-project
           <h2 class="animated fadeIn mb-3">Le partenaire</h2>
           {% if organization.image %}
             <div class="view overlay hm-white-slight hm-zoom avatar mb-3">
-                <img src="https://dataforgood.fr/images/organizations/{{ organization.image }}" class="img-fluid" alt="logo-{{ organization.name }}">
+                <img src="https://dataforgood.fr/img/organizations/{{ organization.image }}" class="img-fluid" alt="logo-{{ organization.name }}">
                 <a href="{{ organization.website }}">
                     <div class="mask"></div>
                 </a>
