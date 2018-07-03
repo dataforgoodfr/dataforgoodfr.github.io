@@ -5,19 +5,6 @@ description: Le 1er magazine web qui décrypte les enjeux éthiques de l'intelli
 season: 4
 repository:
 image:
-members:
-  - name:
-    twitter:
-    linkedin:
-    github:
-    role:
-    image:
-
-organizations:
-  - name:
-    description:
-    website:
-    image:
 ---
 
 Description longue.
