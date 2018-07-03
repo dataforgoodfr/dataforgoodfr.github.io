@@ -74,8 +74,11 @@ layout: default-project
 
       <section class="mb-5">
         <p class="page-url">{{ page.url }}</p>
-        <p class="page-url-2">{{ page.url | split:'/' | first }}</p>
-        
+        {% assign project_id = page.id | remove: '/projects/' %}
+        <p class="page-url-2">{{ project_id }}</p>
+
+
+
         {% for volunteer in site.volunteers %}
             {{ volunteer.projects }}
             <br>
