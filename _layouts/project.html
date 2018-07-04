@@ -21,30 +21,30 @@ layout: default-project
       <h2 class="animated fadeIn mb-3">L'équipe</h2>
         <div class="row text-center">
           {% assign project_id = page.id | remove: '/projects/' %}
-          {% for volunteer in site.volunteers %}
-            {% for project in volunteer.projects %}
+          {% for member in site.members %}
+            {% for project in member.projects %}
               {% if project ==  project_id %}
                 <div class="col-lg-3 col-md-6 mb-r">
                   <div class="card wow fadeIn" data-wow-delay="0.2s" style="visibility: visible;">
                     <div class="avatar mt-4">
-                      {% if volunteer.avatar %}
-                      <img src="https://dataforgood.fr/img/volunteers/{{ volunteer.avatar }}" class="rounded-circle">
+                      {% if member.avatar %}
+                      <img src="https://dataforgood.fr/img/members/{{ member.avatar }}" class="rounded-circle">
                       {% else %}
-                      <img src="https://dataforgood.fr/img/volunteers/default.png" class="rounded-circle">
+                      <img src="https://dataforgood.fr/img/members/default.png" class="rounded-circle">
                       {% endif %}
                     </div>
                     <div class="card-body">
-                      <h4 class="card-title">{{ volunteer.fullname }}</h4>
-                      <p class="card-text">{{ volunteer.role }}</p>
+                      <h4 class="card-title">{{ member.fullname }}</h4>
+                      <p class="card-text">{{ member.role }}</p>
                       <div class="flex-row">
-                        {% if volunteer.twitter %}
-                          <a class="card-link" href="https://twitter.com/{{ volunteer.twitter }}"><i class="fa fa-twitter-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
+                        {% if member.twitter %}
+                          <a class="card-link" href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
                         {% endif %}
-                        {% if volunteer.linkedin %}
-                          <a class="card-link" href="https://fr.linkedin.com/in/{{ volunteer.linkedin }}"><i class="fa fa-linkedin-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
+                        {% if member.linkedin %}
+                          <a class="card-link" href="https://fr.linkedin.com/in/{{ member.linkedin }}"><i class="fa fa-linkedin-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
                         {% endif %}
-                        {% if volunteer.github %}
-                          <a class="card-link" href="https://github.com/{{ volunteer.github }}"><i class="fa fa-github-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
+                        {% if member.github %}
+                          <a class="card-link" href="https://github.com/{{ member.github }}"><i class="fa fa-github-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
                         {% endif %}
                       </div>
                     </div>
