@@ -7,4 +7,5 @@ role: Humaniste
 avatar: adrien-fabre.jpg
 projects:
    - 4_redecoupage-citoyen
+site: https://sites.google.com/view/adrien-fabre
 ---
