@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Simplon
-description: Description courte.
+description: 
 season: 2
 repository:
 image:
 ---
 
-Description longue.
+.

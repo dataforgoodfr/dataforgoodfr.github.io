@@ -7,4 +7,4 @@ repository:
 image:
 ---
 
-Description longue.
+.

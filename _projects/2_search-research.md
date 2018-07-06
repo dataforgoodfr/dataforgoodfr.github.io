@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Search Research
-description: Description courte.
+description: 
 season: 2
 repository:
 image:
 ---
 
-Description longue.
+.

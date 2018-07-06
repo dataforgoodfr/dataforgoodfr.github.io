@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Loyers parisiens
-description: Description courte.
+description: 
 season: 2
 repository:
 image:
 ---
 
-Description longue.
+.

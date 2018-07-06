@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Cour des comptes
-description: Description courte.
+description: 
 season: 3
 repository:
 image:
 ---
 
-Description longue.
+.

@@ -1,10 +1,10 @@
 ---
 layout: project
 title:
-description: Description courte.
+description: 
 season:
 repository:
 image:
 ---
 
-Description longue.
+.
