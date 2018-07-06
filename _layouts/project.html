@@ -46,6 +46,9 @@ layout: default-project
                         {% if member.github %}
                           <a class="card-link" href="https://github.com/{{ member.github }}"><i class="fa fa-github-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
                         {% endif %}
+                        {% if member.website %}
+                          <a class="card-link" href="{{ member.website }}"><i class="fa fa-external-link-square fa-lg deep-orange-text" aria-hidden="true"></i></a>
+                        {% endif %}
                       </div>
                     </div>
                   </div>
