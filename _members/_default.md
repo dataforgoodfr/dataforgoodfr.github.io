@@ -3,9 +3,9 @@ fullname:
 twitter:
 linkedin:
 github:
+website:
 role:
 avatar:
 projects:
     -
-site:
 ---
