@@ -3,7 +3,7 @@ fullname: Jérémie Ballet-Baz
 twitter: JeremieBB
 github: JeremieBB
 role: Data Scientist
-avatar: jeremie-balletbaz.JPG
+avatar:
 projects:
    - 4_databox
 ---
