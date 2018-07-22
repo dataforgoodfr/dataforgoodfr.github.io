@@ -6,5 +6,5 @@ github: oliviernguyenquoc
 role: Data Scientist
 avatar: olivier-nguyen_quoc.jpg
 projects:
-   - 4_data_manifesto
+   - 4_serment-hippocrate
 ---

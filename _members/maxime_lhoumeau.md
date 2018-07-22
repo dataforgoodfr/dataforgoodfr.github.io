@@ -6,5 +6,5 @@ github: Makitsu
 role: Software Engineer
 avatar: maxime-lhoumeau.jpg
 projects:
-   - openelectoralmap
+   - 4_redecoupage-citoyen
 ---
