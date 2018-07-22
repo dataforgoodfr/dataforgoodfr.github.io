@@ -1,10 +1,10 @@
 ---
 layout: project
-title: Media checker
-description: Automatiser le fact checking des affirmations des politiques tunisiens.
+title: Mediachecker
+description: Automatisation du fact checking des affirmations des politiques tunisiens sur le site Birrasmi.tn, de Cahiers de la Liberté
 season: 4
-repository:
-image:
+repository: https://github.com/cahiersdelaliberte/mediachecker
+image: 4_birrasmi.png
 ---
 
 .
