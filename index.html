@@ -17,7 +17,12 @@ layout: default
              {% for word in domain %}
                  {{ word }}
              {% endfor %}
+
+             {{ site.url }}
+             {{ site.url | split: '.'}}
+             <h2 class="text-center">{{ site.data.translations.title_1.language }}</h2>
              <h2 class="text-center">{{ site.data.translations.title_1.es }}</h2>
+             <h2 class="text-center">{{ site.data.translations.title_1.fr }}</h2>
              <p>Les technologies numériques sont incroyablement puissantes et redéfinissent le fonctionnement de notre société. Mais tous les domaines ne se transforment pas à la même vitesse. Très souvent, les acteurs qui œuvrent pour l’intérêt général* sont en retard par rapport aux startups et aux géants de la tech. <b>Data for Good existe pour rétablir l’équilibre.</b></p>
              <p>* citoyens, associations, institutions publiques et entreprises à fort impact social.</p>
 
