@@ -13,14 +13,14 @@ layout: default
            <div class="col-md-8 offset-md-2 my-4">
              <!-- <h2 class="text-center">Notre vision</h2> -->
              {% assign language = 'es' %}
-             {% assign domain = page.url | split: '.' %}
+             {% assign domain = site.url | split: '.' %}
              {% for word in domain %}
                  {{ word }}
              {% endfor %}
 
-             {{ page.url }}
-             {{ page.url | split: '.'}}
-             <h2 class="text-center">{{ site.data.translations.title_1.{{ language }} }}</h2>
+             {{ site.url }}
+             {{ site.url | split: '.'}}
+             <h2 class="text-center">{{ site.data.translations.title_1.language }}</h2>
              <h2 class="text-center">{{ site.data.translations.title_1.es }}</h2>
              <h2 class="text-center">{{ site.data.translations.title_1.fr }}</h2>
              <p>Les technologies numériques sont incroyablement puissantes et redéfinissent le fonctionnement de notre société. Mais tous les domaines ne se transforment pas à la même vitesse. Très souvent, les acteurs qui œuvrent pour l’intérêt général* sont en retard par rapport aux startups et aux géants de la tech. <b>Data for Good existe pour rétablir l’équilibre.</b></p>
