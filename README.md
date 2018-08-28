@@ -2,7 +2,7 @@
 
 Ce dépôt héberge le code derrière le site http://dataforgood.fr/. Vous pouvez le modifier pour mettre à jour les informations sur vous-mêmes et sur les projets auxquels vous avez participé.
 
-# Structure
+# Contribution
 
 ## Projets
 La liste des projets est disponible dans le dossier [_projects](https://github.com/dataforgoodfr/dataforgoodfr.github.io/tree/master/_projects).
