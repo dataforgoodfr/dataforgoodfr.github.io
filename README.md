@@ -43,4 +43,4 @@ projects:
 
 Les images doivent être stockées dans le dossier [/img/members](https://github.com/dataforgoodfr/dataforgoodfr.github.io/tree/master/img/members), idéalement en format 400x400 px.
 
-Les projets doivent être nommés comme dans le dossier [_projects](https://github.com/dataforgoodfr/dataforgoodfr.github.io/tree/master/_projects) pour que Jekyll puisse retrouver qui a fait quoi.
+Les projets doivent être nommés comme les fichiers du dossier [_projects](https://github.com/dataforgoodfr/dataforgoodfr.github.io/tree/master/_projects) pour que Jekyll puisse retrouver qui a fait quoi.
