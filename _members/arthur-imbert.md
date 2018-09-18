@@ -7,6 +7,5 @@ role: Data Scientist
 avatar: arthur-imbert.jpg
 projects:
     - 1_data-for-food
+    - 4_diafoirus
 ---
-
-Hello world
