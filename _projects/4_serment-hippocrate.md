@@ -4,6 +4,7 @@ title: Serment d’Hippocrate pour data scientist
 description: Promouvoir un usage éthique des données.
 season: 4
 repository:
+website: hippocrate.tech
 image: hippocrate-sharing.png
 ---
 
