@@ -4,7 +4,7 @@ twitter: pa_jachiet
 linkedin: pierrealainjachiet/
 github: pajachiet
 role: Data Scientist
-avatar: pierre-alain.jpg
+avatar: pierre-alain-jachiet.jpg
 projects:
     - 5_eurosfordocs
 ---
