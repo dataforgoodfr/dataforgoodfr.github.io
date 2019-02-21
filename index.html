@@ -35,10 +35,10 @@ layout: default
          <p class="text-center">{{ site.projects | size }} projets ont déjà été accélérés lors des précédentes saisons d'accélération.</p>
           {% for season in (1..site.number_of_season) reversed %}
             <h4 class="mt-4" style="text-align:center;">Saison {{ season }}</h4>
-            <!-- <div class="row"> -->
+            <div class="row">
               {% for item in site.projects %}
                 {% if item.season == season %}
-                  <!-- <div class="col-lg-3 col-md-6 my-4"> -->
+                  <div class="col-lg-3 col-md-6 my-4">
                     <div class="card-deck">
                       <!--Card-->
                       <div class="card">
@@ -88,10 +88,10 @@ layout: default
                       </div>
                       <!--/.Card-->
                     </div>
-                  <!-- </div> -->
+                  </div>
                 {% endif %}
               {% endfor %}
-            <!-- </div> -->
+            </div>
           {% endfor %}
 
            <h4 class="mt-4" style="text-align:center;">Projets hors-saison</h4>
