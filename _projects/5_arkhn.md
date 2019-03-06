@@ -4,7 +4,7 @@ title: Arkhn
 description: Standardiser les données de santé en open-source
 season: 5
 repository: https://github.com/arkhn
-image: 5_arkhn.png
+image: 5_arkhn.jpg
 ---
 
 Standardiser les données de santé en open-source
