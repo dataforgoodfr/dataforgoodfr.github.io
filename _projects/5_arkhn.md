@@ -4,7 +4,7 @@ title: Arkhn
 description: Standardiser les données de santé en open-source
 season: 5
 repository: https://github.com/arkhn
-image: 5_arkhn.png
+image: 5_arkhn.jpg
 ---
 
 Standardiser les données de santé en open-source
@@ -20,6 +20,10 @@ Par ailleurs, tout problème de Machine Learning commence par la collecte et le 
 ## Que permet de faire le projet Arkhn ?
 
 Nous construisons une plateforme numérique permettant aux hôpitaux de tirer le meilleur parti de leurs données. À travers celle-ci, les données peuvent être utilisées par de nouveaux acteurs, au bénéfice des patients.
+
+<p align="center">
+    <img align="center" src="https://arkhn.org/img/integrateur.png" alt="Image of Arkhn's stack structure" />
+</p>
 
 Les données peuvent tout d’abord être employées par de nouvelles applications, déployables directement à l’hôpital. Il devient par exemple facile de développer des applications mobiles spécifiques à une pathologie ou un service, et ainsi d’améliorer grandement le parcours patient.
 
