@@ -44,3 +44,23 @@ projects:
 Les images doivent être stockées dans le dossier [/img/members](https://github.com/dataforgoodfr/dataforgoodfr.github.io/tree/master/img/members), idéalement en format 400x400 px.
 
 Les projets doivent être nommés comme les fichiers du dossier [_projects](https://github.com/dataforgoodfr/dataforgoodfr.github.io/tree/master/_projects) pour que Jekyll puisse retrouver qui a fait quoi.
+
+# Tester le site localement
+
+Afin de tester vos modifications localement, vous pouvez suivre les instructions données sur le site officiel de [Jekyll](https://jekyllrb.com/docs/).
+
+Il faut d'abord un environnement ruby installé localement (explications [ici](https://jekyllrb.com/docs/installation/)). Sous Ubuntu 18.10, les commandes suivantes suffisent :
+```
+sudo apt-get install ruby-full build-essential zlib1g-dev
+gem install jekyll bundler
+```
+
+Ensuite, il faut installer les dépendances de ce repo (commande à exécuter depuis le dossier cloné):
+```
+bundle install
+```
+
+Enfin, vous pouvez démarrer le site, qui tourne alors sur le port 4000 :
+```
+bundle exec jekyll serve
+```
