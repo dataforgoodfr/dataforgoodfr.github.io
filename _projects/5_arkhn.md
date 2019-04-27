@@ -35,10 +35,10 @@ Enfin, cette solution décentralisée laisse aux établissements une liberté to
 
 ## Qu'avons nous développé ?
 
-### Une plateforme collaborative de cartographie des logiciels de santé
+### `Pyrog` - une plateforme collaborative de cartographie des logiciels de santé
 
-Cette plateforme web est [accessible en ligne](https://live.arkhn.org) et permet de répertorier des informations destinées à standardiser les logiciels déployés dans les hôpitaux. Elle permet de traduire dans le standard [FHIR](https://www.hl7.org/fhir/) les schémas de bases de données de chaque logiciel présent sur le marché. Nous avons notamment commencé la cartographie des principaux logiciels présents sur le territoire français.
+Cette plateforme web est [accessible en ligne](https://pyrog.arkhn.org) et permet de répertorier des informations destinées à standardiser les logiciels déployés dans les hôpitaux. Elle permet de traduire dans le standard [FHIR](https://www.hl7.org/fhir/) les schémas de bases de données de chaque logiciel présent sur le marché. Nous avons notamment commencé la cartographie des principaux logiciels présents sur le territoire français.
 
-### Un module d'intégration de données déployable à l'hôpital
+### `Fhir-pipe` - un module d'intégration de données déployable à l'hôpital
 
 Ce module reçoit ses instructions de la plateforme précédente. Déployé à l'hôpital, il copie les bases de données (Oracle) des logiciels présents sur place dans une nouvelle base (Postgres) dans une syntaxe standard (FHIR).
