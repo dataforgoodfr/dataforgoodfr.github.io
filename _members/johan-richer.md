@@ -3,7 +3,7 @@ fullname: Johan Richer
 twitter: johanricher
 linkedin: johanricher
 github: johanricher
-website: https://f0rk.fr
+website: https://codefor.fr/
 role: Outilleur
 avatar: johan-richer.jpg
 projects:
