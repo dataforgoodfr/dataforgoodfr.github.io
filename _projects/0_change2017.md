@@ -7,4 +7,5 @@ repository:
 image:
 ---
 
+En partenariat avec Toucan Toco.
 [Lien vers la dataviz](https://www.change.org/l/fr/p/data-viz)
