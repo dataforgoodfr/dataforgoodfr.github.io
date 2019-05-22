@@ -33,6 +33,62 @@ layout: default
        <section id="projects">
          <h2 class="text-center">Nos projets</h2>
          <p class="text-center">{{ site.projects | size }} projets ont déjà été accélérés lors des précédentes saisons d'accélération.</p>
+         <h4 class="mt-4" style="text-align:center;">Projets hors-saison</h4>
+           <div class="row">
+             {% for item in site.projects %}
+               {% if item.season == 0 %}
+                 <div class="col-lg-3 col-md-6 my-4">
+                   <!--Card-->
+                   <div class="card">
+
+                       <!--Card image-->
+                       <div class="view overlay hm-white-slight hm-zoom">
+                           {% if item.image %}
+                           <img
+                               class="img-fluid"
+                               src="https://dataforgood.fr/img/projects/{{ item.image }}"
+                               alt="projet-{{ item.title }}"
+                               srcset="
+                                   https://dataforgood.fr/img/projects/900/{{ item.image }} 900w,
+                                   https://dataforgood.fr/img/projects/450/{{ item.image }} 450w"
+                               sizes="
+                                   (max-width: 991px) 100vw,
+                                   20vw">
+                           </img>
+                           {% else %}
+                           <img
+                               class="img-fluid"
+                               src="https://dataforgood.fr/img/projects/{{ item.image }}"
+                               alt="projet-{{ item.title }}"
+                               srcset="
+                                   https://dataforgood.fr/img/projects/900/default.jpg 900w,
+                                   https://dataforgood.fr/img/projects/450/default.jpg 450w"
+                               sizes="
+                                   (max-width: 991px) 100vw,
+                                   20vw">
+                           </img>
+                           {% endif %}
+                           <a href="{{ item.url }}">
+                               <div class="mask"></div>
+                           </a>
+                       </div>
+
+                       <!--Card content-->
+                       <div class="card-body">
+                           <!--Title-->
+                           <h4 class="card-title">{{ item.title }}</h4>
+                           <!--Text-->
+                           <p class="card-text">{{ item.description }}</p>
+                           <a href="{{ item.url }}" class="deep-orange-text mt-1 d-flex flex-row-reverse">
+                             <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
+                           </a>
+                       </div>
+                   </div>
+                   <!--/.Card-->
+                 </div>
+               {% endif %}
+             {% endfor %}
+           </div>
           {% for season in (1..site.number_of_season) reversed %}
             <h4 class="mt-4" style="text-align:center;">Saison {{ season }}</h4>
             <div class="row">
@@ -93,63 +149,6 @@ layout: default
               {% endfor %}
             </div>
           {% endfor %}
-
-           <h4 class="mt-4" style="text-align:center;">Projets hors-saison</h4>
-           <div class="row">
-             {% for item in site.projects %}
-               {% if item.season == 0 %}
-                 <div class="col-lg-3 col-md-6 my-4">
-                   <!--Card-->
-                   <div class="card">
-
-                       <!--Card image-->
-                       <div class="view overlay hm-white-slight hm-zoom">
-                           {% if item.image %}
-                           <img
-                               class="img-fluid"
-                               src="https://dataforgood.fr/img/projects/{{ item.image }}"
-                               alt="projet-{{ item.title }}"
-                               srcset="
-                                   https://dataforgood.fr/img/projects/900/{{ item.image }} 900w,
-                                   https://dataforgood.fr/img/projects/450/{{ item.image }} 450w"
-                               sizes="
-                                   (max-width: 991px) 100vw,
-                                   20vw">
-                           </img>
-                           {% else %}
-                           <img
-                               class="img-fluid"
-                               src="https://dataforgood.fr/img/projects/{{ item.image }}"
-                               alt="projet-{{ item.title }}"
-                               srcset="
-                                   https://dataforgood.fr/img/projects/900/default.jpg 900w,
-                                   https://dataforgood.fr/img/projects/450/default.jpg 450w"
-                               sizes="
-                                   (max-width: 991px) 100vw,
-                                   20vw">
-                           </img>
-                           {% endif %}
-                           <a href="{{ item.url }}">
-                               <div class="mask"></div>
-                           </a>
-                       </div>
-
-                       <!--Card content-->
-                       <div class="card-body">
-                           <!--Title-->
-                           <h4 class="card-title">{{ item.title }}</h4>
-                           <!--Text-->
-                           <p class="card-text">{{ item.description }}</p>
-                           <a href="{{ item.url }}" class="deep-orange-text mt-1 d-flex flex-row-reverse">
-                             <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
-                           </a>
-                       </div>
-                   </div>
-                   <!--/.Card-->
-                 </div>
-               {% endif %}
-             {% endfor %}
-           </div>
 
         </section>
         </div>
