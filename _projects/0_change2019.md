@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Change.org : Élections européennes 2019
-description: Explorer de manière interactive les réponses à la consultation citoyenne de Change.org
+description:
 season: 0
 repository:
 image:
