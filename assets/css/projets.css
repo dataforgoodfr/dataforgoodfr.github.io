@@ -1,0 +1,232 @@
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans.otf") format("truetype");
+}
+
+/* Pages individuelles — projets */
+
+.projets {
+  margin-top: 100px;
+}
+
+.projets::after {
+  content: "";
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  -webkit-clip-path: polygon(64% 0, 100% 0, 100% 100%, 45% 100%);
+  clip-path: polygon(64% 0, 100% 0, 100% 100%, 45% 100%);
+  background-image: linear-gradient(-193deg, #f9f9f9 2%, #fff);
+}
+
+.projets h1 {
+  font-family: "Gill Sans";
+  font-size: 40px;
+  color: #282829;
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+/* Présentation du projet */
+
+.presentation {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-auto-rows: 1fr;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 50px;
+}
+
+.presentation .texte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: 30%;
+  background-color: #f9f9f9;
+  max-width: 650px;
+  max-height: 500px;
+  margin: auto;
+  padding: 90px;
+}
+
+.presentation .texte a {
+  margin-left: 5px;
+  color: #fa826f;
+}
+
+.presentation .texte a:hover {
+  border-bottom: 1px solid;
+}
+
+.presentation .image img {
+  width: 100%;
+}
+
+@media (max-width: 1199.98px) {
+  .presentation {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 250px;
+    margin-bottom: 0;
+  }
+
+  .presentation .image {
+    grid-row-start: 1;
+  }
+
+  .presentation .texte {
+    left: 0;
+    top: -200px;
+  }
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+  .presentation {
+    grid-template-rows: 100% 1fr;
+    overflow-x: hidden;
+  }
+
+  .presentation .texte {
+    left: 0;
+    top: 0;
+    padding: 50px;
+    max-height: 100%;
+    
+  }
+
+  .presentation .texte p:nth-last-child(1) {
+    text-justify: none;
+  }
+}
+
+/* Description du projet */
+
+.description .texte {
+  margin: 0 auto;
+  padding: 1vw 6vw;
+  max-width: calc(600px + 12vw);
+  position: relative;
+  z-index: 2;
+}
+
+.description .texte h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.description h2 {
+  margin: 30px 0 20px;
+  line-height: 1.7;
+}
+
+.description h2::before {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.description img {
+  display: block;
+  margin: 40px auto 0;
+  position: relative;
+  z-index: 2;
+  max-width: 70vw;
+  padding: 0;
+}
+
+.description a {
+  color: #fa826f;
+}
+
+.description a:hover {
+  border-bottom: 1px solid;
+}
+
+.description ul li {
+  list-style: circle;
+  margin-left: 50px;
+  padding: 5px 0;
+}
+
+/* Équipe du projet */
+
+.equipe {
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #f9f9f9;
+  position: relative;
+  z-index: 2;
+}
+
+.equipe-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  grid-auto-rows: 1fr;
+  margin-top: 60px;
+}
+
+.equipe-card {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px;
+}
+
+.equipe-card img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.equipe-card h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.equipe-card .social {
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.equipe-card a {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.equipe-card .social i {
+  font-size: 17px;
+  color: #fa826f;
+  display: block;
+}
+
+.equipe-card .social a:hover i {
+  transform: scale(1.3);
+}
+
+/* Bas de page */
+
+footer h2::before {
+  transition: 0.3s ease;
+}
+
+footer h2:hover::before {
+  transform: translate(-10px);
+}

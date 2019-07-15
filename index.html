@@ -1,285 +1,599 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Main layout-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data for Good — Le numérique au service de l'intérêt général</title>
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Hind">
+</head>
 
-<main>
-   <div class="main-wrapper">
-     <div class="container-fluid">
-
-       <section id="mission">
-         <div class="row">
-           <div class="col-md-8 offset-md-2 my-4">
-             <h2 class="text-center">Notre vision</h2>
-             <p>Les technologies numériques sont incroyablement puissantes et redéfinissent le fonctionnement de notre société. Mais tous les domaines ne se transforment pas à la même vitesse. Très souvent, les acteurs qui œuvrent pour l’intérêt général* sont en retard par rapport aux startups et aux géants de la tech. <b>Data for Good existe pour rétablir l’équilibre.</b></p>
-             <p>* citoyens, associations, institutions publiques et entreprises à fort impact social.</p>
-
-             <h2 class="text-center">Notre mission</h2>
-             <p>Chaque jour, de nouveaux défis sont à relever en matière de santé, d’environnement, d’inclusion sociale, d’éducation ou de citoyenneté. Et chaque jour, de nouvelles idées germent et de plus en plus de citoyens veulent s’engager.</p>
-             <p>La communauté Data for Good rassemble celles et ceux qui veulent façonner des projets concrets et sur mesure en réponse à ces défis. Elle offre un cadre vivant et bienveillant où ces projets éclosent, mûrissent et se déploient.</p>
-
-             <h2 class="text-center">Nos valeurs</h2>
-             <p><b>Des optimistes pragmatiques</b> – qui s’engagent à résoudre de vrais problèmes à travers une méthode d’accompagnement ascendante et itérative.</p>
-             <p><b>Des artisans de l’open source</b> – qui veulent que les progrès des uns puissent être réutilisés pour faire avancer les autres. Tout contenu produit au sein des projets (code, visuels, documentation, etc.) est publié sous une licence libre.</p>
-             <p><b>Des hackers indépendants</b> – qui ont choisi d’être 100% bénévoles pour conserver toute liberté dans leur prise de décisions.</p>
-             <p><b>Un collectif de bâtisseurs</b>  – qui ont conscience que la technologie n’est pas la réponse à tout, mais qui veulent construire brique par brique le monde de demain.</p>
-           </div>
-         </div>
-       </section>
-
-       <hr class="my-4">
-
-       <section id="projects">
-         <h2 class="text-center">Nos projets</h2>
-         <p class="text-center">{{ site.projects | size }} projets ont déjà été accélérés lors des précédentes saisons d'accélération.</p>
-         <h4 class="mt-4" style="text-align:center;">Projets hors-saison</h4>
-           <div class="row">
-             {% for item in site.projects %}
-               {% if item.season == 0 %}
-                 <div class="col-lg-3 col-md-6 my-4">
-                   <!--Card-->
-                   <div class="card">
-
-                       <!--Card image-->
-                       <div class="view overlay hm-white-slight hm-zoom">
-                           {% if item.image %}
-                           <img
-                               class="img-fluid"
-                               src="https://dataforgood.fr/img/projects/{{ item.image }}"
-                               alt="projet-{{ item.title }}"
-                               srcset="
-                                   https://dataforgood.fr/img/projects/900/{{ item.image }} 900w,
-                                   https://dataforgood.fr/img/projects/450/{{ item.image }} 450w"
-                               sizes="
-                                   (max-width: 991px) 100vw,
-                                   20vw">
-                           </img>
-                           {% else %}
-                           <img
-                               class="img-fluid"
-                               src="https://dataforgood.fr/img/projects/{{ item.image }}"
-                               alt="projet-{{ item.title }}"
-                               srcset="
-                                   https://dataforgood.fr/img/projects/900/default.jpg 900w,
-                                   https://dataforgood.fr/img/projects/450/default.jpg 450w"
-                               sizes="
-                                   (max-width: 991px) 100vw,
-                                   20vw">
-                           </img>
-                           {% endif %}
-                           <a href="{{ item.url }}">
-                               <div class="mask"></div>
-                           </a>
-                       </div>
-
-                       <!--Card content-->
-                       <div class="card-body">
-                           <!--Title-->
-                           <h4 class="card-title">{{ item.title }}</h4>
-                           <!--Text-->
-                           <p class="card-text">{{ item.description }}</p>
-                           <a href="{{ item.url }}" class="deep-orange-text mt-1 d-flex flex-row-reverse">
-                             <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
-                           </a>
-                       </div>
-                   </div>
-                   <!--/.Card-->
-                 </div>
-               {% endif %}
-             {% endfor %}
-           </div>
-          {% for season in (1..site.number_of_season) reversed %}
-            <h4 class="mt-4" style="text-align:center;">Saison {{ season }}</h4>
-            <div class="row">
-              {% for item in site.projects %}
-                {% if item.season == season %}
-                  <div class="col-lg-3 col-md-6 my-4">
-                    <div class="card-deck">
-                      <!--Card-->
-                      <div class="card">
-
-                          <!--Card image-->
-                          <div class="view overlay hm-white-slight hm-zoom">
-                              {% if item.image %}
-                              <img
-                                  class="img-fluid"
-                                  src="https://dataforgood.fr/img/projects/{{ item.image }}"
-                                  alt="projet-{{ item.title }}"
-                                  srcset="
-                                      https://dataforgood.fr/img/projects/900/{{ item.image }} 900w,
-                                      https://dataforgood.fr/img/projects/450/{{ item.image }} 450w"
-                                  sizes="
-                                      (max-width: 991px) 100vw,
-                                      20vw">
-                              </img>
-                              {% else %}
-                              <img
-                                  class="img-fluid"
-                                  src="https://dataforgood.fr/img/projects/{{ item.image }}"
-                                  alt="projet-{{ item.title }}"
-                                  srcset="
-                                      https://dataforgood.fr/img/projects/900/default.jpg 900w,
-                                      https://dataforgood.fr/img/projects/450/default.jpg 450w"
-                                  sizes="
-                                      (max-width: 991px) 100vw,
-                                      20vw">
-                              </img>
-                              {% endif %}
-                              <a href="{{ item.url }}">
-                                  <div class="mask"></div>
-                              </a>
-                          </div>
-
-                          <!--Card content-->
-                          <div class="card-body">
-                              <!--Title-->
-                              <h4 class="card-title">{{ item.title }}</h4>
-                              <!--Text-->
-                              <p class="card-text">{{ item.description }}</p>
-                              <a href="{{ item.url }}" class="deep-orange-text mt-1 d-flex flex-row-reverse">
-                                <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
-                              </a>
-                          </div>
-                      </div>
-                      <!--/.Card-->
-                    </div>
-                  </div>
-                {% endif %}
-              {% endfor %}
+<body>
+    <!-- Preloader -->
+    <div class="page-loader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <!-- Navigation bar -->
+    <header class="header-transparent">
+        <div class="container">
+            <div class="logo">
+                <img class="logo-white" src="assets/images/logo-white.png">
+                <img class="logo-colored" src="assets/images/logo-colored.png">
             </div>
-          {% endfor %}
-
-        </section>
+            <nav>
+                <ul>
+                    <li><a href="#projets" class="smoothscroll">Les projets</a></li>
+                    <li><a href="#about" class="smoothscroll">À propos</a></li>
+                    <li><a href="#evenements" class="smoothscroll">Évènements</a></li>
+                    <li><a href="#blog" class="smoothscroll">Blog</a></li>
+                </ul>
+                <a href="#participation" class="btn smoothscroll" id="collapse">Rejoignez-nous</a>
+            </nav>
+            <!-- Hamburger -->
+            <div class="hamburger" onclick="toggleBurger(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </div>
-      </div>
-
-      <div class="elegant-color py-5">
-        <div class="main-wrapper py-5">
-          <div class="container-fluid">
-            <section id="events" class="dark-section">
-              <div class="row">
-                  <!--First column-->
-                  <div class="col-md-6 my-4">
-                      <h2>Évènements publics</h2>
-                      <p>Nous présentons nos projets au public à la fin de chaque saison d'accélération, environ trois fois par an.</p>
-                      <p>Ces Demo Days rassemblent des centaines de passionnés de l'innovation sociale permise par la technologie et la data science.</p>
-                      <div class="my-4" align="center">
-                        <a href="http://www.meetup.com/Data-for-Good-FR" role="button" class="btn btn-deep-orange">
-                          <i class="fa fa-calendar pr-2" aria-hidden="true">
-                          </i>
-                          Assistez à nos évènements
-                        </a>
-                      </div>
-                  </div>
-                  <!--/.First column-->
-
-                  <!--Second column-->
-                  <div class="col-md-6 my-4">
-                    <div class="view overlay hm-white-slight hm-zoom">
-                        <img src="https://dataforgood.fr/img/events.jpg" class="img-fluid" alt="photo-meetup">
-                        <a href="http://www.meetup.com/Data-for-Good-FR">
-                            <div class="mask"></div>
-                        </a>
+    </header>
+    <!-- Hero -->
+    <div data-jarallax class="hero jarallax" style="background: url('assets/images/bg.jpg');">
+        <div class="container">
+            <div class="intro">
+                <h1 class="wow fadeInUp" data-wow-delay="1.7s" data-wow-duration=".7s">Le numérique au service de l'intérêt général</h1>
+                <p class="wow fadeInUp" data-wow-delay="1.9s" data-wow-duration=".7s">Data for Good est une communauté de data scientists, développeurs et designers bénévoles qui mettent leurs compétences au profit de la résolution de problèmes sociaux</p>
+            </div>
+            <div data-jarallax data-speed="0.6" class="hero-cut jarallax" style="background: url('assets/images/bg-cut.png');"></div>
+        </div>
+        <div class="overlay-background overlay-gradient" style="opacity: 1"></div>
+    </div>
+    <!-- Partenaires -->
+    <div id="partenaires" class="container wow fadeInUp">
+        <a target="_blank" href="https://www.ashoka.org/"><img src="assets/images/partenaires/ashoka.png"></a>
+        <a target="_blank" href="https://www.bayesimpact.org/"><img src="assets/images/partenaires/bayesimpact.png"></a>
+        <a target="_blank" href="https://www.change.org/"><img src="assets/images/partenaires/change.png"></a>
+        <a target="_blank" href="https://www.liberte.paris/"><img src="assets/images/partenaires/livinglab.png"></a>
+    </div>
+    <!-- Mission -->
+    <div class="mission wow fadeInUp">
+        <h3>Notre mission</h3>
+        <p>Chaque jour, de nouveaux défis sont à relever en matière de santé, d'environnement, d'inclusion sociale, d'éducation ou de citoyenneté. Et chaque jour, de nouvelles idées germent et de plus en plus de citoyens veulent s'engager.</p>
+        <p>La communauté Data for Good rassemble celles et ceux qui veulent façonner des projets concrets et sur mesure en réponse à ces défis. Elle offre un cadre vivant et bienveillant où ces projets éclosent, mûrissent et se déploient.</p>
+    </div>
+    <!-- Projets -->
+    <div id="projets">
+        <div class="container">
+            <h2 class="wow fadeInLeft">Les projets</h2>
+            <!-- Cards -->
+            <div class="grid">
+                <!-- Hors saison -->
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/algotransparency.png">
+                        <div class="overlay">
+                            <p>Hors saison</p>
+                            <a href="projets/algotransparency.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
                     </div>
-                  </div>
-                  <!--/.Second column-->
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-
-      <div class="elegant-color py-5" style="background-image: url(https://dataforgood.fr/img/join.jpg); background-position: center;">
-        <div class="main-wrapper py-5">
-          <div class="container-fluid">
-            <section id="join" class="dark-section">
-              <div class="row">
-                  <div class="col-md-8 offset-md-2">
-                    <div class="text-center">
-                        <h1 class="h1-reponsive white-text font-up font-bold mb-3 wow fadeInDown h1-header" data-wow-delay="0.3s"><strong>Ralliez la communauté !</strong></h1>
-                        <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
-                        <h4 class="mb-5 white-text wow fadeInDown" data-wow-delay="0.4s">La communauté Data for Good compte plus de 1000 volontaires qui consacrent 4 à 12h par semaine au service d'un projet à impact social.<br><br>Vous êtes data scientist, développeur, designer ou project manager ? Rejoignez-nous !</h4>
-                        <a class="typeform-share button btn btn-deep-orange wow fadeInDown" data-wow-delay="0.4s" href="https://dataforgood.typeform.com/to/goIj4s" data-mode="popup" target="_blank">Je deviens volontaire</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                    <a href="projets/algotransparency.html"><h4>AlgoTransparency</h4></a>
+                    <p>Informer les citoyens sur le fonctionnement des algorithmes influençant l'accès à l'information</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Hors saison</p>
+                            <a href="projets/changez-2017.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
                     </div>
-                  </div>
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-
-      <div class="deep-orange py-5" style="background-position: center;">
-        <div class="main-wrapper py-5">
-          <div class="container-fluid">
-            <section id="propose" class="dark-section">
-              <div class="row">
-                  <div class="col-md-8 offset-md-2">
-                    <div class="text-center">
-                        <h1 class="h1-reponsive white-text font-up font-bold mb-3 wow fadeInDown h1-header" data-wow-delay="0.3s"><strong>Proposez votre projet !</strong></h1>
-                        <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
-                        <h4 class="mb-5 white-text wow fadeInDown" data-wow-delay="0.4s">Vous avez une idée de projet pour utiliser la tech ou la data science pour l'intérêt général ? Vous êtes motivés et prêt à vous engager pendant 2 à 3 mois ?<br><br>Proposez votre projet jusqu'au 15 août pour faire partie de la saison d'accélération #6.</h4>
-                        <a class="typeform-share button btn btn-elegant wow fadeInDown" data-wow-delay="0.4s" href="https://dataforgood.typeform.com/to/l1iRb3" data-mode="popup" target="_blank">Je propose mon projet</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                    <a href="projets/changez-2017.html"><h4>Changez 2017</h4></a>
+                    <p>Explorer de manière interactive les réponses à la consultation citoyenne de change.org</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Hors saison</p>
+                            <a href="projets/elections-europeenes-2019.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
                     </div>
-                  </div>
-              </div>
-            </section>
-          </div>
+                    <a href="projets/elections-europeenes-2019.html"><h4>Élections européennes 2019</h4></a>
+                    <p>Explorer de manière interactive les réponses à la consultation citoyenne de change.org</p>
+                </div>
+                <!-- Saison 5 -->
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/arkhn.jpg">
+                        <div class="overlay">
+                            <p>Saison 5</p>
+                            <a href="projets/arkhn.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/arkhn.html"><h4>Arkhn</h4></a>
+                    <p>Standardiser les données de santé en open-source</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/eurosfordocs.png">
+                        <div class="overlay">
+                            <p>Saison 5</p>
+                            <a href="projets/eurosfordocs.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/eurosfordocs.html"><h4>EurosForDocs</h4></a>
+                    <p>Simplifier l'accès à la base Transparence-Santé</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/liris.png">
+                        <div class="overlay">
+                            <p>Saison 5</p>
+                            <a href="projets/liris.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/liris.html"><h4>Liris</h4></a>
+                    <p>Consulter les recettes et les dépense de l'État</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/openfoodfacts.jpg">
+                        <div class="overlay">
+                            <p>Saison 5</p>
+                            <a href="projets/open-food-facts.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/open-food-facts.html"><h4>Open Food Facts</h4></a>
+                    <p>Et si scanner vos produits vous permettait de découvrir leur impact sur la planète ?</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/phenix.png">
+                        <div class="overlay">
+                            <p>Saison 5</p>
+                            <a href="projets/phenix.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/phenix.html"><h4>Phénix</h4></a>
+                    <p>Offrir une seconde vie aux invendus alimentaires</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 5</p>
+                            <a href="projets/tableau-citoyen.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/tableau-citoyen.html"><h4>Tableau de bord citoyen</h4></a>
+                    <p>Du choc des idées jaillit l'information</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/transplant.jpg">
+                        <div class="overlay">
+                            <p>Saison 5</p>
+                            <a href="projets/transplant.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/transplant.html"><h4>Transplant</h4></a>
+                    <p>Améliorer la prédiction de l'autonomie respiratoire après transplantation pulmonaire</p>
+                </div>
+                <!-- Saison 4 -->
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/birrasmi.png">
+                        <div class="overlay">
+                            <p>Saison 4</p>
+                            <a href="projets/birrasmi.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/birrasmi.html"><h4>Mediachecker</h4></a>
+                    <p>Automatisation du fact checking des affirmations des politiques tunisiens sur le site Birrasmi.tn</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/data-en-clair.png">
+                        <div class="overlay">
+                            <p>Saison 4</p>
+                            <a href="projets/data-en-clair.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/data-en-clair.html"><h4>La Data en Clair</h4></a>
+                    <p>Le 1er magazine web qui décrypte les enjeux éthiques de l'intelligence artificielle et des données</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 4</p>
+                            <a href="projets/databox.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/databox.html"><h4>Databox</h4></a>
+                    <p>Améliorer la plateforme derrière data.gouv.fr</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 4</p>
+                            <a href="projets/diafoirus.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/diafoirus.html"><h4>Diafoirus</h4></a>
+                    <p>Exploiter et rendre exploitable les données médicales</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/redecoupage.png">
+                        <div class="overlay">
+                            <p>Saison 4</p>
+                            <a href="projets/redecoupage-citoyen.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/redecoupage-citoyen.html"><h4>Redécoupage citoyen</h4></a>
+                    <p>Nous votons, nous dessinons !</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/hippocrate-sharing.png">
+                        <div class="overlay">
+                            <p>Saison 4</p>
+                            <a href="projets/serment-hippocrate.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/serment-hippocrate.html"><h4>Serment d'Hippocrate pour data scientist</h4></a>
+                    <p>Promouvoir un usage éthique des données</p>
+                </div>
+                <!-- Saison 3 -->
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 3</p>
+                            <a href="projets/bimbamjob.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/bimbamjob.html"><h4>BimBamJob</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 3</p>
+                            <a href="projets/cour-des-comptes.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/cour-des-comptes.html"><h4>Cour des comptes</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/data4tunisia.png">
+                        <div class="overlay">
+                            <p>Saison 3</p>
+                            <a href="projets/data4tunisia.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/data4tunisia.html"><h4>Data4Tunisia</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/isara.jpg">
+                        <div class="overlay">
+                            <p>Saison 3</p>
+                            <a href="projets/isara.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/isara.html"><h4>Isara</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 3</p>
+                            <a href="projets/make-org.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/make-org.html"><h4>Make.org</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 3</p>
+                            <a href="projets/we-answer.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/we-answer.html"><h4>We answer</h4></a>
+                </div>
+                <!-- Saison 2 -->
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 2</p>
+                            <a href="projets/vega.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/vega.html"><h4>VEGA</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 2</p>
+                            <a href="projets/cresus.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/cresus.html"><h4>Cresus</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 2</p>
+                            <a href="projets/impala2.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/impala2.html"><h4>Impala 2</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 2</p>
+                            <a href="projets/loyers-parisiens.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/loyers-parisiens.html"><h4>Loyers parisiens</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 2</p>
+                            <a href="projets/ministere-education-nationale.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/ministere-education-nationale.html"><h4>Ministère de l'éducation nationale</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 2</p>
+                            <a href="projets/newbed.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/newbed.html"><h4>NewBed</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 2</p>
+                            <a href="projets/search-research.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/search-research.html"><h4>Search Research</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/default.jpg">
+                        <div class="overlay">
+                            <p>Saison 2</p>
+                            <a href="projets/simplon.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/simplon.html"><h4>Simplon</h4></a>
+                </div>
+                <!-- Saison 1 -->
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/adoptez-moi.jpg">
+                        <div class="overlay">
+                            <p>Saison 1</p>
+                            <a href="projets/adoptez-moi.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/adoptez-moi.html"><h4>Adoptez-moi</h4></a>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/data-for-food.jpg">
+                        <div class="overlay">
+                            <p>Saison 1</p>
+                            <a href="projets/data-for-food.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/data-for-food.html"><h4>Data for Food</h4></a>
+                    <p>Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/frateli.jpg">
+                        <div class="overlay">
+                            <p>Saison 1</p>
+                            <a href="projets/frateli.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/frateli.html"><h4>Frateli</h4></a>
+                    <p>Algorithmes de recommandation pour le parrainage d'étudiants</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/impala.png">
+                        <div class="overlay">
+                            <p>Saison 1</p>
+                            <a href="projets/impala.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/impala.html"><h4>Impala</h4></a>
+                    <p>Aider les lycéens à s'orienter</p>
+                </div>
+                <div class="card wow fadeInUp">
+                    <div class="card-image">
+                        <img src="assets/images/projets/teen-spirit.jpg">
+                        <div class="overlay">
+                            <p>Saison 1</p>
+                            <a href="projets/teen-spirit.html">Voir le projet<i class="ti-arrow-top-right"></i></a>
+                        </div>
+                    </div>
+                    <a href="projets/teen-spirit.html"><h4>Teen Spirit</h4></a>
+                    <p>Détection et soutien aux adolescents en difficulté sur les réseaux sociaux</p>
+                </div>
+            </div>
+            <div id="loadmore">
+                <a href="#" class="btn">Voir plus</a>
+            </div>
         </div>
-      </div>
-
-      <div class="elegant-color py-5">
-        <div class="main-wrapper py-5">
-          <div class="container-fluid">
-            <section id="partners" class="dark-section">
-              <h2 class="text-center">Nos partenaires</h2>
-              <div class="row">
-                <div class="col-lg-3 col-md-6 my-4" align="center">
-                  <div class="view overlay hm-white-slight hm-zoom avatar">
-                      <img src="https://dataforgood.fr/img/logo-bayes-impact.png" class="img-fluid" alt="logo-bayes-impact">
-                      <a href="http://bayesimpact.org/">
-                          <div class="mask"></div>
-                      </a>
-                  </div>
-                  <h4 class="card-title mt-4">Bayes Impact</h4>
-                  <p class="card-text">Bayes Impact soutient la communauté Data for Good dans le développement des projets de data science.</p>
+    </div>
+    <!-- À propos -->
+    <div id="about">
+        <div class="container">
+            <h2 class="wow fadeInLeft" data-wow-delay=".3s">Une communauté de bénévoles</h2>
+            <div class="about">
+                <div class="vision wow fadeInUp" data-wow-delay=".1s">
+                    <img src="assets/images/vision.jpg">
+                    <div class="vision-text">
+                        <h3 class="small">Notre vision</h3>
+                        <p>Les technologies numériques sont incroyablement puissantes et redéfinissent le fonctionnement de notre société. Mais tous les domaines ne se transforment pas à la même vitesse.</p>
+                        <p>Très souvent, les acteurs qui œuvrent pour l'intérêt général — citoyens, associations, institutions publiques et entreprises à fort impact social — sont en retard par rapport aux startups et aux géants de la tech.</p>
+                        <p>Data for Good existe pour rétablir l'équilibre.</p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 my-4" align="center">
-                  <div class="view overlay hm-white-slight hm-zoom avatar">
-                      <img src="https://dataforgood.fr/img/logo-ashoka.png" class="img-fluid" alt="logo-ashoka">
-                      <a href="https://www.ashoka.org/fr">
-                          <div class="mask"></div>
-                      </a>
-                  </div>
-                  <h4 class="card-title mt-4">Ashoka</h4>
-                  <p class="card-text">Ashoka soutient plus de 3 300 innovateurs sociaux dans le monde. Nous leurs apportons nos compétences techniques.</p>
+                <div class="valeurs wow fadeInUp">
+                    <img src="assets/images/valeurs.jpg">
+                    <div class="valeurs-text">
+                        <h3 class="small">Nous sommes</h3>
+                        <p>Des optimistes pragmatiques — qui s'engagent à résoudre de vrais problèmes à travers une méthode d'accompagnement ascendante et itérative.</p>
+                        <p>Des artisans de l'open source — qui veulent que les progrès des uns puissent faire avancer les autres. Tout contenu produit au sein des projets (code, visuels, documentation, etc.) est publié sous une licence libre.</p>
+                        <p>Des hackers indépendants — qui ont choisi d'être 100% bénévoles pour conserver toute liberté dans leur prise de décisions.</p>
+                        <p>Un collectif de bâtisseurs — qui ont conscience que la technologie n'est pas la réponse à tout, mais qui veulent construire brique par brique le monde de demain.</p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 my-4" align="center">
-                  <div class="view overlay hm-white-slight hm-zoom avatar">
-                      <img src="https://dataforgood.fr/img/logo-liberte-living-lab.png" class="img-fluid" alt="logo-liberte-living-lab">
-                      <a href="https://liberte.paris/">
-                          <div class="mask"></div>
-                      </a>
-                  </div>
-                  <h4 class="card-title mt-4">Liberté living lab</h4>
-                  <p class="card-text">Le LLL accueille chaque semaine la communauté Data for Good dans le Sentier à Paris pour y développer nos projets.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 my-4" align="center">
-                  <div class="view overlay hm-white-slight hm-zoom avatar">
-                      <img src="https://dataforgood.fr/img/logo-change.png" class="img-fluid" alt="logo-change">
-                      <a href="https://www.change.org/fr">
-                          <div class="mask"></div>
-                      </a>
-                  </div>
-                  <h4 class="card-title mt-4">change.org</h4>
-                  <p class="card-text">Nous avons collaboré avec la plus grande plateforme mondiale de pétitions sur la consultation citoyenne Changez 2017.</p>
-                </div>
-              </div>
-            </section>
-          </div>
+            </div>
         </div>
-      </div>
+    </div>
+    <!-- Évènements -->
+    <div id="evenements">
+        <div class="text-left wow fadeInLeft">
+            <h3>Évènements publics</h3>
+            <p>Nous présentons nos projets au public à la fin de chaque saison d'accélération, environ trois fois par an. Ces <i>Demo Days</i> rassemblent des centaines de passionnés de l'innovation sociale permise par la technologie et la data science.</p>
+            <a target="_blank" href="https://www.meetup.com/Data-for-Good-FR/" class="btn-alt">Assistez à nos évènements <i class="ti-new-window"></i></a>
+        </div>
+        <div class="bg-right"></div>
+    </div>
+    <!-- Articles -->
+    <div id="blog" class="container">
+        <div class="title wow fadeInUp">
+            <h3>Derniers articles</h3>
+            <a target="_blank" href="https://medium.com/@DataForGood_FR" class="btn-alt">Voir tous les articles <i class="ti-new-window"></i></a>
+        </div>
+        <div class="articles wow fadeInUp">
+            <div class="article1">
+                <a target="_blank" href="https://medium.com/@DataForGood_FR/et-si-la-technologie-permettait-au-citoyen-de-comprendre-comment-est-allou%C3%A9-le-budget-de-l%C3%A9tat-36bd6239dbf2">
+                    <div class="article-image">
+                        <img src="https://miro.medium.com/max/700/1*dvNyVoDdf2fLkodiTZeWzw.png">
+                    </div>
+                    <h6>7 février, 2019</h6>
+                    <h3 class="small">Et si la technologie permettait au citoyen de comprendre comment est alloué le budget de l'état ?</h3>
+                    <p>Parce que l'argent reste le nerf de la guerre, la loi de finance voté chaque automne reste un moment structurant de notre calendrier politique. Malheureusement, son jargon et son opacité font de la lecture du budget de l'Etat un défi pour bon nombre de citoyens.</p>
+                </a>
+            </div>
+            <div class="article2">
+                <a target="_blank" href="https://medium.com/@DataForGood_FR/et-si-la-technologie-permettait-plus-de-transparence-dans-linfluence-de-l-industrie-ba001517ab47">
+                    <div class="article-image">
+                        <img src="https://miro.medium.com/max/1000/0*khuBcItw-F4m9R5e">
+                    </div>
+                    <h6>24 janvier, 2019</h6>
+                    <h3 class="small">Et si la technologie permettait plus de transparence dans l'influence de l'industrie pharmaceutique ?</h3>
+                    <p>Cette fois il est l'heure de parler santé avec le 4ème projet de cette saison, Euros for docs qui cherche à faire de la transparence la norme dans le secteur de la santé, afin de lutter contre le lobbying des industriels.</p>
+                </a>
+            </div>
+            <div class="article3">
+                <a target="_blank" href="https://medium.com/@DataForGood_FR/et-si-la-technologie-pouvait-am%C3%A9liorer-le-parcours-sant%C3%A9-des-patients-554921251f1f">
+                    <div class="article-image">
+                        <img src="https://miro.medium.com/max/692/1*-MN1T0o7RZMmT-HK-gofxw.jpeg">
+                    </div>
+                    <h6>16 janvier, 2019</h6>
+                    <h3 class="small">Et si la technologie pouvait améliorer le parcours santé des patients ?</h3>
+                    <p>La société civile désireuse d'oeuvrer à l'intérêt général peut aboutir à de magnifiques projets. C'est cette conviction, commune à Data for Good (communauté qui rassemble des data scientists désireux de façonner des projets concrets en réponse aux nouveaux défis quotidiens), qui a animé l'envie d'Arkhn de rejoindre cette communauté pour accélérer son projet.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Rejoignez-nous -->
+    <div id="participation">
+        <div class="participation container wow fadeInUp">
+            <div class="rejoindre">
+                <h3>Ralliez la communauté</h3>
+                <p>La communauté Data for Good compte plus de 1000 volontaires qui consacrent 4 à 12h par semaine au service d'un projet à impact social.</p>
+                <p>Vous êtes data scientist, développeur, designer ou project manager ? Rejoignez-nous !</p>
+                <a target="_blank" href="https://dataforgood.typeform.com/to/goIj4s" class="btn">Je deviens volontaire</a>
+            </div>
+            <div class="proposer">
+                <h3>Proposez votre projet</h3>
+                <p>Vous avez une idée de projet pour utiliser la tech ou la data science pour l'intérêt général ? Vous êtes motivés et prêts à vous engager pendant 2 à 3 mois ?</p>
+                <p>Proposez votre projet jusqu'au 15 août pour faire partie de la saison d'accélération #6.</p>
+                <a target="_blank" href="https://dataforgood.typeform.com/to/l1iRb3" class="btn dark">Je propose mon projet</a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-infos">
+                <div class="brand">
+                    <img src="assets/images/logo-icon.png">
+                    <h5>© Data for Good 2019<br>Design par <a target="_blank" href="https://www.nicolasbertolino.com/">Nicolas Bertolino</a></h5>
+                </div>
+                <div class="contact">
+                    <div class="footer-menu">
+                        <div class="footer-menu-left">
+                            <p><a href="histoire.html">Notre histoire</a></p>
+                            <p><a href="partenaires.html">Nos partenaires</a></p>
+                            <p><a target="_blank" href="https://www.meetup.com/Data-for-Good-FR/">Nos évènements</a></p>
+                        </div>
+                        <div class="footer-menu-right">
+                            <p><a href="mailto:hellodataforgood@gmail.com">Contactez-nous</a></p>
+                            <p><a target="_blank" href="https://dataforgood.typeform.com/to/goIj4s">Devenir volontaire</a></p>
+                            <p><a target="_blank" href="https://dataforgood.typeform.com/to/l1iRb3">Proposer un projet</a></p>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <a target="_blank" href="https://github.com/dataforgoodfr/"><i class="ti-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/dataforgood/"><i class="ti-linkedin"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/dataforgoodfr"><i class="ti-facebook"></i></a>
+                        <a target="_blank" href="https://twitter.com/dataforgood_fr"><i class="ti-twitter-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="twitter">
+                <a class="twitter-timeline" data-lang="fr" data-tweet-limit="1" data-chrome="noheader, nofooter, noborders, transparent, noscrollbar" href="https://twitter.com/DataForGood_FR?ref_src=twsrc%5Etfw">Tweets by DataForGood_FR</a>
+            </div>
+        </div>
+        <div class="back-to-top">
+            <a href="#top"><i class="ti-angle-double-up"></i></a>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+    <script type="text/javascript" src="assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
 
-
-</main>
-<!-- /.Main layout-->
+</html>
