@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data for Good</title>
+    <link rel="icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/projets.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <!-- Style additionnel — Pour rajouter du css si besoin est. -->
+    <style>
+    
+    </style>
+</head>
+
+<body>
+    <div class="page-loader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <header class="header-transparent">
+        <div class="container">
+            <div class="logo">
+                <img src="../assets/images/logo-colored.png">
+            </div>
+            <div class="icon-close">
+                <a href="/"><i class="ti-close"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="projets">
+        <div class="presentation">
+            <div class="texte wow fadeInLeft">
+                <!-- Le nom du projet -->
+                <h1>Arkhn</h1>
+                <!-- Une brève description, quelques lignes suffisent -->
+                <p>Standardiser les données de santé en open-source.</p>
+                <!-- Le lien vers le site web, ou à défaut vers une page des réseaux sociaux. Si aucun support n'existe commenter la ligne -->
+                <p>Site web : <a target="_blank" href="https://arkhn.org/">https://arkhn.org/</a></p>
+            </div>
+            <div class="image">
+                <!-- L'image qui servira d'illustration au projet. Merci de fournir une image ou photo de résolution décente afin d'éviter la pixelisation de celle-ci -->
+                <img src="../assets/images/projets/arkhn-img.jpeg">
+            </div>
+        </div>
+        <div class="description">
+            <!-- La description du projet. Les balises <h1></h1> et <h2></h2> sont configurées pour respectivement les titres et sous-titres. Les images qui qui viennent complimenter la description doivent être placées en dehors des containeurs <div class="texte"></div>, ceux-ci étant réservés au texte. -->
+            <!-- Un exemple de structure qui fonctionne :
+            <div class="texte">
+                <h1>Titre</h1>
+                <h2>Sous-titre</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos accusantium excepturi <a href="#">eaque reprehenderit</a> ut officiis eum incidunt.</p>
+            </div>
+            <img src="../assets/images/projets/img.jpg">
+            <div class="texte">
+                <h1>Titre</h1>
+                <h2>Sous-titre</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+            </div> -->
+            <div class="texte">
+                <h1>À quels problèmes répond Arkhn ?</h1>
+                <p>Les logiciels présents dans les établissements de santé produisent une donnée qui est stockée sous un format qui leur est propre. Il est très difficile pour d'autres acteurs - et pour les hôpitaux eux-mêmes - de tirer parti de ces données sans passer par les éditeurs de logiciels, qui par ailleurs ne produisent pas non plus une donnée standardisée. Finalement, les hôpitaux multiplient les connexions entre ces bases de données dont l'information n'est pas standard, ce qui multiplie les problèmes.</p>
+                <p>Par ailleurs, tout problème de Machine Learning commence par la collecte et le nettoyage de données destinées à l'entraînement des modèles statistiques. L'hétérogénéité des données de santée rend cette phase très complexe, voire inaccessible.</p>
+                <h1>Que permet de faire le projet Arkhn ?</h1>
+                <p>Nous construisons une plateforme numérique permettant aux hôpitaux de tirer le meilleur parti de leurs données. À travers celle-ci, les données peuvent être utilisées par de nouveaux acteurs, au bénéfice des patients.</p>
+            </div>
+            <img src="../assets/images/projets/integrateur.png">
+            <div class="texte">
+                <p style="padding-top: 30px;">Les données peuvent tout d'abord être employées par de nouvelles applications, déployables directement à l'hôpital. Il devient par exemple facile de développer des applications mobiles spécifiques à une pathologie ou un service, et ainsi d'améliorer grandement le parcours patient.</p>
+                <p>Par ailleurs, l'hôpital peut maintenant facilement construire des outils de monitoring qui utilisent l'ensemble des informations collectées. Notre plateforme permet surtout une communication simplifiée et sécurisée entre les équipes médicales. Le suivi des patients entre services, mais également entre établissements est rendu possible tout en laissant le patient maître de ses données.</p>
+                <p>Arkhn permet aux hôpitaux un premier pas vers leur mise aux normes. L'arrivée du RGPD rend obsolètes de nombreuses solutions actuelles, incapables de réaliser des opérations comme la suppression ou le portage de données personnelles. Notre intégration permet d'unifier toutes les bases de données et d'effectuer facilement ces opérations.</p>
+                <p>Enfin, cette solution décentralisée laisse aux établissements une liberté totale sur les utilisations faites des données collectées et parachève notre vision de la santé de demain</p>
+                <h1>Qu'avons nous développé ?</h1>
+                <h2><span style="color: crimson">Pyrog</span> - une plateforme collaborative de cartographie des logiciels de santé</h2>
+                <p>Cette plateforme web est <a target="_blank" href="https://pyrog.arkhn.org/signin">accessible en ligne</a> et permet de répertorier des informations destinées à standardiser les logiciels déployés dans les hôpitaux. Elle permet de traduire dans le standard FHIR les schémas de bases de données de chaque logiciel présent sur le marché. Nous avons notamment commencé la cartographie des principaux logiciels présents sur le territoire français.</p>
+                <p>Repo Github : <a target="_blank" href="https://github.com/arkhn/pyrog">https://github.com/arkhn/pyrog</a></p>
+                <h2><span style="color: crimson">Fhir-pipe</span> - un module d'intégration de données déployable à l'hôpital</h2>
+                <p>Ce module reçoit ses instructions de la plateforme précédente. Déployé à l'hôpital, il copie les bases de données (Oracle) des logiciels présents sur place dans une nouvelle base (Postgres) dans une syntaxe standard (FHIR).</p>
+                <p>Repo Github : <a target="_blank" href="https://github.com/arkhn/fhir-pipe">https://github.com/arkhn/fhir-pipe</a></p>
+                <h1>Poursuites du projet</h1>
+                <h2>Un dashboard pour les établissements de santé</h2>
+                <p>Afin de donner une idée claire de ce qu'il est possible de faire avec des données standardisées, nous développons un dashboard destiné aux décisionnaires des hôpitaux.</p>
+                <p>Code source : <a target="_blank" href="https://github.com/arkhn">Github</a></p>
+            </div>
+        </div>
+        <div class="equipe">
+            <div class="container">
+                <h1>L'équipe</h1>
+                <div class="equipe-cards">
+                    <!-- Une carte de présentation pour chaque membre du projet -->
+                    <div class="equipe-card">
+                        <!-- Une photo. Merci d'en fournir une aux dimensions régulières : 200x200, 350x350, etc. -->
+                        <img src="../assets/images/membres/adrien-canterot.jpeg">
+                        <!-- Le nom -->
+                        <h3>Adrien Cantérot</h3>
+                        <!-- Le rôle / statut du membre au sein du projet -->
+                        <p>Dev</p>
+                        <div class="social">
+                            <!-- Les liens vers les réseaux sociaux. Si des réseaux ne sont pas renseignés commenter la ligne équivalente -->
+                            <a target="_blank" href="https://github.com/adriencanterot"><i class="ti-github"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/adrien-canterot-084a42a2/"><i class="ti-linkedin"></i></a>
+                            <a target="_blank" href="https://twitter.com/adriencanterot"><i class="ti-twitter-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="../assets/images/membres/alexis-thual.jpg">
+                        <h3>Alexis Thual</h3>
+                        <p>Dev / Data Scientist</p>
+                        <div class="social">
+                            <a target="_blank" href="https://github.com/alexis-thual"><i class="ti-github"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/alexis-thual-9a894178/"><i class="ti-linkedin"></i></a>
+                            <a target="_blank" href="https://twitter.com/alexisthual"><i class="ti-twitter-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="../assets/images/membres/arnaud-serret.jpg">
+                        <h3>Arnaud Serret-Larmande</h3>
+                        <p>Interne en Santé Publique, Data Scientist</p>
+                        <div class="social">
+                            <!-- <a target="_blank" href=""><i class="ti-github"></i></a> -->
+                            <a target="_blank" href="https://www.linkedin.com/in/arnaud-serret-larmande-5365b0127/"><i class="ti-linkedin"></i></a>
+                            <!-- <a target="_blank" href=""><i class="ti-twitter-alt"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="../assets/images/membres/charlotte-lang.jpg">
+                        <h3>Charlotte Lang</h3>
+                        <p>Relations Publiques</p>
+                        <div class="social">
+                            <!-- <a target="_blank" href=""><i class="ti-github"></i></a> -->
+                            <a target="_blank" href="https://www.linkedin.com/in/charlottelangsciencespo/"><i class="ti-linkedin"></i></a>
+                            <!-- <a target="_blank" href=""><i class="ti-twitter-alt"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="../assets/images/membres/corneliu-malciu.jpg">
+                        <h3>Corneliu Malciu</h3>
+                        <p>Scientifique</p>
+                        <div class="social">
+                            <a target="_blank" href="https://github.com/CorneliuMalciu"><i class="ti-github"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/corneliu-malciu-a4a820165/"><i class="ti-linkedin"></i></a>
+                            <a target="_blank" href="https://twitter.com/CorneliuMalciu"><i class="ti-twitter-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="../assets/images/membres/emeric-lemaire.jpg">
+                        <h3>Emeric Lemaire</h3>
+                        <p>Data scientist / Dev</p>
+                        <div class="social">
+                            <a target="_blank" href="https://github.com/KouakouVerde"><i class="ti-github"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/emeric-lemaire-379065a6/"><i class="ti-linkedin"></i></a>
+                            <a target="_blank" href="https://twitter.com/LemaireEmeric1"><i class="ti-twitter-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="../assets/images/membres/helene-lepetit.jpg">
+                        <h3>Hélène Lepetit</h3>
+                        <p>Interne en Santé Publique</p>
+                        <div class="social">
+                            <!-- <a target="_blank" href=""><i class="ti-github"></i></a> -->
+                            <a target="_blank" href="https://www.linkedin.com/in/hélène-lepetit-20a133179/"><i class="ti-linkedin"></i></a>
+                            <!-- <a target="_blank" href=""><i class="ti-twitter-alt"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="../assets/images/membres/theo-ryffel.jpg">
+                        <h3>Théo Ryffel</h3>
+                        <p>Data scientist / Dev</p>
+                        <div class="social">
+                            <a target="_blank" href="https://github.com/LaRiffle"><i class="ti-github"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/theo-ryffel/"><i class="ti-linkedin"></i></a>
+                            <!-- <a target="_blank" href=""><i class="ti-twitter-alt"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <h2><a href="/#projets">Retour aux projets</a></h2>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+</body>
+
+</html>
