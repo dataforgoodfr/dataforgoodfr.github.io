@@ -1,0 +1,22 @@
+I"�<p>Plateforme web de visualisation des dépenses et recettes de l’État</p>
+
+<hr />
+
+<h2 id="le-but">Le but</h2>
+
+<p>Le projet Liris est soutenu par le <a href="https://parlement-ouvert.fr">Bureau Ouvert</a> et vise à rendre plus transparente l’information relative aux finances publiques. Le but est double : il s’agit de récolter et nettoyer l’information sous-jacente et de construire un outil de visualisation pour ces données. Une importance toute particulière a été donnée au fait de pouvoir comparer ces informations dans le temps.</p>
+
+<h2 id="quavons-nous-produit-">Qu’avons-nous produit ?</h2>
+
+<h3 id="les-deux-visualisations-des-montants">Les deux visualisations des montants</h3>
+
+<p>Lors de ce projet, nous avons principalement produit deux applications.</p>
+
+<p><a href="https://budget.parlement-ouvert.fr">La première</a> permet de visualiser les recettes de l’État ainsi que le Projet de Loi de Finances tel qu’il est présenté aux parlementaires sous forme de partition. Il est possible de naviguer dans les différentes dépenses et de visualiser clairement à quoi sont employées les dépenses de l’État, à une année donnée et entre différentes années.</p>
+
+<p><a href="https://budget-ouvert.github.io/simpleRainbowViz/">La seconde</a> permet la visualisation du Projet de Loi de Finances 2019 et sa comparaison explicite avec le PLF 2018, où l’on voit clairement quels crédits ont été augmentés ou baissés.</p>
+
+<h3 id="un-algorithme-de-comparaison-entre-deux-années-consécutives-du-budget">Un algorithme de comparaison entre deux années consécutives du budget</h3>
+
+<p>Une partie importante du travail concerne l’implémentation d’un <a href="https://github.com/budget-ouvert/nlp-engine">algorithme</a> de comparaison de deux graphes. Cet algorithme permet de suivre les postes de dépense dans le temps et ainsi d’être capable de suivre les variation d’une dépense / recette sur plusieurs années.</p>
+:ET
