@@ -24,7 +24,7 @@ collections:
   members:
     output: true
 
-number_of_season: 5
+number_of_season: 6
 
 plugins:
   - jekyll-seo-tag
