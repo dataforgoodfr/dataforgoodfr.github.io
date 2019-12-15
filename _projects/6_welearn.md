@@ -14,4 +14,4 @@ Jusqu’à présent, cette phase d’extraction s’effectuait à l’aide de
 2. La seconde se basait sur l’extraction de mots-clés via l’algorithme SGRank. Cette approche statistique s’avérait plus robuste que la première, mais le rapprochement des mots-clés avec les concepts de connaissance restait assez peu précis.
 L’une des pistes de recherche que nous souhaitions donc explorer consistait à reprendre la question d’extraction des concepts de connaissance sous la forme d’un problème d’apprentissage supervisé, plus précisément de classification multi-label extrême (​Extreme Multi-Label Text Classification​).
 
-> Il s’agissait donc de construire un modèle qui prendrait en entrée le texte d’une ressource en ligne et donnerait en sortie les catégories de Wikipédia auxquelles celle-ci serait le plus susceptible d’appartenir, parmi une liste de plusieurs centaines de milliers.
+Il s’agissait donc de construire un modèle qui prendrait en entrée le texte d’une ressource en ligne et donnerait en sortie les catégories de Wikipédia auxquelles celle-ci serait le plus susceptible d’appartenir, parmi une liste de plusieurs centaines de milliers.

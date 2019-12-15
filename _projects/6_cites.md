@@ -10,10 +10,9 @@ image: 6_cites.png
 
 Le trafic d’espèces menacées, animales ou végétales, est le quatrième commerce illégal dans le monde après celui des armes, des drogues et des médicaments. Il permet de financer le terrorisme dans certains pays et contribue à l’extinction des espèces. En réponse, un cadre international de collaboration a été mis en place, la CITES, qui signifie Convention sur le commerce international des espèces de faune et de flore sauvages menacées d’extinction.
 
-<BR> 
 La Convention CITES définit une liste des espèces menacées par pays, ainsi que les mesures de protection associées à appliquer, comme l’interdiction de la vente, ou la délivrance de certificats ou permis d’importation.</BR>
-
-> Ce projet a pour objectif de lutter contre le trafic d'espèces protégées en informant de manière précise le statut de protection des espèces ainsi que les risques encourus en cas d'actes de commerce commis sur ces espèces à travers le monde.
+ 
+Ce projet a pour objectif de lutter contre le trafic d'espèces protégées en informant de manière précise le statut de protection des espèces ainsi que les risques encourus en cas d'actes de commerce commis sur ces espèces à travers le monde.
 
 ## Portage institutionnel en France
 
@@ -39,6 +38,8 @@ Nous avons également créé une nouvelle propriété sur [Wikidata](https://www
 
 Nous souhaitons également à travers ce projet, sensibiliser le public (scientifique et technique) à la contribution aux communs numériques, et proposer des modes de contribution à Wikidata en améliorant les données sur les espèces avec des informations comprenant par exemple des illustrations ou photos d’espèces libres de droit, ou de pouvoir croiser des bases de données comme Species+  sur Wikidata pour enrichir la connaissance disponible sur le sujet de manière globale. 
 
-![](img/6_cites_bis.png)
+<p align="center">
+    <img align="center" src="img/6_cites_bis.png" alt="" />
+</p>
 
 
