@@ -39,7 +39,7 @@ Nous avons également créé une nouvelle propriété sur [Wikidata](https://www
 Nous souhaitons également à travers ce projet, sensibiliser le public (scientifique et technique) à la contribution aux communs numériques, et proposer des modes de contribution à Wikidata en améliorant les données sur les espèces avec des informations comprenant par exemple des illustrations ou photos d’espèces libres de droit, ou de pouvoir croiser des bases de données comme Species+  sur Wikidata pour enrichir la connaissance disponible sur le sujet de manière globale. 
 
 <p align="center">
-    <img align="center" src="img/6_cites_bis.png" alt="" />
+    <img align="center" src="https://dataforgood.fr/img/6_cites_bis.png" alt="" />
 </p>
 
 
