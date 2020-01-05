@@ -1,10 +1,10 @@
 ---
-layout: project  
-title: EurosForDocs  
-description: Etudier les Déclarations Publiques d'Intérêt  
-season: 6  
-repository: https://gitlab.com/eurosfordocs/dpi  
-website: https://www.eurosfordocs.fr/  
+layout: project
+title: EurosForDocs
+description: Etudier les Déclarations Publiques d'Intérêt mettre en lumière les stratégies d'influence des industriels.
+season: 6
+repository: https://gitlab.com/eurosfordocs/dpi
+website: https://www.eurosfordocs.fr/
 image: 6_eurosfordocs.png
 ---
 
