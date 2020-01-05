@@ -1,10 +1,10 @@
 ---
-layout: project  
-title: Microfaune  
-description: Détection d'oiseaux à base de deep learning  
+layout: project
+title: Microfaune
+description: Détection d'oiseaux à base de deep learning   pour améliorer l'évaluation de la biodiversité humaine.
 season: 6
-repository: https://github.com/hadrienj/microfaune  
-website: 
+repository: https://github.com/hadrienj/microfaune
+website:
 image: 6_microfaune.png
 ---
 
@@ -34,7 +34,7 @@ Pour cela, la plateforme d’annotation que nous avons construite sous forme de 
     <img align="center" title="Interface d’annotation" src="https://dataforgood.fr/img/6_microfaune_2.png" alt="Figure 2" />
 </p>
 
-La plateforme d’annotation permet aussi d’afficher les prédictions du modèle en plus du spectrogramme du son. Cela permet une évaluation qualitative des modèles (et donc la compréhension des erreurs permettant une itération sur les modèles ou la comparaison des modèles). 
+La plateforme d’annotation permet aussi d’afficher les prédictions du modèle en plus du spectrogramme du son. Cela permet une évaluation qualitative des modèles (et donc la compréhension des erreurs permettant une itération sur les modèles ou la comparaison des modèles).
 
 ### 2. Pré-traitement et Modèle
 
@@ -54,7 +54,7 @@ Le modèle permet d’entraîner à partir de données globales (extraits de 10s
 ### 3. Base de données
 
 La base de données est labélisée grâce à la plateforme d’annotation et permet d’obtenir des labels temporels indiquant le début et la fin des chants d’oiseaux. Cela est une amélioration par rapport aux bases de données existantes qui comportent des labels à l’échelle de l’extrait sonore (10 secondes).
-De manière à assurer la qualité de la base de données, un système de review est utilisé sur la plateforme d’annotation. 
+De manière à assurer la qualité de la base de données, un système de review est utilisé sur la plateforme d’annotation.
 Les données qui n’ont pas encore été labellisées le seront par notre équipe et également par le biais de crowd-sourcing.
 
 ## Prochaines étapes
