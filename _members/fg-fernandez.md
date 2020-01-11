@@ -8,4 +8,5 @@ avatar: fg-fernandez.jpg
 projects:
     - 4_diafoirus
     - 5_phenix
+    - 6_pyronear
 ---
