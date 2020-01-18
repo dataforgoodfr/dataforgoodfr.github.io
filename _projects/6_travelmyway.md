@@ -1,10 +1,10 @@
 ---
 layout: project
-title: TravelMyWay  
-description: Planification en un clic de trajets optimisés  
+title: TravelMyWay
+description: Planification en un clic de trajets optimisés en porte à porte pour faire des choix de transport éclairés.
 season: 6
-repository: https://github.com/dataforgoodfr/batch6_travelmyway  
-website: travelmyway.io  
+repository: https://github.com/dataforgoodfr/batch6_travelmyway
+website: travelmyway.io
 image: 6_travelmyway.png
 ---
 
@@ -15,7 +15,7 @@ TravelMyWay est un comparateur “en 1 clic” des moyens de transports disponib
 - le temps disponible pour travailler et/ou se détendre durant le trajet.
 
 Une fois son trajet optimal identifié, l’utilisateur peut le réserver et compenser son impact environnemental.
- 
+
 Cette offre permet à nos utilisateurs
 - de réduire leur empreinte carbone grâce à une réduction des déplacements et à une utilisation plus fréquente de moyens de transports moins polluants ;
 - de mieux maîtriser leur budget transport grâce à une approche porte-à-porte de leurs déplacements ainsi qu’une optimisation de leurs fournisseurs de transports ;
