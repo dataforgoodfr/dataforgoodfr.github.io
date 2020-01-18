@@ -5792,6 +5792,15 @@ button:focus {
     color: #fff;
     border-color: #fff; }
 
+    .btn-pink-dg {
+  border: 2px solid #FA826F;
+  color: #FA826F !important;
+  background-color: #FA826F; }
+  .btn-outline-white:hover, .btn-outline-white:focus, .btn-outline-white:active, .btn-outline-white:active:focus, .btn-outline-white.active {
+    background-color: #FA826F;
+    color: #FA826F;
+    border-color: #FA826F; }
+
 .btn-black {
   background-color: #000; }
   .btn-black:hover {
