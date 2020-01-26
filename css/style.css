@@ -56,33 +56,66 @@ h5-header {
 
 .presentation-programme {
 text-align: center;
-
+margin:20px 0px;
+font-size: 25px
+/*justify-content: center;
+*/
 }
 .presentation-programme h2{
-font-weight: bold;;
+font-weight: bold;
+padding: 20px;
+/*display: inline-block;*/
 
 }
 
+.presentation-programme-content {
+     margin: auto;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
 
+.icons {
+  font-size: 50px;
+}
 
-
+.date-bold {
+font-weight: bold;
+}
 
 .programme-unique {
-display: flex;
 justify-content: center;
+background-color: rgba(145, 245, 173, 0.16);
+padding-top: 20px;
+padding-bottom: 20px;
 
 }
+
+.deep-green {
+  background-color: #91f5ad !important; }
 
 .btn-deep-green {
   background-color: #91f5ad; }
   .btn-deep-green:hover {
-    background-color: #ffb39e !important; }
+    background-color: #52de97 !important; }
   .btn-deep-green:focus, .btn-deep-green:active, .btn-deep-green.active {
     background-color: #c35243 !important; }
   .btn-deep-green.dropdown-toggle {
     background-color: #91f5ad !important; }
     .btn-deep-green.dropdown-toggle:hover, .btn-deep-green.dropdown-toggle:focus {
       background-color: #91f5ad !important; }
+
+.btn-white {
+  background-color: #fff; }
+  .btn-white:hover {
+    background-color: white !important; }
+  .btn-white:focus, .btn-white:active, .btn-white.active {
+    background-color: #d9d9d9 !important; }
+  .btn-white.dropdown-toggle {
+    background-color: #fff !important; }
+    .btn-white.dropdown-toggle:hover, .btn-white.dropdown-toggle:focus {
+      background-color: white !important; }
 
 .background-climate {
   background-image: cover;
@@ -112,7 +145,7 @@ background-color: #ffffff;
     margin: 40px;
 border-radius: 8px;
 
-  font-size: 40 px;
+  font-size: 35 px;
   font-weight: bold;
   font-stretch: condensed;
   font-style: normal;
@@ -123,10 +156,49 @@ border-radius: 8px;
 
 }
 
+.argument p {
+  margin-top: 60px;
+}
+
 @media (min-width: 992px) {
   .argument {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+.tryptique-programme {
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin : 0 20;
+  justify-content: center;
+
+}
+
+.programme-unique h2{
+font-weight: bold;
+text-align: center;
+padding-top: 20px;
+
+}
+
+.green-background {
+background-color: rgba(145, 245, 173, 0.16);
+height: 250px !important;
+
+}
+
+.green-background-light {
+background-color: rgba(145, 245, 173, 0.16);
+margin: 0;
+padding: 20px;
+;
+
+}
+
+.deroule-du-programme {
+  text-align: center;
+margin:20px 0px;
 }
 
 
