@@ -50,3 +50,83 @@ h5-header {
         height: 700px;
     }
 }
+
+
+/* For the climate page */
+
+.presentation-programme {
+text-align: center;
+
+}
+.presentation-programme h2{
+font-weight: bold;;
+
+}
+
+
+
+
+
+.programme-unique {
+display: flex;
+justify-content: center;
+
+}
+
+.btn-deep-green {
+  background-color: #91f5ad; }
+  .btn-deep-green:hover {
+    background-color: #ffb39e !important; }
+  .btn-deep-green:focus, .btn-deep-green:active, .btn-deep-green.active {
+    background-color: #c35243 !important; }
+  .btn-deep-green.dropdown-toggle {
+    background-color: #91f5ad !important; }
+    .btn-deep-green.dropdown-toggle:hover, .btn-deep-green.dropdown-toggle:focus {
+      background-color: #91f5ad !important; }
+
+.background-climate {
+  background-image: cover;
+}
+
+.card-prog {
+color: solid black;
+font-size: 25px;
+ padding: 10px;
+  justify-content: center;
+
+}
+
+.card-front{
+height: 250px !important;
+background-color: #91f5ad;
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin : 0 20;
+}
+
+.argument {
+font-style: bold;
+font-size: 50px;
+background-color: #ffffff;
+    margin: 40px;
+border-radius: 8px;
+
+  font-size: 40 px;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.23px;
+  text-align: center;
+  color: #191919;
+
+}
+
+@media (min-width: 992px) {
+  .argument {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+

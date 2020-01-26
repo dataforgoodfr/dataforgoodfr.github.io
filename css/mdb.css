@@ -1,3 +1,4 @@
+
 /*!
  * Material Design for Bootstrap 4
  * Version: MDB FREE 4.4.3
@@ -1214,6 +1215,9 @@
 
 .bg-deep-orange {
   background-color: #ff7043 !important; }
+
+  .bg-deep-green {
+  background-color: #93f5af !important; }
 
 .bg-brown {
   background-color: #795548 !important; }
@@ -5702,6 +5706,20 @@ button:focus {
     background-color: #fa826f !important; }
     .btn-deep-orange.dropdown-toggle:hover, .btn-deep-orange.dropdown-toggle:focus {
       background-color: #ffb39e !important; }
+
+
+
+.btn-green-climate {
+  background-color: #795548; }
+  .btn-brown:hover {
+    background-color: #896052 !important; }
+  .btn-brown:focus, .btn-brown:active, .btn-brown.active {
+    background-color: #49332b !important; }
+  .btn-brown.dropdown-toggle {
+    background-color: #795548 !important; }
+    .btn-brown.dropdown-toggle:hover, .btn-brown.dropdown-toggle:focus {
+      background-color: #896052 !important; }
+
 
 .btn-outline-deep-orange {
   border: 2px solid #ff7043;
