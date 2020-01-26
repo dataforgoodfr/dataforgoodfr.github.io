@@ -22,14 +22,14 @@ section.dark-section {
 
 /* For the intro section */
 .top-nav-collapse {
-    background-color: #fa826f !important;
+    background-color: #fa826f ;
 }
 .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
+    background: transparent ;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background: #fa826f !important;
+        background: #fa826f ;
     }
 }
 h1-header {
@@ -67,6 +67,8 @@ padding: 20px;
 /*display: inline-block;*/
 
 }
+
+
 
 .presentation-programme-content {
      margin: auto;
