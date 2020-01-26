@@ -127,7 +127,7 @@ padding-bottom: 20px;
 color: solid black;
 font-size: 25px;
  padding: 10px;
-  justify-content: center;
+  text-align: center;
 
 }
 
@@ -193,7 +193,7 @@ height: 250px !important;
 .green-background-light {
 background-color: rgba(145, 245, 173, 0.16);
 margin: 0;
-padding: 20px;
+padding-bottom: 30px;
 ;
 
 }
