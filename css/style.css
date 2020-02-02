@@ -223,6 +223,10 @@ padding: 30px;
 
 }
 
+.small-em {
+font-size: 1.5em;
+}
+
 .backgound-climate{
   object-fit:cover;
 }
