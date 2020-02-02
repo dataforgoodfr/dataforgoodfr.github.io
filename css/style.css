@@ -151,11 +151,12 @@ padding-bottom: 20px;
 
 .card-prog {
 color: solid black;
-font-size: 2em;
+font-size: 1.5em;
  padding: 10px;
   text-align: center;
 
 }
+
 
 .text-align {
   text-align:center;
@@ -239,6 +240,10 @@ flex-direction: column;
 width: 100%;
 flex: 1;
     }
+  }
+
+  .presentation-programme h2 {
+  font-size: 2em;
   }
 
   @media (max-width: 800px) {
