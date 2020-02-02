@@ -157,9 +157,14 @@ font-size: 1em;
 
 }
 
+.text-align {
+  text-align:center;
+}
+
 .cards-front {
 background-color: #91f5ad;
 display: flex;
+flex: 1;
 
 }
 
@@ -167,7 +172,7 @@ display: flex;
 font-style: bold;
 font-size: 1.3em;
 background-color: #ffffff;
-   /* margin: 40px;*/
+    margin: 40px;
 border-radius: 8px;
   padding:15px;
   font-weight: bold;
@@ -179,7 +184,7 @@ border-radius: 8px;
   text-align: center;
   color: #191919;
   flex: 1;
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 
 }
 
