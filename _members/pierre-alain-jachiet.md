@@ -7,4 +7,5 @@ role: Data Scientist
 avatar: pierre-alain-jachiet.jpg
 projects:
     - 5_eurosfordocs
+    - 6_eurosfordocs
 ---
