@@ -5,7 +5,7 @@ description: Détecter les émissions de CO2 à la surface terrestre par observa
 season: 7
 repository: https://github.com/dataforgoodfr/batch7_satellite_ges
 website: http://oco2.courty.fr/
-image:
+image: OCO2.png
 ---
 
 ## CO2 Plume detector
