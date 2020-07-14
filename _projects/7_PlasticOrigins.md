@@ -5,7 +5,7 @@ description: Projet de science participative qui utilise l'IA pour cartographier
 season: 7
 repository: https://github.com/surfriderfoundationeurope
 website: https://surfrider.eu/
-image:
+image: 7_surfrider.png
 ---
 
 

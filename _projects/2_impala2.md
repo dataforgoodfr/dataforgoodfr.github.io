@@ -13,7 +13,6 @@ organizations:
 
 ## Aider les jeunes à s'orienter.
 
-## Le projet :
 
 Impala est une start-up sociale qui développe des outils numériques d'accompagnement à l'orientation pour les collégiens et lycéens.
 
