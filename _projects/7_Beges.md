@@ -5,7 +5,7 @@ description: Calcul des émissions liées aux consommations énergétiques des b
 season: 7
 repository: https://github.com/dataforgoodfr/batch7_beges
 website: http://beges.ecolabdata.fr/
-image:
+image: Beges.png
 ---
 
 L’Outil-BEGES a   pour   vocation   de   permettre   l’estimation   et   l’analyse   desémissions de gaz à effet de serre d’une organisation. 
