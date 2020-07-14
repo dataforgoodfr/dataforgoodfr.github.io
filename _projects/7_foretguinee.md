@@ -15,7 +15,7 @@ En résumé, la dégradation forestière est une réalité écologique. Les for�
 </br>
 
 ## Pourquoi sont-elles si peu évaluées ?
-</BR>
+<br>
 Dans les projets d'occupation du sol, seule l'analyse d'un photo-interprète peut prendre compte à la fois de la physionomie et de la structure de la forêt, mais aussi du contexte dans lequel elle se trouve pour pouvoir trancher. C'est un procédé robuste mais extrêmement chronophage, et la délimitation des zones dégradées est totalement manuelle.
 *Une réponse collaborative et open-source
 Pour répondre à ce manque, nous proposons une solution de deep learning en imagerie satellitaire pour détecter les forêts dégradées en utilisant uniquement des outils open-sources (QGis, python) et des images satellites libres d'accès (Sentinel-2 de l'ESA). 
