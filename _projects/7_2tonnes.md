@@ -5,7 +5,7 @@ description: Un “serious game” pour comprendre les activités à mettre en p
 season: 7
 repository: https://github.com/2tons
 website: https://www.linkedin.com/company/comment-agir-pour-le-climat/ 
-image: 2tonnes.png
+image: 2tonnes3.jpeg
 ---
 
 ## POURQUOI CET ATELIER ?

@@ -4,7 +4,7 @@ title: Détecter les forêts dégradées
 description: Détecter les forêts dégradées de Guinée et du Congo par imagerie satellite haute résolution et deep learning.
 season: 7
 repository: https://github.com/dataforgoodfr/batch7_forets_guinee
-image: guinee.jpeg
+image: guinee2.jpg
 ---
 
 ## Les forêts dégradées
