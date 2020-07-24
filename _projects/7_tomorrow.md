@@ -3,9 +3,9 @@ layout: project
 title: Tomorrow - Impact des plats
 description: Estimer l'impact carbone d'un plat à partir d'une simple photo.
 season: 7
-repository: 
+repository:
 website: https://www.tmrow.com/
-image: tmrow2.jpg
+image: 7_tomorrow.jpg
 ---
 
 ## Tomorrow
@@ -20,7 +20,7 @@ Les projets de Tomorrow sont en grande partie open-source : https://github.com/t
 
 ## Le projet
 
-Le projet consiste à estimer l'impact carbone d'un plat à partir d'une photo prise par un utilisateur. 
+Le projet consiste à estimer l'impact carbone d'un plat à partir d'une photo prise par un utilisateur.
 
 Afin d'accompagner le plus facilement les personnes, le projet a pour but de simplifier au maximum les manipulations pour l'utilisateur en ne lui faisant uploader qu'une photo de son plat et en retournant la liste des ingrédients ainsi que leurs impacts carbones.
 

@@ -1,8 +1,8 @@
 ---
 layout: project
-title: 
-description: 
+title: RSE
+description:
 season: 7
-repository: 
+repository:
 image:
 ---

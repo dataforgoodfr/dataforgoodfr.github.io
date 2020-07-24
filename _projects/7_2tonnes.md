@@ -4,8 +4,8 @@ title: 2tonnes
 description: Un “serious game” pour comprendre les activités à mettre en place pour limiter le changement climatique
 season: 7
 repository: https://github.com/2tons
-website: https://www.linkedin.com/company/comment-agir-pour-le-climat/ 
-image: 2tonnes3.jpeg
+website: https://www.linkedin.com/company/comment-agir-pour-le-climat/
+image: 7_2tonnes.jpeg
 ---
 
 ## POURQUOI CET ATELIER ?
@@ -14,7 +14,7 @@ Par exemple, pour limiter le changement climatique à 1,5°C, il faut notamment 
 
 Face à un tel défi, citoyens et décideurs se posent des questions concrètes : A l’échelle individuelle, mes gestes ont-il de l’impact ? Si oui, quelles actions ont le plus d’impact ? Par exemple, faut-il mieux baisser le chauffage de mon logement, ou faire des économies d’électricité ? Mes actions individuelles doivent s’accompagner d’actions collectives de la part des collectivités et des entreprises. A leur échelle, quelles actions ont le plus d’impact ? Par exemple, faut-il mieux déployer les éoliennes ou la méthanisation ? Enfin, en tant qu’individu n’étant pas directement un décideur, comment influencer les décisions collectives ? Comment influencer d’autres citoyens, et comment influencer les décideurs ?
 
-De telles questions sans réponses constituent un frein à l’action efficace pour le climat. L’atelier 2tonnes a pour objectif d’aider les participants à trouver des réponses. 
+De telles questions sans réponses constituent un frein à l’action efficace pour le climat. L’atelier 2tonnes a pour objectif d’aider les participants à trouver des réponses.
 
 ## LE PRINCIPE DU JEU
 Durant cet atelier, les participants jouent à un “serious game”. Leur objectif est d’atteindre les 2tCO2e/an/p en 2050 pour l’ensemble de la population. Pour cela, ils devront faire des choix d’actions. Des cartes actions leur seront proposées, et ils devront choisir les actions pour maximiser leur réduction d’impact tout en respectant certaines contraintes du jeu. Les impacts de leurs choix seront calculés de façon personnalisés et en direct grâce à un simulateur et visualisés grâce à un vidéoprojecteur.
