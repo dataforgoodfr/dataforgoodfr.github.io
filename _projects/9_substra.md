@@ -5,5 +5,5 @@ description: Création d'une formation à la Data Science Responsable
 season: 9
 repository:
 website:
-image:
+image: 9_substra.jpg
 ---

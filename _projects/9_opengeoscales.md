@@ -5,5 +5,5 @@ description: Fournir un point d'accès standardisé à des données environnemen
 season: 9
 repository:
 website:
-image:
+image: 9_opengeoscales.jpg
 ---

@@ -5,5 +5,5 @@ description: Comprendre les risques de famine en Mauritanie en croisant des donn
 season: 9
 repository:
 website:
-image:
+image: 9_geowatchlabs.jpg
 ---

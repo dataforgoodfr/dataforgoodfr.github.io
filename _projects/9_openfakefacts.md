@@ -5,5 +5,5 @@ description: Développement d'algorithmes de détection de fake news adapté au 
 season: 9
 repository:
 website:
-image:
+image: 9_openfakefacts.jpg
 ---

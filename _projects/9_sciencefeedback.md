@@ -5,5 +5,5 @@ description: Développement d'un système et d'outils pour aider au fact-checkin
 season: 9
 repository:
 website:
-image:
+image: 9_sciencefeedback.jpg
 ---

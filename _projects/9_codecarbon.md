@@ -5,5 +5,5 @@ description: Contribution à une librairie open source de mesure de l'empreinte 
 season: 9
 repository:
 website:
-image:
+image: 9_codecarbon.jpg
 ---

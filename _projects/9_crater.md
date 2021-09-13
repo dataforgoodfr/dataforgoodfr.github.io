@@ -5,5 +5,5 @@ description: Analyse de la résilience alimentaire du territoire français
 season: 9
 repository:
 website:
-image:
+image: 9_crater.jpg
 ---

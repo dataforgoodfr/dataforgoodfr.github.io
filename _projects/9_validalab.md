@@ -5,5 +5,5 @@ description: Développement d’une application grand public qui accélère la v
 season: 9
 repository:
 website:
-image:
+image: 9_validalab.jpg
 ---

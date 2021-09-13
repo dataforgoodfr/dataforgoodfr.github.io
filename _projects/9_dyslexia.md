@@ -5,5 +5,5 @@ description: Développement d'algorithmes de scan de devoirs et d'aide à la lec
 season: 9
 repository:
 website:
-image:
+image: 9_dyslexia.jpg
 ---
