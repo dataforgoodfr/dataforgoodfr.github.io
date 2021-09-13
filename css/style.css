@@ -14,6 +14,8 @@ section.dark-section {
   color: #fff;
 }
 
+.deep-dfg-new {
+  background-color: #1b8489 !important; 
 }
 
 :target:before {
@@ -25,14 +27,14 @@ section.dark-section {
 
 /* For the intro section */
 .top-nav-collapse {
-    background-color: #fa826f ;
+    background-color: #2edce5 ;
 }
 .navbar:not(.top-nav-collapse) {
     background: transparent ;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background: #fa826f ;
+        background: #2edce5 ;
     }
 }
 h1-header {
@@ -83,6 +85,20 @@ padding: 20px;
 /*display: inline-block;*/
 
 }
+
+
+.btn-dfg-new {
+  background-color: #1b8489; }
+  .btn-dfg-new:hover {
+    background-color: #2edce5 !important; }
+  .btn-dfg-new:focus, .btn-dfg-new:active, .btn-dfg-new.active {
+    background-color: #1b8489 !important; }
+  .btn-dfg-new.dropdown-toggle {
+    background-color: #1b8489 !important; }
+    .btn-dfg-new.dropdown-toggle:hover, .btn-dfg-new.dropdown-toggle:focus {
+      background-color: #2edce5 !important; }
+
+
 
 
 
