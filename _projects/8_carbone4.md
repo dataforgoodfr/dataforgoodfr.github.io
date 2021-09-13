@@ -5,5 +5,5 @@ description: Analyser les informations des entreprises pour comprendre leur impa
 season: 8
 repository:
 website:
-image:
+image: 8_carbone4.jpg
 ---

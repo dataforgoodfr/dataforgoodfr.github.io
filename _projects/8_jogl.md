@@ -5,5 +5,5 @@ description: Créer une plateforme pour associer des projets scientifiques avec 
 season: 8
 repository:
 website:
-image:
+image: 8_jogl.jpg
 ---

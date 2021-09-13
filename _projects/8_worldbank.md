@@ -5,5 +5,5 @@ description: Prédire et chiffrer l'impact des catastrophes naturelles dues au c
 season: 8
 repository:
 website:
-image:
+image: 8_worldbank.jpg
 ---

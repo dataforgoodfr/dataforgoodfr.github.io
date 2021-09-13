@@ -5,5 +5,5 @@ description: Développer un algorithme d'IA pour classifier les oiseaux de la ci
 season: 8
 repository:
 website:
-image:
+image: 8_microfaune.jpg
 ---

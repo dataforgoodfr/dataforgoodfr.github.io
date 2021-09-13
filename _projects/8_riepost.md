@@ -5,5 +5,5 @@ description: Créer une plateforme pour lancer des consultations citoyennes sur 
 season: 8
 repository:
 website:
-image:
+image: 8_riepost.jpg
 ---

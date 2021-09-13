@@ -5,5 +5,5 @@ description: Développer une plateforme complète pour détecter les départs pr
 season: 8
 repository:
 website:
-image:
+image: 8_pyronear.jpg
 ---

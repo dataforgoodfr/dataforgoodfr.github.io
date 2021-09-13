@@ -5,5 +5,5 @@ description: Analyser les données financières des entreprises pour mesurer leu
 season: 8
 repository:
 website:
-image:
+image: 8_impactscore.jpg
 ---

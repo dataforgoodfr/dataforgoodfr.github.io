@@ -5,5 +5,5 @@ description: Créer un référentiel biodiversité pour aider la recherche en bi
 season: 8
 repository:
 website:
-image:
+image: 8_ceebios.jpg
 ---

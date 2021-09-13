@@ -5,5 +5,5 @@ description: Créer un chatbot pour aider au fact-check des informations sur le 
 season: 8
 repository:
 website:
-image:
+image: 8_accurolab.jpg
 ---

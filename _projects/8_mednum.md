@@ -5,5 +5,5 @@ description: Développer une plateforme pour visualiser et comprendre l'accès a
 season: 8
 repository:
 website:
-image:
+image: 8_mednum.jpg
 ---

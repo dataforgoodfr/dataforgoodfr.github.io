@@ -5,5 +5,5 @@ description: Ecrire des ressources concrètes pour aider les Data Scientists à 
 season: 8
 repository:
 website:
-image:
+image: 8_substra.jpg
 ---
