@@ -5,7 +5,7 @@ twitter:
   username: dataforgoodfr
 facebook:
   publisher: dataforgoodfr
-logo: /img/logo.png
+logo: /img/logo-dfg-new.png
 social:
   links:
     - https://twitter.com/dataforgoodfr
@@ -24,7 +24,7 @@ collections:
   members:
     output: true
 
-number_of_season: 7
+number_of_season: 9
 
 plugins:
   - jekyll-seo-tag
