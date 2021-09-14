@@ -60,14 +60,14 @@ h5-header {
 /* For the climate page */
 
 .top-nav-collapse-green {
-    background-color: #91f5ad ;
+    background-color: #1b8489 ;
 }
 .navbar:not(.top-nav-collapse-green) {
     background: transparent ;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse-green) {
-        background: #91f5ad ;
+        background: #1b8489 ;
     }
 }
 
