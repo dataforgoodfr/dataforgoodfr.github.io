@@ -2,7 +2,7 @@
 fullname: Milton Minervino
 linkedin: milton-minervino
 github: miltminz
-role: data scientist
+role: Data Scientist
 avatar: milton-minervino.png
 projects:
     - 8_pyronear
