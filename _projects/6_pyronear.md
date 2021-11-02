@@ -3,8 +3,8 @@ layout: project
 title: Pyronear  
 description: Détection précoce de départs de feux de forêt
 season: 6
-repository: https://github.com/frgfm/PyroNear
-website: https://frgfm.github.io/PyroNear
+repository: https://github.com/pyronear
+website: https://pyronear.org/
 image: 6_pyronear.png
 ---
 
