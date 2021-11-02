@@ -1,10 +1,10 @@
 ---
 fullname: Bruno Lenzi
 twitter:
-linkedin:
+linkedin: bruno-lenzi
 github: blenzi
-role:
-avatar:
+role: Data Scientist
+avatar: bruno-lenzi.jpg
 projects:
     - 6_pyronear
 ---
