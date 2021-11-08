@@ -3,8 +3,9 @@ fullname: Alexis de Pampelonne
 twitter: allezalex
 linkedin: alexisdep
 github: allezalex
-role: Team Communication
+role: Étudiant
 avatar: alexis-de-pampelonne.jpg
 projects:
+    - 8_worldbank
     - 8_pyronear
 ---
