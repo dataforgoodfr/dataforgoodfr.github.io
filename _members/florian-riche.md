@@ -1,10 +1,11 @@
 ---
 fullname: Florian Riché
-twitter:
-linkedin:
-github:
+twitter: FlorianRiche
+linkedin: florianriche
+github: florianriche
 role: Data scientist
-avatar:
+avatar: florian-riche.jpg
 projects:
     - 1_impala
+    - 8_pyronear
 ---

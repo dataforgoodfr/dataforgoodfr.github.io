@@ -7,4 +7,5 @@ role: Head of Data & Analytics
 avatar: sebastien-elmaleh.jpg
 projects:
     - 6_pyronear
+    - 8_pyronear
 ---

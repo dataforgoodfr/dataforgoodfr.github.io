@@ -9,4 +9,5 @@ projects:
     - 4_diafoirus
     - 5_phenix
     - 6_pyronear
+    - 8_pyronear
 ---

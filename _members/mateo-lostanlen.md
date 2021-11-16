@@ -8,4 +8,5 @@ avatar: mateo-lostanlen.jpg
 projects:
     - 4_diafoirus
     - 6_pyronear
+    - 8_pyronear
 ---
