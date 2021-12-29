@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Coucou Data For Good !","permalink":"/blog/welcome2"},{"title":"Welcome","permalink":"/blog/welcome"}]}')}}]);

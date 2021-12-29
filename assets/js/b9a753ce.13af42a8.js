@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[689],{2509:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/data-for-good","name":"Data For Good","count":1,"permalink":"/blog/tags/data-for-good"}')}}]);
