@@ -68,12 +68,12 @@ const teamList = [
   {src:"img/team/theo.jpg","name":"Théo Alves Da Costa","role":"Coordinateur","contact":"https://www.linkedin.com/in/th%C3%A9o-alves-da-costa-09397a82/"},
   {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
   {src:"img/team/benjamin.png","name":"Benjamin Rouif","role":"Coordinateur","contact":"https://www.linkedin.com/in/brouif/"},
+  {src:"img/team/lou.jpg","name":"Lou Welgryn","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lou-welgryn-460434b0/"},
   {src:"img/team/mickael.jpg","name":"Mickael Fine","role":"Coordinateur","contact":"https://www.linkedin.com/in/mickaelfine/"},
   {src:"img/team/josephine.jpg","name":"Joséphine Lecoq-Vallon","role":"Coordinatrice","contact":"https://www.linkedin.com/in/josephine-lecoq-vallon/"},
   {src:"img/team/clement.jfif","name":"Clément Mayer","role":"Coordinateur","contact":"https://www.linkedin.com/in/cl%C3%A9ment-mayer-02a61216/"},
   {src:"img/team/margaux.jpg","name":"Margaux David","role":"Designeuse","contact":"https://www.linkedin.com/in/margauxdavid/"},
   {src:"img/team/eloi.png","name":"Eloi Pérignon","role":"Communication & RP","contact":"https://www.linkedin.com/in/eloi-perignon/"},
-  {src:"img/team/lou.jpg","name":"Lou Welgryn","role":"Conseil des sages","contact":"https://www.linkedin.com/in/lou-welgryn-460434b0/"},
   {src:"img/team/fred.png","name":"Frédéric Bardolle","role":"Conseil des sages","contact":"https://www.linkedin.com/in/fbardolle/"},
 ]
 
