@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[7536],{4012:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/biodiversite","name":"Biodiversit\xe9","count":4,"permalink":"/projects/tags/biodiversite"}')}}]);

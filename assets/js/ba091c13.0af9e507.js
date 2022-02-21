@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6213],{3608:function(e){e.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/citoyennete","name":"Citoyennet\xe9","count":7,"permalink":"/projects/tags/citoyennete"}')}}]);

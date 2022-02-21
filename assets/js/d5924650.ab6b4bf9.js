@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6137],{1507:function(t){t.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/monthly-marty-1","name":"Monthly Marty 1","count":2,"permalink":"/projects/tags/monthly-marty-1"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[556],{5946:function(e){e.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/resilience-alimentaire","name":"R\xe9silience alimentaire","count":3,"permalink":"/projects/tags/resilience-alimentaire"}')}}]);

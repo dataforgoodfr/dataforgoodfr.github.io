@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[8694],{5201:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/sante","name":"Sant\xe9","count":7,"permalink":"/projects/tags/sante"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[7919],{4940:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/dashboarding","name":"Dashboarding","count":4,"permalink":"/projects/tags/dashboarding"}')}}]);

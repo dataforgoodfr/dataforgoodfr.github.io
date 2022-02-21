@@ -4,16 +4,508 @@
         <title>Data For Good Blog</title>
         <link>https://your-docusaurus-test-site.com/projects</link>
         <description>Data For Good Blog</description>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://your-docusaurus-test-site.com/projects/first-blog-post</link>
-            <guid>first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <title><![CDATA[Avastar]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/avastar</link>
+            <guid>avastar</guid>
+            <pubDate>Mon, 01 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Création d'un outil open-source pour reprendre le contrôle de ses données personnelles éparpillées publiquement sur internet]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[BechdelAI]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/bechdelai</link>
+            <guid>bechdelai</guid>
+            <pubDate>Fri, 01 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mesure et automatisation du test de Bechdel et de la (sous)représentation féminine dans les oeuvres de fiction et le cinéma]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mission Transition]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/missiontransition</link>
+            <guid>missiontransition</guid>
+            <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Développement d'outils permettant de faciliter la tâche aux PME/TPEs pour trouver des aides à la transition écologique]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[OGRE]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/ogre</link>
+            <guid>ogre</guid>
+            <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Digitalisation d'un atelier de sensibilisation au mix énérgétique à la manière des ateliers 2Tonnes ou Fresque du Climat]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[CodeCarbon]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/codecarbon</link>
+            <guid>codecarbon</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Développement collaboratif d'un outil open-source permettant de mesurer l'empreinte carbone d'un code Python]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[CRATer]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/crater</link>
+            <guid>crater</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Dyslex'IA]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/dyslexia</link>
+            <guid>dyslexia</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Geowatch Labs]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/geowatchlabs</link>
+            <guid>geowatchlabs</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Labelia.org]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/labelia</link>
+            <guid>labelia</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Le référentiel de Data Science Responsable et de Confiance a été élaboré de manière ouverte et participative afin de permettre à chaque organisme d’évaluer son niveau de maturité sur ces nouveaux enjeux. L'objectif de ce projet visait à renforcer les ressources du référentiel d'évaluation.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Open Fake Facts]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/openfakefacts</link>
+            <guid>openfakefacts</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Open Geo Scales]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/opengeoscales</link>
+            <guid>opengeoscales</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Science Feedback]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/sciencefeedback</link>
+            <guid>sciencefeedback</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Validalab]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/validalab</link>
+            <guid>validalab</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Accurolab]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/accurolab</link>
+            <guid>accurolab</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Action Contre la Faim]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/actioncontrelafaim</link>
+            <guid>actioncontrelafaim</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Carbon4Finance]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/carbon4finance</link>
+            <guid>carbon4finance</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ceebios]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/ceebios</link>
+            <guid>ceebios</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ImpactScore]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/impactscore</link>
+            <guid>impactscore</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[JOGL]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/jogl</link>
+            <guid>jogl</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mednum]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/mednum</link>
+            <guid>mednum</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Microfaune]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/microfaune</link>
+            <guid>microfaune</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Pyronear]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/pyronear</link>
+            <guid>pyronear</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pyronear a créé au cours des différentes saisons de Data For Good un prototype pour détecter les départs d'incendie dans les forêts]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Riepost]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/riepost</link>
+            <guid>riepost</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Banque Mondiale]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/worldbank</link>
+            <guid>worldbank</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2tonnes]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/2tonnes</link>
+            <guid>2tonnes</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Un “serious game” pour comprendre les activités à mettre en place pour limiter le changement climatique]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Outil BEGES]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/beges</link>
+            <guid>beges</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Calcul des émissions liées aux consommations énergétiques des bâtiments et déplacements au sein d’une structure de l'État.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[CO2 Plume Detector]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/co2plumedetector</link>
+            <guid>co2plumedetector</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Détecter les émissions de CO2 à la surface terrestre par observations satellitaires]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Détection des forêts dégradées]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/foretsdegradees</link>
+            <guid>foretsdegradees</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Détecter les forêts dégradées de Guinée et du Congo par imagerie satellite haute résolution et deep learning.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Impact des plats]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/impactdesplats</link>
+            <guid>impactdesplats</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Estimer l'impact carbone d'un plat à partir d'une simple photo.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Open Food Facts]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/openfoodfacts</link>
+            <guid>openfoodfacts</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Et si scanner vos produits 🤳🥫 vous permettait de découvrir leur impact sur la 🌍🌿 planète ?]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Plastic Origins]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/plasticorigins</link>
+            <guid>plasticorigins</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Projet de science participative qui utilise l'IA pour cartographier la pollution plastique des fleuves et rivières de France et d'Europe.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[RSE Explorer]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/rseexplorer</link>
+            <guid>rseexplorer</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Un outil de veille de l'innovation environnementale et sociale, basé sur l'exploitation des rapports RSE de grandes entreprises françaises.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[CITES]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/cites</link>
+            <guid>cites</guid>
+            <pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Diffuser et sensibiliser le public aux règles du commerce des espèces de faune et flore sauvages menacées d’extinction.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Eczéma(s)]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/eczema</link>
+            <guid>eczema</guid>
+            <pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[L’eczéma est une maladie fréquente qui peut être grave et poser des problèmes thérapeutiques.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EurosForDocs]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/eurosfordocs</link>
+            <guid>eurosfordocs</guid>
+            <pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Etudier les Déclarations Publiques d'Intérêt mettre en lumière les stratégies d'influence des industriels.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[TravelMyWay]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/travelmyway</link>
+            <guid>travelmyway</guid>
+            <pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Planification en un clic de trajets optimisés en porte à porte pour faire des choix de transport éclairés.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[WeLearn]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/welearn</link>
+            <guid>welearn</guid>
+            <pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Améliorer la classification des ressources pédagogiques en ligne via une approche supervisée.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Arkhn]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/arkhn</link>
+            <guid>arkhn</guid>
+            <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Standardiser les données de santé en open-source]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Liris]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/liris</link>
+            <guid>liris</guid>
+            <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Consulter les recettes et les dépense de l'État]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Phénix]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/phenix</link>
+            <guid>phenix</guid>
+            <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Offrir une seconde vie aux invendus alimentaires]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Tableau de bord citoyen]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/tableaudebordcitoyen</link>
+            <guid>tableaudebordcitoyen</guid>
+            <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Du choc des idées jaillit l’information]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Transplant]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/transplant</link>
+            <guid>transplant</guid>
+            <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Améliorer la prédiction de l'autonomie respiratoire après transplantation pulmonaire]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Databox]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/databox</link>
+            <guid>databox</guid>
+            <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Améliorer la plateforme derrière data.gouv.fr.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[La Data en Clair]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/dataenclair</link>
+            <guid>dataenclair</guid>
+            <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Le 1er magazine web qui décrypte les enjeux éthiques de l'intelligence artificielle et des données.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Diafoirus]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/diafoirus</link>
+            <guid>diafoirus</guid>
+            <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Exploiter et rendre exploitable les données médicales.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mediachecker]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/mediachecker</link>
+            <guid>mediachecker</guid>
+            <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Automatisation du fact checking des affirmations des politiques tunisiens sur le site Birrasmi.tn, de Cahiers de la Liberté]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Redécoupage citoyen]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/redecoupagecitoyen</link>
+            <guid>redecoupagecitoyen</guid>
+            <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nous votons, nous dessinons !]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Serment d'Hippocrate pour Data Scientist]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/sermenthippocrate</link>
+            <guid>sermenthippocrate</guid>
+            <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Promouvoir un usage éthique des données.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[BimBamJob]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/bimbamjob</link>
+            <guid>bimbamjob</guid>
+            <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Cour des comptes]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/courdescomptes</link>
+            <guid>courdescomptes</guid>
+            <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Data4Tunisia]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/datafortunisia</link>
+            <guid>datafortunisia</guid>
+            <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Isara]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/isara</link>
+            <guid>isara</guid>
+            <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Deep learning pour la langue des signes.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Make.org]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/makeorg</link>
+            <guid>makeorg</guid>
+            <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[We answer]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/weanswer</link>
+            <guid>weanswer</guid>
+            <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Cresus]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/cresus</link>
+            <guid>cresus</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lutter contre le surrendetement.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Impala]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/impala</link>
+            <guid>impala</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Aider les lycéens à s'orienter.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Loyers parisiens]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/loyersparisiens</link>
+            <guid>loyersparisiens</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ministère de l'éducation nationale]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/ministeredeleducationnationale</link>
+            <guid>ministeredeleducationnationale</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[NewBed]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/newbed</link>
+            <guid>newbed</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Search Research]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/searchresearch</link>
+            <guid>searchresearch</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Simplon]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/simplon</link>
+            <guid>simplon</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[VEGA]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/vega</link>
+            <guid>vega</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Adoptez-moi]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/adoptezmoi</link>
+            <guid>adoptezmoi</guid>
+            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Un bot Twitter qui diffuse des informations sur des animaux à adopter.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Data For Food]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/dataforfood</link>
+            <guid>dataforfood</guid>
+            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Frateli]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/frateli</link>
+            <guid>frateli</guid>
+            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Algorithmes de recommandation pour le parrainage d’étudiants.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Teen spirit]]></title>
+            <link>https://your-docusaurus-test-site.com/projects/teenspirit</link>
+            <guid>teenspirit</guid>
+            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
