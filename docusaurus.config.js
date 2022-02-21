@@ -68,7 +68,7 @@ const config = {
         title: 'Data For Good',
         logo: {
           alt: 'Data For Good Logo',
-          src: 'img/logo-dfg-new.png',
+          src: 'img/logo-dfg-new2.png',
         },
         items: [
           {
