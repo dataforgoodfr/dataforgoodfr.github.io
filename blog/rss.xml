@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Data For Good Blog</title>
-        <link>https://your-docusaurus-test-site.com/blog</link>
+        <link>https://dataforgood.fr/blog</link>
         <description>Data For Good Blog</description>
         <lastBuildDate>Sat, 18 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Monthly Marty n°4 - 12/2021]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/monthly-marty4</link>
+            <link>https://dataforgood.fr/blog/monthly-marty4</link>
             <guid>monthly-marty4</guid>
             <pubDate>Sat, 18 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Retour sur le 4e Monthly Marty de Décembre 2021 avec les présentations de Féminisme Populaire, Carbon4Finance et ElectricityMap]]></description>

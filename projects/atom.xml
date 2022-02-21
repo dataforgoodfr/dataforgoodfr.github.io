@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-test-site.com/projects</id>
+    <id>https://dataforgood.fr/projects</id>
     <title>Data For Good Blog</title>
     <updated>2021-11-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-test-site.com/projects"/>
+    <link rel="alternate" href="https://dataforgood.fr/projects"/>
     <subtitle>Data For Good Blog</subtitle>
-    <icon>https://your-docusaurus-test-site.com/img/logo-dfg-new.png</icon>
+    <icon>https://dataforgood.fr/img/logo-dfg-new.png</icon>
     <entry>
         <title type="html"><![CDATA[Avastar]]></title>
         <id>avastar</id>
-        <link href="https://your-docusaurus-test-site.com/projects/avastar"/>
+        <link href="https://dataforgood.fr/projects/avastar"/>
         <updated>2021-11-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Création d'un outil open-source pour reprendre le contrôle de ses données personnelles éparpillées publiquement sur internet]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -18,7 +18,7 @@
     <entry>
         <title type="html"><![CDATA[BechdelAI]]></title>
         <id>bechdelai</id>
-        <link href="https://your-docusaurus-test-site.com/projects/bechdelai"/>
+        <link href="https://dataforgood.fr/projects/bechdelai"/>
         <updated>2021-10-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Mesure et automatisation du test de Bechdel et de la (sous)représentation féminine dans les oeuvres de fiction et le cinéma]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -26,7 +26,7 @@
     <entry>
         <title type="html"><![CDATA[Mission Transition]]></title>
         <id>missiontransition</id>
-        <link href="https://your-docusaurus-test-site.com/projects/missiontransition"/>
+        <link href="https://dataforgood.fr/projects/missiontransition"/>
         <updated>2021-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Développement d'outils permettant de faciliter la tâche aux PME/TPEs pour trouver des aides à la transition écologique]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -34,7 +34,7 @@
     <entry>
         <title type="html"><![CDATA[OGRE]]></title>
         <id>ogre</id>
-        <link href="https://your-docusaurus-test-site.com/projects/ogre"/>
+        <link href="https://dataforgood.fr/projects/ogre"/>
         <updated>2021-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Digitalisation d'un atelier de sensibilisation au mix énérgétique à la manière des ateliers 2Tonnes ou Fresque du Climat]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -42,7 +42,7 @@
     <entry>
         <title type="html"><![CDATA[CodeCarbon]]></title>
         <id>codecarbon</id>
-        <link href="https://your-docusaurus-test-site.com/projects/codecarbon"/>
+        <link href="https://dataforgood.fr/projects/codecarbon"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Développement collaboratif d'un outil open-source permettant de mesurer l'empreinte carbone d'un code Python]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -50,28 +50,28 @@
     <entry>
         <title type="html"><![CDATA[CRATer]]></title>
         <id>crater</id>
-        <link href="https://your-docusaurus-test-site.com/projects/crater"/>
+        <link href="https://dataforgood.fr/projects/crater"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Dyslex'IA]]></title>
         <id>dyslexia</id>
-        <link href="https://your-docusaurus-test-site.com/projects/dyslexia"/>
+        <link href="https://dataforgood.fr/projects/dyslexia"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Geowatch Labs]]></title>
         <id>geowatchlabs</id>
-        <link href="https://your-docusaurus-test-site.com/projects/geowatchlabs"/>
+        <link href="https://dataforgood.fr/projects/geowatchlabs"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Labelia.org]]></title>
         <id>labelia</id>
-        <link href="https://your-docusaurus-test-site.com/projects/labelia"/>
+        <link href="https://dataforgood.fr/projects/labelia"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Le référentiel de Data Science Responsable et de Confiance a été élaboré de manière ouverte et participative afin de permettre à chaque organisme d’évaluer son niveau de maturité sur ces nouveaux enjeux. L'objectif de ce projet visait à renforcer les ressources du référentiel d'évaluation.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -79,91 +79,91 @@
     <entry>
         <title type="html"><![CDATA[Open Fake Facts]]></title>
         <id>openfakefacts</id>
-        <link href="https://your-docusaurus-test-site.com/projects/openfakefacts"/>
+        <link href="https://dataforgood.fr/projects/openfakefacts"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Open Geo Scales]]></title>
         <id>opengeoscales</id>
-        <link href="https://your-docusaurus-test-site.com/projects/opengeoscales"/>
+        <link href="https://dataforgood.fr/projects/opengeoscales"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Science Feedback]]></title>
         <id>sciencefeedback</id>
-        <link href="https://your-docusaurus-test-site.com/projects/sciencefeedback"/>
+        <link href="https://dataforgood.fr/projects/sciencefeedback"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Validalab]]></title>
         <id>validalab</id>
-        <link href="https://your-docusaurus-test-site.com/projects/validalab"/>
+        <link href="https://dataforgood.fr/projects/validalab"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Accurolab]]></title>
         <id>accurolab</id>
-        <link href="https://your-docusaurus-test-site.com/projects/accurolab"/>
+        <link href="https://dataforgood.fr/projects/accurolab"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Action Contre la Faim]]></title>
         <id>actioncontrelafaim</id>
-        <link href="https://your-docusaurus-test-site.com/projects/actioncontrelafaim"/>
+        <link href="https://dataforgood.fr/projects/actioncontrelafaim"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Carbon4Finance]]></title>
         <id>carbon4finance</id>
-        <link href="https://your-docusaurus-test-site.com/projects/carbon4finance"/>
+        <link href="https://dataforgood.fr/projects/carbon4finance"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ceebios]]></title>
         <id>ceebios</id>
-        <link href="https://your-docusaurus-test-site.com/projects/ceebios"/>
+        <link href="https://dataforgood.fr/projects/ceebios"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[ImpactScore]]></title>
         <id>impactscore</id>
-        <link href="https://your-docusaurus-test-site.com/projects/impactscore"/>
+        <link href="https://dataforgood.fr/projects/impactscore"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[JOGL]]></title>
         <id>jogl</id>
-        <link href="https://your-docusaurus-test-site.com/projects/jogl"/>
+        <link href="https://dataforgood.fr/projects/jogl"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Mednum]]></title>
         <id>mednum</id>
-        <link href="https://your-docusaurus-test-site.com/projects/mednum"/>
+        <link href="https://dataforgood.fr/projects/mednum"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Microfaune]]></title>
         <id>microfaune</id>
-        <link href="https://your-docusaurus-test-site.com/projects/microfaune"/>
+        <link href="https://dataforgood.fr/projects/microfaune"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Pyronear]]></title>
         <id>pyronear</id>
-        <link href="https://your-docusaurus-test-site.com/projects/pyronear"/>
+        <link href="https://dataforgood.fr/projects/pyronear"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Pyronear a créé au cours des différentes saisons de Data For Good un prototype pour détecter les départs d'incendie dans les forêts]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -171,21 +171,21 @@
     <entry>
         <title type="html"><![CDATA[Riepost]]></title>
         <id>riepost</id>
-        <link href="https://your-docusaurus-test-site.com/projects/riepost"/>
+        <link href="https://dataforgood.fr/projects/riepost"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Banque Mondiale]]></title>
         <id>worldbank</id>
-        <link href="https://your-docusaurus-test-site.com/projects/worldbank"/>
+        <link href="https://dataforgood.fr/projects/worldbank"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[2tonnes]]></title>
         <id>2tonnes</id>
-        <link href="https://your-docusaurus-test-site.com/projects/2tonnes"/>
+        <link href="https://dataforgood.fr/projects/2tonnes"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Un “serious game” pour comprendre les activités à mettre en place pour limiter le changement climatique]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -193,7 +193,7 @@
     <entry>
         <title type="html"><![CDATA[Outil BEGES]]></title>
         <id>beges</id>
-        <link href="https://your-docusaurus-test-site.com/projects/beges"/>
+        <link href="https://dataforgood.fr/projects/beges"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Calcul des émissions liées aux consommations énergétiques des bâtiments et déplacements au sein d’une structure de l'État.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -201,7 +201,7 @@
     <entry>
         <title type="html"><![CDATA[CO2 Plume Detector]]></title>
         <id>co2plumedetector</id>
-        <link href="https://your-docusaurus-test-site.com/projects/co2plumedetector"/>
+        <link href="https://dataforgood.fr/projects/co2plumedetector"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Détecter les émissions de CO2 à la surface terrestre par observations satellitaires]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -209,7 +209,7 @@
     <entry>
         <title type="html"><![CDATA[Détection des forêts dégradées]]></title>
         <id>foretsdegradees</id>
-        <link href="https://your-docusaurus-test-site.com/projects/foretsdegradees"/>
+        <link href="https://dataforgood.fr/projects/foretsdegradees"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Détecter les forêts dégradées de Guinée et du Congo par imagerie satellite haute résolution et deep learning.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -217,7 +217,7 @@
     <entry>
         <title type="html"><![CDATA[Impact des plats]]></title>
         <id>impactdesplats</id>
-        <link href="https://your-docusaurus-test-site.com/projects/impactdesplats"/>
+        <link href="https://dataforgood.fr/projects/impactdesplats"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Estimer l'impact carbone d'un plat à partir d'une simple photo.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -225,7 +225,7 @@
     <entry>
         <title type="html"><![CDATA[Open Food Facts]]></title>
         <id>openfoodfacts</id>
-        <link href="https://your-docusaurus-test-site.com/projects/openfoodfacts"/>
+        <link href="https://dataforgood.fr/projects/openfoodfacts"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Et si scanner vos produits 🤳🥫 vous permettait de découvrir leur impact sur la 🌍🌿 planète ?]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -233,7 +233,7 @@
     <entry>
         <title type="html"><![CDATA[Plastic Origins]]></title>
         <id>plasticorigins</id>
-        <link href="https://your-docusaurus-test-site.com/projects/plasticorigins"/>
+        <link href="https://dataforgood.fr/projects/plasticorigins"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Projet de science participative qui utilise l'IA pour cartographier la pollution plastique des fleuves et rivières de France et d'Europe.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -241,7 +241,7 @@
     <entry>
         <title type="html"><![CDATA[RSE Explorer]]></title>
         <id>rseexplorer</id>
-        <link href="https://your-docusaurus-test-site.com/projects/rseexplorer"/>
+        <link href="https://dataforgood.fr/projects/rseexplorer"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Un outil de veille de l'innovation environnementale et sociale, basé sur l'exploitation des rapports RSE de grandes entreprises françaises.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -249,7 +249,7 @@
     <entry>
         <title type="html"><![CDATA[CITES]]></title>
         <id>cites</id>
-        <link href="https://your-docusaurus-test-site.com/projects/cites"/>
+        <link href="https://dataforgood.fr/projects/cites"/>
         <updated>2019-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Diffuser et sensibiliser le public aux règles du commerce des espèces de faune et flore sauvages menacées d’extinction.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -257,7 +257,7 @@
     <entry>
         <title type="html"><![CDATA[Eczéma(s)]]></title>
         <id>eczema</id>
-        <link href="https://your-docusaurus-test-site.com/projects/eczema"/>
+        <link href="https://dataforgood.fr/projects/eczema"/>
         <updated>2019-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[L’eczéma est une maladie fréquente qui peut être grave et poser des problèmes thérapeutiques.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -265,7 +265,7 @@
     <entry>
         <title type="html"><![CDATA[EurosForDocs]]></title>
         <id>eurosfordocs</id>
-        <link href="https://your-docusaurus-test-site.com/projects/eurosfordocs"/>
+        <link href="https://dataforgood.fr/projects/eurosfordocs"/>
         <updated>2019-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Etudier les Déclarations Publiques d'Intérêt mettre en lumière les stratégies d'influence des industriels.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -273,7 +273,7 @@
     <entry>
         <title type="html"><![CDATA[TravelMyWay]]></title>
         <id>travelmyway</id>
-        <link href="https://your-docusaurus-test-site.com/projects/travelmyway"/>
+        <link href="https://dataforgood.fr/projects/travelmyway"/>
         <updated>2019-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Planification en un clic de trajets optimisés en porte à porte pour faire des choix de transport éclairés.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -281,7 +281,7 @@
     <entry>
         <title type="html"><![CDATA[WeLearn]]></title>
         <id>welearn</id>
-        <link href="https://your-docusaurus-test-site.com/projects/welearn"/>
+        <link href="https://dataforgood.fr/projects/welearn"/>
         <updated>2019-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Améliorer la classification des ressources pédagogiques en ligne via une approche supervisée.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -289,7 +289,7 @@
     <entry>
         <title type="html"><![CDATA[Arkhn]]></title>
         <id>arkhn</id>
-        <link href="https://your-docusaurus-test-site.com/projects/arkhn"/>
+        <link href="https://dataforgood.fr/projects/arkhn"/>
         <updated>2019-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Standardiser les données de santé en open-source]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -297,7 +297,7 @@
     <entry>
         <title type="html"><![CDATA[Liris]]></title>
         <id>liris</id>
-        <link href="https://your-docusaurus-test-site.com/projects/liris"/>
+        <link href="https://dataforgood.fr/projects/liris"/>
         <updated>2019-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Consulter les recettes et les dépense de l'État]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -305,7 +305,7 @@
     <entry>
         <title type="html"><![CDATA[Phénix]]></title>
         <id>phenix</id>
-        <link href="https://your-docusaurus-test-site.com/projects/phenix"/>
+        <link href="https://dataforgood.fr/projects/phenix"/>
         <updated>2019-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Offrir une seconde vie aux invendus alimentaires]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -313,7 +313,7 @@
     <entry>
         <title type="html"><![CDATA[Tableau de bord citoyen]]></title>
         <id>tableaudebordcitoyen</id>
-        <link href="https://your-docusaurus-test-site.com/projects/tableaudebordcitoyen"/>
+        <link href="https://dataforgood.fr/projects/tableaudebordcitoyen"/>
         <updated>2019-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Du choc des idées jaillit l’information]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -321,7 +321,7 @@
     <entry>
         <title type="html"><![CDATA[Transplant]]></title>
         <id>transplant</id>
-        <link href="https://your-docusaurus-test-site.com/projects/transplant"/>
+        <link href="https://dataforgood.fr/projects/transplant"/>
         <updated>2019-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Améliorer la prédiction de l'autonomie respiratoire après transplantation pulmonaire]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -329,7 +329,7 @@
     <entry>
         <title type="html"><![CDATA[Databox]]></title>
         <id>databox</id>
-        <link href="https://your-docusaurus-test-site.com/projects/databox"/>
+        <link href="https://dataforgood.fr/projects/databox"/>
         <updated>2018-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Améliorer la plateforme derrière data.gouv.fr.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -337,7 +337,7 @@
     <entry>
         <title type="html"><![CDATA[La Data en Clair]]></title>
         <id>dataenclair</id>
-        <link href="https://your-docusaurus-test-site.com/projects/dataenclair"/>
+        <link href="https://dataforgood.fr/projects/dataenclair"/>
         <updated>2018-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Le 1er magazine web qui décrypte les enjeux éthiques de l'intelligence artificielle et des données.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -345,7 +345,7 @@
     <entry>
         <title type="html"><![CDATA[Diafoirus]]></title>
         <id>diafoirus</id>
-        <link href="https://your-docusaurus-test-site.com/projects/diafoirus"/>
+        <link href="https://dataforgood.fr/projects/diafoirus"/>
         <updated>2018-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Exploiter et rendre exploitable les données médicales.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -353,7 +353,7 @@
     <entry>
         <title type="html"><![CDATA[Mediachecker]]></title>
         <id>mediachecker</id>
-        <link href="https://your-docusaurus-test-site.com/projects/mediachecker"/>
+        <link href="https://dataforgood.fr/projects/mediachecker"/>
         <updated>2018-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Automatisation du fact checking des affirmations des politiques tunisiens sur le site Birrasmi.tn, de Cahiers de la Liberté]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -361,7 +361,7 @@
     <entry>
         <title type="html"><![CDATA[Redécoupage citoyen]]></title>
         <id>redecoupagecitoyen</id>
-        <link href="https://your-docusaurus-test-site.com/projects/redecoupagecitoyen"/>
+        <link href="https://dataforgood.fr/projects/redecoupagecitoyen"/>
         <updated>2018-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Nous votons, nous dessinons !]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -369,7 +369,7 @@
     <entry>
         <title type="html"><![CDATA[Serment d'Hippocrate pour Data Scientist]]></title>
         <id>sermenthippocrate</id>
-        <link href="https://your-docusaurus-test-site.com/projects/sermenthippocrate"/>
+        <link href="https://dataforgood.fr/projects/sermenthippocrate"/>
         <updated>2018-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Promouvoir un usage éthique des données.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -377,28 +377,28 @@
     <entry>
         <title type="html"><![CDATA[BimBamJob]]></title>
         <id>bimbamjob</id>
-        <link href="https://your-docusaurus-test-site.com/projects/bimbamjob"/>
-        <updated>2018-03-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cour des comptes]]></title>
-        <id>courdescomptes</id>
-        <link href="https://your-docusaurus-test-site.com/projects/courdescomptes"/>
+        <link href="https://dataforgood.fr/projects/bimbamjob"/>
         <updated>2018-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Data4Tunisia]]></title>
         <id>datafortunisia</id>
-        <link href="https://your-docusaurus-test-site.com/projects/datafortunisia"/>
+        <link href="https://dataforgood.fr/projects/datafortunisia"/>
+        <updated>2018-03-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cour des comptes]]></title>
+        <id>courdescomptes</id>
+        <link href="https://dataforgood.fr/projects/courdescomptes"/>
         <updated>2018-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Isara]]></title>
         <id>isara</id>
-        <link href="https://your-docusaurus-test-site.com/projects/isara"/>
+        <link href="https://dataforgood.fr/projects/isara"/>
         <updated>2018-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Deep learning pour la langue des signes.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -406,21 +406,21 @@
     <entry>
         <title type="html"><![CDATA[Make.org]]></title>
         <id>makeorg</id>
-        <link href="https://your-docusaurus-test-site.com/projects/makeorg"/>
+        <link href="https://dataforgood.fr/projects/makeorg"/>
         <updated>2018-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[We answer]]></title>
         <id>weanswer</id>
-        <link href="https://your-docusaurus-test-site.com/projects/weanswer"/>
+        <link href="https://dataforgood.fr/projects/weanswer"/>
         <updated>2018-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Cresus]]></title>
         <id>cresus</id>
-        <link href="https://your-docusaurus-test-site.com/projects/cresus"/>
+        <link href="https://dataforgood.fr/projects/cresus"/>
         <updated>2017-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lutter contre le surrendetement.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -428,7 +428,7 @@
     <entry>
         <title type="html"><![CDATA[Impala]]></title>
         <id>impala</id>
-        <link href="https://your-docusaurus-test-site.com/projects/impala"/>
+        <link href="https://dataforgood.fr/projects/impala"/>
         <updated>2017-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Aider les lycéens à s'orienter.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -436,49 +436,49 @@
     <entry>
         <title type="html"><![CDATA[Loyers parisiens]]></title>
         <id>loyersparisiens</id>
-        <link href="https://your-docusaurus-test-site.com/projects/loyersparisiens"/>
+        <link href="https://dataforgood.fr/projects/loyersparisiens"/>
         <updated>2017-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ministère de l'éducation nationale]]></title>
         <id>ministeredeleducationnationale</id>
-        <link href="https://your-docusaurus-test-site.com/projects/ministeredeleducationnationale"/>
+        <link href="https://dataforgood.fr/projects/ministeredeleducationnationale"/>
         <updated>2017-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[NewBed]]></title>
         <id>newbed</id>
-        <link href="https://your-docusaurus-test-site.com/projects/newbed"/>
+        <link href="https://dataforgood.fr/projects/newbed"/>
         <updated>2017-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Search Research]]></title>
         <id>searchresearch</id>
-        <link href="https://your-docusaurus-test-site.com/projects/searchresearch"/>
+        <link href="https://dataforgood.fr/projects/searchresearch"/>
         <updated>2017-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Simplon]]></title>
         <id>simplon</id>
-        <link href="https://your-docusaurus-test-site.com/projects/simplon"/>
+        <link href="https://dataforgood.fr/projects/simplon"/>
         <updated>2017-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[VEGA]]></title>
         <id>vega</id>
-        <link href="https://your-docusaurus-test-site.com/projects/vega"/>
+        <link href="https://dataforgood.fr/projects/vega"/>
         <updated>2017-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Adoptez-moi]]></title>
         <id>adoptezmoi</id>
-        <link href="https://your-docusaurus-test-site.com/projects/adoptezmoi"/>
+        <link href="https://dataforgood.fr/projects/adoptezmoi"/>
         <updated>2017-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Un bot Twitter qui diffuse des informations sur des animaux à adopter.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
@@ -486,25 +486,25 @@
     <entry>
         <title type="html"><![CDATA[Data For Food]]></title>
         <id>dataforfood</id>
-        <link href="https://your-docusaurus-test-site.com/projects/dataforfood"/>
+        <link href="https://dataforgood.fr/projects/dataforfood"/>
         <updated>2017-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Teen spirit]]></title>
-        <id>teenspirit</id>
-        <link href="https://your-docusaurus-test-site.com/projects/teenspirit"/>
+        <title type="html"><![CDATA[Frateli]]></title>
+        <id>frateli</id>
+        <link href="https://dataforgood.fr/projects/frateli"/>
         <updated>2017-03-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.]]></summary>
+        <summary type="html"><![CDATA[Algorithmes de recommandation pour le parrainage d’étudiants.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Frateli]]></title>
-        <id>frateli</id>
-        <link href="https://your-docusaurus-test-site.com/projects/frateli"/>
+        <title type="html"><![CDATA[Teen spirit]]></title>
+        <id>teenspirit</id>
+        <link href="https://dataforgood.fr/projects/teenspirit"/>
         <updated>2017-03-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Algorithmes de recommandation pour le parrainage d’étudiants.]]></summary>
+        <summary type="html"><![CDATA[Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
 </feed>
