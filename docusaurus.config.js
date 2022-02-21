@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Data For Good',
   tagline: "Le numérique au service de l'intérêt général",
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://dataforgood.fr',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
