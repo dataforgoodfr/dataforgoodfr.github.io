@@ -70,8 +70,9 @@ const teamList = [
   {src:"img/team/benjamin.png","name":"Benjamin Rouif","role":"Coordinateur","contact":"https://www.linkedin.com/in/brouif/"},
   {src:"img/team/lou.jpg","name":"Lou Welgryn","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lou-welgryn-460434b0/"},
   {src:"img/team/mickael.jpg","name":"Mickael Fine","role":"Coordinateur","contact":"https://www.linkedin.com/in/mickaelfine/"},
-  {src:"img/team/josephine.jpg","name":"Joséphine Lecoq-Vallon","role":"Coordinatrice","contact":"https://www.linkedin.com/in/josephine-lecoq-vallon/"},
   {src:"img/team/clement.jfif","name":"Clément Mayer","role":"Coordinateur","contact":"https://www.linkedin.com/in/cl%C3%A9ment-mayer-02a61216/"},
+  {src:"img/team/josephine.jpg","name":"Joséphine Lecoq-Vallon","role":"Coordinatrice","contact":"https://www.linkedin.com/in/josephine-lecoq-vallon/"},
+  {src:"img/team/julie.png","name":"Julie Jouvencel","role":"Coordinatrice","contact":"https://www.linkedin.com/in/juliejouvencel/"},
   {src:"img/team/margaux.jpg","name":"Margaux David","role":"Designeuse","contact":"https://www.linkedin.com/in/margauxdavid/"},
   {src:"img/team/eloi.png","name":"Eloi Pérignon","role":"Communication & RP","contact":"https://www.linkedin.com/in/eloi-perignon/"},
   {src:"img/team/fred.png","name":"Frédéric Bardolle","role":"Conseil des sages","contact":"https://www.linkedin.com/in/fbardolle/"},
@@ -109,6 +110,7 @@ const partnersList = [
   {src:"img/partners/lewagon.png",url:"https://www.lewagon.com/"},
   {src:"img/partners/etalab.png",url:"https://www.etalab.gouv.fr/"},
   {src:"img/partners/mtes.png",url:"https://www.ecologie.gouv.fr/"},
+  {src:"img/partners/qarnot.png",url:"https://qarnot.com/fr"},
   {src:"img/partners/coalition.png",url:"https://www.coalitiontechforgood.fr/"},
   {src:"img/partners/shareit.png",url:"https://www.share-it.io/"},
   {src:"img/partners/athom.jfif",url:"https://athom.co/"},
@@ -182,6 +184,15 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+
+        <section>
+          <div className="container main-section">
+            <h1>Les news</h1>
+            <h2>Lancement de la saison 10 de Data For Good le samedi 12 mars à 14h</h2>
+            <p>Inscriptions sur <a href="https://app.livestorm.co/data-for-good/saison10?type=detailed" target="_blank">Livestorm</a> ou juste ici 👇</p>
+            <iframe width="100%" height="480" frameborder="0" src="https://app.livestorm.co/p/0e2b2b3c-249c-411f-a82e-26ba5bde1283/form" title="Lancement Saison 10 Data For Good | Data For Good"></iframe>
+          </div>
+        </section>
 
         <section className="light-green">
           <div className="container main-section">
