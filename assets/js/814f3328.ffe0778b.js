@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[2535],{5641:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Monthly Marty n\xb04 - 12/2021","permalink":"/blog/monthly-marty4"}]}')}}]);
