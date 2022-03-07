@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[9823],{4248:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/adaptation","name":"Adaptation","count":1,"permalink":"/blog/tags/adaptation"}')}}]);
