@@ -87,12 +87,16 @@ const config = {
                 to: "/projects",
               },
               {
-                label: "Les projets qui ont besoin d'aide",
-                to: "/projects/tags/actif",
+                label: "Saison 10",
+                to: "/projects/tags/saison-10",
               },
               {
                 label: "Saison 9",
                 to: "/projects/tags/saison-9",
+              },
+              {
+                label: "Les projets qui ont besoin d'aide",
+                to: "/projects/tags/actif",
               },
             ],
           },
