@@ -60,11 +60,12 @@ const MagicSDG = ({tagLabel}) => {
   let sdgPath = useBaseUrl(`img/sdgs/E-WEB-Goal-${sdgNumber}.png`);
   let tagPermalink = `projects/tags/sdg-${sdgNumber}`;
   return (
-    <Link
-      key={tagPermalink}
-      to={tagPermalink}>
-      <img src={sdgPath} className="sdg-icon"/>
-    </Link>
+    <img src={sdgPath} className="sdg-icon"/>
+    // <Link
+    //   key={tagPermalink}
+    //   to={tagPermalink}>
+    //   <img src={sdgPath} className="sdg-icon"/>
+    // </Link>
   )
 }
 
