@@ -7,7 +7,7 @@ description: "Mesure et automatisation du test de Bechdel, de la (sous)représen
 keywords:
     - Data For Good
 sdgs: [sdg05]
-github: 
+github: https://github.com/dataforgoodfr/bechdelai
 website: 
 slack: "#10_bechdelai"
 ---

@@ -33,18 +33,28 @@ const MONTHS = [
   'December',
 ];
 
+// const MagicSDGBig = ({tagLabel}) => {
+//   let sdgNumber = tagLabel.slice(3,)
+//   let sdgPath = useBaseUrl(`img/sdgs/E-WEB-Goal-${sdgNumber}.png`);
+//   let tagPermalink = `tags/sdg-${sdgNumber}`;
+//   return (
+//     <Link
+//       key={tagPermalink}
+//       to={tagPermalink}>
+//       <img src={sdgPath} className="sdg-icon-big"/>
+//     </Link>
+//   )
+// }
+
 const MagicSDGBig = ({tagLabel}) => {
   let sdgNumber = tagLabel.slice(3,)
   let sdgPath = useBaseUrl(`img/sdgs/E-WEB-Goal-${sdgNumber}.png`);
   let tagPermalink = `tags/sdg-${sdgNumber}`;
   return (
-    <Link
-      key={tagPermalink}
-      to={tagPermalink}>
-      <img src={sdgPath} className="sdg-icon-big"/>
-    </Link>
+    <img src={sdgPath} className="sdg-icon-big"/>
   )
 }
+
 
 
 function BlogPostItem(props: Props): JSX.Element {
