@@ -13,8 +13,7 @@
             <guid>bechdelai</guid>
             <pubDate>Sun, 13 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Mesure et automatisation du test de Bechdel, de la (sous)représentation féminine et des inégalités de représentation dans le cinéma et l'audiovisuel]]></description>
-            <content:encoded><![CDATA[<p>:::tip BechdelAI</p><p>Mesure et automatisation du test de Bechdel, de la (sous)représentation féminine et des inégalités de représentation dans le cinéma et l&#x27;audiovisuel</p><p>:::</p><h2>A propos du Collectif 50/50 et du projet BechdelAI</h2><h3>Collectif 50/50</h3><p>Le Collectif 50/50 réunit à ce jour plus de 1500 professionnel.le.s de la création et de l’industrie du cinéma et de l’audiovisuel français. Structuré comme un action tank, le Collectif s’engage solidairement dans une réflexion et un combat pour l’égalité, la parité et la diversité dans l’industrie cinématographique et audiovisuelle.
-Le Collectif 50/50 élabore des études, développe des actions, crée des outils et propose des mesures incitatives aux pouvoirs publics et aux différents acteurs du secteur pour accélérer le changement.</p><h3>BechdelAI</h3><p>BechdelAI est un projet lancé par l&#x27;association Data For Good en octobre 2021 pour créer des outils et des études en se servant d&#x27;outils algorithmiques pour aider dans la mesure et la sensibilisation autour des enjeux de parité et d&#x27;inégalités dans le cinéma. En particulier, le point de départ était d&#x27;automatiser l&#x27;effrayant test de Bechdel puis d&#x27;étendre à des mesures plus fines des inégalités dans le cinéma. </p><p><img src="./bechdel.png"/></p><h2>Le projet</h2><p>Pour cette saison 10, le projet initié en Octobre 2021 au sein de l&#x27;association Data For Good continue et passe à l&#x27;échelle en s&#x27;associant avec le collectif 50/50. Il y a 3 sous-projets proposés aux bénévoles : </p><ul><li><strong>Etude rétrospective des inégalités de représentation</strong> dans le cinéma et l&#x27;audiovisuel en s&#x27;inspirant de l&#x27;étude Cinégalités du Collectif 50/50 pour étendre son périmètre (remonter dans le temps, plateformes indépendantes, séries) et l&#x27;automatiser. </li><li><strong>Développer des outils gratuits et open source d&#x27;analyse de contenu audiovisuels</strong> (vidéos, posters, bande-son, scripts, sous-titres) pour aller plus loin et analyser directement le contenu audiovisuel</li><li><strong>Explorer la création d&#x27;algorithmes de quantification du male et female gaze</strong> (ou pour simplifier en quelques mots l&#x27;objectification du corps féminin)</li></ul><p><img src="./bechdel_projets.png"/></p><h2>Compétences recherchées</h2><ul><li>Data Analystes pour explorer les données historiques de cinéma, les visualiser et les croiser</li><li>Data Scientists et Data Engineers pour aller collecter les données et craquer les APIs d&#x27;IMDB et Allociné, et créer des algorithmes d&#x27;analyse complexes (qualification des scènes et des dialogues)</li><li>Passionés et experts d&#x27;IA pour déployer des algorithmes de Computer Vision, NLP et analyse de sons et vidéos</li><li>UX/UI et développeurs pour réfléchir à la manière de rendre les résultats les plus impactants possible</li><li>Experts du cinéma ou de l&#x27;audiovisuel pour nous guider dans la démarche</li></ul><h2>Références</h2><h3>A propos du projet</h3><ul><li>La <a href="https://www.youtube.com/watch?v=rel4T39yM9c">présentation de l&#x27;idée et du collectif</a> pour le lancement de la saison 10 par Fanny de Casimacker, déléguée générale du collectif 50-50</li><li>La <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=1227s">vidéo de lancement du projet</a> pour la saison 10 </li><li>La <a href="https://www.youtube.com/watch?v=vu5SFiE43Kk&amp;t=1292s">vidéo de lancement du projet</a> au Monthly Marty</li></ul><h3>Test de Bechdel, Male et female gaze</h3><ul><li>Le site officiel du test de Bechdel <a href="https://bechdeltest.com/">https://bechdeltest.com/</a></li><li>L&#x27;<a href="https://m.facebook.com/konbinifr/videos/iris-brey-nous-explique-le-male-et-female-gaze-dans-le-vid%C3%A9o-club/124495393087216/">explication du male et female gaze</a> par Iris Brey </li><li>Le <a href="https://www.youtube.com/watch?v=0oMsFlQk_m4&amp;ab_channel=Lescouillessurlatable">podcast des Couilles sur la Table sur le male et le female gaze dans le cinéma</a> par Victoire Tuaillon et Iris Brey </li></ul><h3>Collectif 50/50</h3><ul><li>L&#x27;étude <a href="https://collectif5050.com/files/etudes/2022/02/Cinegalite-s-Rapport.pdf">Cinégalités complète</a> et le <a href="https://collectif5050.com/files/etudes/2021/12/5050-Cinegalites-presentation-Assises-0512.pdf">résumé</a></li><li>Le site internet du collectif <a href="https://collectif5050.com/">https://collectif5050.com/</a></li></ul><h2>Equipe</h2><ul><li>Théo Alves Da Costa - porteur de projet et membre du bureau Data For Good</li><li>Thomas Legrand - Data Scientist</li><li>Fanny de Casimacker - déléguée générale du collectif 50/50</li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_bechdelai</strong></p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>:::tip BechdelAI</p><p>Mesure et automatisation du test de Bechdel, de la (sous)représentation féminine et des inégalités de représentation dans le cinéma et l&#x27;audiovisuel</p><p>:::</p><h2>A propos du projet BechdelAI</h2><p>BechdelAI est un projet lancé par l&#x27;association Data For Good en octobre 2021 pour créer des outils et des études en se servant d&#x27;outils algorithmiques pour aider dans la mesure et la sensibilisation autour des enjeux de parité et d&#x27;inégalités dans le cinéma. En particulier, le point de départ était d&#x27;automatiser l&#x27;effrayant test de Bechdel puis d&#x27;étendre à des mesures plus fines des inégalités dans le cinéma. </p><p><img src="./bechdel.png"/></p><h2>Le projet</h2><p>Pour cette saison 10, le projet initié en Octobre 2021 au sein de l&#x27;association Data For Good continue et passe à l&#x27;échelle. Il y a 3 sous-projets proposés aux bénévoles : </p><ul><li><strong>Etude rétrospective des inégalités de représentation</strong> dans le cinéma et l&#x27;audiovisuel en s&#x27;inspirant de l&#x27;étude Cinégalités du Collectif 50/50 pour étendre son périmètre (remonter dans le temps, plateformes indépendantes, séries) et l&#x27;automatiser. </li><li><strong>Développer des outils gratuits et open source d&#x27;analyse de contenu audiovisuels</strong> (vidéos, posters, bande-son, scripts, sous-titres) pour aller plus loin et analyser directement le contenu audiovisuel</li><li><strong>Explorer la création d&#x27;algorithmes de quantification du male et female gaze</strong> (ou pour simplifier en quelques mots l&#x27;objectification du corps féminin)</li></ul><p><img src="./bechdel_projets.png"/></p><h2>Compétences recherchées</h2><ul><li>Data Analystes pour explorer les données historiques de cinéma, les visualiser et les croiser</li><li>Data Scientists et Data Engineers pour aller collecter les données et craquer les APIs d&#x27;IMDB et Allociné, et créer des algorithmes d&#x27;analyse complexes (qualification des scènes et des dialogues)</li><li>Passionés et experts d&#x27;IA pour déployer des algorithmes de Computer Vision, NLP et analyse de sons et vidéos</li><li>UX/UI et développeurs pour réfléchir à la manière de rendre les résultats les plus impactants possible</li><li>Experts du cinéma ou de l&#x27;audiovisuel pour nous guider dans la démarche</li></ul><h2>Références</h2><h3>A propos du projet</h3><ul><li>La <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=1227s">vidéo de lancement du projet</a> pour la saison 10 </li><li>La <a href="https://www.youtube.com/watch?v=vu5SFiE43Kk&amp;t=1292s">vidéo de lancement du projet</a> au Monthly Marty</li></ul><h3>Test de Bechdel, Male et female gaze</h3><ul><li>Le site officiel du test de Bechdel <a href="https://bechdeltest.com/">https://bechdeltest.com/</a></li><li>L&#x27;<a href="https://m.facebook.com/konbinifr/videos/iris-brey-nous-explique-le-male-et-female-gaze-dans-le-vid%C3%A9o-club/124495393087216/">explication du male et female gaze</a> par Iris Brey </li><li>Le <a href="https://www.youtube.com/watch?v=0oMsFlQk_m4&amp;ab_channel=Lescouillessurlatable">podcast des Couilles sur la Table sur le male et le female gaze dans le cinéma</a> par Victoire Tuaillon et Iris Brey </li><li>L&#x27;étude <a href="https://collectif5050.com/files/etudes/2022/02/Cinegalite-s-Rapport.pdf">Cinégalités complète</a> et le <a href="https://collectif5050.com/files/etudes/2021/12/5050-Cinegalites-presentation-Assises-0512.pdf">résumé</a></li></ul><h2>Equipe</h2><ul><li>Théo Alves Da Costa - porteur de projet et co-président Data For Good</li><li>Thomas Legrand - Data Scientist</li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_bechdelai</strong></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Ceebios]]></title>
@@ -50,14 +49,6 @@ Le Collectif 50/50 élabore des études, développe des actions, crée des outil
 L’atelier OGRE apporte des éléments de réponse à ces questions et aide à s’approprier des termes peu utilisés dans notre quotidien (ex: rendement, facteur de charge, disponibilité,…). L’atelier permet également de voir quelles sont les actions, tant sur la consommation que sur la production, à fort impact énergétique pour évoluer vers un monde plus durable, puis à ouvrir des discussions entre les participants sur le sujet.</p><p>Les participants répartis en équipe de 4 à 8 personnes, et aidés par un animateur, disposent de 3h pour équilibrer consommation et production d’énergie décarbonée.</p><p><img src="./scren.png"/></p><h2>Le projet</h2><p>Aujourd&#x27;hui l&#x27;atelier est animé avec un outil Google Sheet qui arrive à ses limites pour pouvoir passer à l&#x27;échelle tout en rendant l&#x27;atelier plus user-friendly. Le but de ce projet est de construire l&#x27;application web permettant de digitaliser l&#x27;atelier. </p><p>Stack technique:</p><ul><li>Backend Nodejs</li><li>Gestion base de donnée : Postgresql + ORM Sequelize</li><li>Hébergement et déploiement : Heroku + github</li><li>Frontend React</li></ul><h2>Compétences recherchées</h2><ul><li>Plusieurs développeurs backend Nodejs</li><li>Plusieurs développeurs frontend React</li><li>Gestion de projet : 1 ou plusieurs product owner (largement assez de travail pour 2/3 personnes)</li><li>UX/UI designer</li></ul><h2>Références</h2><ul><li><a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=3340s">Replay du lancement de la saison 10</a></li><li><a href="https://www.youtube.com/watch?v=kSwJopxsphQ&amp;t=1398s">Replay du Monthly Marty n°1</a></li><li>Page internet de présentation : <a href="https://laconsciencedesetudiants.fr/atelier-ogre/">https://laconsciencedesetudiants.fr/atelier-ogre/</a></li><li>La source principale qui a permis de concevoir le moteur de calcul de l&#x27;atelier est disponibles à l&#x27;<a href="http://www.inference.org.uk/sustainable/book/translate/french/sewtha_20111001_lowres.pdf">adresse suivante</a></li></ul><h2>Equipe</h2><ul><li>Grégory Kotnarovsky, créateur de l&#x27;atelier OGRE, <a href="mailto:grandeur.energies@gmail.com">grandeur.energies@gmail.com</a></li><li>Vladimir Nafissi, développeur (bénévole D4G), <a href="mailto:vlad.nafissi@gmail.com">vlad.nafissi@gmail.com</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_ogre</strong></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Open Food Facts]]></title>
-            <link>https://dataforgood.fr/projects/openfoodfacts</link>
-            <guid>openfoodfacts</guid>
-            <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Et si scanner vos produits 🤳🥫 vous permettait de découvrir leur impact sur la 🌍🌿 planète ?]]></description>
-            <content:encoded><![CDATA[<p>:::tip Faire les bons choix pour sa santé et pour la planète</p><p>Démultiplier le nombre d&#x27;Éco-Scores en rendant le système de catégorisation plus intelligent</p><p>:::</p><h2>A propos d&#x27;Open Food Facts</h2><p>S’organiser pour peser sur notre santé, sur l’environnement, sur le système alimentaire. </p><p>Open Food Facts est un projet collaboratif dont le but est de constituer une base de données libre et ouverte sur les produits alimentaires commercialisés dans le monde entier. Open Food Facts est disponible via un site web ou des applications pour mobiles. Open Food Facts a notamment produit le Nutri-Score et l&#x27;Eco-Score pour démocratiser les ACVs environnementales des produits alimentaires.</p><p>Open Food Facts en quelques chiffres : </p><ul><li>2,1 millions de produits contribués par les volontaires &amp; producteurs</li><li>182 pays où des contributeurs ont déjà ajouté les produits</li><li>2 M de personnes utilisent nos apps ou le site chaque mois</li><li>200 applis et services exploitant Open Food Facts</li><li>57 articles scientifiques basés sur ou citant Open Food Facts</li><li>25 000 contributeurs actifs qui assurent la qualité de la base</li></ul><h2>Le projet de la saison 10</h2><p>Démultiplier le nombre de Nutri-Score, et surtout d&#x27;Éco-Scores que l’on peut calculer. L&#x27;Éco-Score requiert des catégories beaucoup plus précises (que les utilisateurs ne savent pas ou n’ont pas le temps de saisir). Peut-on passer à 90%+ d&#x27;Éco-Scores en réduisant le taux d’erreur ?</p><h2>Les projets des saisons précédentes</h2><p><img src="./previous.png"/></p><h2>Compétences recherchées</h2><ul><li>Data Scientists Python avec un intérêt pour le NLP et la Computer Vision</li><li>Mais aussi toute personne qui souhaiterait contribuer à cette aventure open source pour scanner de nouveaux produits, réaliser des traductions, faire du design, du hacking ou développer l&#x27;infrastructure. </li></ul><h2>Références</h2><ul><li>Le <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=2609s">replay du lancement de la saison 10</a></li><li>La page <a href="https://fr.wikipedia.org/wiki/Open_Food_Facts">Wikipedia d&#x27;Open Food Facts</a></li></ul><h2>Equipe</h2><ul><li><a href="mailto:pierre@openfoodfacts.org">pierre@openfoodfacts.org</a></li><li><a href="mailto:alex@openfoodfacts.org">alex@openfoodfacts.org</a></li><li>Twitter: @OpenFoodFactsFR</li><li>Slack: <a href="https://slack.openfoodfacts.org">https://slack.openfoodfacts.org</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_open_food_facts</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Pyronear]]></title>
             <link>https://dataforgood.fr/projects/pyronear</link>
             <guid>pyronear</guid>
@@ -72,6 +63,14 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d'observer en un clin d'oeil les besoins des territoires sur l'aide alimentaire]]></description>
             <content:encoded><![CDATA[<p>:::tip Diagnostiquer l&#x27;aide alimentaire</p><p>Proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d&#x27;observer en un clin d&#x27;eil les besoins des territoires sur l&#x27;aide alimentaire</p><p>:::</p><h2>A propos de Solinum</h2><p><img src="./mission.png"/></p><p><a href="https://www.solinum.org/">Solinum</a> (et le Soliguide) est une association qui lutte contre la pauvreté en permettant aux personnes en situation de précarité qui d’obtenir des informations pour s’orienter et donc d’accéder à des lieux et services utiles. Aujourd&#x27;hui le Soliguide référence des lieux d&#x27;accueil, santé, alimentation, hygiène, emploi, matériel, et autres activités gratuites. <strong>Et si au lieu d’attendre 2 ans d’avoir un rapport, les décideurs avaient accès aux données pertinentes en temps réel</strong> ?</p><h2>Le projet : diagnostiquer l&#x27;aide alimentaire</h2><ul><li><strong>L’objectif : proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d&#x27;observer en un clin d’oeil les besoins des territoires sur l’aide alimentaire</strong>.</li></ul><p><img src="./projet.png"/></p><ul><li><p>Exemple : Analyse de l’adéquation besoin/offre ; fermeture des structures en août ; carte isochrone d’accessibilité ; comparaison entre les territoires ; etc.</p></li><li><p>Les données : </p><ul><li>Structures référencées sur Soliguide : 40 000 services dont 3163 services d&#x27;aide alimentaire (742 distribution de repas, 451 restauration assise, 1520 colis alimentaires, 450 épiceries sociales et solidaires)</li><li>Recherches faites sur Soliguide</li><li>Données ouvertes (taux de pauvreté INSEE ; nb de bénéficiaires du RSA ; …)</li></ul></li><li><p>La démarche proposée :</p><ul><li>Comprendre le besoin auprès des acteurs de terrain et publics en interrogeant nos équipes ;</li><li>Mettre en oeuvre les flux de données nécessaires pour avoir des données en temps réel facilement manipulable ;</li><li>Produire des dashboard de données filtrables, réutilisables et maintenables</li></ul></li><li><p>La stack :</p><ul><li>Site Soliguide : Angular / NodeJS</li><li>MongoDB (NoSQL)</li><li>Metabase</li></ul></li></ul><h2>Compétences recherchées</h2><ul><li><strong>Data Analystes</strong> de tous niveaux avec une appétence pour la visualisation et les projections géospatiales !</li><li><strong>Data Scientists et Data Engineers</strong> pour aller chercher des données supplémentaires et automatiser les traitements et les visualisations  </li></ul><h2>Pour en savoir plus sur le projet</h2><ul><li>La <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=869s">vidéo de présentation</a> au lancement de la saison 10</li><li>La <a href="https://www.youtube.com/watch?v=Lgnypz2N-Fc&amp;t=2490s">présentation de Solinum</a> au Monthly Marty n°5</li><li>Le site internet de Solinum <a href="https://www.solinum.org/">https://www.solinum.org/</a></li><li>Le site internet du Soliguide <a href="https://soliguide.fr/">https://soliguide.fr/</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_solinum</strong></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Open Food Facts]]></title>
+            <link>https://dataforgood.fr/projects/openfoodfacts</link>
+            <guid>openfoodfacts</guid>
+            <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Et si scanner vos produits 🤳🥫 vous permettait de découvrir leur impact sur la 🌍🌿 planète ?]]></description>
+            <content:encoded><![CDATA[<p>:::tip Faire les bons choix pour sa santé et pour la planète</p><p>Démultiplier le nombre d&#x27;Éco-Scores en rendant le système de catégorisation plus intelligent</p><p>:::</p><h2>A propos d&#x27;Open Food Facts</h2><p>S’organiser pour peser sur notre santé, sur l’environnement, sur le système alimentaire. </p><p>Open Food Facts est un projet collaboratif dont le but est de constituer une base de données libre et ouverte sur les produits alimentaires commercialisés dans le monde entier. Open Food Facts est disponible via un site web ou des applications pour mobiles. Open Food Facts a notamment produit le Nutri-Score et l&#x27;Eco-Score pour démocratiser les ACVs environnementales des produits alimentaires.</p><p>Open Food Facts en quelques chiffres : </p><ul><li>2,1 millions de produits contribués par les volontaires &amp; producteurs</li><li>182 pays où des contributeurs ont déjà ajouté les produits</li><li>2 M de personnes utilisent nos apps ou le site chaque mois</li><li>200 applis et services exploitant Open Food Facts</li><li>57 articles scientifiques basés sur ou citant Open Food Facts</li><li>25 000 contributeurs actifs qui assurent la qualité de la base</li></ul><h2>Le projet de la saison 10</h2><p>Démultiplier le nombre de Nutri-Score, et surtout d&#x27;Éco-Scores que l’on peut calculer. L&#x27;Éco-Score requiert des catégories beaucoup plus précises (que les utilisateurs ne savent pas ou n’ont pas le temps de saisir). Peut-on passer à 90%+ d&#x27;Éco-Scores en réduisant le taux d’erreur ?</p><h2>Les projets des saisons précédentes</h2><p><img src="./previous.png"/></p><h2>Compétences recherchées</h2><ul><li>Data Scientists Python avec un intérêt pour le NLP et la Computer Vision</li><li>Mais aussi toute personne qui souhaiterait contribuer à cette aventure open source pour scanner de nouveaux produits, réaliser des traductions, faire du design, du hacking ou développer l&#x27;infrastructure. </li></ul><h2>Références</h2><ul><li>Le <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=2609s">replay du lancement de la saison 10</a></li><li>La page <a href="https://fr.wikipedia.org/wiki/Open_Food_Facts">Wikipedia d&#x27;Open Food Facts</a></li></ul><h2>Equipe</h2><ul><li><a href="mailto:pierre@openfoodfacts.org">pierre@openfoodfacts.org</a></li><li><a href="mailto:alex@openfoodfacts.org">alex@openfoodfacts.org</a></li><li>Twitter: @OpenFoodFactsFR</li><li>Slack: <a href="https://slack.openfoodfacts.org">https://slack.openfoodfacts.org</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_open_food_facts</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Avastar]]></title>
@@ -218,14 +217,6 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Outil BEGES]]></title>
-            <link>https://dataforgood.fr/projects/beges</link>
-            <guid>beges</guid>
-            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Calcul des émissions liées aux consommations énergétiques des bâtiments et déplacements au sein d’une structure de l'État.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[CO2 Plume Detector]]></title>
             <link>https://dataforgood.fr/projects/co2plumedetector</link>
             <guid>co2plumedetector</guid>
@@ -239,6 +230,14 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <guid>foretsdegradees</guid>
             <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Détecter les forêts dégradées de Guinée et du Congo par imagerie satellite haute résolution et deep learning.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Outil BEGES]]></title>
+            <link>https://dataforgood.fr/projects/beges</link>
+            <guid>beges</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Calcul des émissions liées aux consommations énergétiques des bâtiments et déplacements au sein d’une structure de l'État.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -370,19 +369,19 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Redécoupage citoyen]]></title>
-            <link>https://dataforgood.fr/projects/redecoupagecitoyen</link>
-            <guid>redecoupagecitoyen</guid>
-            <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
-            <description><![CDATA[Nous votons, nous dessinons !]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Mediachecker]]></title>
             <link>https://dataforgood.fr/projects/mediachecker</link>
             <guid>mediachecker</guid>
             <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Automatisation du fact checking des affirmations des politiques tunisiens sur le site Birrasmi.tn, de Cahiers de la Liberté]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Redécoupage citoyen]]></title>
+            <link>https://dataforgood.fr/projects/redecoupagecitoyen</link>
+            <guid>redecoupagecitoyen</guid>
+            <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nous votons, nous dessinons !]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -408,13 +407,6 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Data4Tunisia]]></title>
-            <link>https://dataforgood.fr/projects/datafortunisia</link>
-            <guid>datafortunisia</guid>
-            <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Isara]]></title>
             <link>https://dataforgood.fr/projects/isara</link>
             <guid>isara</guid>
@@ -423,9 +415,9 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[We answer]]></title>
-            <link>https://dataforgood.fr/projects/weanswer</link>
-            <guid>weanswer</guid>
+            <title><![CDATA[Data4Tunisia]]></title>
+            <link>https://dataforgood.fr/projects/datafortunisia</link>
+            <guid>datafortunisia</guid>
             <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
@@ -433,6 +425,13 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <title><![CDATA[Make.org]]></title>
             <link>https://dataforgood.fr/projects/makeorg</link>
             <guid>makeorg</guid>
+            <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[We answer]]></title>
+            <link>https://dataforgood.fr/projects/weanswer</link>
+            <guid>weanswer</guid>
             <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
@@ -445,18 +444,18 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Loyers parisiens]]></title>
+            <link>https://dataforgood.fr/projects/loyersparisiens</link>
+            <guid>loyersparisiens</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Impala]]></title>
             <link>https://dataforgood.fr/projects/impala</link>
             <guid>impala</guid>
             <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[Aider les lycéens à s'orienter.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Loyers parisiens]]></title>
-            <link>https://dataforgood.fr/projects/loyersparisiens</link>
-            <guid>loyersparisiens</guid>
-            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -495,14 +494,6 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Adoptez-moi]]></title>
-            <link>https://dataforgood.fr/projects/adoptezmoi</link>
-            <guid>adoptezmoi</guid>
-            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
-            <description><![CDATA[Un bot Twitter qui diffuse des informations sur des animaux à adopter.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Data For Food]]></title>
             <link>https://dataforgood.fr/projects/dataforfood</link>
             <guid>dataforfood</guid>
@@ -524,6 +515,14 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <guid>teenspirit</guid>
             <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Adoptez-moi]]></title>
+            <link>https://dataforgood.fr/projects/adoptezmoi</link>
+            <guid>adoptezmoi</guid>
+            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Un bot Twitter qui diffuse des informations sur des animaux à adopter.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
     </channel>
