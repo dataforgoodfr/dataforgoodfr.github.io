@@ -49,6 +49,14 @@
 L’atelier OGRE apporte des éléments de réponse à ces questions et aide à s’approprier des termes peu utilisés dans notre quotidien (ex: rendement, facteur de charge, disponibilité,…). L’atelier permet également de voir quelles sont les actions, tant sur la consommation que sur la production, à fort impact énergétique pour évoluer vers un monde plus durable, puis à ouvrir des discussions entre les participants sur le sujet.</p><p>Les participants répartis en équipe de 4 à 8 personnes, et aidés par un animateur, disposent de 3h pour équilibrer consommation et production d’énergie décarbonée.</p><p><img src="./scren.png"/></p><h2>Le projet</h2><p>Aujourd&#x27;hui l&#x27;atelier est animé avec un outil Google Sheet qui arrive à ses limites pour pouvoir passer à l&#x27;échelle tout en rendant l&#x27;atelier plus user-friendly. Le but de ce projet est de construire l&#x27;application web permettant de digitaliser l&#x27;atelier. </p><p>Stack technique:</p><ul><li>Backend Nodejs</li><li>Gestion base de donnée : Postgresql + ORM Sequelize</li><li>Hébergement et déploiement : Heroku + github</li><li>Frontend React</li></ul><h2>Compétences recherchées</h2><ul><li>Plusieurs développeurs backend Nodejs</li><li>Plusieurs développeurs frontend React</li><li>Gestion de projet : 1 ou plusieurs product owner (largement assez de travail pour 2/3 personnes)</li><li>UX/UI designer</li></ul><h2>Références</h2><ul><li><a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=3340s">Replay du lancement de la saison 10</a></li><li><a href="https://www.youtube.com/watch?v=kSwJopxsphQ&amp;t=1398s">Replay du Monthly Marty n°1</a></li><li>Page internet de présentation : <a href="https://laconsciencedesetudiants.fr/atelier-ogre/">https://laconsciencedesetudiants.fr/atelier-ogre/</a></li><li>La source principale qui a permis de concevoir le moteur de calcul de l&#x27;atelier est disponibles à l&#x27;<a href="http://www.inference.org.uk/sustainable/book/translate/french/sewtha_20111001_lowres.pdf">adresse suivante</a></li></ul><h2>Equipe</h2><ul><li>Grégory Kotnarovsky, créateur de l&#x27;atelier OGRE, <a href="mailto:grandeur.energies@gmail.com">grandeur.energies@gmail.com</a></li><li>Vladimir Nafissi, développeur (bénévole D4G), <a href="mailto:vlad.nafissi@gmail.com">vlad.nafissi@gmail.com</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_ogre</strong></p>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Open Food Facts]]></title>
+        <id>openfoodfacts</id>
+        <link href="https://dataforgood.fr/projects/openfoodfacts"/>
+        <updated>2022-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Et si scanner vos produits 🤳🥫 vous permettait de découvrir leur impact sur la 🌍🌿 planète ?]]></summary>
+        <content type="html"><![CDATA[<p>:::tip Faire les bons choix pour sa santé et pour la planète</p><p>Démultiplier le nombre d&#x27;Éco-Scores en rendant le système de catégorisation plus intelligent</p><p>:::</p><h2>A propos d&#x27;Open Food Facts</h2><p>S’organiser pour peser sur notre santé, sur l’environnement, sur le système alimentaire. </p><p>Open Food Facts est un projet collaboratif dont le but est de constituer une base de données libre et ouverte sur les produits alimentaires commercialisés dans le monde entier. Open Food Facts est disponible via un site web ou des applications pour mobiles. Open Food Facts a notamment produit le Nutri-Score et l&#x27;Eco-Score pour démocratiser les ACVs environnementales des produits alimentaires.</p><p>Open Food Facts en quelques chiffres : </p><ul><li>2,1 millions de produits contribués par les volontaires &amp; producteurs</li><li>182 pays où des contributeurs ont déjà ajouté les produits</li><li>2 M de personnes utilisent nos apps ou le site chaque mois</li><li>200 applis et services exploitant Open Food Facts</li><li>57 articles scientifiques basés sur ou citant Open Food Facts</li><li>25 000 contributeurs actifs qui assurent la qualité de la base</li></ul><h2>Le projet de la saison 10</h2><p>Démultiplier le nombre de Nutri-Score, et surtout d&#x27;Éco-Scores que l’on peut calculer. L&#x27;Éco-Score requiert des catégories beaucoup plus précises (que les utilisateurs ne savent pas ou n’ont pas le temps de saisir). Peut-on passer à 90%+ d&#x27;Éco-Scores en réduisant le taux d’erreur ?</p><h2>Les projets des saisons précédentes</h2><p><img src="./previous.png"/></p><h2>Compétences recherchées</h2><ul><li>Data Scientists Python avec un intérêt pour le NLP et la Computer Vision</li><li>Mais aussi toute personne qui souhaiterait contribuer à cette aventure open source pour scanner de nouveaux produits, réaliser des traductions, faire du design, du hacking ou développer l&#x27;infrastructure. </li></ul><h2>Références</h2><ul><li>Le <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=2609s">replay du lancement de la saison 10</a></li><li>La page <a href="https://fr.wikipedia.org/wiki/Open_Food_Facts">Wikipedia d&#x27;Open Food Facts</a></li></ul><h2>Equipe</h2><ul><li><a href="mailto:pierre@openfoodfacts.org">pierre@openfoodfacts.org</a></li><li><a href="mailto:alex@openfoodfacts.org">alex@openfoodfacts.org</a></li><li>Twitter: @OpenFoodFactsFR</li><li>Slack: <a href="https://slack.openfoodfacts.org">https://slack.openfoodfacts.org</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_open_food_facts</p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Pyronear]]></title>
         <id>pyronear</id>
         <link href="https://dataforgood.fr/projects/pyronear"/>
@@ -63,14 +71,6 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
         <updated>2022-03-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d'observer en un clin d'oeil les besoins des territoires sur l'aide alimentaire]]></summary>
         <content type="html"><![CDATA[<p>:::tip Diagnostiquer l&#x27;aide alimentaire</p><p>Proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d&#x27;observer en un clin d&#x27;eil les besoins des territoires sur l&#x27;aide alimentaire</p><p>:::</p><h2>A propos de Solinum</h2><p><img src="./mission.png"/></p><p><a href="https://www.solinum.org/">Solinum</a> (et le Soliguide) est une association qui lutte contre la pauvreté en permettant aux personnes en situation de précarité qui d’obtenir des informations pour s’orienter et donc d’accéder à des lieux et services utiles. Aujourd&#x27;hui le Soliguide référence des lieux d&#x27;accueil, santé, alimentation, hygiène, emploi, matériel, et autres activités gratuites. <strong>Et si au lieu d’attendre 2 ans d’avoir un rapport, les décideurs avaient accès aux données pertinentes en temps réel</strong> ?</p><h2>Le projet : diagnostiquer l&#x27;aide alimentaire</h2><ul><li><strong>L’objectif : proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d&#x27;observer en un clin d’oeil les besoins des territoires sur l’aide alimentaire</strong>.</li></ul><p><img src="./projet.png"/></p><ul><li><p>Exemple : Analyse de l’adéquation besoin/offre ; fermeture des structures en août ; carte isochrone d’accessibilité ; comparaison entre les territoires ; etc.</p></li><li><p>Les données : </p><ul><li>Structures référencées sur Soliguide : 40 000 services dont 3163 services d&#x27;aide alimentaire (742 distribution de repas, 451 restauration assise, 1520 colis alimentaires, 450 épiceries sociales et solidaires)</li><li>Recherches faites sur Soliguide</li><li>Données ouvertes (taux de pauvreté INSEE ; nb de bénéficiaires du RSA ; …)</li></ul></li><li><p>La démarche proposée :</p><ul><li>Comprendre le besoin auprès des acteurs de terrain et publics en interrogeant nos équipes ;</li><li>Mettre en oeuvre les flux de données nécessaires pour avoir des données en temps réel facilement manipulable ;</li><li>Produire des dashboard de données filtrables, réutilisables et maintenables</li></ul></li><li><p>La stack :</p><ul><li>Site Soliguide : Angular / NodeJS</li><li>MongoDB (NoSQL)</li><li>Metabase</li></ul></li></ul><h2>Compétences recherchées</h2><ul><li><strong>Data Analystes</strong> de tous niveaux avec une appétence pour la visualisation et les projections géospatiales !</li><li><strong>Data Scientists et Data Engineers</strong> pour aller chercher des données supplémentaires et automatiser les traitements et les visualisations  </li></ul><h2>Pour en savoir plus sur le projet</h2><ul><li>La <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=869s">vidéo de présentation</a> au lancement de la saison 10</li><li>La <a href="https://www.youtube.com/watch?v=Lgnypz2N-Fc&amp;t=2490s">présentation de Solinum</a> au Monthly Marty n°5</li><li>Le site internet de Solinum <a href="https://www.solinum.org/">https://www.solinum.org/</a></li><li>Le site internet du Soliguide <a href="https://soliguide.fr/">https://soliguide.fr/</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_solinum</strong></p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open Food Facts]]></title>
-        <id>openfoodfacts</id>
-        <link href="https://dataforgood.fr/projects/openfoodfacts"/>
-        <updated>2022-03-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Et si scanner vos produits 🤳🥫 vous permettait de découvrir leur impact sur la 🌍🌿 planète ?]]></summary>
-        <content type="html"><![CDATA[<p>:::tip Faire les bons choix pour sa santé et pour la planète</p><p>Démultiplier le nombre d&#x27;Éco-Scores en rendant le système de catégorisation plus intelligent</p><p>:::</p><h2>A propos d&#x27;Open Food Facts</h2><p>S’organiser pour peser sur notre santé, sur l’environnement, sur le système alimentaire. </p><p>Open Food Facts est un projet collaboratif dont le but est de constituer une base de données libre et ouverte sur les produits alimentaires commercialisés dans le monde entier. Open Food Facts est disponible via un site web ou des applications pour mobiles. Open Food Facts a notamment produit le Nutri-Score et l&#x27;Eco-Score pour démocratiser les ACVs environnementales des produits alimentaires.</p><p>Open Food Facts en quelques chiffres : </p><ul><li>2,1 millions de produits contribués par les volontaires &amp; producteurs</li><li>182 pays où des contributeurs ont déjà ajouté les produits</li><li>2 M de personnes utilisent nos apps ou le site chaque mois</li><li>200 applis et services exploitant Open Food Facts</li><li>57 articles scientifiques basés sur ou citant Open Food Facts</li><li>25 000 contributeurs actifs qui assurent la qualité de la base</li></ul><h2>Le projet de la saison 10</h2><p>Démultiplier le nombre de Nutri-Score, et surtout d&#x27;Éco-Scores que l’on peut calculer. L&#x27;Éco-Score requiert des catégories beaucoup plus précises (que les utilisateurs ne savent pas ou n’ont pas le temps de saisir). Peut-on passer à 90%+ d&#x27;Éco-Scores en réduisant le taux d’erreur ?</p><h2>Les projets des saisons précédentes</h2><p><img src="./previous.png"/></p><h2>Compétences recherchées</h2><ul><li>Data Scientists Python avec un intérêt pour le NLP et la Computer Vision</li><li>Mais aussi toute personne qui souhaiterait contribuer à cette aventure open source pour scanner de nouveaux produits, réaliser des traductions, faire du design, du hacking ou développer l&#x27;infrastructure. </li></ul><h2>Références</h2><ul><li>Le <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=2609s">replay du lancement de la saison 10</a></li><li>La page <a href="https://fr.wikipedia.org/wiki/Open_Food_Facts">Wikipedia d&#x27;Open Food Facts</a></li></ul><h2>Equipe</h2><ul><li><a href="mailto:pierre@openfoodfacts.org">pierre@openfoodfacts.org</a></li><li><a href="mailto:alex@openfoodfacts.org">alex@openfoodfacts.org</a></li><li>Twitter: @OpenFoodFactsFR</li><li>Slack: <a href="https://slack.openfoodfacts.org">https://slack.openfoodfacts.org</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_open_food_facts</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Avastar]]></title>
@@ -217,6 +217,14 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Outil BEGES]]></title>
+        <id>beges</id>
+        <link href="https://dataforgood.fr/projects/beges"/>
+        <updated>2020-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Calcul des émissions liées aux consommations énergétiques des bâtiments et déplacements au sein d’une structure de l'État.]]></summary>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[CO2 Plume Detector]]></title>
         <id>co2plumedetector</id>
         <link href="https://dataforgood.fr/projects/co2plumedetector"/>
@@ -230,14 +238,6 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
         <link href="https://dataforgood.fr/projects/foretsdegradees"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Détecter les forêts dégradées de Guinée et du Congo par imagerie satellite haute résolution et deep learning.]]></summary>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Outil BEGES]]></title>
-        <id>beges</id>
-        <link href="https://dataforgood.fr/projects/beges"/>
-        <updated>2020-03-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Calcul des émissions liées aux consommations énergétiques des bâtiments et déplacements au sein d’une structure de l'État.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
@@ -407,18 +407,18 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Data4Tunisia]]></title>
+        <id>datafortunisia</id>
+        <link href="https://dataforgood.fr/projects/datafortunisia"/>
+        <updated>2018-03-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Isara]]></title>
         <id>isara</id>
         <link href="https://dataforgood.fr/projects/isara"/>
         <updated>2018-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Deep learning pour la langue des signes.]]></summary>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data4Tunisia]]></title>
-        <id>datafortunisia</id>
-        <link href="https://dataforgood.fr/projects/datafortunisia"/>
-        <updated>2018-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
@@ -444,18 +444,18 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Loyers parisiens]]></title>
-        <id>loyersparisiens</id>
-        <link href="https://dataforgood.fr/projects/loyersparisiens"/>
-        <updated>2017-09-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Impala]]></title>
         <id>impala</id>
         <link href="https://dataforgood.fr/projects/impala"/>
         <updated>2017-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Aider les lycéens à s'orienter.]]></summary>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Loyers parisiens]]></title>
+        <id>loyersparisiens</id>
+        <link href="https://dataforgood.fr/projects/loyersparisiens"/>
+        <updated>2017-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
@@ -494,6 +494,14 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Adoptez-moi]]></title>
+        <id>adoptezmoi</id>
+        <link href="https://dataforgood.fr/projects/adoptezmoi"/>
+        <updated>2017-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Un bot Twitter qui diffuse des informations sur des animaux à adopter.]]></summary>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Data For Food]]></title>
         <id>dataforfood</id>
         <link href="https://dataforgood.fr/projects/dataforfood"/>
@@ -515,14 +523,6 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
         <link href="https://dataforgood.fr/projects/teenspirit"/>
         <updated>2017-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.]]></summary>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adoptez-moi]]></title>
-        <id>adoptezmoi</id>
-        <link href="https://dataforgood.fr/projects/adoptezmoi"/>
-        <updated>2017-03-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Un bot Twitter qui diffuse des informations sur des animaux à adopter.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
 </feed>
