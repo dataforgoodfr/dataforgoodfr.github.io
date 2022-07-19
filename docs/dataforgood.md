@@ -7,9 +7,9 @@ title: L'association Data For Good
 ## L'association Data For Good
 
 :::info Data For Good
-Data For Good est une association loi 1901 (100% bénévole et non mercantile) créée en 2014 qui rassemble une **communauté de 2500+ volontaires tech (Data, Dev, Designers) souhaitant mettre leurs compétences à profit d'associations et d'ONG et de s'engager pour l'intérêt général**.
+Data For Good est une association loi 1901 (100% bénévole et non mercantile) créée en 2014 qui rassemble une **communauté de 3200+ volontaires tech (Data, Dev, Designers) souhaitant mettre leurs compétences à profit d'associations et d'ONG et de s'engager pour l'intérêt général**.
 
-Nous réalisons chaque année 2 saisons d'accélération où une dizaine de projets sont accompagnés par les bénévoles sur des thématiques environnementales, sociales et solidaires. Nous avons ainsi accompagné, accéléré et co-construits plus de 70 projets depuis 2014.
+Nous réalisons chaque année 2 saisons d'accélération où une dizaine de projets sont accompagnés par les bénévoles sur des thématiques environnementales, sociales et solidaires. Nous avons ainsi accompagné, accéléré et co-construits plus de 100 projets depuis 2014.
 :::
 
 Pour en savoir plus sur l'association vous pouvez : 

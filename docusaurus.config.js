@@ -17,7 +17,7 @@ const config = {
   organizationName: 'dataforgoodfr', // Usually your GitHub org/user name.
   projectName: 'dataforgoodfr.github.io', // Usually your repo name.
   plugins: [
-    require.resolve('docusaurus-lunr-search'),
+    // require.resolve('docusaurus-lunr-search'),
     [
       '@docusaurus/plugin-content-blog',
       {
@@ -101,7 +101,6 @@ const config = {
             ],
           },
           {to: '/blog', label: '📚 Blog', position: 'left'},
-          {to: '/hippocrate', label: "⚕ Serment d'Hippocrate", position: 'left'},
           {
             to: '/join', 
             label: '💪 Rejoindre la communauté', 
@@ -161,6 +160,10 @@ const config = {
               {
                 label: 'Meetup',
                 href: 'https://www.meetup.com/Data-for-Good-FR',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/dataforgoodfr/',
               },
               {
                 label: 'Twitch',

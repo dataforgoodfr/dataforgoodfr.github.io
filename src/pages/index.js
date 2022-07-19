@@ -65,17 +65,17 @@ const TeamMember = ({src,name,contact,role}) => {
 
 const teamList = [
   {src:"img/team/marty.png","name":"Marty","role":"Mascotte","contact":"https://www.linkedin.com/company/10627994"},
-  {src:"img/team/theo.jpg","name":"Théo Alves Da Costa","role":"Coordinateur","contact":"https://www.linkedin.com/in/th%C3%A9o-alves-da-costa-09397a82/"},
+  {src:"img/team/theo.jpg","name":"Théo Alves Da Costa","role":"Co-Président","contact":"https://www.linkedin.com/in/th%C3%A9o-alves-da-costa-09397a82/"},
+  {src:"img/team/lou.jpg","name":"Lou Welgryn","role":"Co-Présidente","contact":"https://www.linkedin.com/in/lou-welgryn-460434b0/"},
   {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
   {src:"img/team/benjamin.png","name":"Benjamin Rouif","role":"Coordinateur","contact":"https://www.linkedin.com/in/brouif/"},
-  {src:"img/team/lou.jpg","name":"Lou Welgryn","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lou-welgryn-460434b0/"},
   {src:"img/team/mickael.jpg","name":"Mickael Fine","role":"Coordinateur","contact":"https://www.linkedin.com/in/mickaelfine/"},
   {src:"img/team/clement.jfif","name":"Clément Mayer","role":"Coordinateur","contact":"https://www.linkedin.com/in/cl%C3%A9ment-mayer-02a61216/"},
-  {src:"img/team/josephine.jpg","name":"Joséphine Lecoq-Vallon","role":"Coordinatrice","contact":"https://www.linkedin.com/in/josephine-lecoq-vallon/"},
+  {src:"img/team/josephine.jpg","name":"Joséphine Lecoq-Vallon","role":"Responsable de la communauté","contact":"https://www.linkedin.com/in/josephine-lecoq-vallon/"},
   {src:"img/team/julie.png","name":"Julie Jouvencel","role":"Coordinatrice","contact":"https://www.linkedin.com/in/juliejouvencel/"},
   {src:"img/team/margaux.jpg","name":"Margaux David","role":"Designeuse","contact":"https://www.linkedin.com/in/margauxdavid/"},
   {src:"img/team/eloi.png","name":"Eloi Pérignon","role":"Communication & RP","contact":"https://www.linkedin.com/in/eloi-perignon/"},
-  {src:"img/team/fred.png","name":"Frédéric Bardolle","role":"Conseil des sages","contact":"https://www.linkedin.com/in/fbardolle/"},
+  // {src:"img/team/fred.png","name":"Frédéric Bardolle","role":"Conseil des sages","contact":"https://www.linkedin.com/in/fbardolle/"},
 ]
 
 
@@ -188,10 +188,10 @@ export default function Home() {
         {/* <section>
           <div className="container main-section">
             <h1>Les news</h1>
-            <h2>Lancement de la saison 10 de Data For Good le samedi 12 mars à 14h</h2>
-            <p>Inscriptions sur <a href="https://app.livestorm.co/data-for-good/saison10?type=detailed" target="_blank">Livestorm</a> ou juste ici 👇</p>
-            <iframe width="100%" height="480" frameborder="0" src="https://app.livestorm.co/p/0e2b2b3c-249c-411f-a82e-26ba5bde1283/form" title="Lancement Saison 10 Data For Good | Data For Good"></iframe>
-          </div>
+            <h2>Démo Day saison 10 de Data For Good le mercredi 15 juin à 19h30</h2>
+            <p>Inscriptions sur <a href="https://app.livestorm.co/data-for-good/demo-day?type=detailed" target="_blank">Livestorm</a> ou juste ici 👇</p>
+            <iframe width="100%" height="480" frameborder="0" src="https://app.livestorm.co/p/6c0bd5f4-a376-45d1-83c8-795592254d4e/form" title="Démo Day Saison 10 Data For Good | Data For Good"></iframe>
+          </div>  
         </section> */}
 
         <section className="light-green">
@@ -202,7 +202,7 @@ export default function Home() {
                 <img src={`${useBaseUrl("img/events.jpg")}`} alt="dfg-demoday" style={{"width":"100%","margin-bottom":"20px"}}/>
               </div>
               <div className="col col--6" style={{"text-align":"left","align-content":"center"}}>
-                <p>Data For Good est une association loi 1901 (<i>100% bénévole, 100% open-source, 100% citoyenne</i>) créée en 2014 qui rassemble une communauté de <b>2700+ volontaires</b> tech (Data Scientists, Data Analysts, Data Engineers, Developers, UX/UI Designers, Product & Project Owners) souhaitant mettre leurs compétences au profit d'associations, d'ONG, et de l'ESS - et de s'engager pour l'intérêt général.</p>
+                <p>Data For Good est une association loi 1901 (<i>100% bénévole, 100% open-source, 100% citoyenne</i>) créée en 2014 qui rassemble une communauté de <b>3200+ volontaires</b> tech (Data Scientists, Data Analysts, Data Engineers, Developers, UX/UI Designers, Product & Project Owners) souhaitant mettre leurs compétences au profit d'associations, d'ONG, et de l'ESS - et de s'engager pour l'intérêt général.</p>
                 <p>Nous réalisons chaque année des <b>saisons d'accélération où une dizaine de projets sont accompagnés par les bénévoles sur des thématiques sociales, sociétales et environnementales</b>. Nous avons ainsi accompagné, accéléré et co-construits plus de <Link to="/projects">100 projets</Link> depuis 2014.</p>
                 <p>Nous sommes également fervents <b>critiques des risques et des dérives de la technologie</b>, faire partie de la communauté est aussi s'engager pour une technologie sobre et respectueuse des enjeux sociaux et environnementaux, et accepter que la technologie n'est pas la solution à tous les problèmes.</p>
               </div>
