@@ -137,6 +137,10 @@ const config = {
                 to: '/docs/dataforgood',
               },
               {
+                label: "Serment d'Hippocrate",
+                to: '/docs/hippocrate',
+              },
+              {
                 label: "FAQ",
                 to: 'https://dataforgood.slite.com/p/channel/F9UR6bhuYCPAtvfLDje8Zc/notes/p8MSVDq6k',
               },
@@ -161,10 +165,7 @@ const config = {
                 label: 'Meetup',
                 href: 'https://www.meetup.com/Data-for-Good-FR',
               },
-              {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/dataforgoodfr/',
-              },
+
               {
                 label: 'Twitch',
                 href: 'https://twitch.tv/dataforgood',
@@ -179,12 +180,16 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/dataforgood_fr',
-              },
-              {
                 label: 'Linkedin',
                 href: 'https://www.linkedin.com/company/dataforgood',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/dataforgoodfr/',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/dataforgood_fr',
               },
             ],
           },

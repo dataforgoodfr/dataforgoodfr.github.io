@@ -67,7 +67,7 @@ Nous rapatrions le blog Data For Good qui était avant sur Medium à l'intérieu
 ### Le Serment d'Hippocrate est de retour !
 Un de nos projets les plus emblématiques, qui [avait fait pas mal de bruit à sa sortie en 2018](https://www.lemonde.fr/festival/article/2018/07/05/un-serment-d-hippocrate-pour-les-professionnels-de-l-intelligence-artificielle_5326218_4415198.html), était le [Serment d'Hippocrate du Data Scientist](/hippocrate) - une charte d'engagement éthique pour les professionnels de la Data. 
 
-Suite à des problèmes d'hébergement, nous avions perdu le site internet de ce serment qui n'était plus accessible depuis 1 an et demi. Après avoir fait de l'archéologie nous avons pu le [remettre en ligne sur ce site](/hippocrate), ce n'est plus tout à fait aussi beau et il manque encore les signataires mais au moins il est accessible et peut être utilisé et améioré 🙏  
+Suite à des problèmes d'hébergement, nous avions perdu le site internet de ce serment qui n'était plus accessible depuis 1 an et demi. Après avoir fait de l'archéologie nous avons pu le [remettre en ligne sur ce site](/docs/hippocrate), ce n'est plus tout à fait aussi beau et il manque encore les signataires mais au moins il est accessible et peut être utilisé et améioré 🙏  
 
 ![](./hippocrate.png)
 
