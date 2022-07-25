@@ -13,30 +13,11 @@ on:
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-# jobs:
-#   publish:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v1
-#       - uses: actions/setup-node@v1
-#         with:
-#           node-version: 14
-#       - run: npm install
-#       - run: |
-#           git config --global user.email "actions@github.com"
-#           git config --global user.name "gh-actions"
-#           npm run deploy
-#         env:
-#           GIT_USER: ${{ secrets.GIT_USER }}
-#           GIT_PASS: ${{ secrets.GIT_PASSWORD }}
-          
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GIT_PASSWORD }}
+      - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
           node-version: 14
@@ -44,5 +25,9 @@ jobs:
       - run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "gh-actions"
+          git remote set-url --push origin https://theolvs:$GITHUB_TOKEN@github.com/dataforgoodfr.github.io
           npm run deploy
-          
+        env:
+          # GIT_USER: ${{ secrets.GIT_USER }}
+          GITHUB_TOKEN: ${{ secrets.GIT_PASSWORD }}
+    
