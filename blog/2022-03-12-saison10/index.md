@@ -54,7 +54,7 @@ Pour cette 10e saison, nous avons essayé de vous proposer des projets d'intér�
 
 Ainsi nous avons sélectionné des *projets que nous connaissons des saisons précédentes, du hors-saison et quelques nouveautés* ! 
 
-Cependant cela ne suffit pas, réaliser des projets "for good" qui ont un réel impact n'est pas si évident. **Il est primordial de prévoir, anticiper, sensibiliser, mesurer, et réduire les externalités négatives des projets et des technologies et algorithmes sous-jacents**. Ainsi, pour cette saison nous allons compléter notre [Serment d'Hippocrate](/hippocrate) pour créer une boite à outil de mesure d'impact négatifs des projets technologiques. Par exemple tous les projets de la saison qui codent en Python vont devoir mesurer l'empreinte carbone du code avec [CodeCarbon](/projects/codecarbon) (Saison 9). 
+Cependant cela ne suffit pas, réaliser des projets "for good" qui ont un réel impact n'est pas si évident. **Il est primordial de prévoir, anticiper, sensibiliser, mesurer, et réduire les externalités négatives des projets et des technologies et algorithmes sous-jacents**. Ainsi, pour cette saison nous allons compléter notre [Serment d'Hippocrate](/docs/hippocrate) pour créer une boite à outil de mesure d'impact négatifs des projets technologiques. Par exemple tous les projets de la saison qui codent en Python vont devoir mesurer l'empreinte carbone du code avec [CodeCarbon](/projects/codecarbon) (Saison 9). 
 
 ### Le déroulé de la saison
 

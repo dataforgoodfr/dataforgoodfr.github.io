@@ -59,7 +59,7 @@ Plus d'informations sur le site internet de Ceebios https://ceebios.com/
 *Anastasia Barkova, Evan Dufraisse, Gabriel Olympie, Karine Petrus, Lucas Le Corvec, Paul-Henri Castets, Romain Meuter, Sara Valencia, Thanh Lan, Nikolay Tchakarov (Ceebios), Adrien Saint-Sardos (Ceebios)*
 
 ##### Saison 08
-*Théo Alves Da Costa, Adrien Saint-Sardos (Ceebios)*
+*Chloé Sekkat, Christian Maréchal, Tim Ton That, Théo Alves Da Costa, Adrien Saint-Sardos (Ceebios)*.
 
 ##### Rejoindre le projet
 Il suffit de [rejoindre la communauté Data For Good](/join) et de se présenter sur le canal Slack **#10_ceebios**

@@ -71,7 +71,7 @@ Ceebios accélère la transition sociétale par le biomimétisme en fédérant u
 Plus d'informations sur le site internet de Ceebios https://ceebios.com/
 
 ## Auteurs
-*Théo Alves Da Costa, Adrien Saint-Sardos (Ceebios)*.
+*Chloé Sekkat, Christian Maréchal, Tim Ton That, Théo Alves Da Costa, Adrien Saint-Sardos (Ceebios)*.
 
 
 
