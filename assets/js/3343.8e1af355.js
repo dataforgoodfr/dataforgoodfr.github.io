@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[3343],{3343:function(o,a,e){e.r(a)}}]);
