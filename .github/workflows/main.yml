@@ -28,6 +28,6 @@ jobs:
           git remote set-url --push origin https://theolvs:$GITHUB_TOKEN@github.com/dataforgoodfr.github.io
           npm run deploy
         env:
-          # GIT_USER: ${{ secrets.GIT_USER }}
+          GIT_USER: ${{ secrets.GIT_USER }}
           GITHUB_TOKEN: ${{ secrets.GIT_PASSWORD }}
     
