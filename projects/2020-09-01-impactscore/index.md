@@ -2,7 +2,7 @@
 slug: impactscore
 title: "ImpactScore"
 header_image_url: img/projects/impactscore.png
-tags: [Saison 8,Actif,Environnement,Fiscalité,Open Data,Data aggregation,Dashboarding,sdg16,sdg13]
+tags: [Saison 8,Environnement,Fiscalité,Open Data,Data aggregation,Dashboarding,sdg16,sdg13]
 description: ""
 keywords:
     - Data For Good

@@ -144,14 +144,16 @@ const projectsList = [
   {src:"img/projects/logos/ceebios.jpg",url:"/projects/ceebios"},
   {src:"img/projects/logos/labelia.jpg",url:"/projects/labelia"},
   {src:"img/projects/logos/cc.png",url:""},
-  {src:"img/projects/logos/pyro.png",url:""},
+  {src:"img/projects/logos/pyro.png",url:"/projects/pyronear"},
   {src:"img/projects/logos/2tonnes.png",url:""},
   {src:"img/projects/logos/ogre.png",url:""},
   {src:"img/projects/logos/mtes.png",url:""},
   {src:"img/projects/logos/ads.jpg",url:""},
   {src:"img/projects/logos/c4.png",url:""},
   {src:"img/projects/logos/arkhn.png",url:""},
-  {src:"img/projects/logos/bechdelai.png",url:""},
+  {src:"img/projects/logos/bechdelai.png",url:"/projects/bechdelai"},
+  {src:"img/projects/logos/imagine2050.png",url:"/projects/imagineai"},
+  {src:"img/projects/logos/quotaclimat.png",url:"/projects/quotaclimat"},
   {src:"img/projects/logos/greniers.png",url:""},
   {src:"img/projects/logos/ign.png",url:""},
   {src:"img/projects/logos/jogl.png",url:""},
@@ -211,8 +213,9 @@ export default function Home() {
         </section>
         <section>
           <div className="container main-section">
-            <h1>Nos partenaires</h1>
-            <SectionPartners/>
+            <h1>Les projets Data For Good</h1>
+            <p>Plus d'informations dans la page <Link to="/projects">🔥 Projets</Link></p>
+            <SectionProjects/>
           </div>
         </section>
         <section className="light-green">
@@ -224,9 +227,8 @@ export default function Home() {
         </section>
         <section>
           <div className="container main-section">
-            <h1>Les projets Data For Good</h1>
-            <p>Plus d'informations dans la page <Link to="/projects">🔥 Projets</Link></p>
-            <SectionProjects/>
+            <h1>Nos partenaires</h1>
+            <SectionPartners/>
           </div>
         </section>
       </main>

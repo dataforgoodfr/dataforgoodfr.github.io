@@ -2,7 +2,7 @@
 slug: missiontransition
 title: "Mission Transition Ecologique"
 header_image_url: img/projects/missiontransition2.png
-tags: [Saison 10,Monthly Marty 1,Actif,Transition écologique,sdg13,sdg08]
+tags: [Saison 10,Monthly Marty 1,Transition écologique,sdg13,sdg08]
 description: "Simplifier l’accès au financement public aux actions de transition écologique et énergétique pour les petites et moyennes entreprises en créant un moteur de recherche intelligent des aides existantes parmi celles de l'ADEME, de la BPI, des régions et d'autres acteurs publics ou privés."
 keywords:
     - Data For Good

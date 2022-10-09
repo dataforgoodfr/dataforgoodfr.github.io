@@ -37,7 +37,7 @@ const MONTHS = [
 const MagicTag = ({tagLabel,tagPermalink}) => {
 
   let badgeClass;
-  if (tagLabel.toLowerCase().slice(0,6) === "saison" || tagLabel.toLowerCase().slice(0,7) === "monthly"){
+  if (tagLabel.toLowerCase().slice(0,6) === "saison" || tagLabel.toLowerCase().slice(0,7) === "monthly" || tagLabel.toLowerCase().slice(0,4) === "hors"){
     badgeClass = "badge-season";
   } else if (tagLabel === "Actif"){
     badgeClass = "badge-active";

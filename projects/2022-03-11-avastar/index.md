@@ -2,7 +2,7 @@
 slug: avastar
 title: "Avastar"
 header_image_url: img/projects/avastar.png
-tags: [Saison 10,Monthly Marty 3,Actif,Numérique Responsable,sdg16, Développement Web, React]
+tags: [Saison 10,Monthly Marty 3,Numérique Responsable,sdg16, Développement Web, React]
 description: "Création d'un outil open-source pour reprendre le contrôle de son identité numérique et de ses données personnelles éparpillées publiquement sur internet"
 keywords:
     - Data For Good
