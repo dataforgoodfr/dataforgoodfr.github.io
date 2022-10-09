@@ -4,9 +4,43 @@
         <title>Data For Good Blog</title>
         <link>https://dataforgood.fr/projects</link>
         <description>Data For Good Blog</description>
-        <lastBuildDate>Fri, 01 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Sep 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[CarbonFight]]></title>
+            <link>https://dataforgood.fr/projects/carbonfight</link>
+            <guid>carbonfight</guid>
+            <pubDate>Thu, 01 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Développement d'un calculateur d'empreinte carbone du quotidien]]></description>
+            <content:encoded><![CDATA[<h2>Le projet Carbon Fight</h2><p>Calculer son empreinte carbone tous les jours pour mieux la comprendre et baisser ses émissions ?</p><p>C’est le défi que s’est lancé le développeur citoyen Pierre Freund avec la création de CarbonFight, un calculateur carbone pour suivre au plus près ses émissions au jour le jour et obtenir des conseils personnalisés. Pourquoi alors mesurer son empreinte carbone tous les jours :</p><ul><li>⚡ Comprendre plus rapidement les impacts d’une modification d’habitudes en suivant de près et en simulant des changements (qu’est-ce qu’il se passe si cette semaine j’ai dû prendre ma voiture pour aller au travail, quel est l’impact de ma soirée raclette ou de ma dernière session soldes)</li><li>💡 Mieux comprendre les ordres de grandeur en adressant des actions plus précises</li><li>🧀 Ne pas sous-estimer des habitudes qu’on oublie si on ne fait le calcul qu’annuellement (les fêtes de fin d’année, le barbecue de l’été, les déplacements exceptionnels)</li><li>📉 Suivre sa progression pour agir de façon performative sur ses émissions. En mesurant plus souvent on se donne la chance de réduire. Qui ne regarderait son compte en banque qu’une fois par an ?</li></ul><p>Vous pouvez retrouver la présentation du projet <a href="https://www.youtube.com/watch?v=GMrwDjq3rYs&amp;t=3220s&amp;ab_channel=DataforGood">pendant le Monthly Marty #7</a></p><h2>Equipe</h2><ul><li>Pierre Freund (porteur de projet)</li></ul><h2>Rejoindre le projet</h2><p>Il y a de nombreux chantiers : inclure de nouvelles données, revoir l’identité visuelle, visualiser et projeter les émissions, imaginer un système de recommandations. </p><p>Le projet recherche des contributeurs : </p><ul><li>Data Analystes</li><li>Experts carbone</li><li>UX/UI</li><li>Graphistes</li><li>Développeurs</li></ul><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#offseason_carbonfight</strong></p><p>Vous pouvez aussi directement contribuer en lisant <a href="https://github.com/CarbonFight/app/wiki/Guide-de-la-premi%C3%A8re-contribution">&quot;le guide première contribution&quot;</a> 💪</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ImagineAI]]></title>
+            <link>https://dataforgood.fr/projects/imagineai</link>
+            <guid>imagineai</guid>
+            <pubDate>Thu, 01 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Développement d'outils open source pour mesurer les stéréotypes écocides et les nouveaux récits autour de la transition écologique dans la culture et les médias]]></description>
+            <content:encoded><![CDATA[<h2>Le projet</h2><p>Développement d&#x27;outils open source pour mesurer les stéréotypes écocides et les nouveaux récits autour de la transition écologique dans la culture et les médias. </p><p>Projet développé en collaboration avec Imagine 2050 et le collectif Eclaircies</p><h2>Equipe</h2><ul><li>Théo Alves Da Costa (Data For Good)</li><li>Yasmina Auburtin (Imagine 2050)</li></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[QuotaClimat]]></title>
+            <link>https://dataforgood.fr/projects/quotaclimat</link>
+            <guid>quotaclimat</guid>
+            <pubDate>Thu, 01 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Quantifier et qualifier le traitement médiatiques des enjeux écologiques]]></description>
+            <content:encoded><![CDATA[<h2>Le traitement médiatique des enjeux écologiques</h2><p>Pour faire une bascule sociétale radicale face à l’urgence écologique, il faut absolument faire éclater la bulle des convaincus et que cela rentre dans la culture populaire. Médias, journalistes, culture, cinéma, séries, jeux vidéos, influenceurs, publicités, doivent se transformer.</p><p>📺 Dans le paysage médiatique aujourd’hui, entre 2 et 5% du temps est consacré aux enjeux écologiques. Et c’est à peu près le seul chiffre que nous avons grâce aux travaux de l’Affaire du siècle et de ClimatMédias. Entrainé par l’élan des médias indépendants, de plus en plus de médias et journalistes s’engagent et c’est un tournant majeur (Radio France, TF1, chartes des journalistes à la hauteur de l’urgence écologique). Mais qu’en est-il en réalité ?</p><p>❓ Quelles chaines TV ou Radio traitent vraiment des enjeux climatiques ? En quelle quantité mais surtout avec quelle qualité ? Est-ce que les questions d’érosion de la biodiversité, de pénurie de ressources, ou de limites planétaires sont abordées et recontextualisées ? Est-ce que des scientifiques reconnus dans leurs domaines sont invités ou plutôt des climato-sceptiques sans contradicteurs ? Est-ce qu’on aborde uniquement les causes et les conséquences ou est-ce qu’on parle aussi des solutions ? Et dans les solutions est-ce qu’on parle techno-solutionnisme ou sobriété sociétale planifiée ? Est-ce que les ordres de grandeur et les liens systémiques sont expliqués et vulgarisés ? Est-ce qu’une certaine cohérence de propos est respectée : ex - une séquence bien réussie sur la sobriété énergétique cet hiver suivie d’une émission sur “partir en vacances aux Maldives cet hiver” ? Est-ce que les imaginaires véhiculés autour des redirections écologiques sont présentés comme désirables ? Comment sont abordés les grands moments d’actualité écologiques (COP, lois, scandales environnementaux) vs les autres moments d’actualité (l’arrivée de Messi au PSG ou la Fashion Week) ?</p><p>Aucune idée.</p><p>Il n’existe aujourd’hui aucune mesure systématique, baromètre ou observatoire pour répondre à ces questions, et aider à accompagner les structures médiatiques dans leurs transformations et les pouvoirs publics dans leur compréhension du paysage médiatique.</p><h2>Le projet QuotaClimat x Data For Good</h2><p>Nous lançons un grand chantier de mesure et d’outillage open source pour objectiver ces enjeux. Les bénévoles des deux collectifs vont essayer d’apporter une réponse à ces questions en analysant les données de Mediatree.</p><p>Vous pouvez retrouver la <a href="https://www.youtube.com/watch?v=GMrwDjq3rYs&amp;t=931s">présentation du projet au Monthly Marty #7</a></p><h2>Contacts</h2><ul><li>Théo Alves Da Costa (Data For Good)</li><li>Eva Morel (QuotaClimat)</li><li>Anne Lise Vernières (QuotaClimat)</li></ul><h2>Rejoindre le projet</h2><p>Il y a de nombreux chantiers : croiser les données de Mediatree pour analyser les % d&#x27;antenne par sujet, analyser les contenus textuels pour aller plus loin que la recherche avec des mots clés, ou étendre l&#x27;analyse TV et Radio sur d&#x27;autres supports médiatiques comme la presse ou les réseaux sociaux. </p><p>Le projet recherche des contributeurs : </p><ul><li>Data Scientists</li><li>NLP</li><li>Data Analysts</li></ul><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#offseason_quotaclimat</strong></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Baromètre RSE 2022]]></title>
+            <link>https://dataforgood.fr/projects/barometre</link>
+            <guid>barometre</guid>
+            <pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[L'étude de référence pour accélérer la transition des entreprises - Pour le baromètre RSE 2022 porté par Vendredi, analyse des données sur la maturité autour des enjeux sociétaux et environnementaux de 800 entreprises]]></description>
+            <content:encoded><![CDATA[<h2>Le Baromètre RSE 2022</h2><h3>A propos du baromètre</h3><p>Le baromètre de la RSE 2022 souhaite aider concrètement toutes les entreprises à accélérer leur transition sociale et environnementale et leur donnant les outils pour comprendre, se comparer, analyser, et s’approprier le sujet.
+L&#x27;étude de référence pour accélérer la transition des entreprises :</p><ul><li>Un état des lieux de la RSE en France grâce à la première base de données open-source et complète sur le sujet</li><li>790 entreprises répondantes de toutes tailles et de tous secteurs pour un tour d’horizon à 360° de la RSE</li><li>Un laboratoire des tendances pour suivre chaque année les pratiques des entreprises en matière de RSE</li><li>Un projet co-initié par 14 experts pour réfléchir collectivement à de nouvelles solutions au service de la transition</li></ul><h3>Le projet Data For Good</h3><ol><li>En juin et juillet 2022, les 14 partenaires du projet ont diffusé largement le questionnaire du Baromètre 2022 de la RSE.
+Notre objectif : permettre à un maximum d’entreprises, de tous secteurs et de toutes tailles, de participer à l’étude.</li><li><strong>En juillet et août 2022, ce sont des bénévoles Data Analysts de l’association Data for Good qui se sont attelé·es au traitement des réponses du questionnaire : nettoyage des données, croisements, réalisation des graphiques…</strong> </li><li>Accompagné·es par les 14 partenaires du projet, nous nous sommes appuyé·es sur les données traitées par les bénévoles de Data for Good pour rédiger ce rapport et identifier les grandes tendances de la RSE en France en 2022 !</li></ol><h3>Les résultats du baromètre RSE 2022</h3><p>Vous pouvez consulter tous les résultats ici <a href="https://www.vendredi.cc/barometre-rse-2022">https://www.vendredi.cc/barometre-rse-2022</a></p><h2>Contacts</h2><ul><li>Héloise Arnold (Vendredi)</li></ul><h2>Retombées presses</h2><ul><li><a href="https://data.ladn.eu/blog/actualites/barometre-rse-2022/">https://data.ladn.eu/blog/actualites/barometre-rse-2022/</a></li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[L'enquête du siècle]]></title>
             <link>https://dataforgood.fr/projects/lenquetedusiecle</link>
@@ -67,20 +101,20 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
             <content:encoded><![CDATA[<p>:::tip Faire les bons choix pour sa santé et pour la planète</p><p>Démultiplier le nombre d&#x27;Éco-Scores en rendant le système de catégorisation plus intelligent</p><p>:::</p><h2>A propos d&#x27;Open Food Facts</h2><p>S’organiser pour peser sur notre santé, sur l’environnement, sur le système alimentaire. </p><p>Open Food Facts est un projet collaboratif dont le but est de constituer une base de données libre et ouverte sur les produits alimentaires commercialisés dans le monde entier. Open Food Facts est disponible via un site web ou des applications pour mobiles. Open Food Facts a notamment produit le Nutri-Score et l&#x27;Eco-Score pour démocratiser les ACVs environnementales des produits alimentaires.</p><p>Open Food Facts en quelques chiffres : </p><ul><li>2,1 millions de produits contribués par les volontaires &amp; producteurs</li><li>182 pays où des contributeurs ont déjà ajouté les produits</li><li>2 M de personnes utilisent nos apps ou le site chaque mois</li><li>200 applis et services exploitant Open Food Facts</li><li>57 articles scientifiques basés sur ou citant Open Food Facts</li><li>25 000 contributeurs actifs qui assurent la qualité de la base</li></ul><h2>Le projet de la saison 10</h2><p>Démultiplier le nombre de Nutri-Score, et surtout d&#x27;Éco-Scores que l’on peut calculer. L&#x27;Éco-Score requiert des catégories beaucoup plus précises (que les utilisateurs ne savent pas ou n’ont pas le temps de saisir). Peut-on passer à 90%+ d&#x27;Éco-Scores en réduisant le taux d’erreur ?</p><h2>Les projets des saisons précédentes</h2><p><img src="./previous.png"/></p><h2>Compétences recherchées</h2><ul><li>Data Scientists Python avec un intérêt pour le NLP et la Computer Vision</li><li>Mais aussi toute personne qui souhaiterait contribuer à cette aventure open source pour scanner de nouveaux produits, réaliser des traductions, faire du design, du hacking ou développer l&#x27;infrastructure. </li></ul><h2>Références</h2><ul><li>Le <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=2609s">replay du lancement de la saison 10</a></li><li>La page <a href="https://fr.wikipedia.org/wiki/Open_Food_Facts">Wikipedia d&#x27;Open Food Facts</a></li></ul><h2>Equipe</h2><ul><li><a href="mailto:pierre@openfoodfacts.org">pierre@openfoodfacts.org</a></li><li><a href="mailto:alex@openfoodfacts.org">alex@openfoodfacts.org</a></li><li>Twitter: @OpenFoodFactsFR</li><li>Slack: <a href="https://slack.openfoodfacts.org">https://slack.openfoodfacts.org</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_open_food_facts</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Solinum]]></title>
-            <link>https://dataforgood.fr/projects/solinum</link>
-            <guid>solinum</guid>
-            <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d'observer en un clin d'oeil les besoins des territoires sur l'aide alimentaire]]></description>
-            <content:encoded><![CDATA[<p>:::tip Diagnostiquer l&#x27;aide alimentaire</p><p>Proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d&#x27;observer en un clin d&#x27;eil les besoins des territoires sur l&#x27;aide alimentaire</p><p>:::</p><h2>A propos de Solinum</h2><p><img src="./mission.png"/></p><p><a href="https://www.solinum.org/">Solinum</a> (et le Soliguide) est une association qui lutte contre la pauvreté en permettant aux personnes en situation de précarité qui d’obtenir des informations pour s’orienter et donc d’accéder à des lieux et services utiles. Aujourd&#x27;hui le Soliguide référence des lieux d&#x27;accueil, santé, alimentation, hygiène, emploi, matériel, et autres activités gratuites. <strong>Et si au lieu d’attendre 2 ans d’avoir un rapport, les décideurs avaient accès aux données pertinentes en temps réel</strong> ?</p><h2>Le projet : diagnostiquer l&#x27;aide alimentaire</h2><ul><li><strong>L’objectif : proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d&#x27;observer en un clin d’oeil les besoins des territoires sur l’aide alimentaire</strong>.</li></ul><p><img src="./projet.png"/></p><ul><li><p>Exemple : Analyse de l’adéquation besoin/offre ; fermeture des structures en août ; carte isochrone d’accessibilité ; comparaison entre les territoires ; etc.</p></li><li><p>Les données : </p><ul><li>Structures référencées sur Soliguide : 40 000 services dont 3163 services d&#x27;aide alimentaire (742 distribution de repas, 451 restauration assise, 1520 colis alimentaires, 450 épiceries sociales et solidaires)</li><li>Recherches faites sur Soliguide</li><li>Données ouvertes (taux de pauvreté INSEE ; nb de bénéficiaires du RSA ; …)</li></ul></li><li><p>La démarche proposée :</p><ul><li>Comprendre le besoin auprès des acteurs de terrain et publics en interrogeant nos équipes ;</li><li>Mettre en oeuvre les flux de données nécessaires pour avoir des données en temps réel facilement manipulable ;</li><li>Produire des dashboard de données filtrables, réutilisables et maintenables</li></ul></li><li><p>La stack :</p><ul><li>Site Soliguide : Angular / NodeJS</li><li>MongoDB (NoSQL)</li><li>Metabase</li></ul></li></ul><h2>Compétences recherchées</h2><ul><li><strong>Data Analystes</strong> de tous niveaux avec une appétence pour la visualisation et les projections géospatiales !</li><li><strong>Data Scientists et Data Engineers</strong> pour aller chercher des données supplémentaires et automatiser les traitements et les visualisations  </li></ul><h2>Pour en savoir plus sur le projet</h2><ul><li>La <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=869s">vidéo de présentation</a> au lancement de la saison 10</li><li>La <a href="https://www.youtube.com/watch?v=Lgnypz2N-Fc&amp;t=2490s">présentation de Solinum</a> au Monthly Marty n°5</li><li>Le site internet de Solinum <a href="https://www.solinum.org/">https://www.solinum.org/</a></li><li>Le site internet du Soliguide <a href="https://soliguide.fr/">https://soliguide.fr/</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_solinum</strong></p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Pyronear]]></title>
             <link>https://dataforgood.fr/projects/pyronear</link>
             <guid>pyronear</guid>
             <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Pyronear a créé au cours des différentes saisons de Data For Good un prototype pour détecter les départs d'incendie dans les forêts]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_pyronear</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Solinum]]></title>
+            <link>https://dataforgood.fr/projects/solinum</link>
+            <guid>solinum</guid>
+            <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d'observer en un clin d'oeil les besoins des territoires sur l'aide alimentaire]]></description>
+            <content:encoded><![CDATA[<p>:::tip Diagnostiquer l&#x27;aide alimentaire</p><p>Proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d&#x27;observer en un clin d&#x27;eil les besoins des territoires sur l&#x27;aide alimentaire</p><p>:::</p><h2>A propos de Solinum</h2><p><img src="./mission.png"/></p><p><a href="https://www.solinum.org/">Solinum</a> (et le Soliguide) est une association qui lutte contre la pauvreté en permettant aux personnes en situation de précarité qui d’obtenir des informations pour s’orienter et donc d’accéder à des lieux et services utiles. Aujourd&#x27;hui le Soliguide référence des lieux d&#x27;accueil, santé, alimentation, hygiène, emploi, matériel, et autres activités gratuites. <strong>Et si au lieu d’attendre 2 ans d’avoir un rapport, les décideurs avaient accès aux données pertinentes en temps réel</strong> ?</p><h2>Le projet : diagnostiquer l&#x27;aide alimentaire</h2><ul><li><strong>L’objectif : proposer des dashboards de données analytiques pour les associations et les pouvoirs publics, permettant d&#x27;observer en un clin d’oeil les besoins des territoires sur l’aide alimentaire</strong>.</li></ul><p><img src="./projet.png"/></p><ul><li><p>Exemple : Analyse de l’adéquation besoin/offre ; fermeture des structures en août ; carte isochrone d’accessibilité ; comparaison entre les territoires ; etc.</p></li><li><p>Les données : </p><ul><li>Structures référencées sur Soliguide : 40 000 services dont 3163 services d&#x27;aide alimentaire (742 distribution de repas, 451 restauration assise, 1520 colis alimentaires, 450 épiceries sociales et solidaires)</li><li>Recherches faites sur Soliguide</li><li>Données ouvertes (taux de pauvreté INSEE ; nb de bénéficiaires du RSA ; …)</li></ul></li><li><p>La démarche proposée :</p><ul><li>Comprendre le besoin auprès des acteurs de terrain et publics en interrogeant nos équipes ;</li><li>Mettre en oeuvre les flux de données nécessaires pour avoir des données en temps réel facilement manipulable ;</li><li>Produire des dashboard de données filtrables, réutilisables et maintenables</li></ul></li><li><p>La stack :</p><ul><li>Site Soliguide : Angular / NodeJS</li><li>MongoDB (NoSQL)</li><li>Metabase</li></ul></li></ul><h2>Compétences recherchées</h2><ul><li><strong>Data Analystes</strong> de tous niveaux avec une appétence pour la visualisation et les projections géospatiales !</li><li><strong>Data Scientists et Data Engineers</strong> pour aller chercher des données supplémentaires et automatiser les traitements et les visualisations  </li></ul><h2>Pour en savoir plus sur le projet</h2><ul><li>La <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=869s">vidéo de présentation</a> au lancement de la saison 10</li><li>La <a href="https://www.youtube.com/watch?v=Lgnypz2N-Fc&amp;t=2490s">présentation de Solinum</a> au Monthly Marty n°5</li><li>Le site internet de Solinum <a href="https://www.solinum.org/">https://www.solinum.org/</a></li><li>Le site internet du Soliguide <a href="https://soliguide.fr/">https://soliguide.fr/</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_solinum</strong></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Avastar]]></title>
@@ -370,14 +404,6 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[La Data en Clair]]></title>
-            <link>https://dataforgood.fr/projects/dataenclair</link>
-            <guid>dataenclair</guid>
-            <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
-            <description><![CDATA[Le 1er magazine web qui décrypte les enjeux éthiques de l'intelligence artificielle et des données.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Diafoirus]]></title>
             <link>https://dataforgood.fr/projects/diafoirus</link>
             <guid>diafoirus</guid>
@@ -386,11 +412,11 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Redécoupage citoyen]]></title>
-            <link>https://dataforgood.fr/projects/redecoupagecitoyen</link>
-            <guid>redecoupagecitoyen</guid>
+            <title><![CDATA[La Data en Clair]]></title>
+            <link>https://dataforgood.fr/projects/dataenclair</link>
+            <guid>dataenclair</guid>
             <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
-            <description><![CDATA[Nous votons, nous dessinons !]]></description>
+            <description><![CDATA[Le 1er magazine web qui décrypte les enjeux éthiques de l'intelligence artificielle et des données.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -399,6 +425,14 @@ def votre_fonction_a_mesurer()
             <guid>mediachecker</guid>
             <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Automatisation du fact checking des affirmations des politiques tunisiens sur le site Birrasmi.tn, de Cahiers de la Liberté]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Redécoupage citoyen]]></title>
+            <link>https://dataforgood.fr/projects/redecoupagecitoyen</link>
+            <guid>redecoupagecitoyen</guid>
+            <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nous votons, nous dessinons !]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -461,18 +495,18 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Loyers parisiens]]></title>
-            <link>https://dataforgood.fr/projects/loyersparisiens</link>
-            <guid>loyersparisiens</guid>
-            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Impala]]></title>
             <link>https://dataforgood.fr/projects/impala</link>
             <guid>impala</guid>
             <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[Aider les lycéens à s'orienter.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Loyers parisiens]]></title>
+            <link>https://dataforgood.fr/projects/loyersparisiens</link>
+            <guid>loyersparisiens</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -519,19 +553,19 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Teen spirit]]></title>
-            <link>https://dataforgood.fr/projects/teenspirit</link>
-            <guid>teenspirit</guid>
-            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
-            <description><![CDATA[Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Data For Food]]></title>
             <link>https://dataforgood.fr/projects/dataforfood</link>
             <guid>dataforfood</guid>
             <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Teen spirit]]></title>
+            <link>https://dataforgood.fr/projects/teenspirit</link>
+            <guid>teenspirit</guid>
+            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
