@@ -1,11 +1,5 @@
----
-sidebar_position: 3
-sidebar_title: Serment d'Hippocrate
-title: Serment d'Hippocrate
----
-
 # Le Serment d'Hippocrate du Data Scientist
-![hippocrate](./img/hippocrate.png)
+![hippocrate](./hippocrate.png)
 
 
 ## Vers un engagement éthique des data scientists

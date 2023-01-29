@@ -4,7 +4,7 @@
 
 :::info Data For Good
 
-La communauté Data for Good compte plus de 2500 volontaires qui consacrent plusieurs heures par semaine au service de projets d'intérêt général.
+La communauté Data for Good compte plus de 4000 volontaires qui consacrent plusieurs heures par semaine au service de projets d'intérêt général.
 
 Vous êtes Data Scientists/Analyst/Engineers, Developers, UX/UI designer, ou Project Manager ? [Rejoignez-nous](https://ffb35838.sibforms.com/serve/MUIEAOPtEpVbDgcqr78ZqBZ4e29fMDkyLfy8STH6MkmxU5ePAP5_NQQeWEI0nR8fdBds27Va8cMSjjzNni1iqd_mpJsZS8uQUA95o0Tg3njStpz8nDV59tRiQJ_ZWBat1uyRjTYtyVHMpV3I--z4g14Ggsji0895jBcQr70arsW82eFJGwC8fgxYOvnPL-rFQcNwmjkA5JTbjcvd) !
 
@@ -39,10 +39,6 @@ Participer à la communauté Data For Good, c'est donner plusieurs heures de ton
 - Proposer à d'autres personnes de rejoindre la communauté
 - Proposer des partenariats
 - ... Bref, Data For Good est une communauté libre et indépendante, tu peux proposer ce que tu veux !
-
-Pour plus de détails tu peux lire la page [suivante](https://dataforgood.slite.com/p/channel/F9UR6bhuYCPAtvfLDje8Zc/notes/t1KTZaDgs). 
-
-
 
 
 ## Le Slack Data For Good

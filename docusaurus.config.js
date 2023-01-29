@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Data For Good',
-  tagline: "Le numérique au service de l'intérêt général",
+  tagline: "Accélérateur citoyen d'intérêt général",
   url: 'https://dataforgood.fr',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -71,20 +71,25 @@ const config = {
           src: 'img/logo-dfg-new2.png',
         },
         items: [
+          // {
+          //   type: 'doc',
+          //   docId: 'dataforgood',
+          //   position: 'left',
+          //   label: "🌎 Qui sommes-nous ?",
+          // },
+          {to: 'https://dataforgood.notion.site/', label: '🌎 Qui sommes-nous ?', position: 'left'},
           {
-            type: 'doc',
-            docId: 'dataforgood',
-            position: 'left',
-            label: "🌎 Qui sommes-nous ?",
-          },
-          {
-            label: "🔥 Projets",
+            label: "⭐ Projets",
             position: "left",
             dropdownActiveClassDisabled: true,
             items: [
               {
                 label: "Tous les projets",
                 to: "/projects",
+              },
+              {
+                label: "Les projets qui ont besoin d'aide",
+                to: "https://dataforgood.notion.site/Trouver-un-projet-6244df9394d048fca5e7350260919c8c",
               },
               {
                 label: "Saison 10",
@@ -94,13 +99,15 @@ const config = {
                 label: "Saison 9",
                 to: "/projects/tags/saison-9",
               },
+
               {
-                label: "Les projets qui ont besoin d'aide",
-                to: "/projects/tags/actif",
+                label: "Le serment d'Hippocrate du Data Scientist",
+                to: "/hippocrate",
               },
             ],
           },
           {to: '/blog', label: '📚 Blog', position: 'left'},
+          {to: '/saison11', label: '🔥 Saison 11', position: 'left'},
           {
             to: '/join', 
             label: '💪 Rejoindre la communauté', 

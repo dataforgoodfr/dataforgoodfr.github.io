@@ -2,7 +2,7 @@
 
 :::info Data For Good
 
-La communauté Data for Good compte plus de 2500 volontaires qui consacrent plusieurs heures par semaine **bénévolement** au service de projets d'intérêt général.
+La communauté Data for Good compte plus de 4000 volontaires qui consacrent plusieurs heures par semaine **bénévolement** au service de projets d'intérêt général.
 
 Vous êtes un **acteur de l'intérêt général (associations, ONGs, institutions publiques, startups de l'économie sociale et solidaire)** ? [Proposez-nous un projet](https://airtable.com/shrw27X2Jmb9boYEm) !
 
@@ -34,8 +34,6 @@ Plusieurs formats d'accompagnement sont disponibles :
 - Les **saisons d'accélération** - 3 mois intenses d'accélération qui ont lieu jusqu'à 2 fois par an avec une dizaine de projets
 - Le **hors-saison** - Lancement tous les mois d'1 ou 2 projets qui peuvent durer autant de temps que souhaité (en fonction de la motivation des bénévoles bien sûr) 
 - Les **demandes ponctuelles** - Pour être aidé sur une demande précise, envoyez nous directement un email à hellodataforgood@gmail.com
-
-Plus de détails dans [cette page](https://dataforgood.slite.com/p/channel/F9UR6bhuYCPAtvfLDje8Zc/notes/y6to1QheD) !
 
 ## Découvrir les projets précédemment accompagnés
 Visitez la page [🔥 Projets](/projects) pour découvrir nos accélérations depuis 2014.

@@ -104,13 +104,19 @@ const partnersList = [
   {src:"img/partners/latitudes.png",url:"https://www.latitudes.cc/"},
   {src:"img/partners/labelia.jpg",url:"https://www.labelia.org/"},
   {src:"img/partners/vendredi.png",url:"https://www.vendredi.cc/"},
+  {src:"img/partners/bayes.png",url:"https://www.bayesimpact.org/en/"},
+  {src:"img/partners/datagen.png",url:"https://www.datageneration.co/"},
   {src:"img/partners/soscience.png",url:"https://www.soscience.org/en/home-2/"},
   {src:"img/partners/jogl.png",url:"https://jogl.io/"},
   {src:"img/partners/lll.png",url:"https://www.liberte.paris/"},
   {src:"img/partners/lewagon.png",url:"https://www.lewagon.com/"},
   {src:"img/partners/etalab.png",url:"https://www.etalab.gouv.fr/"},
+  {src:"img/partners/dinum.png",url:"https://www.numerique.gouv.fr/dinum/"},
   {src:"img/partners/mtes.png",url:"https://www.ecologie.gouv.fr/"},
-  {src:"img/partners/qarnot.png",url:"https://qarnot.com/fr"},
+  {src:"img/partners/mtp.png",url:"https://www.transformation.gouv.fr/"},
+  {src:"img/partners/mif.png",url:"https://www.impactfrance.eco/"},
+  {src:"img/partners/tfgf.png",url:"https://www.impactfrance.eco/communautes-thematiques/tech-for-good"},
+  {src:"img/partners/verteco.png",url:"https://vert.eco/"},
   {src:"img/partners/coalition.png",url:"https://www.coalitiontechforgood.fr/"},
   {src:"img/partners/shareit.png",url:"https://www.share-it.io/"},
   {src:"img/partners/athom.jfif",url:"https://athom.co/"},
@@ -118,6 +124,7 @@ const partnersList = [
   {src:"img/partners/simplon.png",url:"https://www.simplonprod.co/"},
   {src:"img/partners/numerikea.png",url:"https://www.numerik-ea.fr/"},
   {src:"img/partners/solidatech.jpg",url:"https://www.solidatech.fr/"},
+  {src:"img/partners/qarnot.png",url:"https://qarnot.com/fr"},
 ]
 
 const SectionPartners = () => {
@@ -149,6 +156,7 @@ const projectsList = [
   {src:"img/projects/logos/ogre.png",url:""},
   {src:"img/projects/logos/mtes.png",url:""},
   {src:"img/projects/logos/ads.jpg",url:""},
+  {src:"img/projects/logos/bloom.jpg",url:""},
   {src:"img/projects/logos/c4.png",url:""},
   {src:"img/projects/logos/arkhn.png",url:""},
   {src:"img/projects/logos/bechdelai.png",url:"/projects/bechdelai"},
@@ -204,7 +212,7 @@ export default function Home() {
                 <img src={`${useBaseUrl("img/events.jpg")}`} alt="dfg-demoday" style={{"width":"100%","margin-bottom":"20px"}}/>
               </div>
               <div className="col col--6" style={{"text-align":"left","align-content":"center"}}>
-                <p>Data For Good est une association loi 1901 (<i>100% bénévole, 100% open-source, 100% citoyenne</i>) créée en 2014 qui rassemble une communauté de <b>3200+ volontaires</b> tech (Data Scientists, Data Analysts, Data Engineers, Developers, UX/UI Designers, Product & Project Owners) souhaitant mettre leurs compétences au profit d'associations, d'ONG, et de l'ESS - et de s'engager pour l'intérêt général.</p>
+                <p>Data For Good est une association loi 1901 (<i>100% bénévole, 100% open-source, 100% citoyenne</i>) créée en 2014 qui rassemble une communauté de <b>4000+ volontaires</b> tech (Data Scientists, Data Analysts, Data Engineers, Developers, UX/UI Designers, Product & Project Owners) souhaitant mettre leurs compétences au profit d'associations, d'ONG, et de l'ESS - et de s'engager pour l'intérêt général.</p>
                 <p>Nous réalisons chaque année des <b>saisons d'accélération où une dizaine de projets sont accompagnés par les bénévoles sur des thématiques sociales, sociétales et environnementales</b>. Nous avons ainsi accompagné, accéléré et co-construits plus de <Link to="/projects">100 projets</Link> depuis 2014.</p>
                 <p>Nous sommes également fervents <b>critiques des risques et des dérives de la technologie</b>, faire partie de la communauté est aussi s'engager pour une technologie sobre et respectueuse des enjeux sociaux et environnementaux, et accepter que la technologie n'est pas la solution à tous les problèmes.</p>
               </div>
