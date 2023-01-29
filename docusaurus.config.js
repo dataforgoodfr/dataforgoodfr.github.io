@@ -141,15 +141,15 @@ const config = {
             items: [
               {
                 label: "L'association Data For Good",
-                to: '/docs/dataforgood',
+                to: 'https://dataforgood.notion.site',
               },
               {
                 label: "Serment d'Hippocrate",
-                to: '/docs/hippocrate',
+                to: '/hippocrate',
               },
               {
                 label: "FAQ",
-                to: 'https://dataforgood.slite.com/p/channel/F9UR6bhuYCPAtvfLDje8Zc/notes/p8MSVDq6k',
+                to: 'https://dataforgood.notion.site/f58df2b6f02849a4ae94d8cb9ce49e5f?v=c165effdeeb140ea9fe964ca966485a6',
               },
               {
                 label: "Politique de confidentialité",
@@ -172,7 +172,10 @@ const config = {
                 label: 'Meetup',
                 href: 'https://www.meetup.com/Data-for-Good-FR',
               },
-
+              {
+                label: 'Hugging Face',
+                href: 'https://huggingface.co/DataForGood',
+              },
               {
                 label: 'Twitch',
                 href: 'https://twitch.tv/dataforgood',
@@ -186,6 +189,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
+              {
+                label: 'Notion',
+                href: 'https://dataforgood.notion.site',
+              },              
               {
                 label: 'Linkedin',
                 href: 'https://www.linkedin.com/company/dataforgood',
