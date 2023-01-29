@@ -40,7 +40,7 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className="row" style={{display:"flex","justify-content":"center"}}>
-          <HomeButton text="🌎 Découvrir l'association" to="/docs/dataforgood"/>
+          <HomeButton text="🌎 Découvrir l'association" to="https://dataforgood.notion.site"/>
           <HomeButton text="💪 Rejoindre la communauté" to="/join"/>
           <HomeButton text="💡 Proposer un projet" to="/propose"/>
         </div>
