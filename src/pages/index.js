@@ -67,14 +67,14 @@ const teamList = [
   {src:"img/team/marty.png","name":"Marty","role":"Mascotte","contact":"https://www.linkedin.com/company/10627994"},
   {src:"img/team/theo.jpg","name":"Théo Alves Da Costa","role":"Co-Président","contact":"https://www.linkedin.com/in/th%C3%A9o-alves-da-costa-09397a82/"},
   {src:"img/team/lou.jpg","name":"Lou Welgryn","role":"Co-Présidente","contact":"https://www.linkedin.com/in/lou-welgryn-460434b0/"},
-  {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
-  {src:"img/team/benjamin.png","name":"Benjamin Rouif","role":"Coordinateur","contact":"https://www.linkedin.com/in/brouif/"},
-  {src:"img/team/mickael.jpg","name":"Mickael Fine","role":"Coordinateur","contact":"https://www.linkedin.com/in/mickaelfine/"},
+  // {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
+  {src:"img/team/benjamin.png","name":"Benjamin Rouif","role":"Trésorier","contact":"https://www.linkedin.com/in/brouif/"},
   {src:"img/team/clement.jfif","name":"Clément Mayer","role":"Coordinateur","contact":"https://www.linkedin.com/in/cl%C3%A9ment-mayer-02a61216/"},
+  {src:"img/team/mickael.jpg","name":"Mickael Fine","role":"Coordinateur","contact":"https://www.linkedin.com/in/mickaelfine/"},
   {src:"img/team/josephine.jpg","name":"Joséphine Lecoq-Vallon","role":"Responsable de la communauté","contact":"https://www.linkedin.com/in/josephine-lecoq-vallon/"},
-  {src:"img/team/julie.png","name":"Julie Jouvencel","role":"Coordinatrice","contact":"https://www.linkedin.com/in/juliejouvencel/"},
+  // {src:"img/team/julie.png","name":"Julie Jouvencel","role":"Coordinatrice","contact":"https://www.linkedin.com/in/juliejouvencel/"},
   {src:"img/team/margaux.jpg","name":"Margaux David","role":"Designeuse","contact":"https://www.linkedin.com/in/margauxdavid/"},
-  {src:"img/team/eloi.png","name":"Eloi Pérignon","role":"Communication & RP","contact":"https://www.linkedin.com/in/eloi-perignon/"},
+  // {src:"img/team/eloi.png","name":"Eloi Pérignon","role":"Communication & RP","contact":"https://www.linkedin.com/in/eloi-perignon/"},
   // {src:"img/team/fred.png","name":"Frédéric Bardolle","role":"Conseil des sages","contact":"https://www.linkedin.com/in/fbardolle/"},
 ]
 
@@ -195,14 +195,14 @@ export default function Home() {
       <main>
         <HomepageFeatures />
 
-        {/* <section>
+        <section>
           <div className="container main-section">
             <h1>Les news</h1>
-            <h2>Démo Day saison 10 de Data For Good le mercredi 15 juin à 19h30</h2>
-            <p>Inscriptions sur <a href="https://app.livestorm.co/data-for-good/demo-day?type=detailed" target="_blank">Livestorm</a> ou juste ici 👇</p>
-            <iframe width="100%" height="480" frameborder="0" src="https://app.livestorm.co/p/6c0bd5f4-a376-45d1-83c8-795592254d4e/form" title="Démo Day Saison 10 Data For Good | Data For Good"></iframe>
+            <h2>Lancement de la saison 11 de Data For Good le samedi 25 mars à 14h</h2>
+            <p>Inscriptions sur <a href="https://app.livestorm.co/data-for-good/saison11?type=detailed" target="_blank">Livestorm</a> ou juste ici 👇</p>
+            <iframe width="100%" height="480" frameborder="0" src="https://app.livestorm.co/p/cb35fa4d-8db9-40f5-a558-baf41586a818/form" title="Lancement saison 11 Data For Good | Data For Good"></iframe>
           </div>  
-        </section> */}
+        </section>
 
         <section className="light-green">
           <div className="container main-section">
