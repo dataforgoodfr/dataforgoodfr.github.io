@@ -58,6 +58,14 @@ Notre objectif : permettre à un maximum d’entreprises, de tous secteurs et de
             <content:encoded><![CDATA[<p>:::tip BechdelAI</p><p>Mesure et automatisation du test de Bechdel, de la (sous)représentation féminine et des inégalités de représentation dans le cinéma et l&#x27;audiovisuel</p><p>:::</p><h2>A propos du projet BechdelAI</h2><p>BechdelAI est un projet lancé par l&#x27;association Data For Good en octobre 2021 pour créer des outils et des études en se servant d&#x27;outils algorithmiques pour aider dans la mesure et la sensibilisation autour des enjeux de parité et d&#x27;inégalités dans le cinéma. En particulier, le point de départ était d&#x27;automatiser l&#x27;effrayant test de Bechdel puis d&#x27;étendre à des mesures plus fines des inégalités dans le cinéma. </p><p><img src="./bechdel.png"/></p><h2>Le projet</h2><p>Pour cette saison 10, le projet initié en Octobre 2021 au sein de l&#x27;association Data For Good continue et passe à l&#x27;échelle. Il y a 3 sous-projets proposés aux bénévoles : </p><ul><li><strong>Etude rétrospective des inégalités de représentation</strong> dans le cinéma et l&#x27;audiovisuel en s&#x27;inspirant de l&#x27;étude Cinégalités du Collectif 50/50 pour étendre son périmètre (remonter dans le temps, plateformes indépendantes, séries) et l&#x27;automatiser. </li><li><strong>Développer des outils gratuits et open source d&#x27;analyse de contenu audiovisuels</strong> (vidéos, posters, bande-son, scripts, sous-titres) pour aller plus loin et analyser directement le contenu audiovisuel</li><li><strong>Explorer la création d&#x27;algorithmes de quantification du male et female gaze</strong> (ou pour simplifier en quelques mots l&#x27;objectification du corps féminin)</li></ul><p><img src="./bechdel_projets.png"/></p><h2>Compétences recherchées</h2><ul><li>Data Analystes pour explorer les données historiques de cinéma, les visualiser et les croiser</li><li>Data Scientists et Data Engineers pour aller collecter les données et craquer les APIs d&#x27;IMDB et Allociné, et créer des algorithmes d&#x27;analyse complexes (qualification des scènes et des dialogues)</li><li>Passionés et experts d&#x27;IA pour déployer des algorithmes de Computer Vision, NLP et analyse de sons et vidéos</li><li>UX/UI et développeurs pour réfléchir à la manière de rendre les résultats les plus impactants possible</li><li>Experts du cinéma ou de l&#x27;audiovisuel pour nous guider dans la démarche</li></ul><h2>Références</h2><h3>A propos du projet</h3><ul><li>La <a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=1227s">vidéo de lancement du projet</a> pour la saison 10 </li><li>La <a href="https://www.youtube.com/watch?v=vu5SFiE43Kk&amp;t=1292s">vidéo de lancement du projet</a> au Monthly Marty</li></ul><h3>Test de Bechdel, Male et female gaze</h3><ul><li>Le site officiel du test de Bechdel <a href="https://bechdeltest.com/">https://bechdeltest.com/</a></li><li>L&#x27;<a href="https://m.facebook.com/konbinifr/videos/iris-brey-nous-explique-le-male-et-female-gaze-dans-le-vid%C3%A9o-club/124495393087216/">explication du male et female gaze</a> par Iris Brey </li><li>Le <a href="https://www.youtube.com/watch?v=0oMsFlQk_m4&amp;ab_channel=Lescouillessurlatable">podcast des Couilles sur la Table sur le male et le female gaze dans le cinéma</a> par Victoire Tuaillon et Iris Brey </li><li>L&#x27;étude <a href="https://collectif5050.com/files/etudes/2022/02/Cinegalite-s-Rapport.pdf">Cinégalités complète</a> et le <a href="https://collectif5050.com/files/etudes/2021/12/5050-Cinegalites-presentation-Assises-0512.pdf">résumé</a></li></ul><h2>Equipe</h2><ul><li>Théo Alves Da Costa - porteur de projet et co-président Data For Good</li><li>Thomas Legrand - Data Scientist</li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_bechdelai</strong></p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Mission Transition Ecologique]]></title>
+            <link>https://dataforgood.fr/projects/missiontransition</link>
+            <guid>missiontransition</guid>
+            <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simplifier l’accès au financement public aux actions de transition écologique et énergétique pour les petites et moyennes entreprises en créant un moteur de recherche intelligent des aides existantes parmi celles de l'ADEME, de la BPI, des régions et d'autres acteurs publics ou privés.]]></description>
+            <content:encoded><![CDATA[<p>:::info Le GPS du financement public pour la transition écologique et énergétique des entreprises</p><p>Simplifier l’accès au financement public aux actions de transition écologique et énergétique pour les petites et moyennes entreprises en créant un moteur de recherche intelligent des aides existantes parmi celles de l&#x27;ADEME, de la BPI, des régions et d&#x27;autres acteurs publics ou privés.</p><p>:::</p><h2>A propos du projet Mission Transition Ecologique</h2><p>Selon une étude Bpifrance, <strong>80% des dirigeants sont conscients de l’urgence climatique mais seulement 13% se sentent en capacité de passer à l’action à cause du manque de temps et de financement</strong>.</p><p>Le manque de financement est un frein majeur à la transition écologique des entreprises, mais les entreprises ont du mal à trouver les aides auxquelles elles pourraient avoir droit, face à la multitude de financeurs.</p><p>L’initiative “France Transition Écologique&quot; (FTE) a été décidée en conseil de défense écologique en mai 2019, et a fait l’objet d’une lettre de mission des ministres de la Transition Écologique et de l&#x27;Économie, des Finances et de la Relance à l’attention du CGDD Thomas Lesueur l’année suivante.</p><h2>Le projet</h2><p>Mission Transition Écologique, moteur de recherche, intelligent et adapté, des aides publiques écologiques pour les entreprises et les acteurs du développement économique, réunit en une seule porte d’entrée les financements de la BPI, de l’ADEME, des Régions, jusqu’aux aides européennes, spécifiques. Le tout avec la possibilité d’être rappelé par un conseiller CCI, quand la recherche ne suffit pas. </p><p>Actuellement la donnée est éparpillée entre les sites des financeurs et dans des formats inhomogènes. Il serait essentiel <strong>d’utiliser la donnée pour faciliter le référencement et la recherche d’aides publiques et de permettre à l’entreprise d’identifier en quelques clics LE dispositif le plus adapté à son profil et à son besoin</strong>.</p><p>5 chantiers sont proposés pour ce projet : </p><ol><li>La catégorisation automatique des aides</li><li>Génération automatique de mots-clés </li><li>Travail exploratoire sur les PDFs</li><li>Détection et extraction des critères d&#x27;éligibilité </li><li>Simulateur d&#x27;éligibilité à destination de l’entreprise</li></ol><h2>Compétences recherchées</h2><ul><li>Data Scientists en particulier avec une expertise ou une envie de progresser en NLP </li><li>Toute personne engagée fortement dans la transition écologique et qui veulent contribuer à un projet conséquent avec un impact énorme</li></ul><h2>Références</h2><ul><li><a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=1960s">Le replay de la saison 10</a></li><li>La <a href="https://www.youtube.com/watch?v=Lgnypz2N-Fc&amp;t=3371s">présentation des premiers résultats</a> au Monthly Marty n°5</li><li>La <a href="https://www.youtube.com/watch?v=kSwJopxsphQ&amp;t=2146s">présentation du projet</a> au premier Monthly Marty</li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_mission_transition_ecologique</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Ceebios]]></title>
             <link>https://dataforgood.fr/projects/ceebios</link>
             <guid>ceebios</guid>
@@ -66,14 +74,6 @@ Notre objectif : permettre à un maximum d’entreprises, de tous secteurs et de
             <content:encoded><![CDATA[<h2>Le projet de la saison 10</h2><p>:::tip Explorateur de figures scientifiques pour le biomimétisme</p><p>Faciliter l&#x27;accès et la compréhension d&#x27;un public non-biologiste à des figures scientifiques de natures variées en créant des algorithmes pour extraire, qualifier et catégoriser les figures depuis les publications scientifiques</p><p>:::</p><p>L&#x27;innovation en biomimétisme requiert de pouvoir comprendre le fonctionnement d&#x27;organismes biologiques (bactéries, plantes, champignons, mammifères) et de pouvoir les comparer entre eux. Cela permet de déterminer quelle sera l&#x27;espèce modèle dont l&#x27;innovation pourra s&#x27;inspirer, pour développer de nouveaux matériaux éco-conçues et résistant aux chocs par exemple, ou des nouvelles colles bio-inspirées. Jusqu&#x27;à présent, la littérature scientifique est analysée par des humains pour extraire les données pertinentes et sélectionner les modèles biologiques. Cette approche est très chronophage et limitée dans le nombre de sources de données pouvant être explorées manuellement dans un temps donné.</p><p>Dans le cadre d&#x27;un projet en cours piloté par Ceebios pour accélérer les innovations biomimétiques éco-responsables, des outils numériques se basant sur des algorithmes d&#x27;intelligence artificielle sont développés pour <strong>faciliter l&#x27;exploration de la littérature scientifique et l&#x27;extraction automatiques de données, afin d&#x27;identifier des modèles biologiques pertinents pour répondre à une problématique technique</strong>. Les développements actuels se concentrent sur les textes des publications, mais pas encore les images.</p><p>Des images ainsi que des données quantitatives sur les propriétés des modèles biologiques, sont d&#x27;une aide précieuse pour approfondir la compréhension de la biologie et la transposition à d&#x27;autres domaines. <strong>Peut-on faciliter l&#x27;accès et la compréhension d&#x27;un public non-biologiste à des figures scientifiques de natures variées ?</strong></p><blockquote><p>Plus d&#x27;informations dans <a href="/blog/ceebios-s10">l&#x27;article racontant la saison 10</a></p></blockquote><h2>Le projet de la saison 8</h2><p>:::tip Le Pokédex - Explorateur du vivant et de ses richesses</p><p>Créer un outil de recherche intelligent sur les bases de données biologiques pour faciliter la connexion entre des ingénieurs et des biologistes, et permettre à un public non-expert d&#x27;obtenir sans effort de l&#x27;information sur les espèces, leur apparence, leur place dans la classification du Vivant et dans l&#x27;écosystème.
 :::</p><p><img src="./figure2.png"/></p><blockquote><p>Plus d&#x27;informations dans <a href="/blog/ceebios-s08">l&#x27;article racontant la saison 8</a></p></blockquote><h2>Références</h2><ul><li><a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=4251s">Présentation du projet au lancement de la saison 10</a></li><li><a href="https://www.youtube.com/watch?v=9Wx7h2WptGQ&amp;t=3650s">Présentation de mi-saison 10</a></li><li><a href="https://www.youtube.com/watch?v=32lrQg8bZZM&amp;t=3310s">Démo day de fin de saison 10</a></li><li><a href="https://www.youtube.com/watch?v=Lgnypz2N-Fc&amp;t=4773s">Introduction au biomimétisme</a> au Monthly Marty #5</li></ul><h5>A propos de Ceebios</h5><p>Ceebios accélère la transition sociétale par le biomimétisme en fédérant un réseau d’acteurs experts et en développant les ressources indispensables à l’appropriation de la démarche par les secteurs académiques, institutionnels et privés.
 Plus d&#x27;informations sur le site internet de Ceebios <a href="https://ceebios.com/">https://ceebios.com/</a></p><h2>Equipe projet</h2><h5>Saison 10</h5><p><em>Anastasia Barkova, Evan Dufraisse, Gabriel Olympie, Karine Petrus, Lucas Le Corvec, Paul-Henri Castets, Romain Meuter, Sara Valencia, Thanh Lan, Nikolay Tchakarov (Ceebios), Adrien Saint-Sardos (Ceebios)</em></p><h5>Saison 08</h5><p><em>Chloé Sekkat, Christian Maréchal, Tim Ton That, Théo Alves Da Costa, Adrien Saint-Sardos (Ceebios)</em>.</p><h5>Rejoindre le projet</h5><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_ceebios</strong></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mission Transition Ecologique]]></title>
-            <link>https://dataforgood.fr/projects/missiontransition</link>
-            <guid>missiontransition</guid>
-            <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Simplifier l’accès au financement public aux actions de transition écologique et énergétique pour les petites et moyennes entreprises en créant un moteur de recherche intelligent des aides existantes parmi celles de l'ADEME, de la BPI, des régions et d'autres acteurs publics ou privés.]]></description>
-            <content:encoded><![CDATA[<p>:::info Le GPS du financement public pour la transition écologique et énergétique des entreprises</p><p>Simplifier l’accès au financement public aux actions de transition écologique et énergétique pour les petites et moyennes entreprises en créant un moteur de recherche intelligent des aides existantes parmi celles de l&#x27;ADEME, de la BPI, des régions et d&#x27;autres acteurs publics ou privés.</p><p>:::</p><h2>A propos du projet Mission Transition Ecologique</h2><p>Selon une étude Bpifrance, <strong>80% des dirigeants sont conscients de l’urgence climatique mais seulement 13% se sentent en capacité de passer à l’action à cause du manque de temps et de financement</strong>.</p><p>Le manque de financement est un frein majeur à la transition écologique des entreprises, mais les entreprises ont du mal à trouver les aides auxquelles elles pourraient avoir droit, face à la multitude de financeurs.</p><p>L’initiative “France Transition Écologique&quot; (FTE) a été décidée en conseil de défense écologique en mai 2019, et a fait l’objet d’une lettre de mission des ministres de la Transition Écologique et de l&#x27;Économie, des Finances et de la Relance à l’attention du CGDD Thomas Lesueur l’année suivante.</p><h2>Le projet</h2><p>Mission Transition Écologique, moteur de recherche, intelligent et adapté, des aides publiques écologiques pour les entreprises et les acteurs du développement économique, réunit en une seule porte d’entrée les financements de la BPI, de l’ADEME, des Régions, jusqu’aux aides européennes, spécifiques. Le tout avec la possibilité d’être rappelé par un conseiller CCI, quand la recherche ne suffit pas. </p><p>Actuellement la donnée est éparpillée entre les sites des financeurs et dans des formats inhomogènes. Il serait essentiel <strong>d’utiliser la donnée pour faciliter le référencement et la recherche d’aides publiques et de permettre à l’entreprise d’identifier en quelques clics LE dispositif le plus adapté à son profil et à son besoin</strong>.</p><p>5 chantiers sont proposés pour ce projet : </p><ol><li>La catégorisation automatique des aides</li><li>Génération automatique de mots-clés </li><li>Travail exploratoire sur les PDFs</li><li>Détection et extraction des critères d&#x27;éligibilité </li><li>Simulateur d&#x27;éligibilité à destination de l’entreprise</li></ol><h2>Compétences recherchées</h2><ul><li>Data Scientists en particulier avec une expertise ou une envie de progresser en NLP </li><li>Toute personne engagée fortement dans la transition écologique et qui veulent contribuer à un projet conséquent avec un impact énorme</li></ul><h2>Références</h2><ul><li><a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=1960s">Le replay de la saison 10</a></li><li>La <a href="https://www.youtube.com/watch?v=Lgnypz2N-Fc&amp;t=3371s">présentation des premiers résultats</a> au Monthly Marty n°5</li><li>La <a href="https://www.youtube.com/watch?v=kSwJopxsphQ&amp;t=2146s">présentation du projet</a> au premier Monthly Marty</li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_mission_transition_ecologique</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[NotaClimat]]></title>
@@ -154,21 +154,6 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Dyslex'IA]]></title>
-            <link>https://dataforgood.fr/projects/dyslexia</link>
-            <guid>dyslexia</guid>
-            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Labelia.org]]></title>
-            <link>https://dataforgood.fr/projects/labelia</link>
-            <guid>labelia</guid>
-            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Le référentiel de Data Science Responsable et de Confiance a été élaboré de manière ouverte et participative afin de permettre à chaque organisme d’évaluer son niveau de maturité sur ces nouveaux enjeux. L'objectif de ce projet visait à renforcer les ressources du référentiel d'évaluation.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Open Fake Facts]]></title>
             <link>https://dataforgood.fr/projects/openfakefacts</link>
             <guid>openfakefacts</guid>
@@ -183,13 +168,6 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Validalab]]></title>
-            <link>https://dataforgood.fr/projects/validalab</link>
-            <guid>validalab</guid>
-            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Science Feedback]]></title>
             <link>https://dataforgood.fr/projects/sciencefeedback</link>
             <guid>sciencefeedback</guid>
@@ -197,16 +175,38 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Accurolab]]></title>
-            <link>https://dataforgood.fr/projects/accurolab</link>
-            <guid>accurolab</guid>
-            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <title><![CDATA[Dyslex'IA]]></title>
+            <link>https://dataforgood.fr/projects/dyslexia</link>
+            <guid>dyslexia</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Validalab]]></title>
+            <link>https://dataforgood.fr/projects/validalab</link>
+            <guid>validalab</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Labelia.org]]></title>
+            <link>https://dataforgood.fr/projects/labelia</link>
+            <guid>labelia</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Le référentiel de Data Science Responsable et de Confiance a été élaboré de manière ouverte et participative afin de permettre à chaque organisme d’évaluer son niveau de maturité sur ces nouveaux enjeux. L'objectif de ce projet visait à renforcer les ressources du référentiel d'évaluation.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Action Contre la Faim]]></title>
             <link>https://dataforgood.fr/projects/actioncontrelafaim</link>
             <guid>actioncontrelafaim</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Accurolab]]></title>
+            <link>https://dataforgood.fr/projects/accurolab</link>
+            <guid>accurolab</guid>
             <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
@@ -276,14 +276,6 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Outil BEGES]]></title>
-            <link>https://dataforgood.fr/projects/beges</link>
-            <guid>beges</guid>
-            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Calcul des émissions liées aux consommations énergétiques des bâtiments et déplacements au sein d’une structure de l'État.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Détection des forêts dégradées]]></title>
             <link>https://dataforgood.fr/projects/foretsdegradees</link>
             <guid>foretsdegradees</guid>
@@ -292,11 +284,11 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Impact des plats]]></title>
-            <link>https://dataforgood.fr/projects/impactdesplats</link>
-            <guid>impactdesplats</guid>
+            <title><![CDATA[Outil BEGES]]></title>
+            <link>https://dataforgood.fr/projects/beges</link>
+            <guid>beges</guid>
             <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Estimer l'impact carbone d'un plat à partir d'une simple photo.]]></description>
+            <description><![CDATA[Calcul des émissions liées aux consommations énergétiques des bâtiments et déplacements au sein d’une structure de l'État.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -313,6 +305,14 @@ def votre_fonction_a_mesurer()
             <guid>rseexplorer</guid>
             <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Un outil de veille de l'innovation environnementale et sociale, basé sur l'exploitation des rapports RSE de grandes entreprises françaises.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Impact des plats]]></title>
+            <link>https://dataforgood.fr/projects/impactdesplats</link>
+            <guid>impactdesplats</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Estimer l'impact carbone d'un plat à partir d'une simple photo.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -340,19 +340,19 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[TravelMyWay]]></title>
-            <link>https://dataforgood.fr/projects/travelmyway</link>
-            <guid>travelmyway</guid>
-            <pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Planification en un clic de trajets optimisés en porte à porte pour faire des choix de transport éclairés.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[WeLearn]]></title>
             <link>https://dataforgood.fr/projects/welearn</link>
             <guid>welearn</guid>
             <pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Améliorer la classification des ressources pédagogiques en ligne via une approche supervisée.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[TravelMyWay]]></title>
+            <link>https://dataforgood.fr/projects/travelmyway</link>
+            <guid>travelmyway</guid>
+            <pubDate>Sun, 01 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Planification en un clic de trajets optimisés en porte à porte pour faire des choix de transport éclairés.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -364,14 +364,6 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Liris]]></title>
-            <link>https://dataforgood.fr/projects/liris</link>
-            <guid>liris</guid>
-            <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Consulter les recettes et les dépense de l'État]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Phénix]]></title>
             <link>https://dataforgood.fr/projects/phenix</link>
             <guid>phenix</guid>
@@ -380,11 +372,11 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Tableau de bord citoyen]]></title>
-            <link>https://dataforgood.fr/projects/tableaudebordcitoyen</link>
-            <guid>tableaudebordcitoyen</guid>
+            <title><![CDATA[Liris]]></title>
+            <link>https://dataforgood.fr/projects/liris</link>
+            <guid>liris</guid>
             <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Du choc des idées jaillit l’information]]></description>
+            <description><![CDATA[Consulter les recettes et les dépense de l'État]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -393,6 +385,14 @@ def votre_fonction_a_mesurer()
             <guid>transplant</guid>
             <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Améliorer la prédiction de l'autonomie respiratoire après transplantation pulmonaire]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Tableau de bord citoyen]]></title>
+            <link>https://dataforgood.fr/projects/tableaudebordcitoyen</link>
+            <guid>tableaudebordcitoyen</guid>
+            <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Du choc des idées jaillit l’information]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -458,18 +458,18 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Data4Tunisia]]></title>
-            <link>https://dataforgood.fr/projects/datafortunisia</link>
-            <guid>datafortunisia</guid>
-            <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Isara]]></title>
             <link>https://dataforgood.fr/projects/isara</link>
             <guid>isara</guid>
             <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Deep learning pour la langue des signes.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Data4Tunisia]]></title>
+            <link>https://dataforgood.fr/projects/datafortunisia</link>
+            <guid>datafortunisia</guid>
+            <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -495,18 +495,18 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Loyers parisiens]]></title>
+            <link>https://dataforgood.fr/projects/loyersparisiens</link>
+            <guid>loyersparisiens</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Impala]]></title>
             <link>https://dataforgood.fr/projects/impala</link>
             <guid>impala</guid>
             <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[Aider les lycéens à s'orienter.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Loyers parisiens]]></title>
-            <link>https://dataforgood.fr/projects/loyersparisiens</link>
-            <guid>loyersparisiens</guid>
-            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -553,6 +553,14 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Frateli]]></title>
+            <link>https://dataforgood.fr/projects/frateli</link>
+            <guid>frateli</guid>
+            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Algorithmes de recommandation pour le parrainage d’étudiants.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Data For Food]]></title>
             <link>https://dataforgood.fr/projects/dataforfood</link>
             <guid>dataforfood</guid>
@@ -566,14 +574,6 @@ def votre_fonction_a_mesurer()
             <guid>teenspirit</guid>
             <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Frateli]]></title>
-            <link>https://dataforgood.fr/projects/frateli</link>
-            <guid>frateli</guid>
-            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
-            <description><![CDATA[Algorithmes de recommandation pour le parrainage d’étudiants.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
     </channel>
