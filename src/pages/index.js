@@ -195,14 +195,14 @@ export default function Home() {
       <main>
         <HomepageFeatures />
 
-        <section>
+        {/* <section>
           <div className="container main-section">
             <h1>Les news</h1>
             <h2>Lancement de la saison 11 de Data For Good le samedi 25 mars à 14h</h2>
             <p>Inscriptions sur <a href="https://app.livestorm.co/data-for-good/saison11?type=detailed" target="_blank">Livestorm</a> ou juste ici 👇</p>
             <iframe width="100%" height="480" frameborder="0" src="https://app.livestorm.co/p/cb35fa4d-8db9-40f5-a558-baf41586a818/form" title="Lancement saison 11 Data For Good | Data For Good"></iframe>
           </div>  
-        </section>
+        </section> */}
 
         <section className="light-green">
           <div className="container main-section">
