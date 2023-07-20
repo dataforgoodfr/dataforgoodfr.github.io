@@ -107,7 +107,7 @@ const config = {
             ],
           },
           {to: '/blog', label: '📚 Blog', position: 'left'},
-          {to: '/saison11', label: '🔥 Saison 11', position: 'left'},
+          {to: '/iagenerative', label: '🤖 IA Générative', position: 'left'},
           {
             to: '/join', 
             label: '💪 Rejoindre la communauté', 

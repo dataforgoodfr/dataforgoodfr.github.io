@@ -10,7 +10,7 @@ L'objectif de ce premier rapport est de fournir une analyse détaillée des risq
 
 
 
-## Le livre blanc
+## 📖 Le livre blanc
 
 :::info Le Livre blanc "Les grands défis de l'IA générative"
 
@@ -37,8 +37,12 @@ Ce premier rapport aborde 4 sujets principaux :
 
 "Les meilleurs esprits de notre génération passent leur temps à faire cliquer des gens sur des publicités", a déploré un des premiers employés de Facebook. Et si nous pouvions ensemble redonner un sens à la technologie? C’est la mission que Data For Good s’est donnée. Soyons techno-lucides à l’ère de l’IA générative.
 
+## 🔎 Contact
 
-## La newsletter IA générative
+**Contacts (presse, conférences, ...)** à [genai@dataforgood.fr](mailto:genai@dataforgood.fr)
+
+
+## 📚 La newsletter IA générative
 
 Nous publions tous les mois des newsletters sur l'IA générative et ses enjeux sociaux et environnementaux
 
