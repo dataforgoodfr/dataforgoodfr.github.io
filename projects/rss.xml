@@ -147,13 +147,6 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Geowatch Labs]]></title>
-            <link>https://dataforgood.fr/projects/geowatchlabs</link>
-            <guid>geowatchlabs</guid>
-            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Dyslex'IA]]></title>
             <link>https://dataforgood.fr/projects/dyslexia</link>
             <guid>dyslexia</guid>
@@ -169,9 +162,9 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Open Fake Facts]]></title>
-            <link>https://dataforgood.fr/projects/openfakefacts</link>
-            <guid>openfakefacts</guid>
+            <title><![CDATA[Geowatch Labs]]></title>
+            <link>https://dataforgood.fr/projects/geowatchlabs</link>
+            <guid>geowatchlabs</guid>
             <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
@@ -179,6 +172,13 @@ def votre_fonction_a_mesurer()
             <title><![CDATA[Open Geo Scales]]></title>
             <link>https://dataforgood.fr/projects/opengeoscales</link>
             <guid>opengeoscales</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Open Fake Facts]]></title>
+            <link>https://dataforgood.fr/projects/openfakefacts</link>
+            <guid>openfakefacts</guid>
             <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
@@ -218,16 +218,16 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[JOGL]]></title>
-            <link>https://dataforgood.fr/projects/jogl</link>
-            <guid>jogl</guid>
+            <title><![CDATA[ImpactScore]]></title>
+            <link>https://dataforgood.fr/projects/impactscore</link>
+            <guid>impactscore</guid>
             <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[ImpactScore]]></title>
-            <link>https://dataforgood.fr/projects/impactscore</link>
-            <guid>impactscore</guid>
+            <title><![CDATA[JOGL]]></title>
+            <link>https://dataforgood.fr/projects/jogl</link>
+            <guid>jogl</guid>
             <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
@@ -284,19 +284,19 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Impact des plats]]></title>
-            <link>https://dataforgood.fr/projects/impactdesplats</link>
-            <guid>impactdesplats</guid>
-            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Estimer l'impact carbone d'un plat à partir d'une simple photo.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Détection des forêts dégradées]]></title>
             <link>https://dataforgood.fr/projects/foretsdegradees</link>
             <guid>foretsdegradees</guid>
             <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Détecter les forêts dégradées de Guinée et du Congo par imagerie satellite haute résolution et deep learning.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Impact des plats]]></title>
+            <link>https://dataforgood.fr/projects/impactdesplats</link>
+            <guid>impactdesplats</guid>
+            <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Estimer l'impact carbone d'un plat à partir d'une simple photo.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -356,6 +356,14 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Arkhn]]></title>
+            <link>https://dataforgood.fr/projects/arkhn</link>
+            <guid>arkhn</guid>
+            <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Standardiser les données de santé en open-source]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Liris]]></title>
             <link>https://dataforgood.fr/projects/liris</link>
             <guid>liris</guid>
@@ -369,14 +377,6 @@ def votre_fonction_a_mesurer()
             <guid>tableaudebordcitoyen</guid>
             <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Du choc des idées jaillit l’information]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Arkhn]]></title>
-            <link>https://dataforgood.fr/projects/arkhn</link>
-            <guid>arkhn</guid>
-            <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Standardiser les données de santé en open-source]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -473,16 +473,16 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[We answer]]></title>
-            <link>https://dataforgood.fr/projects/weanswer</link>
-            <guid>weanswer</guid>
+            <title><![CDATA[Make.org]]></title>
+            <link>https://dataforgood.fr/projects/makeorg</link>
+            <guid>makeorg</guid>
             <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Make.org]]></title>
-            <link>https://dataforgood.fr/projects/makeorg</link>
-            <guid>makeorg</guid>
+            <title><![CDATA[We answer]]></title>
+            <link>https://dataforgood.fr/projects/weanswer</link>
+            <guid>weanswer</guid>
             <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
@@ -517,23 +517,16 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[NewBed]]></title>
-            <link>https://dataforgood.fr/projects/newbed</link>
-            <guid>newbed</guid>
-            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Search Research]]></title>
-            <link>https://dataforgood.fr/projects/searchresearch</link>
-            <guid>searchresearch</guid>
-            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Simplon]]></title>
             <link>https://dataforgood.fr/projects/simplon</link>
             <guid>simplon</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[NewBed]]></title>
+            <link>https://dataforgood.fr/projects/newbed</link>
+            <guid>newbed</guid>
             <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
@@ -545,19 +538,18 @@ def votre_fonction_a_mesurer()
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Search Research]]></title>
+            <link>https://dataforgood.fr/projects/searchresearch</link>
+            <guid>searchresearch</guid>
+            <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Adoptez-moi]]></title>
             <link>https://dataforgood.fr/projects/adoptezmoi</link>
             <guid>adoptezmoi</guid>
             <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[Un bot Twitter qui diffuse des informations sur des animaux à adopter.]]></description>
-            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Data For Food]]></title>
-            <link>https://dataforgood.fr/projects/dataforfood</link>
-            <guid>dataforfood</guid>
-            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
-            <description><![CDATA[Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
         <item>
@@ -574,6 +566,14 @@ def votre_fonction_a_mesurer()
             <guid>teenspirit</guid>
             <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.]]></description>
+            <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Data For Food]]></title>
+            <link>https://dataforgood.fr/projects/dataforfood</link>
+            <guid>dataforfood</guid>
+            <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor.]]></description>
             <content:encoded><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content:encoded>
         </item>
     </channel>
