@@ -4,7 +4,7 @@
 
 La communauté Data for Good compte plus de 4000 volontaires qui consacrent plusieurs heures par semaine **bénévolement** au service de projets d'intérêt général.
 
-Vous êtes un **acteur de l'intérêt général (associations, ONGs, institutions publiques, startups de l'économie sociale et solidaire)** ? [Proposez-nous un projet](https://airtable.com/shrw27X2Jmb9boYEm) !
+Vous êtes un **acteur de l'intérêt général (associations, ONGs, institutions publiques, startups de l'économie sociale et solidaire)** ? [Proposez-nous un projet](https://tally.so/r/wkGkG6) !
 
 :::
 
@@ -12,11 +12,11 @@ Vous êtes un **acteur de l'intérêt général (associations, ONGs, institution
 
 Nous pouvons vous donner un coup de main 💪 sur de **nombreuses questions techniques (analyses et visualisations de données, création d'algorithmes, développement de sites ou de plateformes, cadrage de projet)**. 
 
-Pour proposer un projet ou de demander de l'aide, il vous suffit de remplir ce [questionnaire](https://airtable.com/shrw27X2Jmb9boYEm) ! Nous vous recontacterons pour comprendre comment nous pouvons vous aider.
+Pour proposer un projet ou de demander de l'aide, il vous suffit de remplir ce [questionnaire](https://tally.so/r/wkGkG6) ! Nous vous recontacterons pour comprendre comment nous pouvons vous aider.
 :::
 
 <div style={{"text-align":"center","margin-bottom":"20px"}}>
-<a href="https://airtable.com/shrw27X2Jmb9boYEm" target="_blank" className="button button--secondary button--lg button-home">
+<a href="https://tally.so/r/wkGkG6" target="_blank" className="button button--secondary button--lg button-home">
 Proposer un projet - 5min ⏱
 </a>
 </div>
