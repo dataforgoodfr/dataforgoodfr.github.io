@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[9421],{2963:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/sexisme","name":"Sexisme","count":1,"permalink":"/projects/tags/sexisme"}')}}]);

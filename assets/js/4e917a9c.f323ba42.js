@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[5724],{1334:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/portail-numerique","name":"Portail num\xe9rique","count":1,"permalink":"/projects/tags/portail-numerique"}')}}]);

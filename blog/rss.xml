@@ -4,9 +4,17 @@
         <title>Data For Good Blog</title>
         <link>https://dataforgood.fr/blog</link>
         <description>Data For Good Blog</description>
-        <lastBuildDate>Tue, 13 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Oct 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Appel à projet Saison 12 Data For Good]]></title>
+            <link>https://dataforgood.fr/blog/aap-saison12</link>
+            <guid>aap-saison12</guid>
+            <pubDate>Mon, 23 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nous lançons l'appel à projet de la saison 12 de Data For Good ! Qui seront les prochaines associations accompagnées après : 2Tonnes, QuotaClimat, Ecolab, Bloom, Open Food Facts, Greniers d’Abondance, Ceebios, Pyronear, OGRE, Solinum, Mednum, Surfrider, … ?]]></description>
+            <content:encoded><![CDATA[<p>Après 100+ projets depuis 2014, l&#x27;association Data For Good lance sa 12e saison d&#x27;accélération de projets numériques d&#x27;intérêt général qui commencera fin janvier 2024.</p><p>💪 Vous êtes une association, une ONG, un citoyen avec une bonne idée ? Vous avez un projet ou une idée à impact social ou environnemental qui pourrait bénéficier d&#x27;un accompagnement par nos 4600 bénévoles data pendant 3 mois ?</p><p>💡 Qui seront les prochaines associations accompagnées après : 2Tonnes, QuotaClimat, Ecolab, Bloom, Open Food Facts, Greniers d’Abondance, Ceebios, Pyronear, OGRE, Solinum, Mednum, Surfrider, … ?</p><h3>ℹ️ Conditions de candidature</h3><ul><li><em>Avoir un projet qui adresse une problématique sociale et/ou environnementale et qui pourrait avoir un impact positif majeur</em></li><li><em>Etre une structure d&#x27;intérêt général non lucrative</em></li><li><em>Etre d&#x27;accord pour créer des communs numériques (tout ce qui est produit par Data For Good est 100% open source)</em></li></ul><h3>❓ Comment candidater ?</h3><p>Remplissez le formulaire ici <a href="https://tally.so/r/wkGkG6">https://tally.so/r/wkGkG6</a></p><p>Si vous avez des questions avant de postuler, vous pouvez envoyer un email à <a href="mailto:orga@dataforgood.fr">orga@dataforgood.fr</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Data For Good se restructure et crée les pôles thématiques]]></title>
             <link>https://dataforgood.fr/blog/restructuration</link>

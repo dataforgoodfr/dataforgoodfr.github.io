@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[7947],{9856:function(t){t.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/mobilite","name":"Mobilit\xe9","count":1,"permalink":"/projects/tags/mobilite"}')}}]);
