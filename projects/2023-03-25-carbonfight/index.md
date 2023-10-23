@@ -19,12 +19,14 @@ keywords:
 sdgs: [sdg13]
 github: https://github.com/CarbonFight/app
 website: https://www.carbonfight.app/
-slack: "#offseason_carbonfight"
+slack: "#11_carbonfight"
 ---
 
-## Le projet Carbon Fight
+# Le projet Carbon Fight
 
+:::tip
 Calculer son empreinte carbone tous les jours pour mieux la comprendre et baisser ses émissions ?
+:::
 
 C’est le défi que s’est lancé le développeur citoyen Pierre Freund avec la création de CarbonFight, un calculateur carbone pour suivre au plus près ses émissions au jour le jour et obtenir des conseils personnalisés. Pourquoi alors mesurer son empreinte carbone tous les jours :
 
@@ -35,22 +37,33 @@ C’est le défi que s’est lancé le développeur citoyen Pierre Freund avec l
 
 Vous pouvez retrouver la présentation du projet [pendant le Monthly Marty #7](https://www.youtube.com/watch?v=GMrwDjq3rYs&t=3220s&ab_channel=DataforGood)
 
+## Le projet de la saison 11
+
+**Objectif principal**:
+
+En 3 mois, l’objectif de la saison est d’identifier et documenter les 250 facteurs d’émission CO2e des actions de la vie courante les plus fréquents.
+
+**Objectif secondaire**:
+
+Création de l’API et mise à disposition du public.
+
+## Compétences recherchées
+
+- Data scientist & analystes pour les explorations
+- Juristes pour toute la partie licence des data
+- Améliorer le process de recherche de data
+- Des personnes pour chercher l’info, des personnes pour les vérifier
+
+## Références
+
+- Le [pitch de lancement de la saison 11](https://docs.google.com/presentation/d/1QS4ju8od8lMZQdhibh7WeciZtIjGRt-RYn7LCE6eSEc/edit#slide=id.g21e1d84f79a_2_21)
+
 ## Equipe
 
 - Pierre Freund (porteur de projet)
 
 ## Rejoindre le projet
 
-Il y a de nombreux chantiers : inclure de nouvelles données, revoir l’identité visuelle, visualiser et projeter les émissions, imaginer un système de recommandations.
-
-Le projet recherche des contributeurs :
-
-- Data Analystes
-- Experts carbone
-- UX/UI
-- Graphistes
-- Développeurs
-
-Il suffit de [rejoindre la communauté Data For Good](/join) et de se présenter sur le canal Slack **#offseason_carbonfight**
+Il suffit de [rejoindre la communauté Data For Good](/join) et de se présenter sur le canal Slack **#11_carbonfight**
 
 Vous pouvez aussi directement contribuer en lisant ["le guide première contribution"](https://github.com/CarbonFight/app/wiki/Guide-de-la-premi%C3%A8re-contribution) 💪
