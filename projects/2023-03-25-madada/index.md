@@ -9,7 +9,7 @@ keywords:
 sdgs: [sdg11]
 github: https://github.com/dataforgoodfr/batch11_basta
 website: https://madada.fr
-slack: "#11_madada"
+slack: "#11_ma_dada"
 ---
 
 # Ma Dada
@@ -50,3 +50,7 @@ Mastodon : https://mamot.fr/@madadafr
 Twitter : https://twitter.com/madadafr
 Une chaîne vidéo Peertube : https://aperi.tube/a/madada
 Du code source 100% libre : https://gitlab.com/madada-team
+
+## Rejoindre le projet
+
+Il suffit de [rejoindre la communauté Data For Good](/join) et de se présenter sur le canal Slack #11_ma_dada

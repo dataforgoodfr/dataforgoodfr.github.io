@@ -44,3 +44,7 @@ Plusieurs objectifs:
 ## Equipe
 
 - Thierry Bourgoin, Institut Systématique Evolution Biodiversité, Museum
+
+## Rejoindre le projet
+
+Il suffit de [rejoindre la communauté Data For Good](/join) et de se présenter sur le canal Slack #11_datak

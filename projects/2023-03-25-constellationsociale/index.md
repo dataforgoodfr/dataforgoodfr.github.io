@@ -45,3 +45,7 @@ Avancer dans l'exploitation du corpus et jusqu’à la représentation des savoi
 ## Equipe
 
 - Irénée Deckers
+
+## Rejoindre le projet
+
+Il suffit de [rejoindre la communauté Data For Good](/join) et de se présenter sur le canal Slack #11_constellation_sociale

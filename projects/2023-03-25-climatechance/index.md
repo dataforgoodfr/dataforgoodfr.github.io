@@ -7,6 +7,7 @@ description: "Cap vers la COP28 ! Mesurer et analyser les émissions des villes 
 keywords:
   - Data For Good
 sdgs: [sdg03, sdg11, sdg13]
+slack: "#11_climate_chance"
 ---
 
 # Climate Chance
@@ -47,3 +48,7 @@ Objectifs
 
 - Tania Martha Thomas, Chargée de recherche Observatoire
 - Antoine Gillod, Directeur de l’Observatoire mondial de l’action climat
+
+## Rejoindre le projet
+
+Il suffit de [rejoindre la communauté Data For Good](/join) et de se présenter sur le canal Slack #11_climate_chance

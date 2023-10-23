@@ -44,3 +44,7 @@ Le but est de proposer une interface simple, qui permettrait de voir rapidement 
 
 - Augustin Courtier, Latitude
 - Bastier Gauthier, Data For Good
+
+## Rejoindre le projet
+
+Il suffit de [rejoindre la communauté Data For Good](/join) et de se présenter sur le canal Slack #11_ecartomobile

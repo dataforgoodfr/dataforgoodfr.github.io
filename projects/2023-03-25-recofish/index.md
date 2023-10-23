@@ -39,3 +39,7 @@ Modélisation: Essais de classification sur 10 espèces avec des photos récolt�
 ## Equipe
 
 - Vincent MARTIN
+
+## Rejoindre le projet
+
+Il suffit de [rejoindre la communauté Data For Good](/join) et de se présenter sur le canal Slack #11_recofish
