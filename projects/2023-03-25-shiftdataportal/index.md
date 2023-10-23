@@ -1,8 +1,8 @@
 ---
 slug: shiftdataportal
-title: "datak"
+title: "The Shift Data Portal"
 header_image_url: img/projects/shiftdataportal.png
-tags: [Saison 11, Données publiques]
+tags: [Saison 11, Energie, Visualisation]
 description: "Portail d’open data et data visualisation de la énergie-climat"
 keywords:
   - Data For Good

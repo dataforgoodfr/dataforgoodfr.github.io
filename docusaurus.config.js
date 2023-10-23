@@ -1,61 +1,62 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Data For Good',
+  title: "Data For Good",
   tagline: "Accélérateur citoyen d'intérêt général",
-  url: 'https://dataforgood.fr',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  deploymentBranch:"main",
-  favicon: 'img/logo-dfg-new.png',
-  organizationName: 'dataforgoodfr', // Usually your GitHub org/user name.
-  projectName: 'dataforgoodfr.github.io', // Usually your repo name.
+  url: "https://dataforgood.fr",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  deploymentBranch: "main",
+  favicon: "img/logo-dfg-new.png",
+  organizationName: "dataforgoodfr", // Usually your GitHub org/user name.
+  projectName: "dataforgoodfr.github.io", // Usually your repo name.
   plugins: [
     // require.resolve('docusaurus-lunr-search'),
     [
-      '@docusaurus/plugin-content-blog',
+      "@docusaurus/plugin-content-blog",
       {
         /**
          * Required for any multi-instance plugin
          */
-        id: 'projects',
+        id: "projects",
         /**
          * URL route for the blog section of your site.
          * *DO NOT* include a trailing slash.
          */
-        routeBasePath: 'projects',
+        routeBasePath: "projects",
         /**
          * Path to data on filesystem relative to site dir.
          */
-        path: './projects',
-        postsPerPage: 'ALL',
+        path: "./projects",
+        postsPerPage: "ALL",
       },
     ],
   ],
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -65,10 +66,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Data For Good',
+        title: "Data For Good",
         logo: {
-          alt: 'Data For Good Logo',
-          src: 'img/logo-dfg-new2.png',
+          alt: "Data For Good Logo",
+          src: "img/logo-dfg-new2.png",
         },
         items: [
           // {
@@ -77,7 +78,11 @@ const config = {
           //   position: 'left',
           //   label: "🌎 Qui sommes-nous ?",
           // },
-          {to: 'https://dataforgood.notion.site/', label: '🌎 Qui sommes-nous ?', position: 'left'},
+          {
+            to: "https://dataforgood.notion.site/",
+            label: "🌎 Qui sommes-nous ?",
+            position: "left",
+          },
           {
             label: "⭐ Projets",
             position: "left",
@@ -90,6 +95,10 @@ const config = {
               {
                 label: "Les projets qui ont besoin d'aide",
                 to: "https://dataforgood.notion.site/Trouver-un-projet-6244df9394d048fca5e7350260919c8c",
+              },
+              {
+                label: "Saison 11",
+                to: "/projects/tags/saison-11",
               },
               {
                 label: "Saison 10",
@@ -106,19 +115,19 @@ const config = {
               },
             ],
           },
-          {to: '/blog', label: '📚 Blog', position: 'left'},
-          {to: '/iagenerative', label: '🤖 IA Générative', position: 'left'},
+          { to: "/blog", label: "📚 Blog", position: "left" },
+          { to: "/iagenerative", label: "🤖 IA Générative", position: "left" },
           {
-            to: '/join', 
-            label: '💪 Rejoindre la communauté', 
-            className: 'button button--secondary button--lg button-navbar',
-            position: 'right',
+            to: "/join",
+            label: "💪 Rejoindre la communauté",
+            className: "button button--secondary button--lg button-navbar",
+            position: "right",
           },
           {
-            to: '/propose', 
-            label: '💡 Proposer un projet', 
-            className: 'button button--secondary button--lg button-navbar',
-            position: 'right'
+            to: "/propose",
+            label: "💡 Proposer un projet",
+            className: "button button--secondary button--lg button-navbar",
+            position: "right",
           },
           // {
           //   href: 'https://dataforgood.slite.com/p/channel/F9UR6bhuYCPAtvfLDje8Zc/notes/p8MSVDq6k',
@@ -126,84 +135,84 @@ const config = {
           //   position: 'right',
           // },
           {
-            href: 'https://github.com/dataforgoodfr',
-            className: 'header-github-link',
-            position: 'right',
-            'aria-label': 'GitHub repository',
+            href: "https://github.com/dataforgoodfr",
+            className: "header-github-link",
+            position: "right",
+            "aria-label": "GitHub repository",
           },
         ],
       },
       footer: {
-        style: 'light',
+        style: "light",
         links: [
           {
-            title: 'Pages',
+            title: "Pages",
             items: [
               {
                 label: "L'association Data For Good",
-                to: 'https://dataforgood.notion.site',
+                to: "https://dataforgood.notion.site",
               },
               {
                 label: "Serment d'Hippocrate",
-                to: '/hippocrate',
+                to: "/hippocrate",
               },
               {
                 label: "FAQ",
-                to: 'https://dataforgood.notion.site/f58df2b6f02849a4ae94d8cb9ce49e5f?v=c165effdeeb140ea9fe964ca966485a6',
+                to: "https://dataforgood.notion.site/f58df2b6f02849a4ae94d8cb9ce49e5f?v=c165effdeeb140ea9fe964ca966485a6",
               },
               {
                 label: "Politique de confidentialité",
-                to: '/confidentialite',
+                to: "/confidentialite",
               },
             ],
           },
           {
-            title: 'Liens externes',
+            title: "Liens externes",
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/dataforgoodfr',
+                label: "GitHub",
+                href: "https://github.com/dataforgoodfr",
               },
               {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/channel/UCA_utdbmVhAOFujulWlaaCQ',
+                label: "Youtube",
+                href: "https://www.youtube.com/channel/UCA_utdbmVhAOFujulWlaaCQ",
               },
               {
-                label: 'Meetup',
-                href: 'https://www.meetup.com/Data-for-Good-FR',
+                label: "Meetup",
+                href: "https://www.meetup.com/Data-for-Good-FR",
               },
               {
-                label: 'Hugging Face',
-                href: 'https://huggingface.co/DataForGood',
+                label: "Hugging Face",
+                href: "https://huggingface.co/DataForGood",
               },
               {
-                label: 'Twitch',
-                href: 'https://twitch.tv/dataforgood',
+                label: "Twitch",
+                href: "https://twitch.tv/dataforgood",
               },
             ],
           },
           {
-            title: 'Mais aussi',
+            title: "Mais aussi",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'Notion',
-                href: 'https://dataforgood.notion.site',
-              },              
-              {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/company/dataforgood',
+                label: "Notion",
+                href: "https://dataforgood.notion.site",
               },
               {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/dataforgoodfr/',
+                label: "Linkedin",
+                href: "https://www.linkedin.com/company/dataforgood",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/dataforgood_fr',
+                label: "Instagram",
+                href: "https://www.instagram.com/dataforgoodfr/",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/dataforgood_fr",
               },
             ],
           },

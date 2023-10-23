@@ -2,7 +2,7 @@
 slug: recofish
 title: "Recofish"
 header_image_url: img/projects/recofish.jpg
-tags: [Saison 11, Données publiques]
+tags: [Saison 11, Biodiversité, Poissons]
 description: "Reconnaître les espèces de poissons pour sensibiliser à la biodiversité marine et inciter à une consommation plus responsable 🐟"
 keywords:
   - Data For Good

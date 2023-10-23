@@ -2,7 +2,7 @@
 slug: datak
 title: "datak"
 header_image_url: img/projects/datak.jpg
-tags: [Saison 11, Données publiques]
+tags: [Saison 11, Biodiversité, Insectes]
 description: "Systématicien Entomologiste, identification et description des espèces du vivant, de leurs habitats et de leurs interactions et classification suivant leur évolution 🪲"
 keywords:
   - Data For Good
