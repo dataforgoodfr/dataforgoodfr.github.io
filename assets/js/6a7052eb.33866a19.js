@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[4001],{1097:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/hors-saison","name":"Hors-saison","count":6,"permalink":"/projects/tags/hors-saison"}')}}]);
