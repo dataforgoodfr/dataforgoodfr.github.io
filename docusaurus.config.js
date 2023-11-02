@@ -129,6 +129,12 @@ const config = {
             className: "button button--secondary button--lg button-navbar",
             position: "right",
           },
+          {
+            to: "https://opencollective.com/data_for_good",
+            label: "👏 Faire un don",
+            className: "button button--secondary button--lg button-navbar",
+            position: "right",
+          },
           // {
           //   href: 'https://dataforgood.slite.com/p/channel/F9UR6bhuYCPAtvfLDje8Zc/notes/p8MSVDq6k',
           //   label: 'FAQ',

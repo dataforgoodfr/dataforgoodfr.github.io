@@ -1,6 +1,6 @@
 ---
 slug: constellation_sociale
-title: "Ma Dada"
+title: "Constellation Sociale"
 header_image_url: img/projects/constellation_sociale.png
 tags: [Saison 11, Ruralité, Knowledge Graph]
 description: "Constellation Sociale est une association humanitaire qui soutient les communautés rurales isolées 👥"

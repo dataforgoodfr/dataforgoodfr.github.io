@@ -6,7 +6,7 @@ tags: [Saison 11, Energie, Visualisation]
 description: "Portail d’open data et data visualisation de la énergie-climat"
 keywords:
   - Data For Good
-sdgs: [sdg15]
+sdgs: [sdg13,sdg14,sdg15]
 website: https://www.theshiftdataportal.org/
 slack: "#11_shift_data_portal"
 ---

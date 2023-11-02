@@ -1,7 +1,5 @@
 # Livre blanc IA générative
 
-
-
 L'Intelligence Artificielle générative s'immisce de plus en plus dans nos vies à travers des outils (ChatGPT, Midjourney, DALL-E, etc... ) capables de générer des contenus (textuels, visuels et vidéo) de qualité quasi-humaine et à une vitesse inégalée. Nous nous devons de questionner l’impact de cette révolution technologique sur notre société. Il n'est plus seulement question de savoir comment exploiter ces outils, mais aussi et surtout pourquoi et dans quel but.
 
 Data For Good, depuis sa création en 2014, travaille inlassablement à mettre le numérique au service de l'intérêt général. C'est dans cette perspective que nous avons conduit une recherche approfondie sur les enjeux de l'IA générative, ses implications directes et indirectes sur nos vies, notre environnement et notre société.
@@ -36,6 +34,13 @@ Ce premier rapport aborde 4 sujets principaux :
 4. **Impact environnemental** : L'IA n'est pas seulement un défi éthique ou sociétal, mais également environnemental. L'entraînement des modèles d'IA est très énergivore et contribue à l'émission de gaz à effet de serre. Le rapport explore les impacts directs et indirects et les moyens de minimiser cet impact.
 
 "Les meilleurs esprits de notre génération passent leur temps à faire cliquer des gens sur des publicités", a déploré un des premiers employés de Facebook. Et si nous pouvions ensemble redonner un sens à la technologie? C’est la mission que Data For Good s’est donnée. Soyons techno-lucides à l’ère de l’IA générative.
+
+## 📺 Webinar IA générative
+
+Le livre blanc a été présenté pendant un webinar accessible ici 
+
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/uf62I49mmok?si=CLHSkWOmgf2RVBAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## 🔎 Contact
 
