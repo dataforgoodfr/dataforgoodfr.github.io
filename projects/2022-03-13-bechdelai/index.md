@@ -1,7 +1,7 @@
 ---
 slug: bechdelai
 title: "BechdelAI"
-header_image_url: img/projects/bechdelai_new.png
+header_image_url: img/projects/bechdelai.png
 tags: [Saison10,Monthly Marty 2,Actif,Féminisme,Culture,Cinéma,sdg05]
 description: "Mesure et automatisation du test de Bechdel, de la (sous)représentation féminine et des inégalités de représentation dans le cinéma et l'audiovisuel"
 keywords:
