@@ -118,6 +118,11 @@ const config = {
           { to: "/blog", label: "📚 Blog", position: "left" },
           { to: "/iagenerative", label: "🤖 IA Générative", position: "left" },
           {
+            to: "/saison12",
+            label: "🤗 Saison 12",
+            position: "left",
+          },
+          {
             to: "/join",
             label: "💪 Rejoindre la communauté",
             className: "button button--secondary button--lg button-navbar",
