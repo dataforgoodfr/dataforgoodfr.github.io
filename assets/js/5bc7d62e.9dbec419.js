@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6606],{4355:function(o){o.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/open-innovation","name":"Open Innovation","count":1,"permalink":"/projects/tags/open-innovation"}')}}]);

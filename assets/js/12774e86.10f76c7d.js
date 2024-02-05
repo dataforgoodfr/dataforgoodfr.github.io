@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6388],{6788:function(e){e.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/data-science-ethique","name":"Data Science Ethique","count":3,"permalink":"/projects/tags/data-science-ethique"}')}}]);

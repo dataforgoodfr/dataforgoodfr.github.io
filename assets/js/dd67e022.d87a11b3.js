@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[3966],{4658:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/accessibilite","name":"Accessibilit\xe9","count":1,"permalink":"/projects/tags/accessibilite"}')}}]);

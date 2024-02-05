@@ -2,11 +2,99 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dataforgood.fr/projects</id>
     <title>Data For Good Blog</title>
-    <updated>2023-10-31T00:00:00.000Z</updated>
+    <updated>2024-02-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dataforgood.fr/projects"/>
     <subtitle>Data For Good Blog</subtitle>
     <icon>https://dataforgood.fr/img/logo-dfg-new.png</icon>
+    <entry>
+        <title type="html"><![CDATA[350.org]]></title>
+        <id>350org</id>
+        <link href="https://dataforgood.fr/projects/350org"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Création d’un data storytelling sur les synergies existantes entre développement des énergies renouvelables et les financements à une échelle mondiale basé sur de l’open data]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bloom - Trawl Watch]]></title>
+        <id>bloom</id>
+        <link href="https://dataforgood.fr/projects/bloom"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Suivre les trajectoires de milliers de bateaux de pêche en quasi temps réel afin de pouvoir analyser leur pratiques de pêche dans des zones maritimes protégées (AMP) à partir de données GPS récupérées (via antennes satellites et/ou terrestres)]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EU Tax Observatory - Country by country tax reporting]]></title>
+        <id>eutaxobservatory</id>
+        <link href="https://dataforgood.fr/projects/eutaxobservatory"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Compilation de données sur la localisation des profits de multinationales afin de mieux appréhender l’évasion fiscale et l’optimisation fiscale agressive]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GenAI Impact - Les impacts environnementaux de l'IA générative]]></title>
+        <id>genai-impacts</id>
+        <link href="https://dataforgood.fr/projects/genai-impacts"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mettre en lumière l’impacts des technologie de GenAI sur l’environnement, de mieux les comprendre, de les quantifier et de sensibiliser les utilisateurs.]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interhop - LinkR]]></title>
+        <id>linkr</id>
+        <link href="https://dataforgood.fr/projects/linkr"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Développer des plugins qui apporteront de nouvelles fonctionnalités low-code à l’application, aidant ainsi les cliniciens et data scientists à analyser les données de santé]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Shifters - Observatoire des imaginaires]]></title>
+        <id>observatoireimaginaires</id>
+        <link href="https://dataforgood.fr/projects/observatoireimaginaires"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dresser un état des lieux des imaginaires de l’écologie véhiculées par les films et les séries et de fournir aux professionnels de l’audiovisuels un diagnostic et des clés de compréhension pour s’emparer de la thématique écologique.]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pink Bombs]]></title>
+        <id>pinkbombs</id>
+        <link href="https://dataforgood.fr/projects/pinkbombs"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cartographie de l’évolution des populations de saumons sous pression de la surpêche et de l’élevage, afin de limiter sa surconsommation]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pyronear]]></title>
+        <id>pyronear</id>
+        <link href="https://dataforgood.fr/projects/pyronear"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Pyronear a créé au cours des différentes saisons de Data For Good un prototype pour détecter les départs d'incendie dans les forêts]]></summary>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_pyronear</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Questionner la seconde main - CMCM & Fashion Revolution France]]></title>
+        <id>secondemain</id>
+        <link href="https://dataforgood.fr/projects/secondemain"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Révéler les faux arguments écologiques, la représentation et les flux de revente de produits de fast fashion par les marques.]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Utopia56 - Cartographie des campements parisiens]]></title>
+        <id>utopia56</id>
+        <link href="https://dataforgood.fr/projects/utopia56"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Développer un outil de cartographie des campements parisiens des personnes exilées pour faciliter la coordination entre les acteurs parisiens sur le terrain. Les acteurs étant dans un premier temps : Utopia 56, La Croix Rouge, Action Contre La Faim.]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MerTerre - Zero Déchet Sauvage]]></title>
+        <id>zerodechetsauvage</id>
+        <link href="https://dataforgood.fr/projects/zerodechetsauvage"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Développer des visualisations sur le ramassage de déchets à destination des collectivités.]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CarbonBombs.org]]></title>
         <id>carbonbombs</id>
@@ -27,16 +115,6 @@ Aider les établissements d’enseignement supérieur à mieux comprendre le vé
 :::</p><h2>Le projet de la saison 11</h2><p>Avec la vague générée par #metoo ou #balancetonporc , les établissements du supérieur se sont rendu compte de la prévalence des Violences Sexuelles et Sexistes (VSS) au sein de leur formation sans pour autant avoir un moyen facile de dresser un état des lieux. #Basta propose un outil de diagnostic des VSS sous forme d’espaces temporaires de dialogue animés par un chatbot et modérés par un humain. #Basta a pour objectif de fournir un rapport d’analyse a postériori pour aider les établissement à prendre en compte la problématique de VSS.</p><h2>Compétences recherchées</h2><ul><li>Création de bots Slack/Discord</li><li>Python ou Javascript</li><li>Text mining</li><li>Relation écoles</li><li>Gestion de projet</li></ul><h2>Références</h2><ul><li>Le <a href="https://docs.google.com/presentation/d/1QS4ju8od8lMZQdhibh7WeciZtIjGRt-RYn7LCE6eSEc/edit#slide=id.g1d199cbe779_0_0">pitch de lancement de la saison 11</a></li><li>La <a href="https://www.youtube.com/watch?v=xnJtzPrTJa4&amp;t=2490s&amp;ab_channel=DataforGood">replay du lancement de la saison 11</a></li></ul><h2>Equipe</h2><ul><li>Louise Davy</li><li>Jean-Baptiste Aloy</li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #11_basta</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cartovegetation]]></title>
-        <id>cartovegetation</id>
-        <link href="https://dataforgood.fr/projects/cartovegetation"/>
-        <updated>2023-03-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cartovégétation est un projet de cartographie de la végétation haute résolution et de modélisation des réseaux écologiques. 🗺️]]></summary>
-        <content type="html"><![CDATA[<p>:::tip
-Automatiser la cartographie de la végétation haute résolution en Ile-de-France
-:::</p><h2>Le projet de la saison 11</h2><p>Depuis 2018, la petite couronne et l’Essonne ont été cartographiés, mais nous avançons trop lentement !</p><p>Les missions :</p><ul><li>Automatiser le processus</li><li>Cartographier la grande couronne</li></ul><h2>Compétences recherchées</h2><ul><li>Data analysts et data scientists de préférence en géospatial</li><li>Traitement d’image (Orféo Tool Box et QGIS de préférence)</li><li>Gestion de projet technique</li><li>Data engineering</li></ul><h2>Références</h2><ul><li>Le <a href="https://docs.google.com/presentation/d/1QS4ju8od8lMZQdhibh7WeciZtIjGRt-RYn7LCE6eSEc/edit#slide=id.g226281c13b5_22_0">pitch de lancement de la saison 11</a></li></ul><h2>Equipe</h2><p>Antoine Le Manchec</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #11_cartovegetation</p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[CarbonFight]]></title>
         <id>carbonfight</id>
         <link href="https://dataforgood.fr/projects/carbonfight"/>
@@ -45,6 +123,16 @@ Automatiser la cartographie de la végétation haute résolution en Ile-de-Franc
         <content type="html"><![CDATA[<p>:::tip
 Calculer son empreinte carbone tous les jours pour mieux la comprendre et baisser ses émissions ?
 :::</p><p>C’est le défi que s’est lancé le développeur citoyen Pierre Freund avec la création de CarbonFight, un calculateur carbone pour suivre au plus près ses émissions au jour le jour et obtenir des conseils personnalisés. Pourquoi alors mesurer son empreinte carbone tous les jours :</p><ul><li>⚡ Comprendre plus rapidement les impacts d’une modification d’habitudes en suivant de près et en simulant des changements (qu’est-ce qu’il se passe si cette semaine j’ai dû prendre ma voiture pour aller au travail, quel est l’impact de ma soirée raclette ou de ma dernière session soldes)</li><li>💡 Mieux comprendre les ordres de grandeur en adressant des actions plus précises</li><li>🧀 Ne pas sous-estimer des habitudes qu’on oublie si on ne fait le calcul qu’annuellement (les fêtes de fin d’année, le barbecue de l’été, les déplacements exceptionnels)</li><li>📉 Suivre sa progression pour agir de façon performative sur ses émissions. En mesurant plus souvent on se donne la chance de réduire. Qui ne regarderait son compte en banque qu’une fois par an ?</li></ul><p>Vous pouvez retrouver la présentation du projet <a href="https://www.youtube.com/watch?v=GMrwDjq3rYs&amp;t=3220s&amp;ab_channel=DataforGood">pendant le Monthly Marty #7</a></p><h2>Le projet de la saison 11</h2><p><strong>Objectif principal</strong>:</p><p>En 3 mois, l’objectif de la saison est d’identifier et documenter les 250 facteurs d’émission CO2e des actions de la vie courante les plus fréquents.</p><p><strong>Objectif secondaire</strong>:</p><p>Création de l’API et mise à disposition du public.</p><h2>Compétences recherchées</h2><ul><li>Data scientist &amp; analystes pour les explorations</li><li>Juristes pour toute la partie licence des data</li><li>Améliorer le process de recherche de data</li><li>Des personnes pour chercher l’info, des personnes pour les vérifier</li></ul><h2>Références</h2><ul><li>Le <a href="https://docs.google.com/presentation/d/1QS4ju8od8lMZQdhibh7WeciZtIjGRt-RYn7LCE6eSEc/edit#slide=id.g21e1d84f79a_2_21">pitch de lancement de la saison 11</a></li></ul><h2>Equipe</h2><ul><li>Pierre Freund (porteur de projet)</li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#11_carbonfight</strong></p><p>Vous pouvez aussi directement contribuer en lisant <a href="https://github.com/CarbonFight/app/wiki/Guide-de-la-premi%C3%A8re-contribution">&quot;le guide première contribution&quot;</a> 💪</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cartovegetation]]></title>
+        <id>cartovegetation</id>
+        <link href="https://dataforgood.fr/projects/cartovegetation"/>
+        <updated>2023-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cartovégétation est un projet de cartographie de la végétation haute résolution et de modélisation des réseaux écologiques. 🗺️]]></summary>
+        <content type="html"><![CDATA[<p>:::tip
+Automatiser la cartographie de la végétation haute résolution en Ile-de-France
+:::</p><h2>Le projet de la saison 11</h2><p>Depuis 2018, la petite couronne et l’Essonne ont été cartographiés, mais nous avançons trop lentement !</p><p>Les missions :</p><ul><li>Automatiser le processus</li><li>Cartographier la grande couronne</li></ul><h2>Compétences recherchées</h2><ul><li>Data analysts et data scientists de préférence en géospatial</li><li>Traitement d’image (Orféo Tool Box et QGIS de préférence)</li><li>Gestion de projet technique</li><li>Data engineering</li></ul><h2>Références</h2><ul><li>Le <a href="https://docs.google.com/presentation/d/1QS4ju8od8lMZQdhibh7WeciZtIjGRt-RYn7LCE6eSEc/edit#slide=id.g226281c13b5_22_0">pitch de lancement de la saison 11</a></li></ul><h2>Equipe</h2><p>Antoine Le Manchec</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #11_cartovegetation</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Climate Chance]]></title>
@@ -202,15 +290,6 @@ Plus d&#x27;informations sur le site internet de Ceebios <a href="https://ceebio
         <content type="html"><![CDATA[<p>:::info Le GPS du financement public pour la transition écologique et énergétique des entreprises</p><p>Simplifier l’accès au financement public aux actions de transition écologique et énergétique pour les petites et moyennes entreprises en créant un moteur de recherche intelligent des aides existantes parmi celles de l&#x27;ADEME, de la BPI, des régions et d&#x27;autres acteurs publics ou privés.</p><p>:::</p><h2>A propos du projet Mission Transition Ecologique</h2><p>Selon une étude Bpifrance, <strong>80% des dirigeants sont conscients de l’urgence climatique mais seulement 13% se sentent en capacité de passer à l’action à cause du manque de temps et de financement</strong>.</p><p>Le manque de financement est un frein majeur à la transition écologique des entreprises, mais les entreprises ont du mal à trouver les aides auxquelles elles pourraient avoir droit, face à la multitude de financeurs.</p><p>L’initiative “France Transition Écologique&quot; (FTE) a été décidée en conseil de défense écologique en mai 2019, et a fait l’objet d’une lettre de mission des ministres de la Transition Écologique et de l&#x27;Économie, des Finances et de la Relance à l’attention du CGDD Thomas Lesueur l’année suivante.</p><h2>Le projet</h2><p>Mission Transition Écologique, moteur de recherche, intelligent et adapté, des aides publiques écologiques pour les entreprises et les acteurs du développement économique, réunit en une seule porte d’entrée les financements de la BPI, de l’ADEME, des Régions, jusqu’aux aides européennes, spécifiques. Le tout avec la possibilité d’être rappelé par un conseiller CCI, quand la recherche ne suffit pas. </p><p>Actuellement la donnée est éparpillée entre les sites des financeurs et dans des formats inhomogènes. Il serait essentiel <strong>d’utiliser la donnée pour faciliter le référencement et la recherche d’aides publiques et de permettre à l’entreprise d’identifier en quelques clics LE dispositif le plus adapté à son profil et à son besoin</strong>.</p><p>5 chantiers sont proposés pour ce projet : </p><ol><li>La catégorisation automatique des aides</li><li>Génération automatique de mots-clés </li><li>Travail exploratoire sur les PDFs</li><li>Détection et extraction des critères d&#x27;éligibilité </li><li>Simulateur d&#x27;éligibilité à destination de l’entreprise</li></ol><h2>Compétences recherchées</h2><ul><li>Data Scientists en particulier avec une expertise ou une envie de progresser en NLP </li><li>Toute personne engagée fortement dans la transition écologique et qui veulent contribuer à un projet conséquent avec un impact énorme</li></ul><h2>Références</h2><ul><li><a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=1960s">Le replay de la saison 10</a></li><li>La <a href="https://www.youtube.com/watch?v=Lgnypz2N-Fc&amp;t=3371s">présentation des premiers résultats</a> au Monthly Marty n°5</li><li>La <a href="https://www.youtube.com/watch?v=kSwJopxsphQ&amp;t=2146s">présentation du projet</a> au premier Monthly Marty</li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_mission_transition_ecologique</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[OGRE]]></title>
-        <id>ogre</id>
-        <link href="https://dataforgood.fr/projects/ogre"/>
-        <updated>2022-03-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Développement d'une application pour digitaliser et passer à l'échelle l'atelier OGRE, un serious game ludique et collaboratif pour découvrir et comprendre les ordres de grandeur des énergies.]]></summary>
-        <content type="html"><![CDATA[<p>:::tip Digitalisation de l&#x27;atelier OGRE</p><p>Développement d&#x27;une application pour digitaliser et passer à l&#x27;échelle l&#x27;atelier OGRE, un serious game ludique et collaboratif pour découvrir et comprendre les ordres de grandeur des énergies.</p><p>:::</p><h2>A propos de OGRE</h2><p>L’atelier OGRE (Ordre de GRandeur des Énergies) est un serious game ludique et collaboratif pour découvrir et comprendre les ordres de grandeur des énergies.</p><p>Qu’est ce que 1 kWh? Peut-on se passer des énergies fossiles? Quel est l’impact d’ajouter des énergies renouvelables sur le réseau? Doit-on aller vers plus de sobriété?
-L’atelier OGRE apporte des éléments de réponse à ces questions et aide à s’approprier des termes peu utilisés dans notre quotidien (ex: rendement, facteur de charge, disponibilité,…). L’atelier permet également de voir quelles sont les actions, tant sur la consommation que sur la production, à fort impact énergétique pour évoluer vers un monde plus durable, puis à ouvrir des discussions entre les participants sur le sujet.</p><p>Les participants répartis en équipe de 4 à 8 personnes, et aidés par un animateur, disposent de 3h pour équilibrer consommation et production d’énergie décarbonée.</p><p><img src="./scren.png"/></p><h2>Le projet</h2><p>Aujourd&#x27;hui l&#x27;atelier est animé avec un outil Google Sheet qui arrive à ses limites pour pouvoir passer à l&#x27;échelle tout en rendant l&#x27;atelier plus user-friendly. Le but de ce projet est de construire l&#x27;application web permettant de digitaliser l&#x27;atelier. </p><p>Stack technique:</p><ul><li>Backend Nodejs</li><li>Gestion base de donnée : Postgresql + ORM Sequelize</li><li>Hébergement et déploiement : Heroku + github</li><li>Frontend React</li></ul><h2>Compétences recherchées</h2><ul><li>Plusieurs développeurs backend Nodejs</li><li>Plusieurs développeurs frontend React</li><li>Gestion de projet : 1 ou plusieurs product owner (largement assez de travail pour 2/3 personnes)</li><li>UX/UI designer</li></ul><h2>Références</h2><ul><li><a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=3340s">Replay du lancement de la saison 10</a></li><li><a href="https://www.youtube.com/watch?v=kSwJopxsphQ&amp;t=1398s">Replay du Monthly Marty n°1</a></li><li>Page internet de présentation : <a href="https://laconsciencedesetudiants.fr/atelier-ogre/">https://laconsciencedesetudiants.fr/atelier-ogre/</a></li><li>La source principale qui a permis de concevoir le moteur de calcul de l&#x27;atelier est disponibles à l&#x27;<a href="http://www.inference.org.uk/sustainable/book/translate/french/sewtha_20111001_lowres.pdf">adresse suivante</a></li></ul><h2>Equipe</h2><ul><li>Grégory Kotnarovsky, créateur de l&#x27;atelier OGRE, <a href="mailto:grandeur.energies@gmail.com">grandeur.energies@gmail.com</a></li><li>Vladimir Nafissi, développeur (bénévole D4G), <a href="mailto:vlad.nafissi@gmail.com">vlad.nafissi@gmail.com</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_ogre</strong></p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[NotaClimat]]></title>
         <id>notaclimat</id>
         <link href="https://dataforgood.fr/projects/notaclimat"/>
@@ -219,12 +298,13 @@ L’atelier OGRE apporte des éléments de réponse à ces questions et aide à 
         <content type="html"><![CDATA[<p>:::tip Observatoire de l&#x27;action climat des entreprises</p><p>Développer l&#x27;observatoire open data de l&#x27;action climat des entreprises, pour faire passer à l&#x27;action les entreprises en jouant sur la transparence et maximiser le partage de l&#x27;expertise climat entre entreprises</p><p>:::</p><h2>A propos de NotaClimat</h2><p>Nous créons une plateforme de transparence et de collaboration dédiée à l&#x27;action Climat des entreprises :</p><ul><li>un volet open data 📊 : toutes les données carbone publiques des entreprises récupérées, comparées et partagées en open-data, dans divers formats pour être utilisables par le plus grand nombre</li><li>un volet open book 📖 : un annuaire de pages d&#x27;entreprises, qui détaillent leur action Climat, selon une structure expertisée et harmonisée</li></ul><p>Les convictions derrière le programme :</p><ul><li>L&#x27;analyse et la transparence data a pour but d&#x27;empêcher le greenwashing et ainsi mettre toutes les entreprises à l&#x27;action. Nous sommes convaincus que les citoyens veulent militer dans leur choix de tous les jours et que nous sommes assez nombreux pour faire peur aux entreprises (signataires Affaire du siècle 2,3M pers. ; votes écologistes européennes 2019 4,9M pers.)</li><li>La plateforme collaborative a pour but de faciliter l&#x27;accès à l&#x27;information pour les entreprises moins matures. Nous utilisons la volonté des entreprises de contrôler leur image et de communiquer comme un moteur pour les inciter à partager.</li></ul><h2>Le projet</h2><p>Deux sujets clés pour l&#x27;accélération de cet observatoire de l&#x27;action climat des entreprises : </p><ol><li>Data collection 🔎 et data viz 📉 des données carbone des entreprises :<ul><li>Etoffer la base de données à tous les secteurs et au niveau de détail inférieur, à partir des sources de référence Climat</li><li>Développer des visualisations de données pertinentes et pédagogiques (décomposition du mix par secteur, comparaison des dynamiques, comparaison actuel vs. engagement futur...)</li><li>Le renforcement de cette base de données viendra enrichir notre application mobile type Yuka Climat des marques</li><li>En plus des livrables précédents, ce chantier pourra donner lieu à un rapport publié en fin de programme, comparant les réductions carbone effectives, du type : &quot;Climat : quelle action réelle depuis les accords de Paris ?&quot; (CAC40 vs. le reste du monde ; meilleurs/mauvais élèves par secteur</li></ul></li><li>Préparation d&#x27;un wikipédia de l&#x27;action Climat<ul><li>Préparer l&#x27;architecture et process data qui viendra supporter le crowdsourcing</li><li>Pré-sourcer les pages entreprises avec les données carbone récupérées dans le volet #1</li></ul></li></ol><h2>Compétences recherchées</h2><ul><li>Data Analyse</li><li>Data Engineering</li><li>Développement web et UX/UI</li><li>Intérêt pour le climat et l&#x27;envie de combattre le greenwashing ! </li></ul><h2>Références</h2><ul><li><a href="https://notaclimat.com/">https://notaclimat.com/</a></li><li>Le comparateur de marques <a href="https://notaclimat.com/comparateur_de_marques">https://notaclimat.com/comparateur_de_marques</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_nota_climat</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Pyronear]]></title>
-        <id>pyronear</id>
-        <link href="https://dataforgood.fr/projects/pyronear"/>
+        <title type="html"><![CDATA[OGRE]]></title>
+        <id>ogre</id>
+        <link href="https://dataforgood.fr/projects/ogre"/>
         <updated>2022-03-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Pyronear a créé au cours des différentes saisons de Data For Good un prototype pour détecter les départs d'incendie dans les forêts]]></summary>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack #10_pyronear</p>]]></content>
+        <summary type="html"><![CDATA[Développement d'une application pour digitaliser et passer à l'échelle l'atelier OGRE, un serious game ludique et collaboratif pour découvrir et comprendre les ordres de grandeur des énergies.]]></summary>
+        <content type="html"><![CDATA[<p>:::tip Digitalisation de l&#x27;atelier OGRE</p><p>Développement d&#x27;une application pour digitaliser et passer à l&#x27;échelle l&#x27;atelier OGRE, un serious game ludique et collaboratif pour découvrir et comprendre les ordres de grandeur des énergies.</p><p>:::</p><h2>A propos de OGRE</h2><p>L’atelier OGRE (Ordre de GRandeur des Énergies) est un serious game ludique et collaboratif pour découvrir et comprendre les ordres de grandeur des énergies.</p><p>Qu’est ce que 1 kWh? Peut-on se passer des énergies fossiles? Quel est l’impact d’ajouter des énergies renouvelables sur le réseau? Doit-on aller vers plus de sobriété?
+L’atelier OGRE apporte des éléments de réponse à ces questions et aide à s’approprier des termes peu utilisés dans notre quotidien (ex: rendement, facteur de charge, disponibilité,…). L’atelier permet également de voir quelles sont les actions, tant sur la consommation que sur la production, à fort impact énergétique pour évoluer vers un monde plus durable, puis à ouvrir des discussions entre les participants sur le sujet.</p><p>Les participants répartis en équipe de 4 à 8 personnes, et aidés par un animateur, disposent de 3h pour équilibrer consommation et production d’énergie décarbonée.</p><p><img src="./scren.png"/></p><h2>Le projet</h2><p>Aujourd&#x27;hui l&#x27;atelier est animé avec un outil Google Sheet qui arrive à ses limites pour pouvoir passer à l&#x27;échelle tout en rendant l&#x27;atelier plus user-friendly. Le but de ce projet est de construire l&#x27;application web permettant de digitaliser l&#x27;atelier. </p><p>Stack technique:</p><ul><li>Backend Nodejs</li><li>Gestion base de donnée : Postgresql + ORM Sequelize</li><li>Hébergement et déploiement : Heroku + github</li><li>Frontend React</li></ul><h2>Compétences recherchées</h2><ul><li>Plusieurs développeurs backend Nodejs</li><li>Plusieurs développeurs frontend React</li><li>Gestion de projet : 1 ou plusieurs product owner (largement assez de travail pour 2/3 personnes)</li><li>UX/UI designer</li></ul><h2>Références</h2><ul><li><a href="https://www.youtube.com/watch?v=bnAXCjD2l80&amp;t=3340s">Replay du lancement de la saison 10</a></li><li><a href="https://www.youtube.com/watch?v=kSwJopxsphQ&amp;t=1398s">Replay du Monthly Marty n°1</a></li><li>Page internet de présentation : <a href="https://laconsciencedesetudiants.fr/atelier-ogre/">https://laconsciencedesetudiants.fr/atelier-ogre/</a></li><li>La source principale qui a permis de concevoir le moteur de calcul de l&#x27;atelier est disponibles à l&#x27;<a href="http://www.inference.org.uk/sustainable/book/translate/french/sewtha_20111001_lowres.pdf">adresse suivante</a></li></ul><h2>Equipe</h2><ul><li>Grégory Kotnarovsky, créateur de l&#x27;atelier OGRE, <a href="mailto:grandeur.energies@gmail.com">grandeur.energies@gmail.com</a></li><li>Vladimir Nafissi, développeur (bénévole D4G), <a href="mailto:vlad.nafissi@gmail.com">vlad.nafissi@gmail.com</a></li></ul><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack <strong>#10_ogre</strong></p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Solinum]]></title>
@@ -279,6 +359,13 @@ def votre_fonction_a_mesurer()
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Open Fake Facts]]></title>
+        <id>openfakefacts</id>
+        <link href="https://dataforgood.fr/projects/openfakefacts"/>
+        <updated>2021-03-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Labelia.org]]></title>
         <id>labelia</id>
         <link href="https://dataforgood.fr/projects/labelia"/>
@@ -287,9 +374,9 @@ def votre_fonction_a_mesurer()
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Open Fake Facts]]></title>
-        <id>openfakefacts</id>
-        <link href="https://dataforgood.fr/projects/openfakefacts"/>
+        <title type="html"><![CDATA[Open Geo Scales]]></title>
+        <id>opengeoscales</id>
+        <link href="https://dataforgood.fr/projects/opengeoscales"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
@@ -297,13 +384,6 @@ def votre_fonction_a_mesurer()
         <title type="html"><![CDATA[Science Feedback]]></title>
         <id>sciencefeedback</id>
         <link href="https://dataforgood.fr/projects/sciencefeedback"/>
-        <updated>2021-03-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open Geo Scales]]></title>
-        <id>opengeoscales</id>
-        <link href="https://dataforgood.fr/projects/opengeoscales"/>
         <updated>2021-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
@@ -322,23 +402,9 @@ def votre_fonction_a_mesurer()
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Carbon4Finance]]></title>
-        <id>carbon4finance</id>
-        <link href="https://dataforgood.fr/projects/carbon4finance"/>
-        <updated>2020-09-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Action Contre la Faim]]></title>
         <id>actioncontrelafaim</id>
         <link href="https://dataforgood.fr/projects/actioncontrelafaim"/>
-        <updated>2020-09-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ImpactScore]]></title>
-        <id>impactscore</id>
-        <link href="https://dataforgood.fr/projects/impactscore"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
@@ -350,9 +416,16 @@ def votre_fonction_a_mesurer()
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mednum]]></title>
-        <id>mednum</id>
-        <link href="https://dataforgood.fr/projects/mednum"/>
+        <title type="html"><![CDATA[Carbon4Finance]]></title>
+        <id>carbon4finance</id>
+        <link href="https://dataforgood.fr/projects/carbon4finance"/>
+        <updated>2020-09-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ImpactScore]]></title>
+        <id>impactscore</id>
+        <link href="https://dataforgood.fr/projects/impactscore"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
@@ -360,6 +433,13 @@ def votre_fonction_a_mesurer()
         <title type="html"><![CDATA[Microfaune]]></title>
         <id>microfaune</id>
         <link href="https://dataforgood.fr/projects/microfaune"/>
+        <updated>2020-09-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mednum]]></title>
+        <id>mednum</id>
+        <link href="https://dataforgood.fr/projects/mednum"/>
         <updated>2020-09-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
@@ -402,19 +482,19 @@ def votre_fonction_a_mesurer()
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Détection des forêts dégradées]]></title>
-        <id>foretsdegradees</id>
-        <link href="https://dataforgood.fr/projects/foretsdegradees"/>
-        <updated>2020-03-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Détecter les forêts dégradées de Guinée et du Congo par imagerie satellite haute résolution et deep learning.]]></summary>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Impact des plats]]></title>
         <id>impactdesplats</id>
         <link href="https://dataforgood.fr/projects/impactdesplats"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Estimer l'impact carbone d'un plat à partir d'une simple photo.]]></summary>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Détection des forêts dégradées]]></title>
+        <id>foretsdegradees</id>
+        <link href="https://dataforgood.fr/projects/foretsdegradees"/>
+        <updated>2020-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Détecter les forêts dégradées de Guinée et du Congo par imagerie satellite haute résolution et deep learning.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
@@ -498,14 +578,6 @@ def votre_fonction_a_mesurer()
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Tableau de bord citoyen]]></title>
-        <id>tableaudebordcitoyen</id>
-        <link href="https://dataforgood.fr/projects/tableaudebordcitoyen"/>
-        <updated>2019-03-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Du choc des idées jaillit l’information]]></summary>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Transplant]]></title>
         <id>transplant</id>
         <link href="https://dataforgood.fr/projects/transplant"/>
@@ -514,11 +586,11 @@ def votre_fonction_a_mesurer()
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Databox]]></title>
-        <id>databox</id>
-        <link href="https://dataforgood.fr/projects/databox"/>
-        <updated>2018-09-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Améliorer la plateforme derrière data.gouv.fr.]]></summary>
+        <title type="html"><![CDATA[Tableau de bord citoyen]]></title>
+        <id>tableaudebordcitoyen</id>
+        <link href="https://dataforgood.fr/projects/tableaudebordcitoyen"/>
+        <updated>2019-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Du choc des idées jaillit l’information]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
@@ -527,6 +599,14 @@ def votre_fonction_a_mesurer()
         <link href="https://dataforgood.fr/projects/dataenclair"/>
         <updated>2018-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Le 1er magazine web qui décrypte les enjeux éthiques de l'intelligence artificielle et des données.]]></summary>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Databox]]></title>
+        <id>databox</id>
+        <link href="https://dataforgood.fr/projects/databox"/>
+        <updated>2018-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Améliorer la plateforme derrière data.gouv.fr.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
@@ -562,16 +642,16 @@ def votre_fonction_a_mesurer()
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[BimBamJob]]></title>
-        <id>bimbamjob</id>
-        <link href="https://dataforgood.fr/projects/bimbamjob"/>
+        <title type="html"><![CDATA[Cour des comptes]]></title>
+        <id>courdescomptes</id>
+        <link href="https://dataforgood.fr/projects/courdescomptes"/>
         <updated>2018-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cour des comptes]]></title>
-        <id>courdescomptes</id>
-        <link href="https://dataforgood.fr/projects/courdescomptes"/>
+        <title type="html"><![CDATA[BimBamJob]]></title>
+        <id>bimbamjob</id>
+        <link href="https://dataforgood.fr/projects/bimbamjob"/>
         <updated>2018-03-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
@@ -605,19 +685,19 @@ def votre_fonction_a_mesurer()
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cresus]]></title>
-        <id>cresus</id>
-        <link href="https://dataforgood.fr/projects/cresus"/>
-        <updated>2017-09-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lutter contre le surrendetement.]]></summary>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Impala]]></title>
         <id>impala</id>
         <link href="https://dataforgood.fr/projects/impala"/>
         <updated>2017-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Aider les lycéens à s'orienter.]]></summary>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cresus]]></title>
+        <id>cresus</id>
+        <link href="https://dataforgood.fr/projects/cresus"/>
+        <updated>2017-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lutter contre le surrendetement.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
@@ -671,14 +751,6 @@ def votre_fonction_a_mesurer()
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Data For Food]]></title>
-        <id>dataforfood</id>
-        <link href="https://dataforgood.fr/projects/dataforfood"/>
-        <updated>2017-03-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor.]]></summary>
-        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Frateli]]></title>
         <id>frateli</id>
         <link href="https://dataforgood.fr/projects/frateli"/>
@@ -692,6 +764,14 @@ def votre_fonction_a_mesurer()
         <link href="https://dataforgood.fr/projects/teenspirit"/>
         <updated>2017-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Détection et soutien aux adolescents en difficulté sur les réseaux sociaux.]]></summary>
+        <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data For Food]]></title>
+        <id>dataforfood</id>
+        <link href="https://dataforgood.fr/projects/dataforfood"/>
+        <updated>2017-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Retrouver les restaurants avec des problèmes d'hygiène grâce aux commentaires TripAdvisor.]]></summary>
         <content type="html"><![CDATA[<p>:::caution ATTENTION</p><p>Les détails du projets ne sont pas renseignés, rejoignez le canal Slack ou contactez le porteur de projet pour en savoir plus.</p><p>:::</p><h2>Rejoindre le projet</h2><p>Il suffit de <a href="/join">rejoindre la communauté Data For Good</a> et de se présenter sur le canal Slack</p>]]></content>
     </entry>
 </feed>

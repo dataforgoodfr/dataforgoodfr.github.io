@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[2149],{6053:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/virtual-assistant","name":"Virtual Assistant","count":1,"permalink":"/projects/tags/virtual-assistant"}')}}]);

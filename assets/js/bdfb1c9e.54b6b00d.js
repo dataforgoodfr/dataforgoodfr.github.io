@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6120],{30968:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/bilan-carbone","name":"Bilan Carbone","count":1,"permalink":"/blog/tags/bilan-carbone"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[8411],{82683:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/transparence","name":"Transparence","count":3,"permalink":"/projects/tags/transparence"}')}}]);

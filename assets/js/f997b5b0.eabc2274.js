@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[2291],{188:function(e){e.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/predictive-modeling","name":"Predictive modeling","count":3,"permalink":"/projects/tags/predictive-modeling"}')}}]);

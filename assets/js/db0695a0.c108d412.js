@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6527],{50515:function(e){e.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/environnement","name":"Environnement","count":15,"permalink":"/projects/tags/environnement"}')}}]);

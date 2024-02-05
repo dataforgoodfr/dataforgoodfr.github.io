@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[2395],{8830:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/feminisme","name":"F\xe9minisme","count":1,"permalink":"/blog/tags/feminisme"}')}}]);

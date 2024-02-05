@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[1926],{3620:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/sdg-17","name":"sdg17","count":1,"permalink":"/projects/tags/sdg-17"}')}}]);

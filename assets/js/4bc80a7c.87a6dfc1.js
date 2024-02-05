@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[590],{830:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/ux-ui","name":"UX/UI","count":3,"permalink":"/projects/tags/ux-ui"}')}}]);

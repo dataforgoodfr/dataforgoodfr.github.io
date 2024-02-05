@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[8735],{96286:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/alimentaire","name":"Alimentaire","count":3,"permalink":"/projects/tags/alimentaire"}')}}]);

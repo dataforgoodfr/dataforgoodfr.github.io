@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[4784],{4799:function(t){t.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/vegetation","name":"V\xe9g\xe9tation","count":1,"permalink":"/projects/tags/vegetation"}')}}]);

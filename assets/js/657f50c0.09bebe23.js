@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[1262],{82093:function(t){t.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/justice-climatique","name":"Justice climatique","count":1,"permalink":"/projects/tags/justice-climatique"}')}}]);

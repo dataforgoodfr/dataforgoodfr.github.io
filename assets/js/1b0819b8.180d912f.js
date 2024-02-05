@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[8858],{24547:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/graph-networks","name":"Graph Networks","count":1,"permalink":"/projects/tags/graph-networks"}')}}]);

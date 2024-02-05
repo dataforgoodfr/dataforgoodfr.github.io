@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6886],{64338:function(e){e.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/peche-industrielle","name":"P\xeache industrielle","count":1,"permalink":"/projects/tags/peche-industrielle"}')}}]);

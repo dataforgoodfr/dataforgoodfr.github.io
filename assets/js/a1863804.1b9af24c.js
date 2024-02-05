@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[8928],{6224:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/saison-8","name":"Saison 8","count":1,"permalink":"/blog/tags/saison-8"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6538],{98430:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/donnees-publiques","name":"Donn\xe9es publiques","count":2,"permalink":"/projects/tags/donnees-publiques"}')}}]);

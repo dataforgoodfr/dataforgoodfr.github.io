@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[3239],{68072:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/open-data","name":"Open Data","count":4,"permalink":"/projects/tags/open-data"}')}}]);

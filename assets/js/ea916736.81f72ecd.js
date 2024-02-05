@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[2316],{53287:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/data-engineering","name":"Data Engineering","count":1,"permalink":"/projects/tags/data-engineering"}')}}]);

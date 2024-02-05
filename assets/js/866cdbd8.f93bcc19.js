@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[5424],{77928:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/ruralite","name":"Ruralit\xe9","count":1,"permalink":"/projects/tags/ruralite"}')}}]);

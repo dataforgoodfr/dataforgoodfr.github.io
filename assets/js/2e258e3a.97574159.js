@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[5958],{7640:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/lassociation-data-for-good","name":"L\'association Data For Good","count":2,"permalink":"/blog/tags/lassociation-data-for-good"}')}}]);

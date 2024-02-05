@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[9801],{72940:function(e){e.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/vehicule-electrique","name":"V\xe9hicule Electrique","count":1,"permalink":"/projects/tags/vehicule-electrique"}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6622],{3230:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/insectes","name":"Insectes","count":1,"permalink":"/projects/tags/insectes"}')}}]);

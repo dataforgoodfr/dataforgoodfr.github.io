@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[3006],{1429:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/desinformation","name":"D\xe9sinformation","count":1,"permalink":"/projects/tags/desinformation"}')}}]);

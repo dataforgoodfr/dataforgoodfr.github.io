@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[8460],{15720:function(o){o.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/transition-ecologique","name":"Transition \xe9cologique","count":1,"permalink":"/projects/tags/transition-ecologique"}')}}]);

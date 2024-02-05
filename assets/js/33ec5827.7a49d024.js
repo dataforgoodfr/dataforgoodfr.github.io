@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[5985],{96994:function(t){t.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/lutte-contre-loptimisation-fiscale","name":"Lutte contre l\'optimisation fiscale","count":1,"permalink":"/projects/tags/lutte-contre-loptimisation-fiscale"}')}}]);

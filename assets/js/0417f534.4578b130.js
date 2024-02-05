@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6019],{676:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/sound-analysis","name":"Sound Analysis","count":1,"permalink":"/projects/tags/sound-analysis"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6426],{11446:function(t){t.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/lutte-contre-la-precarite","name":"Lutte contre la pr\xe9carit\xe9","count":1,"permalink":"/projects/tags/lutte-contre-la-precarite"}')}}]);

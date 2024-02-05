@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[2702],{57844:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/knowledge-graph","name":"Knowledge Graph","count":1,"permalink":"/projects/tags/knowledge-graph"}')}}]);

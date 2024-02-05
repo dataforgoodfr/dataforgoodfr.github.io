@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[4502],{75347:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/humanitaire","name":"Humanitaire","count":1,"permalink":"/projects/tags/humanitaire"}')}}]);

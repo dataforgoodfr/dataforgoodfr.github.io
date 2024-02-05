@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[6165],{8389:function(e){e.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/empreinte-carbone","name":"Empreinte Carbone","count":2,"permalink":"/projects/tags/empreinte-carbone"}')}}]);

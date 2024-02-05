@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[4479],{3904:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/poissons","name":"Poissons","count":1,"permalink":"/projects/tags/poissons"}')}}]);

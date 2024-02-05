@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[9032],{62354:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/ai-ethics","name":"AI Ethics","count":1,"permalink":"/projects/tags/ai-ethics"}')}}]);

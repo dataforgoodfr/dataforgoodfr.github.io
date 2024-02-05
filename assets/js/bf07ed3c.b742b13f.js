@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[3549],{6554:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/imaginaires","name":"Imaginaires","count":1,"permalink":"/projects/tags/imaginaires"}')}}]);

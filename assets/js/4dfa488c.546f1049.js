@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[2229],{68724:function(a){a.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/cinema","name":"Cin\xe9ma","count":1,"permalink":"/projects/tags/cinema"}')}}]);

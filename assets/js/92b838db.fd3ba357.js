@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[8480],{31354:function(o){o.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/protection-des-oceans","name":"Protection des oc\xe9ans","count":1,"permalink":"/projects/tags/protection-des-oceans"}')}}]);

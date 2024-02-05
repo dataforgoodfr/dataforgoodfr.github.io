@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[9041],{3363:function(s){s.exports=JSON.parse('{"allTagsPath":"/projects/tags","slug":"/projects/tags/biomimetisme","name":"Biomim\xe9tisme","count":1,"permalink":"/projects/tags/biomimetisme"}')}}]);

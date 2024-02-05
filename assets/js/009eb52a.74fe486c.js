@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_for_good=self.webpackChunkdata_for_good||[]).push([[1640],{53232:function(e){e.exports=JSON.parse('{"permalink":"/projects","page":1,"postsPerPage":93,"totalPages":1,"totalCount":93,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
