@@ -93,8 +93,8 @@ const config = {
                 to: "/projects",
               },
               {
-                label: "Les projets qui ont besoin d'aide",
-                to: "https://dataforgood.notion.site/Trouver-un-projet-6244df9394d048fca5e7350260919c8c",
+                label: "Saison 12",
+                to: "/projects/tags/saison-12",
               },
               {
                 label: "Saison 11",
@@ -105,23 +105,22 @@ const config = {
                 to: "/projects/tags/saison-10",
               },
               {
-                label: "Saison 9",
-                to: "/projects/tags/saison-9",
-              },
-
-              {
                 label: "Le serment d'Hippocrate du Data Scientist",
                 to: "/hippocrate",
+              },
+              {
+                label: "Les projets qui ont besoin d'aide",
+                to: "https://dataforgood.notion.site/Trouver-un-projet-6244df9394d048fca5e7350260919c8c",
               },
             ],
           },
           { to: "/blog", label: "📚 Blog", position: "left" },
-          { to: "/iagenerative", label: "🤖 IA Générative", position: "left" },
           {
             to: "/saison12",
-            label: "🤗 Saison 12",
+            label: "🤿 Saison 12",
             position: "left",
           },
+          { to: "/iagenerative", label: "🤖 IA Générative", position: "left" },
           {
             to: "/join",
             label: "💪 Rejoindre la communauté",

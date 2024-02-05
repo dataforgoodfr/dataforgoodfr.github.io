@@ -308,14 +308,20 @@ export default function Home() {
       <main>
         <HomepageFeatures />
 
-        {/* <section>
+        <section>
           <div className="container main-section">
             <h1>Les news</h1>
-            <h2>Lancement de la saison 11 de Data For Good le samedi 25 mars à 14h</h2>
-            <p>Inscriptions sur <a href="https://app.livestorm.co/data-for-good/saison11?type=detailed" target="_blank">Livestorm</a> ou juste ici 👇</p>
-            <iframe width="100%" height="480" frameborder="0" src="https://app.livestorm.co/p/cb35fa4d-8db9-40f5-a558-baf41586a818/form" title="Lancement saison 11 Data For Good | Data For Good"></iframe>
-          </div>  
-        </section> */}
+            <h2>La Saison 12 Data For Good</h2>
+            <p>La saison 12 de Data For Good a commencé (3 mois entre le 3 février 2024 et fin avril), retrouvez toutes les informations sur <a href="/saison12">cette page</a></p>
+            <a href="/saison12">
+            <img
+                  src={`${useBaseUrl("img/saison12.png")}`}
+                  alt="dfg-saison12"
+                  style={{ width: "100%", "margin-bottom": "20px" }}
+                />
+            </a>
+            </div>  
+        </section>
 
         <section className="light-green">
           <div className="container main-section">
