@@ -32,7 +32,7 @@ Rejoindre la communauté - 5min ⏱
 
 ### [🛥️ Projet 1 : TrawlWatch - Bloom](/projects/bloom)
 
-L’ambition du projet pour Bloom est de suivre les trajectoires de milliers de bateaux de pêche en quasi temps réel afin de pouvoir analyser leur pratiques de pêche dans des zones maritimes protégées (AMP) à partir de données GPS récupérées (via antennes satellites et/ou terrestres). 
+L’ambition du projet pour Bloom est de suivre les trajectoires de milliers de bateaux de pêche en quasi temps réel afin de pouvoir analyser leurs pratiques de pêche dans des zones maritimes protégées (AMP) à partir de données GPS récupérées (via antennes satellites et/ou terrestres). 
 
 Il vise à reproduire le même concept que celui des trackers sur les jets privés (cf **L’avion de Bernard**).
 Nous voudrions poursuivre ce projet durant la saison en améliorant l’outil pour le rendre simple d’utilisation et efficace pour les membres de Bloom. Les données sont utilisées de manière hebdomadaire par l’équipe pour analyser les activités de pêche des bateaux dans les zones maritimes européennes.
