@@ -52,13 +52,13 @@ function HomepageHeader() {
             className="row"
             style={{ display: "flex", "justify-content": "center" }}
           >
-            <HomeButton
+            {/* <HomeButton
               text="🌎 Découvrir l'association"
               to="https://dataforgood.notion.site"
-            />
+            /> */}
             <HomeButton text="💪 Rejoindre la communauté" to="/join" />
             <HomeButton text="💡 Proposer un projet" to="/propose" />
-            <HomeButton text="🤗 Participer à la saison 12" to="/saison12" />
+            <HomeButton text="🤗 Faire un don" to="https://www.helloasso.com/associations/data-for-good/formulaires/1" />
           </div>
         </div>
       </div>

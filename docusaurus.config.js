@@ -115,11 +115,11 @@ const config = {
             ],
           },
           { to: "/blog", label: "📚 Blog", position: "left" },
-          {
-            to: "/saison12",
-            label: "🤿 Saison 12",
-            position: "left",
-          },
+          // {
+          //   to: "/saison12",
+          //   label: "🤿 Saison 12",
+          //   position: "left",
+          // },
           { to: "/iagenerative", label: "🤖 IA Générative", position: "left" },
           {
             to: "/join",
@@ -134,7 +134,7 @@ const config = {
             position: "right",
           },
           {
-            to: "https://opencollective.com/data_for_good",
+            to: "https://www.helloasso.com/associations/data-for-good/formulaires/1",
             label: "👏 Faire un don",
             className: "button button--secondary button--lg button-navbar",
             position: "right",
