@@ -6,10 +6,11 @@ on:
   push:
     branches:
       - master
-
+    paths-ignore:
+      - '.github/workflows/**'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-    
+
 jobs:
   build:
     name: Build Docusaurus
