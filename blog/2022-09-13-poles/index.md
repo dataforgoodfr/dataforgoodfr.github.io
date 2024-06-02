@@ -76,7 +76,7 @@ Si tu es intéressé.e pour rejoindre l'aventure et nous aider sur les différen
 
 Si tu te poses des questions sur l'implication tu peux envoyer un message à *Théo Alves et Clément Mayer* ou par mail à [hellodataforgood@gmail.com](mailto:hellodataforgood@gmail.com)
 
-💪 Candidater ici : <https://airtable.com/shr4AgxdnHAbpjoPA>
+💪 Candidater [ICI](https://airtable.com/shr4AgxdnHAbpjoPA)
 
 ## Qu'est ce que ça change pour les bénévoles de la communauté ?
 Rien du tout ! Nous sommes simplement en train d'agrandir l'équipe organisatrice pour mieux répondre à vos besoins dans la communauté, vous proposer des projets ambitieux, vous permettre de vous former, et porter notre raison d'être.
