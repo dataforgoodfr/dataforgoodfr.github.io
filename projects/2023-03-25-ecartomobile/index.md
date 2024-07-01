@@ -7,8 +7,8 @@ description: "E-CartoMobile propose d’exploiter les données ouvertes afin de 
 keywords:
   - Data For Good
 sdgs: [sdg07, sdg11, sdg13]
-github: https://github.com/dataforgoodfr/batch11_basta
-website: https://ecartomobile.fr
+github: https://github.com/dataforgoodfr/batch11_e_cartomobile
+website: [https://ecartomobile.vercel.app/](https://e-cartomobile.vercel.app/)
 slack: "#11_ecartomobile"
 ---
 
@@ -18,9 +18,9 @@ slack: "#11_ecartomobile"
 Encourager et planifier la mobilité électrique dans les territoires avec l’Open-Data
 :::
 
-## Latitude
+## Latitudes
 
-Latitude crée des programmes d’engagement citoyen, avec en particulier l’Open Data University, qui prépare des projets d’intérêt général à destination des étudiants.
+[Latitudes](https://www.latitudes.cc/) crée des programmes d’engagement citoyen, avec en particulier l’Open Data University, qui prépare des projets d’intérêt général à destination des étudiants.
 
 ## Le projet de la saison 11
 
@@ -42,7 +42,7 @@ Le but est de proposer une interface simple, qui permettrait de voir rapidement 
 
 ## Equipe
 
-- Augustin Courtier, Latitude
+- Augustin Courtier, Latitudes
 - Bastier Gauthier, Data For Good
 
 ## Rejoindre le projet
