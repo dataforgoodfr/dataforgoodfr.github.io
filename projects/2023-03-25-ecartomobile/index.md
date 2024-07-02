@@ -8,7 +8,7 @@ keywords:
   - Data For Good
 sdgs: [sdg07, sdg11, sdg13]
 github: https://github.com/dataforgoodfr/batch11_e_cartomobile
-website: ["https://ecartomobile.vercel.app/"](https://e-cartomobile.vercel.app/)
+website: https://e-cartomobile.vercel.app/
 slack: "#11_ecartomobile"
 ---
 
