@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projet Monorepo
 
-## Getting Started
+Ce projet est un monorepo contenant un frontend construit avec Next.js et un backend construit avec Strapi.
 
-First, run the development server:
+## Processus de Déploiement
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Configuration des Environnements** :
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   - Assurez-vous que les fichiers `.env` dans les dossiers `frontend` et `backend` sont correctement configurés.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Construction et Exécution des Conteneurs Docker** :
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   - Exécutez la commande suivante à la racine du projet :
+     ```bash
+     docker-compose up --build
+     ```
 
-## Learn More
+3. **Accès aux Applications** :
+   - Frontend : [http://localhost:3000](http://localhost:3000)
+   - Backend : [http://localhost:1337](http://localhost:1337)
 
-To learn more about Next.js, take a look at the following resources:
+## Ajout de Contenu
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pour ajouter du contenu, vous pouvez utiliser l'interface d'administration de Strapi accessible à l'adresse [http://localhost:1337/admin](http://localhost:1337/admin). Créez des collections et gérez le contenu selon vos besoins.

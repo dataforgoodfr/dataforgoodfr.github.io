@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partners",
+  "info": {
+    "singularName": "partner",
+    "pluralName": "partners",
+    "displayName": "Partner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "website_link": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
