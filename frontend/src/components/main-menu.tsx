@@ -17,7 +17,7 @@ import {
 const projects: { title: string; href: string }[] = [
   {
     title: "Tous les projets",
-    href: "/docs/primitives/alert-dialog",
+    href: "/projects",
   },
   {
     title: "Saison 12",

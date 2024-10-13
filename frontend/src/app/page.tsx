@@ -28,6 +28,10 @@ export default async function Homepage() {
     },
   });
 
+  const apiData = await getStrapiData<ApiHomePageHomePage>(
+    `home-page?${query}`
+  );
+
   const {
     description,
     hero,
@@ -42,7 +46,7 @@ export default async function Homepage() {
     projects,
     members,
     partners,
-  } = await getStrapiData<ApiHomePageHomePage>(`home-page?${query}`);
+  } = apiData.attributes;
 
   const logoImage = getImage(logo);
   const heroImage = getImage(hero);

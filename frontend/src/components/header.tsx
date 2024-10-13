@@ -13,9 +13,10 @@ export async function Header() {
     },
   });
 
-  const { title, logo } = await getStrapiData<ApiHomePageHomePage>(
+  const apiData = await getStrapiData<ApiHomePageHomePage>(
     `home-page?${query}`
   );
+  const { title, logo } = apiData.attributes;
 
   const logoImage = getImage(logo);
 

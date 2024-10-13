@@ -7,18 +7,17 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export async function getStrapiData<T extends { attributes: any }>(
-  url: string
-) {
+export async function getStrapiData<T>(url: string) {
   const res = await fetch(`${process.env.STRAPI_URL}/api/${url}`, {
     next: { revalidate: 0 },
   });
   const jsonRes = await res.json();
-  return jsonRes?.data?.attributes as T["attributes"];
+  return jsonRes?.data as T;
 }
 
 export function getImage(image: any) {
-  return `${process.env.STRAPI_URL}${image.data.attributes.url}`;
+  const imageRoute = image?.data?.attributes?.url;
+  return imageRoute ? `${process.env.STRAPI_URL}${imageRoute}` : null;
 }
 
 export async function getMarkdownContent(rawContent: string) {
