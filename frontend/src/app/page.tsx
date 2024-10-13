@@ -1,13 +1,28 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import qs from "qs";
 import Link from "next/link";
 import Image from "next/image";
 import { getImage, getMarkdownContent, getStrapiData } from "@/lib/utils";
-import { Users, Lightbulb, Heart, GraduationCap, Globe } from "lucide-react";
+import CommunitySection from "@/components/CommunitySection";
+import TeamSection from "@/components/TeamSection";
+import PartnersSection from "@/components/PartnersSection";
 import { ApiHomePageHomePage } from "@/types/strapi/generated/contentTypes";
 import { MainMenu } from "@/components/main-menu";
 
 export default async function Homepage() {
+  const query = qs.stringify({
+    populate: {
+      hero: true,
+      logo: true,
+      projects: {
+        populate: {
+          logo: true,
+        },
+      },
+    },
+  });
+
   const {
     title,
     description,
@@ -19,9 +34,11 @@ export default async function Homepage() {
     vision_description,
     mission_description,
     values_description,
-  } = await getStrapiData<ApiHomePageHomePage>(
-    "home-page?populate=hero&populate=logo"
-  );
+    association_description,
+    projects,
+    team_members,
+    partners,
+  } = await getStrapiData<ApiHomePageHomePage>(`home-page?${query}`);
 
   const logoImage = getImage(logo);
   const heroImage = getImage(hero);
@@ -32,6 +49,9 @@ export default async function Homepage() {
     await getMarkdownContent(mission_description);
   const formattedValuesDescription =
     await getMarkdownContent(values_description);
+  const formattedAssociationDescription = await getMarkdownContent(
+    association_description
+  );
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -57,7 +77,7 @@ export default async function Homepage() {
       </header>
 
       <main className="flex-grow">
-        <section className="relative h-[55vh] flex items-center justify-center">
+        <section className="relative h-[48vh] flex items-center justify-center">
           <Image
             src={heroImage}
             alt="Hero Image"
@@ -102,9 +122,11 @@ export default async function Homepage() {
 
         <section className="py-12 bg-white">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="">
-                <h2 className="text-2xl font-bold mb-4">Notre vision</h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="max-w-sm">
+                <h2 className="text-2xl font-bold mb-4 text-center">
+                  Notre vision
+                </h2>
                 <div
                   className="text-md"
                   dangerouslySetInnerHTML={{
@@ -112,8 +134,10 @@ export default async function Homepage() {
                   }}
                 />
               </div>
-              <div className="">
-                <h2 className="text-2xl font-bold mb-4">Notre mission</h2>
+              <div className="max-w-sm">
+                <h2 className="text-2xl font-bold mb-4 text-center">
+                  Notre mission
+                </h2>
                 <div
                   className="text-md"
                   dangerouslySetInnerHTML={{
@@ -121,8 +145,10 @@ export default async function Homepage() {
                   }}
                 />
               </div>
-              <div className="">
-                <h2 className="text-2xl font-bold mb-4">Nos valeurs</h2>
+              <div className="max-w-sm">
+                <h2 className="text-2xl font-bold mb-4 text-center">
+                  Nos valeurs
+                </h2>
                 <div
                   className="text-md"
                   dangerouslySetInnerHTML={{
@@ -134,133 +160,73 @@ export default async function Homepage() {
           </div>
         </section>
 
-        <section className="py-16 bg-[#f4f4f4]">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-8 text-[#35c4d7]">
-              Nos Domaines d'Action
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {[
-                {
-                  icon: Heart,
-                  title: "Santé",
-                  description:
-                    "Améliorer l'accès aux soins et le bien-être pour tous.",
-                },
-                {
-                  icon: Globe,
-                  title: "Environnement",
-                  description:
-                    "Lutter contre le changement climatique et protéger notre planète.",
-                },
-                {
-                  icon: Users,
-                  title: "Inclusion Sociale",
-                  description:
-                    "Promouvoir l'égalité et l'inclusivité dans nos communautés.",
-                },
-                {
-                  icon: GraduationCap,
-                  title: "Éducation",
-                  description:
-                    "Développer les compétences et les opportunités d'apprentissage.",
-                },
-                {
-                  icon: Lightbulb,
-                  title: "Citoyenneté",
-                  description:
-                    "Encourager la participation active dans la vie civique.",
-                },
-              ].map((domain, index) => (
-                <div
-                  key={index}
-                  className="bg-white p-6 rounded-lg shadow-md text-center"
-                >
-                  <domain.icon className="h-12 w-12 text-[#fca311] mx-auto mb-4" />
-                  <h3 className="text-xl font-bold mb-2">{domain.title}</h3>
-                  <p className="text-gray-600">{domain.description}</p>
-                </div>
-              ))}
-            </div>
+        <section className="py-12 container mx-auto">
+          <p className="text-3xl font-bold text-center mb-2">Les news</p>
+          <p className="text-lg font-bold text-center mb-2">
+            La Saison 12 Data For Good
+          </p>
+          <p className="text-center">
+            La saison 12 de Data For Good a commencé (3 mois entre le 3 février
+            2024 et fin avril), retrouvez toutes les informations sur cette page
+          </p>
+          <img
+            src="https://dataforgood.fr/img/saison12.png"
+            alt="News"
+            className="w-full mt-8 px-12"
+          />
+        </section>
+
+        <section className="py-12 mx-auto lg:px-64 bg-gradient-to-b from-white via-[#f5f9d8] to-white">
+          <p className="text-3xl font-bold text-center mb-4">
+            L'association Data For Good
+          </p>
+          <div className="grid grid-cols-2 gap-8">
+            <Image
+              src="https://dataforgood.fr/img/events.jpg"
+              alt="Events"
+              width={500}
+              height={300}
+            />
+            <div
+              className="text-md"
+              dangerouslySetInnerHTML={{
+                __html: formattedAssociationDescription,
+              }}
+            />
           </div>
         </section>
 
-        <section className="py-16 bg-[#35c4d7] text-white">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-4">
-              Rejoignez Notre Communauté
-            </h2>
-            <p className="mb-8 max-w-2xl mx-auto">
-              Prêt à faire la différence ? Rejoignez Data For Good et commencez
-              à collaborer sur des projets qui comptent. Ensemble, nous pouvons
-              créer un impact positif sur le monde qui nous entoure.
-            </p>
-            <form className="max-w-md mx-auto flex gap-4">
-              <Input
-                type="email"
-                placeholder="Votre adresse email"
-                className="flex-grow"
+        <section className="py-12 container mx-auto">
+          <p className="text-3xl font-bold text-center mb-4">
+            Les projets Data For Good
+          </p>
+          <p className="text-center">
+            Plus d'informations dans la page projets
+          </p>
+          <div className="flex items-center justify-center flex-wrap gap-8 px-64 mt-12">
+            {projects?.data.map((project: typeof projects) => (
+              <img
+                key={project.attributes.id}
+                src={getImage(project.attributes.logo)}
+                alt={project.attributes.title}
+                className="max-h-14"
               />
-              <Button
-                type="submit"
-                className="bg-[#fca311] text-white hover:bg-[#fca311]/90"
-              >
-                S'inscrire
-              </Button>
-            </form>
+            ))}
           </div>
         </section>
 
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-8 text-[#35c4d7]">
-              L'équipe Data For Good
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {[
-                { name: "Léa", role: "Co-fondatrice" },
-                { name: "Thomas", role: "Développeur" },
-                { name: "Marie", role: "Designer" },
-              ].map((member, index) => (
-                <div
-                  key={index}
-                  className="bg-gray-100 p-6 rounded-lg text-center"
-                >
-                  <Image
-                    src="/path/to/team-member.jpg"
-                    alt={member.name}
-                    width={100}
-                    height={100}
-                    className="mx-auto mb-4 rounded-full"
-                  />
-                  <h3 className="text-xl font-bold">{member.name}</h3>
-                  <p className="text-gray-600">{member.role}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+        <section className="py-12 mx-auto bg-gradient-to-b from-white via-[#f5f9d8] to-white">
+          <p className="text-3xl font-bold text-center mb-4">
+            L'équipe Data For Good
+          </p>
+          <p className="text-center">
+            🖐 Vous pouvez contacter l'équipe à hellodataforgood@gmail.com
+          </p>
+          <div className="flex gap-4"></div>
         </section>
 
-        <section className="py-16 bg-[#f4f4f4]">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-8 text-[#35c4d7]">
-              Nos Partenaires
-            </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {["logo1.png", "logo2.png", "logo3.png", "logo4.png"].map(
-                (logo, index) => (
-                  <Image
-                    key={index}
-                    src={`/path/to/${logo}`}
-                    alt={`Partenaire ${index + 1}`}
-                    width={150}
-                    height={100}
-                    className="mx-auto"
-                  />
-                )
-              )}
-            </div>
-          </div>
+        <section className="py-12 container">
+          <p className="text-3xl font-bold text-center mb-4">Nos partenaires</p>
         </section>
       </main>
 
@@ -268,36 +234,28 @@ export default async function Homepage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-between">
             <div className="w-full md:w-1/3 mb-6 md:mb-0">
-              <h3 className="text-xl font-bold mb-4">Data For Good</h3>
+              <h3 className="text-xl font-bold mb-4">Pages</h3>
               <p>Accélérateur citoyen d'intérêt général</p>
             </div>
             <div className="w-full md:w-1/3 mb-6 md:mb-0">
-              <h3 className="text-xl font-bold mb-4">Liens Rapides</h3>
+              <h3 className="text-xl font-bold mb-4">Liens Externes</h3>
               <ul>
                 <li>
-                  <Link href="#" className="hover:text-[#35c4d7]">
-                    Qui sommes-nous ?
-                  </Link>
+                  <Link href="GitHub">Github</Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-[#35c4d7]">
-                    Projets
-                  </Link>
+                  <Link href="#">Youtube</Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-[#35c4d7]">
-                    Blog
-                  </Link>
+                  <Link href="#">Blog</Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-[#35c4d7]">
-                    IA Générative
-                  </Link>
+                  <Link href="#">IA Générative</Link>
                 </li>
               </ul>
             </div>
             <div className="w-full md:w-1/3">
-              <h3 className="text-xl font-bold mb-4">Nous Contacter</h3>
+              <h3 className="text-xl font-bold mb-4">Mais aussi</h3>
               <p>Email: contact@dataforgood.fr</p>
               <div className="mt-4 flex space-x-4">
                 {/* Add social media icons here */}
@@ -305,7 +263,10 @@ export default async function Homepage() {
             </div>
           </div>
           <div className="mt-8 text-center text-sm">
-            <p>© 2024 Data For Good. Tous droits réservés.</p>
+            <p>
+              Copyright © {new Date().getFullYear()} Data For Good - Avec amour
+              depuis 2014 ❤ - contact à hellodataforgood@gmail.com
+            </p>
           </div>
         </div>
       </footer>
