@@ -98,6 +98,12 @@
           "localized": true
         }
       }
+    },
+    "seasons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::season.season",
+      "mappedBy": "season"
     }
   }
 }
