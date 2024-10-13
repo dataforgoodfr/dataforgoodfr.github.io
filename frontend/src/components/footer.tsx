@@ -46,7 +46,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-1">
                 <Link href="https://www.meetup.com/Data-for-Good-FR">
-                  Meetip
+                  Meetup
                 </Link>
                 <ExternalLinkIcon />
               </li>
