@@ -32,22 +32,6 @@
       },
       "type": "text"
     },
-    "start_date": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "date"
-    },
-    "end_date": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "date"
-    },
     "state": {
       "pluginOptions": {
         "i18n": {
@@ -100,14 +84,15 @@
       "type": "richtext"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true

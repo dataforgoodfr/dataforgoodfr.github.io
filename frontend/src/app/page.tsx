@@ -1,12 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import qs from "qs";
 import Link from "next/link";
 import Image from "next/image";
+import { ExternalLinkIcon } from "@radix-ui/react-icons";
+
 import { getImage, getMarkdownContent, getStrapiData } from "@/lib/utils";
-import CommunitySection from "@/components/CommunitySection";
-import TeamSection from "@/components/TeamSection";
-import PartnersSection from "@/components/PartnersSection";
 import { ApiHomePageHomePage } from "@/types/strapi/generated/contentTypes";
 import { MainMenu } from "@/components/main-menu";
 
@@ -16,6 +14,16 @@ export default async function Homepage() {
       hero: true,
       logo: true,
       projects: {
+        populate: {
+          logo: true,
+        },
+      },
+      members: {
+        populate: {
+          picture: true,
+        },
+      },
+      partners: {
         populate: {
           logo: true,
         },
@@ -36,7 +44,7 @@ export default async function Homepage() {
     values_description,
     association_description,
     projects,
-    team_members,
+    members,
     partners,
   } = await getStrapiData<ApiHomePageHomePage>(`home-page?${query}`);
 
@@ -77,7 +85,7 @@ export default async function Homepage() {
       </header>
 
       <main className="flex-grow">
-        <section className="relative h-[48vh] flex items-center justify-center">
+        <section className="relative h-[50vh] flex items-center justify-center">
           <Image
             src={heroImage}
             alt="Hero Image"
@@ -121,8 +129,8 @@ export default async function Homepage() {
         </section>
 
         <section className="py-12 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-3 gap-4">
+          <div className="container mx-auto px-28">
+            <div className="grid md:grid-cols-3 gap-6">
               <div className="max-w-sm">
                 <h2 className="text-2xl font-bold mb-4 text-center">
                   Notre vision
@@ -203,13 +211,13 @@ export default async function Homepage() {
           <p className="text-center">
             Plus d'informations dans la page projets
           </p>
-          <div className="flex items-center justify-center flex-wrap gap-8 px-64 mt-12">
+          <div className="flex items-center justify-center flex-wrap gap-8 px-32 mt-12">
             {projects?.data.map((project: typeof projects) => (
               <img
-                key={project.attributes.id}
+                key={project.id}
                 src={getImage(project.attributes.logo)}
                 alt={project.attributes.title}
-                className="max-h-14"
+                className="max-h-20 max-w-32"
               />
             ))}
           </div>
@@ -222,44 +230,126 @@ export default async function Homepage() {
           <p className="text-center">
             🖐 Vous pouvez contacter l'équipe à hellodataforgood@gmail.com
           </p>
-          <div className="flex gap-4"></div>
+          <div className="flex items-center justify-center flex-wrap gap-8 px-64 mt-12">
+            {members?.data.map((member: typeof members) => (
+              <div key={member.id} className="flex flex-col items-center">
+                <Image
+                  src={getImage(member.attributes.picture)}
+                  alt={member.attributes.name}
+                  width={150}
+                  height={150}
+                  className="rounded-full mb-2"
+                />
+                <span className="uppercase text-[#1e9aa0] font-semibold text-sm">
+                  {member.attributes.name}
+                </span>
+                <span className="text-sm">{member.attributes.position}</span>
+              </div>
+            ))}
+          </div>
         </section>
 
-        <section className="py-12 container">
+        <section className="py-12 mx-auto">
           <p className="text-3xl font-bold text-center mb-4">Nos partenaires</p>
+          <div className="flex items-center justify-center flex-wrap gap-8 px-48 mt-12">
+            {partners?.data.map((partner: typeof partners) => (
+              <img
+                key={partner.id}
+                src={getImage(partner.attributes.logo)}
+                alt={partner.attributes.name}
+                className="max-h-20 max-w-32"
+              />
+            ))}
+          </div>
         </section>
       </main>
 
-      <footer className="bg-gray-800 text-white py-8">
-        <div className="container mx-auto px-4">
+      <footer className="bg-gray-100 py-8">
+        <div className="container mx-auto px-24">
           <div className="flex flex-wrap justify-between">
             <div className="w-full md:w-1/3 mb-6 md:mb-0">
-              <h3 className="text-xl font-bold mb-4">Pages</h3>
-              <p>Accélérateur citoyen d'intérêt général</p>
+              <h3 className="font-bold mb-4">Pages</h3>
+              <ul className="text-gray-500 gap-2">
+                <li className="flex items-center gap-1">
+                  <Link href="https://dataforgood.notion.site/">
+                    L'association Data For Good
+                  </Link>
+                </li>
+                <li className="flex items-center gap-1">
+                  <Link href="https://dataforgood.fr/hippocrate">
+                    Serment d'Hippocrate
+                  </Link>
+                </li>
+                <li className="flex items-center gap-1">
+                  <Link href="https://dataforgood.notion.site/f58df2b6f02849a4ae94d8cb9ce49e5f?v=c165effdeeb140ea9fe964ca966485a6">
+                    FAQ
+                  </Link>
+                </li>
+                <li className="flex items-center gap-1">
+                  <Link href="https://dataforgood.fr/confidentialite">
+                    Politique de confidentialité
+                  </Link>
+                </li>
+              </ul>
             </div>
             <div className="w-full md:w-1/3 mb-6 md:mb-0">
-              <h3 className="text-xl font-bold mb-4">Liens Externes</h3>
-              <ul>
-                <li>
-                  <Link href="GitHub">Github</Link>
+              <h3 className=" font-bold mb-4">Liens Externes</h3>
+              <ul className="text-gray-500">
+                <li className="flex items-center gap-1">
+                  <Link href="https://github.com/dataforgoodfr">Github</Link>
+                  <ExternalLinkIcon />
                 </li>
-                <li>
-                  <Link href="#">Youtube</Link>
+                <li className="flex items-center gap-1">
+                  <Link href="https://www.youtube.com/channel/UCA_utdbmVhAOFujulWlaaCQ">
+                    Youtube
+                  </Link>
+                  <ExternalLinkIcon />
                 </li>
-                <li>
-                  <Link href="#">Blog</Link>
+                <li className="flex items-center gap-1">
+                  <Link href="https://www.meetup.com/Data-for-Good-FR">
+                    Meetip
+                  </Link>
+                  <ExternalLinkIcon />
                 </li>
-                <li>
-                  <Link href="#">IA Générative</Link>
+                <li className="flex items-center gap-1">
+                  <Link href="https://huggingface.co/DataForGood">
+                    Hugging Face
+                  </Link>
+                  <ExternalLinkIcon />
+                </li>
+                <li className="flex items-center gap-1">
+                  <Link href="https://twitch.tv/dataforgood">Twitch</Link>
+                  <ExternalLinkIcon />
                 </li>
               </ul>
             </div>
             <div className="w-full md:w-1/3">
-              <h3 className="text-xl font-bold mb-4">Mais aussi</h3>
-              <p>Email: contact@dataforgood.fr</p>
-              <div className="mt-4 flex space-x-4">
-                {/* Add social media icons here */}
-              </div>
+              <h3 className=" font-bold mb-4">Mais aussi</h3>
+              <ul className="text-gray-500">
+                <li className="flex items-center gap-1">
+                  <Link href="/blog">Blog</Link>
+                </li>
+                <li className="flex items-center gap-1">
+                  <Link href="https://dataforgood.notion.site/">Notion</Link>
+                  <ExternalLinkIcon />
+                </li>
+                <li className="flex items-center gap-1">
+                  <Link href="https://www.linkedin.com/company/dataforgood">
+                    Linkedin
+                  </Link>
+                  <ExternalLinkIcon />
+                </li>
+                <li className="flex items-center gap-1">
+                  <Link href="https://www.instagram.com/dataforgoodfr/">
+                    Instagram
+                  </Link>
+                  <ExternalLinkIcon />
+                </li>
+                <li className="flex items-center gap-1">
+                  <Link href="https://twitter.com/dataforgood_fr">Twitter</Link>
+                  <ExternalLinkIcon />
+                </li>
+              </ul>
             </div>
           </div>
           <div className="mt-8 text-center text-sm">
