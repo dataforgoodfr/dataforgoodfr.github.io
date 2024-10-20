@@ -1,7 +1,11 @@
 import { clsx, type ClassValue } from "clsx";
-import { remark } from "remark";
-import html from "remark-html";
 import { twMerge } from "tailwind-merge";
+
+export type TOCItem = {
+  id: string;
+  text: string;
+  level: number;
+};
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -18,9 +22,4 @@ export async function getStrapiData<T>(url: string) {
 export function getImage(image: any) {
   const imageRoute = image?.data?.attributes?.url;
   return imageRoute ? `${process.env.STRAPI_URL}${imageRoute}` : null;
-}
-
-export async function getMarkdownContent(rawContent: string) {
-  const processedContent = await remark().use(html).process(rawContent);
-  return processedContent.toString();
 }

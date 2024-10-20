@@ -2,7 +2,8 @@ import { Button } from "@/components/ui/button";
 import qs from "qs";
 import Image from "next/image";
 
-import { getImage, getMarkdownContent, getStrapiData } from "@/lib/utils";
+import { getImage, getStrapiData } from "@/lib/utils";
+import { getMarkdownContent } from "@/lib/markdown";
 import { ApiHomePageHomePage } from "@/types/strapi/generated/contentTypes";
 
 export default async function Homepage() {
