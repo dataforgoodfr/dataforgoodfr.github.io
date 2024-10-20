@@ -21,8 +21,10 @@
     "react-dom": "^18",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
     "@strapi/strapi": "5.0.2",
