@@ -1150,6 +1150,12 @@ export interface ApiProjectProject extends Schema.CollectionType {
       'oneToMany',
       'api::season.season'
     >;
+    slug: Attribute.UID<'api::project.project', 'title'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

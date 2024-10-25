@@ -35,5 +35,8 @@
   },
   "strapi": {
     "uuid": "23578308-9b2f-4525-aca3-db1c4f9e3b2d"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.16"
   }
 }
