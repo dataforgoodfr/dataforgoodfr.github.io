@@ -27,6 +27,7 @@
     "react-router-dom": "5.3.4",
     "strapi-plugin-multi-select": "^1.2.3",
     "strapi-plugin-tagsinput": "^1.0.6",
+    "strapi-provider-email-brevo": "^1.0.4",
     "styled-components": "5.3.3"
   },
   "engines": {

@@ -41,6 +41,9 @@ importers:
       strapi-plugin-tagsinput:
         specifier: ^1.0.6
         version: 1.0.6(@babel/core@7.25.7)(@babel/runtime@7.25.7)(@codemirror/autocomplete@6.18.1)(@codemirror/language@6.10.3)(@codemirror/lint@6.8.2)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.34.1)(@strapi/strapi@4.25.13)(codemirror@6.0.1)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.3)(typescript@5.2.2)
+      strapi-provider-email-brevo:
+        specifier: ^1.0.4
+        version: 1.0.4
       styled-components:
         specifier: 5.3.3
         version: 5.3.3(@babel/core@7.25.7)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
@@ -15168,6 +15171,14 @@ packages:
       - react-native
       - supports-color
       - typescript
+    dev: false
+
+  /strapi-provider-email-brevo@1.0.4:
+    resolution: {integrity: sha512-eVRaWg6fD5NcoGifh4ZGYTgGk24VbJjrJ7dIAh9wzunURyzsYeD5mcHJknICRSMwUfKHEWGt2CoUuMG2tXXzpg==}
+    dependencies:
+      axios: 1.7.4(debug@4.3.4)
+    transitivePeerDependencies:
+      - debug
     dev: false
 
   /stream-browserify@3.0.0:

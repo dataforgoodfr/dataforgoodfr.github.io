@@ -20,4 +20,17 @@ module.exports = ({ env }) => ({
       delete: {},
     },
   },
+  email: {
+    config: {
+      provider: "strapi-provider-email-brevo",
+      providerOptions: {
+        apiKey: env("SMTP_API_KEY"),
+      },
+      settings: {
+        defaultSenderEmail: env("STRAPI_SMTP_FROM"),
+        defaultSenderName: "Orga Data for Good",
+        defaultReplyTo: env("STRAPI_SMTP_FROM"),
+      },
+    },
+  },
 });
