@@ -21,5 +21,5 @@ export async function getStrapiData<T>(url: string) {
 
 export function getImage(image: any) {
   const imageRoute = image?.data?.attributes?.url;
-  return imageRoute ? `${process.env.STRAPI_URL}${imageRoute}` : null;
+  return imageRoute;
 }
