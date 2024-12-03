@@ -1,4 +1,4 @@
-const UPLOAD_URL = `https://${process.env.AWS_S3_UPLOAD_BUCKET_NAME}.s3.${process.env.AWS_REGION}.scw.cloud`;
+const UPLOAD_URL = `https://s3.${process.env.AWS_REGION}.scw.cloud`;
 
 module.exports = [
   "strapi::logger",

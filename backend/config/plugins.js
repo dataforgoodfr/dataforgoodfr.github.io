@@ -8,6 +8,7 @@ module.exports = ({ env }) => ({
           secretAccessKey: env("AWS_SECRET_ACCESS_KEY"),
         },
         region: env("AWS_REGION"), // e.g "fr-par"
+        baseUrl: `${env("AWS_S3_UPLOAD_BUCKET_URL")}/strapi-uploads`, // This line sets the custom url format
         endpoint: env("AWS_S3_UPLOAD_BUCKET_URL"), // e.g. "https://s3.fr-par.scw.cloud"
         params: {
           Bucket: env("AWS_S3_UPLOAD_BUCKET_NAME"),
