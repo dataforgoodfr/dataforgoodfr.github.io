@@ -16,19 +16,19 @@
     "types": "strapi ts:generate-types -o ../frontend/src/types/strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "4.25.17",
-    "@strapi/plugin-i18n": "4.25.17",
-    "@strapi/plugin-users-permissions": "4.25.17",
+    "@strapi/design-system": "^1.19.0",
+    "@strapi/plugin-cloud": "5.4.2",
+    "@strapi/plugin-users-permissions": "5.4.2",
     "@strapi/provider-upload-aws-s3": "^5.1.0",
-    "@strapi/strapi": "4.25.17",
-    "better-sqlite3": "8.6.0",
+    "@strapi/strapi": "5.4.2",
+    "better-sqlite3": "11.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "strapi-plugin-multi-select": "^1.2.3",
-    "strapi-plugin-tagsinput": "^1.0.6",
+    "react-router-dom": "^6.0.0",
+    "strapi-plugin-multi-select": "^2.1.1",
+    "strapi-plugin-tagsinput": "^2.0.2",
     "strapi-provider-email-brevo": "^1.0.4",
-    "styled-components": "5.3.3"
+    "styled-components": "^6.0.0"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
