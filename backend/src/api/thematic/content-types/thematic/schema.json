@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thematics",
+  "info": {
+    "singularName": "thematic",
+    "pluralName": "thematics",
+    "displayName": "Thematic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
+    },
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

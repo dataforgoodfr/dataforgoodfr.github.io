@@ -24,7 +24,7 @@
       },
       "type": "string"
     },
-    "description": {
+    "long_description": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -113,6 +113,41 @@
       },
       "type": "uid",
       "targetField": "title"
+    },
+    "short_description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "github_link": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "youtube_link": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "related_projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "volunteers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::volunteer.volunteer",
+      "inversedBy": "projects"
     }
   }
 }

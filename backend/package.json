@@ -16,11 +16,11 @@
     "types": "strapi ts:generate-types -o ../frontend/src/types/strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "4.25.13",
-    "@strapi/plugin-i18n": "4.25.13",
-    "@strapi/plugin-users-permissions": "4.25.13",
+    "@strapi/plugin-cloud": "4.25.17",
+    "@strapi/plugin-i18n": "4.25.17",
+    "@strapi/plugin-users-permissions": "4.25.17",
     "@strapi/provider-upload-aws-s3": "^5.1.0",
-    "@strapi/strapi": "4.25.13",
+    "@strapi/strapi": "4.25.17",
     "better-sqlite3": "8.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
