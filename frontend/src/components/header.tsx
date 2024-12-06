@@ -16,7 +16,7 @@ export async function Header() {
   const apiData = await getStrapiData<ApiHomePageHomePage>(
     `home-page?${query}`
   );
-  const { title, logo } = apiData.attributes;
+  const { title, logo } = apiData;
 
   const logoImage = getImage(logo);
 

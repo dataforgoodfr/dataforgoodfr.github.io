@@ -2,30 +2,30 @@
 
 Ce projet est un monorepo contenant un frontend construit avec Next.js et un backend construit avec Strapi.
 
-## Processus de Déploiement
+## En développement: Travail en local sur la structure du projet
 
 1. **Configuration des Environnements** :
 
-   - Assurez-vous que les fichiers `.env` dans le dossier `frontend` et correctement configuré.
+   - Assurez-vous que les fichiers `.env` soient présents dans les dossiers `frontend` et `backend` et correctement configurés avec les variables d'environnement nécessaires, trouvables dans [VaultWarden](http://vaultwarden.services.dataforgood.fr).
 
 2. **Construction et Exécution des Conteneurs Docker** :
 
-   - Exécutez la commande suivante à la racine du projet pour construire l'image:
-
-     ```bash
-      docker build -f docker/frontend/Dockerfile -t d4g/website .
-     ```
-
-   - Exécutez la commande suivante pour lancer le container:
+   - Exécutez la commande suivante pour lancer le docker compose de développement:
 
    ```bash
-    docker run --env-file frontend/.env -p 3000:3000 d4g/website
+    docker compose watch
    ```
+
+   > [!IMPORTANT]  
+   > Docker et docker-compose doivent être installés sur votre machine pour exécuter cette commande. Veuillez vous référer à la documentation officielle de Docker pour plus d'informations.
 
 3. **Accès aux Applications** :
    - Frontend : [http://localhost:3000](http://localhost:3000)
-   - Backend : [https://strapi.services.dataforgood.fr](https://strapi.services.dataforgood.fr)
+   - Backend : [http://localhost:1337/admin](http://localhost:1337/admin)
 
-## Ajout de Contenu
+## Production: Ajout de Contenu
+
+> [!CAUTION]
+> Ceci permet d'ajouter du contenu à l'application en production.
 
 Pour ajouter du contenu, vous pouvez utiliser l'interface d'administration de Strapi accessible à l'adresse [https://strapi.services.dataforgood.fr/admin](https://strapi.services.dataforgood.fr/admin). Créez des collections et gérez le contenu selon vos besoins.

@@ -28,7 +28,7 @@ export default async function CommunityBlogArticle({
     }
   );
   const apiData = await getStrapiData<ApiBlogBlog[]>(`blogs?${query}`);
-  const blog = apiData[0]?.attributes;
+  const blog = apiData[0];
 
   const formattedContent = await getMarkdownContent(blog.content);
   const toc = await getTableOfContents(blog.content);

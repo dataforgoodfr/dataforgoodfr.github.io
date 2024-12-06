@@ -63,7 +63,7 @@ export default async function Projects() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-4 px-10 py-4">
       {apiData.map((project) => (
-        <ProjectCard key={project.id} {...project.attributes} />
+        <ProjectCard key={project.id} {...project} />
       ))}
     </div>
   );

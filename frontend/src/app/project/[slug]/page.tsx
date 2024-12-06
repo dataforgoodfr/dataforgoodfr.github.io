@@ -29,7 +29,7 @@ export default async function ProjectArticle({
     }
   );
   const apiData = await getStrapiData<ApiProjectProject[]>(`projects?${query}`);
-  const project = apiData[0]?.attributes;
+  const project = apiData[0];
 
   const formattedContent = await getMarkdownContent(project.content);
   const toc = await getTableOfContents(project.content);

@@ -16,10 +16,9 @@ export async function getStrapiData<T>(url: string) {
     next: { revalidate: 0 },
   });
   const jsonRes = await res.json();
-  return jsonRes?.data as T;
+  return jsonRes?.data as T["attributes"];
 }
 
 export function getImage(image: any) {
-  const imageRoute = image?.data?.attributes?.url;
-  return imageRoute;
+  return `${process.env.STRAPI_URL}${image.url}`;
 }

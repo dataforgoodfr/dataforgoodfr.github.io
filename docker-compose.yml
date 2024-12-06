@@ -1,28 +1,44 @@
-version: "3.8"
-
 services:
   frontend:
     build:
-      context: ./frontend
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: docker/Dockerfile
+      target: frontend
     ports:
       - "3000:3000"
     environment:
-      - NEXT_PUBLIC_API_URL=http://localhost:1337
+      - STRAPI_URL=http://backend:1337
+    develop:
+      watch:
+        - path: ./frontend
+          action: sync
+          target: /prod/frontend
+          ignore:
+            - node_modules/
+        - action: rebuild
+          target: /prod/frontend
+          path: ./frontend/package.json
+    links:
+      - backend
     depends_on:
       - backend
 
   backend:
     build:
-      context: ./backend
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: docker/Dockerfile
+      target: backend
     ports:
       - "1337:1337"
-    environment:
-      - DATABASE_HOST=db
-      - DATABASE_PORT=5432
-      - DATABASE_NAME=strapi
-      - DATABASE_USERNAME=strapi
-      - DATABASE_PASSWORD=strapi
+    env_file:
+      - ./backend/.env
+    develop:
+      watch:
+        - action: rebuild
+          path: ./backend
+          target: /prod/backend
+          ignore:
+            - .tmp/
+
     volumes:
-      - ./backend:/app
+      - ./backend/.tmp:/prod/backend/.tmp

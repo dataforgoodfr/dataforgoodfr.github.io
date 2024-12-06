@@ -47,7 +47,7 @@ export default async function Homepage() {
     projects,
     members,
     partners,
-  } = apiData.attributes;
+  } = apiData;
 
   const logoImage = getImage(logo);
   const heroImage = getImage(hero);
@@ -192,11 +192,11 @@ export default async function Homepage() {
             Plus d'informations dans la page projets
           </p>
           <div className="flex items-center justify-center flex-wrap gap-8 px-32 mt-12">
-            {projects?.data.map((project: typeof projects) => (
+            {projects?.map((project: typeof projects) => (
               <img
                 key={project.id}
-                src={getImage(project.attributes.logo)}
-                alt={project.attributes.title}
+                src={getImage(project.logo)}
+                alt={project.title}
                 className="max-h-20 max-w-32"
               />
             ))}
@@ -211,19 +211,19 @@ export default async function Homepage() {
             🖐 Vous pouvez contacter l'équipe à hellodataforgood@gmail.com
           </p>
           <div className="flex items-center justify-center flex-wrap gap-8 px-64 mt-12">
-            {members?.data.map((member: typeof members) => (
+            {members?.map((member: typeof members) => (
               <div key={member.id} className="flex flex-col items-center">
                 <Image
-                  src={getImage(member.attributes.picture)}
-                  alt={member.attributes.name}
+                  src={getImage(member.picture)}
+                  alt={member.name}
                   width={150}
                   height={150}
                   className="rounded-full mb-2"
                 />
                 <span className="uppercase text-[#1e9aa0] font-semibold text-sm">
-                  {member.attributes.name}
+                  {member.name}
                 </span>
-                <span className="text-sm">{member.attributes.position}</span>
+                <span className="text-sm">{member.position}</span>
               </div>
             ))}
           </div>
@@ -232,11 +232,11 @@ export default async function Homepage() {
         <section className="py-12 mx-auto">
           <p className="text-3xl font-bold text-center mb-4">Nos partenaires</p>
           <div className="flex items-center justify-center flex-wrap gap-8 px-48 mt-12">
-            {partners?.data.map((partner: typeof partners) => (
+            {partners?.map((partner: typeof partners) => (
               <img
                 key={partner.id}
-                src={getImage(partner.attributes.logo)}
-                alt={partner.attributes.name}
+                src={getImage(partner.logo)}
+                alt={partner.name}
                 className="max-h-20 max-w-32"
               />
             ))}

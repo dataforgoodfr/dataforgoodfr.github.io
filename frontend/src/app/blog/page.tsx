@@ -50,9 +50,7 @@ function BlogCard({
               day: "numeric",
             })}
           </span>
-          {tags.map((tag) => (
-            <Badge key={tag.name}>{tag.name}</Badge>
-          ))}
+          {tags?.map((tag) => <Badge key={tag.name}>{tag.name}</Badge>)}
         </CardFooter>
       </Card>
     </Link>
@@ -76,9 +74,7 @@ export default async function Blogs() {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-4 px-10 py-4">
-      {apiData.map((blog) => (
-        <BlogCard key={blog.id} {...blog.attributes} />
-      ))}
+      {apiData?.map((blog) => <BlogCard key={blog.id} {...blog} />)}
     </div>
   );
 }

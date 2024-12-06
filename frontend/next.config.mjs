@@ -3,6 +3,7 @@ const nextConfig = {
   images: {
     domains: [
       "localhost",
+      "backend",
       "dataforgood.fr",
       "strapi.services.dataforgood.fr",
       "s3.fr-par.scw.cloud",
