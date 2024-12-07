@@ -2,7 +2,7 @@
 slug: event-greentech
 title: Intervention Data For Good au Ministère de la Transition
 author: Théo Alves Da Costa
-author_url: mailto:hellodataforgood@gmail.com
+author_url: mailto:contact@dataforgood.fr
 header_image_url: img/blog/greentech.png
 tags: [L'association Data For Good, Transition Ecologique]
 description: Data For Good était invité avec Pyronear au Ministère de la Transition Ecologique pour une journée de table rondes sur la donnée au service de la transition écologique

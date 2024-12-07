@@ -4,7 +4,7 @@
 
 :::info Data For Good
 
-La communauté Data for Good compte plus de 4000 volontaires qui consacrent plusieurs heures par semaine au service de projets d'intérêt général.
+La communauté Data for Good compte plus de 6000 volontaires qui consacrent plusieurs heures par semaine au service de projets d'intérêt général.
 
 Vous êtes Data Scientists/Analyst/Engineers, Developers, UX/UI designer, ou Project Manager ? [Rejoignez-nous](https://ffb35838.sibforms.com/serve/MUIEAOPtEpVbDgcqr78ZqBZ4e29fMDkyLfy8STH6MkmxU5ePAP5_NQQeWEI0nR8fdBds27Va8cMSjjzNni1iqd_mpJsZS8uQUA95o0Tg3njStpz8nDV59tRiQJ_ZWBat1uyRjTYtyVHMpV3I--z4g14Ggsji0895jBcQr70arsW82eFJGwC8fgxYOvnPL-rFQcNwmjkA5JTbjcvd) !
 

@@ -2,7 +2,7 @@
 slug: aap-saison12
 title: Appel à projet Saison 12 Data For Good
 author: Théo Alves Da Costa et Ronan Sy
-author_url: hellodataforgood@gmail.com
+author_url: contact@dataforgood.fr
 header_image_url: img/blog/aaps12.png
 tags: [Data For Good]
 description: "Nous lançons l'appel à projet de la saison 12 de Data For Good ! Qui seront les prochaines associations accompagnées après : 2Tonnes, QuotaClimat, Ecolab, Bloom, Open Food Facts, Greniers d’Abondance, Ceebios, Pyronear, OGRE, Solinum, Mednum, Surfrider, … ?"

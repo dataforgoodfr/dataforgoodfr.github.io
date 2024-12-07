@@ -19,7 +19,7 @@ Après 10 saisons et 100 projets depuis 2014, l'équipe Data For Good est ravie 
 <!-- ## Vous souhaitez proposer un projet ?
 - Vous êtes une association, une ONG, une administration de service public, une entreprise de l'ESS ? Ou bien simplement un.e citoyen.ne ayant une idée géniale ?
 - Vous avez une mission d’intérêt général ?
-- Vous avez un projet ou une idée à impact social ou environnemental qui pourrait bénéficier d'un accompagnement par nos 4000 bénévoles tech (Data, Produit, Dev) pendant 3 mois ?
+- Vous avez un projet ou une idée à impact social ou environnemental qui pourrait bénéficier d'un accompagnement par nos 6000 bénévoles tech (Data, Produit, Dev) pendant 3 mois ?
 - Vous êtes dans une démarche et philosophie open source ?  
 
 <div style={{"text-align":"center","margin-bottom":"20px"}}>

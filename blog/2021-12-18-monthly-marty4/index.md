@@ -2,7 +2,7 @@
 slug: monthly-marty4
 title: Monthly Marty n°4 - 12/2021
 author: Théo Alves Da Costa
-author_url: mailto:hellodataforgood@gmail.com
+author_url: mailto:contact@dataforgood.fr
 header_image_url: img/blog/mm4.png
 tags: [Monthly Marty,Féminisme,Bilan Carbone,Rétrospective]
 description: Retour sur le 4e Monthly Marty de Décembre 2021 avec les présentations de Féminisme Populaire, Carbon4Finance et ElectricityMap

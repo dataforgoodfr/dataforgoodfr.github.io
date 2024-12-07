@@ -2,7 +2,7 @@
 slug: restructuration
 title: Data For Good se restructure et crée les pôles thématiques 
 author: Théo Alves Da Costa et Clément Mayer
-author_url: hellodataforgood@gmail.com
+author_url: contact@dataforgood.fr
 header_image_url: img/blog/restructuration.png
 tags: [Data For Good]
 description: Après 10 saisons et plus de 100 projets d'intérêt général, il est temps de passer à la vitesse supérieure en ouvrant la gouvernance de l'association à de nouveaux membres bénévoles pour développer 7 pôles thématiques. Plus d'informations pour candidater dans cet article.
@@ -74,7 +74,7 @@ Il n'y a pas de compétences particulières requises (sauf peut-être pour le p�
 
 Si tu es intéressé.e pour rejoindre l'aventure et nous aider sur les différents pôles, tu peux candidater au formulaire ci-dessous qui te posera quelques questions. Nous te contacterons plus tard pour te tenir au courant !
 
-Si tu te poses des questions sur l'implication tu peux envoyer un message à *Théo Alves et Clément Mayer* ou par mail à [hellodataforgood@gmail.com](mailto:hellodataforgood@gmail.com)
+Si tu te poses des questions sur l'implication tu peux envoyer un message à *Théo Alves et Clément Mayer* ou par mail à [contact@dataforgood.fr](mailto:contact@dataforgood.fr)
 
 💪 Candidater [ICI](https://airtable.com/shr4AgxdnHAbpjoPA)
 

@@ -2,7 +2,7 @@
 slug: nouveau-site
 title: Enfin un nouveau site !
 author: Théo Alves Da Costa
-author_url: mailto:hellodataforgood@gmail.com
+author_url: mailto:contact@dataforgood.fr
 header_image_url: img/blog/header-site.png
 tags: [L'association Data For Good]
 description: Retour sur le nouveau site de Data For Good, les nouveaux features et comment répliquer vous-même ce qui a été développé pour votre association.
@@ -82,7 +82,7 @@ Cela peut servir également, mais une barre de recherche est maintenant disponib
 ### Politique de Confidentialité
 Un point primordial mais que nous n'avions toujours pas, nous avons enfin écrit une politique de confidentialité pour vous expliquer ce que nous faisons avec vos données (Spoiler, nous en récupérons très peu et nous n'en faisons rien, et n'en ferons jamais rien à part éventuellement vous contacter pour vous proposer un projet). Mais c'était important d'être exemplaire sur ce point. 
 
-Nous avons encore des progrès à faire, notamment nous allons mettre en place des moyens simples pour gérer le droit à l'oubli sur vos données (aujourd'hui on doit encore le faire manuellement, d'ailleurs si vous le souhaitez c'est par mail à hellodataforgood@gmail.com).
+Nous avons encore des progrès à faire, notamment nous allons mettre en place des moyens simples pour gérer le droit à l'oubli sur vos données (aujourd'hui on doit encore le faire manuellement, d'ailleurs si vous le souhaitez c'est par mail à contact@dataforgood.fr).
 
 ![](./conf.png)
 
@@ -102,8 +102,8 @@ Comme mentionné plus haut, nous n'avons pas encore eu le temps de tout faire, e
 - Egalement, nous n'avons pas eu le temps de prendre en compte toutes les considérations d'inclusion et d'accessibilité, nous nous excusons par avance si vous n'avez pas accès à certains documents, et nous ferons le maximum pour s'améliorer !
 
 ### D'autres idées ?
-Si vous avez une idée, voyez un bug, ou souhaitez contribuer au développement du site ou la rédaction d'articles, envoyez nous un mail à hellodataforgood@gmail.com ou sur [Slack](/join)
+Si vous avez une idée, voyez un bug, ou souhaitez contribuer au développement du site ou la rédaction d'articles, envoyez nous un mail à contact@dataforgood.fr ou sur [Slack](/join)
 
 ## Comment répliquer ce site pour votre association ?
 
-L'intégralité du site est open source et accessible à ce [lien Github](https://github.com/dataforgoodfr/dataforgoodfr.github.io). Vous pouvez absolument tout réutiliser pour réaliser votre site pour votre association. Si vous avez accès à des développeurs, ça sera 100% gratuit même pour l'hébergement des pages statiques qui est offert sur Github. Si vous n'avez pas accès à des développeurs, [contactez nous](mailto:hellodataforgood@gmail.com) et on pourra sûrement vous aider ;)   
+L'intégralité du site est open source et accessible à ce [lien Github](https://github.com/dataforgoodfr/dataforgoodfr.github.io). Vous pouvez absolument tout réutiliser pour réaliser votre site pour votre association. Si vous avez accès à des développeurs, ça sera 100% gratuit même pour l'hébergement des pages statiques qui est offert sur Github. Si vous n'avez pas accès à des développeurs, [contactez nous](mailto:contact@dataforgood.fr) et on pourra sûrement vous aider ;)   

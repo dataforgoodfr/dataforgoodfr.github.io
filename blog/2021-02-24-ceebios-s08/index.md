@@ -2,7 +2,7 @@
 slug: ceebios-s08
 title: Ceebios et le projet Pokédex
 author: Joséphine Lecoq-Vallon
-author_url: hellodataforgood@gmail.com
+author_url: contact@dataforgood.fr
 header_image_url: img/blog/cover_ceebios08.png
 tags: [Saison 8,Biomimétisme,NLP]
 description: Créer un outil de recherche intelligent sur les bases de données biologiques pour faciliter la connexion entre des ingénieurs et des biologistes, et permettre à un public non-expert d'obtenir sans effort de l'information sur les espèces, leur apparence, leur place dans la classification du Vivant et dans l'écosystème.

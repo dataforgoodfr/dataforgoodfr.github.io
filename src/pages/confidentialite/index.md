@@ -29,7 +29,7 @@ Il est fait exception pour les tierces parties de confiance qui nous aident à e
 Nous mettons en œuvre des mesures de sécurité pour préserver la sécurité de vos informations personnelles. Seuls les membres organisateurs de l’association qui ont besoin d’effectuer un travail spécifique ont accès, dans le cadre de leur mission, aux informations personnelles identifiables. 
 
 ## Article 6 : Accès aux informations
-Vous disposez d’un droit d’accès, de modification, de rectification et de suppression des données qui vous concernent. Vous pouvez l’exercer à tout moment en nous contactant à l’adresse hellodataforgood@gmail.com.
+Vous disposez d’un droit d’accès, de modification, de rectification et de suppression des données qui vous concernent. Vous pouvez l’exercer à tout moment en nous contactant à l’adresse contact@dataforgood.fr.
 Par ailleurs, si à n’importe quel moment vous souhaitez vous désinscrire de l’une de nos newsletters et ne plus recevoir d’e-mails de notre part, des instructions de désabonnement détaillées sont incluses en bas de chaque e-mail.   
 ‍
 ## Article 7 : Consentement

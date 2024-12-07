@@ -2,7 +2,7 @@
 slug: ceebios-s10
 title: Ceebios et le projet GAWDI pour accélérer la recherche biomimétique
 author: Adrien Saint-Sardos
-author_url: hellodataforgood@gmail.com
+author_url: contact@dataforgood.fr
 header_image_url: img/blog/cover_ceebios10.png
 tags: [Saison 10,Biomimétisme,NLP]
 description: Faciliter l'exploration de la littérature scientifique et l'extraction automatiques de données, afin d'identifier des modèles biologiques pertinents pour répondre à une problématique technique grâce au biomimétisme, l'innovation frugale inspirée du vivant

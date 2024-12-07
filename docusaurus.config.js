@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Data For Good",
-  tagline: "Accélérateur citoyen d'intérêt général",
+  tagline: "Rediriger la technologie au service de l'intérêt général",
   url: "https://dataforgood.fr",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -227,7 +227,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Data For Good - Avec amour depuis 2014 ❤ - contact à hellodataforgood@gmail.com`,
+        copyright: `Copyright © ${new Date().getFullYear()} Data For Good - Avec amour depuis 2014 ❤ - contact à contact@dataforgood.fr`,
       },
       // announcementBar: {
       //   id: 'announcementBar-2', // Increment on change

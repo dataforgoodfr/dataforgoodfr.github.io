@@ -311,15 +311,15 @@ export default function Home() {
         <section>
           <div className="container main-section">
             <h1>Les news</h1>
-            <h2>La Saison 12 Data For Good</h2>
-            <p>La saison 12 de Data For Good a commencé (3 mois entre le 3 février 2024 et fin avril), retrouvez toutes les informations sur <a href="/saison12">cette page</a></p>
-            <a href="/saison12">
+            <h2>La Saison 13 Data For Good</h2>
+            <p>La saison 13 de Data For Good commencera le 25 janvier 2025 pour 3 mois ! Stay tuned !</p>
+            {/* <a href="/saison12">
             <img
                   src={`${useBaseUrl("img/saison12.png")}`}
                   alt="dfg-saison12"
                   style={{ width: "100%", "margin-bottom": "20px" }}
                 />
-            </a>
+            </a> */}
             </div>  
         </section>
 
@@ -342,7 +342,7 @@ export default function Home() {
                   Data For Good est une association loi 1901 (
                   <i>100% bénévole, 100% open-source, 100% citoyenne</i>) créée
                   en 2014 qui rassemble une communauté de{" "}
-                  <b>4000+ volontaires</b> tech (Data Scientists, Data Analysts,
+                  <b>6000+ volontaires</b> tech (Data Scientists, Data Analysts,
                   Data Engineers, Developers, UX/UI Designers, Product & Project
                   Owners) souhaitant mettre leurs compétences au profit
                   d'associations, d'ONG, et de l'ESS - et de s'engager pour
@@ -385,8 +385,8 @@ export default function Home() {
             <h1>L'équipe Data For Good</h1>
             <p>
               🖐 Vous pouvez contacter l'équipe à{" "}
-              <Link to="mailto:hellodataforgood@gmail.com">
-                hellodataforgood@gmail.com
+              <Link to="mailto:contact@dataforgood.fr">
+                contact@dataforgood.fr
               </Link>
             </p>
             <SectionTeam />

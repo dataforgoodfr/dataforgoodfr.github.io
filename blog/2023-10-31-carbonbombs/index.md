@@ -2,7 +2,7 @@
 slug: carbonbombs
 title: CarbonBombs.org
 author: Lou Welgryn & Théo Alves Da Costa
-author_url: hellodataforgood@gmail.com
+author_url: contact@dataforgood.fr
 header_image_url: img/blog/carbonbombs.png
 tags: [Data For Good]
 description: "CarbonBombs.org: lumière sur les bombes carbone, ces méga-projets fossiles qui menacent nos engagements climatiques. Une plateforme de vulgarisation et visualization propulsée par un consortium de journalistes d'investigations et d'ONGs."
