@@ -1,5 +1,5 @@
-import React from 'react';
 import clsx from 'clsx';
+import React from 'react';
 import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
@@ -42,11 +42,25 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'Trois axes d’actions principaux',
+    src: require('../../static/img/pillar3.png').default,
+    Svg: require('../../static/img/pillar3.svg').default,
+    description: (
+      <>
+        <ul style={{"text-align":"left"}}>
+          <li>La <b>mobilisation des compétences</b> de nos experts bénévoles de la science des données et de l’intelligence artificielle afin de développer des outils et méthodes au service de l’intérêt général.</li>
+          <li>La <b>formation des citoyens et bénévoles</b> dans le domaine de la science des données, toujours au profit d’actions en faveur de l’intérêt général.</li>
+          <li>Une <b>réflexion globale</b> autour de l’impact et des risques de l’<b>intelligence artificielle</b>.</li>
+        </ul>
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description,src}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       {/* <div className="text--center">
         <img src={src} className={styles.featureSvg}/>
       </div> */}
