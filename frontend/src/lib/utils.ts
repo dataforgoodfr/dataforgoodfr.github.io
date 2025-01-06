@@ -20,5 +20,6 @@ export async function getStrapiData<T>(url: string) {
 }
 
 export function getImage(image: any) {
-  return `${process.env.STRAPI_URL}${image.url}`;
+  // ? in v5 the image path is prefixed with /uploads
+  return `${process.env.AWS_S3_UPLOAD_BUCKET_URL}${image.url.replace("/uploads", "")}`;
 }
