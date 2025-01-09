@@ -79,9 +79,19 @@ const config = {
           //   label: "🌎 Qui sommes-nous ?",
           // },
           {
-            to: "https://dataforgood.notion.site/",
-            label: "🌎 Qui sommes-nous ?",
+            label: "🌎 L'association",
             position: "left",
+            dropdownActiveClassDisabled: true,
+            items: [
+              {
+                label: "A propos de Data For Good",
+                to: "/",
+              },
+              {
+                label: "Calendrier",
+                to: "https://dataforgood.notion.site/calendrier",
+              },
+            ]
           },
           {
             label: "⭐ Projets",

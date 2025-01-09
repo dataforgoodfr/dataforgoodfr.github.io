@@ -313,13 +313,14 @@ export default function Home() {
             <h1>Les news</h1>
             <h2>La Saison 13 Data For Good</h2>
             <p>La saison 13 de Data For Good commencera le 25 janvier 2025 pour 3 mois ! Stay tuned !</p>
-            {/* <a href="/saison12">
+            <p>Rendez-vous en ligne ou à Paris à partir de 15h le 25 janvier 2025 - Inscriptions <a href="https://www.eventbrite.com/e/billets-lancement-saison-13-data-for-good-a-paris-en-ligne-1118963131849?aff=oddtdtcreator">ici</a></p>
+            <a href="https://www.eventbrite.com/e/billets-lancement-saison-13-data-for-good-a-paris-en-ligne-1118963131849?aff=oddtdtcreator">
             <img
-                  src={`${useBaseUrl("img/saison12.png")}`}
+                  src={`${useBaseUrl("img/saison13_1.png")}`}
                   alt="dfg-saison12"
                   style={{ width: "100%", "margin-bottom": "20px" }}
                 />
-            </a> */}
+            </a>
             </div>  
         </section>
 
