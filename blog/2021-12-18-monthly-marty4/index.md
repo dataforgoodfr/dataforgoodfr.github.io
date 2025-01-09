@@ -13,7 +13,7 @@ keywords:
 
 ## Replay
 
-<iframe width="100%" height="500px" src="https://www.youtube.com/embed/JaH6HPiAYSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/JaH6HPiAYSo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 La présentation est aussi accessible [ici](https://app.pitch.com/app/presentation/bb947ea8-f882-4f5d-bf7b-82e97581fb7b/13bdb841-4172-4939-b69a-a6eb68210bb7)
 

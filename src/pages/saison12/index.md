@@ -14,7 +14,7 @@ Vous voulez rejoindre l'aventure et faire partie des 5000 bénévoles qui se son
 
 <section style={{"margin-bottom":"20px"}}>
     <div className="container">
-    <iframe width="800" height="500" src="https://www.youtube.com/embed/waccP_2icDY?si=vlU7pN_6Ammwd58G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="800" height="500" src="https://www.youtube.com/embed/waccP_2icDY?si=vlU7pN_6Ammwd58G" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>  
 </section>
 
@@ -28,7 +28,7 @@ Rejoindre la communauté - 5min ⏱
 </a>
 </div>
 
-## Les 11 projets de la saison 12
+## Les 10 projets de la saison 12
 
 ### [🛥️ Projet 1 : TrawlWatch - Bloom](/projects/bloom)
 
@@ -106,15 +106,7 @@ L'objectif du projet GenAI Impact est de mettre en lumière ces impacts sur l’
 
 👉 Si vous voulez contribuer à ce projet, rejoignez Samuel et Caroline sur [#12_genai_impact](https://data-for-good.slack.com/archives/C06EPB8RLJH)
 
-### [⚡ Projet 10 : Données de la transition énergétique - 350.org](/projects/350org)
-
-Avec le soutien stratégique de 350.org, les volontaires de Data for Good construiront une ressource stratégique visant à dévoiler comment une révolution mondiale des énergies renouvelables est à notre portée et à démontrer que les fonds pour la financer sont disponibles.
-
-Cette ressource visuelle, basée sur des données, contribuera à faire comprendre que ce changement est inévitable, mais que la justice ne l'est pas, et qu'elle doit donc être au centre des préoccupations - le passage aux énergies renouvelables peut alors être bénéfique pour tout le monde. Elle véhiculera l'idée que ce que nous devons fondamentalement changer, c'est l'attention politique et publique, ainsi que les investissements qui en découlent, pour passer des combustibles fossiles aux énergies renouvelables. Le public visé comprend les organisateurs, les experts et les médias.
-
-👉 Si vous voulez contribuer à ce projet, rejoignez Clémence, Jeremy et Samuel dans le canal [#12_350org](https://data-for-good.slack.com/archives/C06F9STFFFY)
-
-### [🔥 Projet 11 : Localiser les départs de feux - Pyronear, le retour](/projects/pyronear)
+### [🔥 Projet 10 : Localiser les départs de feux - Pyronear, le retour](/projects/pyronear)
 
 Aujourd’hui, Pyronear transmet les images associées à la détection d’un départ de feu, ainsi qu’un rectangle montrant la fumée sur l’image. En revanche, pas d’info sur la localisation en dehors d’un angle en direction du feu depuis la caméra.
 Pour autant, il est possible de localiser précisément un feu par triangulation, ou lorsqu’une seule image est disponible, on souhaiterait explorer le potentiel des points remarquables pour donner une approximation de la zone du départ de feu très rapidement (un carré de 1-2km de coté serait déjà une réelle avancée pour les services d’incendies et de secours), et pourquoi pas exploiter des données lidar, bref, de nombreuses pistes à explorer pour un maximum d’impact !

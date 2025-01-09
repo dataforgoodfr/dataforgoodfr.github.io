@@ -53,7 +53,7 @@ Alors, que peut-on faire avec cet outil ?
 
 Vous pouvez revoir la démonstration de l'outil avec cette vidéo présentée au démo day : 
 
-<iframe width="100%" height="500px" src="https://www.youtube.com/embed/JdSGClNM6g0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/JdSGClNM6g0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 > « Les data scientists de notre équipe se sont emparés d'un problème mal posé, d'une idée balbutiante, et en ont fait un outil que je trouve élégant par sa simplicité, son caractère esthétique, autant que pour l'accès impressionnant qu'il donne à une donnée biologique polymorphe et touffue ! »
 > *Adrien Saint-Sardos, Ceebios*

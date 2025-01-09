@@ -31,7 +31,7 @@ C'est parti pour la saison 10 de l'association Data For Good, après 9 saisons, 
 
 Vous retrouverez dans cet article l'ensemble des informations pour tout savoir sur la saison et les projets qui sont proposés aux volontaires, et pour rejoindre la communauté et proposer son aide sur un projet 💪
 
-<iframe width="100%" height="500px" src="https://www.youtube.com/embed/bnAXCjD2l80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/bnAXCjD2l80" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 Vous pouvez également [parcourir la présentation ici](https://docs.google.com/presentation/d/1OaRajbh2aSoVf-vXkAhLogp1zdLDps450WcSfXpBkdg/edit?usp=sharing) 🖐
 
