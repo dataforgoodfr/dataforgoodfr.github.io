@@ -1,3 +1,4 @@
+---
 slug: ecoskills
 title: "Ecoskills : un agent conversationnel pour la transition écologique"
 header_image_url: img/projects/ecoskills.png
