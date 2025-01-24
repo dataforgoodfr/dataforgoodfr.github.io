@@ -1,3 +1,4 @@
+---
 slug: democratisersobriete
 title: "Démocratiser la sobriété : un agent conversationnel basé sur la science"
 header_image_url: img/projects/democratiser-sobriete.png

@@ -1,3 +1,4 @@
+---
 slug: iaforgood
 title: "IA pour répondre aux appels à projets"
 header_image_url: img/projects/ia-appels-projets.png
