@@ -11,7 +11,7 @@ keywords:
   - Intelligence artificielle
   - Plateforme communautaire
   - Formation en ligne
-sdgs: [sdg13]
+sdgs: [sdg12,sdg13]
 website: https://www.thesufficiencylab.org/
 ---
 

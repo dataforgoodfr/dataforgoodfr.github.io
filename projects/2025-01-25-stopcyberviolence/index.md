@@ -11,7 +11,7 @@ keywords:
   - Prévention
   - Analyse statistique
   - Dashboard
-sdgs: [sdg13]
+sdgs: [sdg11]
 website: https://centresrelier.org/
 ---
 
