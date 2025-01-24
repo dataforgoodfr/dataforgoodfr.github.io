@@ -103,6 +103,10 @@ const config = {
                 to: "/projects",
               },
               {
+                label: "Saison 13",
+                to: "/projects/tags/saison-13",
+              },
+              {
                 label: "Saison 12",
                 to: "/projects/tags/saison-12",
               },
