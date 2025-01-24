@@ -1,5 +1,5 @@
 ---
-slug: stopcyberviolences
+slug: stopcyberviolence
 title: "Stop Cyberviolences : un baromètre pour mieux prévenir et accompagner"
 header_image_url: img/projects/stop-cyberviolences.png
 tags: [Saison 13]
