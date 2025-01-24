@@ -11,7 +11,7 @@ keywords:
   - Cinéma
   - Audiovisuel
   - Intelligence artificielle
-sdgs: [sdg5,sdg10]
+sdgs: [sdg05,sdg10]
 website: https://collectif5050.com/
 ---
 

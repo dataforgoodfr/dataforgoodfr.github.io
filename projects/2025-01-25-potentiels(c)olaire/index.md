@@ -11,7 +11,7 @@ keywords:
   - Établissements scolaires
   - Cartographie
   - Énergies renouvelables
-sdgs: [sdg7,sdg13,sdg11]
+sdgs: [sdg07,sdg13,sdg11]
 website: https://www.greenpeace.fr/
 ---
 

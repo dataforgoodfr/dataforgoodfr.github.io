@@ -9,7 +9,7 @@ keywords:
   - Intelligence Artificielle
   - Associations
   - Appels à Projets
-sdgs: [sdg9, sdg11]
+sdgs: [sdg09, sdg11]
 website: 
 ---
 
