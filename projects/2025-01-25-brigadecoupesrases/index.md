@@ -9,7 +9,7 @@ keywords:
   - Forêts
   - Environnement
   - Surveillance
-sdgs: [sdg13]
+sdgs: [sdg13,sdg15]
 website: 
 ---
 

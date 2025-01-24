@@ -11,7 +11,7 @@ keywords:
   - Bien-être animal
   - Éducation des consommateurs
   - Visualisation des données
-sdgs: [sdg13]
+sdgs: [sdg13,sdg15]
 website: https://welfarefootprint.org/
 ---
 

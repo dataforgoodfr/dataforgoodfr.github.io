@@ -9,7 +9,7 @@ keywords:
   - Transition écologique
   - Agent conversationnel
   - Intelligence artificielle
-sdgs: [sdg13]
+sdgs: [sdg13,sdg16]
 website: 
 ---
 

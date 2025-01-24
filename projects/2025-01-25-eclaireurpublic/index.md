@@ -9,7 +9,7 @@ keywords:
   - Transparence
   - Open Data
   - Lutte contre la corruption
-sdgs: [sdg13]
+sdgs: [sdg16]
 website: https://transparency-france.org/
 ---
 

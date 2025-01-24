@@ -11,7 +11,7 @@ keywords:
   - WhatsApp
   - Émojis
   - NoCode
-sdgs: [sdg13]
+sdgs: [sdg1,sdg2,sdg10]
 website: https://watizat.org/
 ---
 
