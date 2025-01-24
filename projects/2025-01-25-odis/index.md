@@ -11,7 +11,7 @@ keywords:
   - Diagnostic territorial
   - Open data
   - Intégration sociale
-sdgs: [sdg1,sdg2,sdg10]
+sdgs: [sdg01,sdg02,sdg10]
 website: https://www.jaccueille.fr/
 ---
 
