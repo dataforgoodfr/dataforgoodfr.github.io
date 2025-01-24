@@ -1,6 +1,6 @@
 slug: brigade-surveillance-coupes-rases
 title: "Brigade de surveillance des coupes rases"
-header_image_url: img/projects/brigade-coupes-rases.png
+header_image_url: img/projects/brigadecoupesrases.png
 tags: [Saison 13]
 description: "Développer une plateforme de détection et de signalement des coupes rases forestières abusives à partir des données satellites."
 keywords:
