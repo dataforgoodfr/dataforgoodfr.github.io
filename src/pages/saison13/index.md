@@ -1,4 +1,4 @@
-# Saison 12
+# Saison 13
 
 ![](./saison13.png)
 
@@ -18,7 +18,7 @@ Vous voulez rejoindre l'aventure et faire partie des 5000 bénévoles qui se son
     </div>  
 </section>
 
-## Vous souhaitez participer à la saison 12 en tant que bénévole ?
+## Vous souhaitez participer à la saison 13 en tant que bénévole ?
 
 Vous êtes Data Scientist, Data Analyst, Data Engineer, Développeur Web, Project ou Product Manager, UX/UI Designer, ou vous avez simplement envie de vous engager sur un projet à fort impact social et environnemental. Vous pouvez dès maintenant rejoindre la communauté de bénévoles sur [https://dataforgood.fr/join](https://dataforgood.fr/join) ou cliquer sur le lien ci-dessous.
 
@@ -28,7 +28,7 @@ Rejoindre la communauté - 5min ⏱
 </a>
 </div>
 
-## Les 10 projets de la saison 12
+## Les 10 projets de la saison 13
 
 ### [🛥️ Projet 1 : Rendre visible la pollution de l'ean - Générations futures](/projects/pollutioneau)
 
