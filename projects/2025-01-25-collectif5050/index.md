@@ -1,4 +1,4 @@
-slug: collectif-5050
+slug: collectif5050
 title: "Égalité et inclusion dans le cinéma et l'audiovisuel : une boîte à outils data"
 header_image_url: img/projects/collectif-5050.png
 tags: [Saison 13]

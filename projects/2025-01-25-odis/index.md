@@ -1,4 +1,4 @@
-slug: od-is
+slug: odis
 title: "OD&IS : Optimiser l'Accueil des Personnes Réfugiées"
 header_image_url: img/projects/od-is.png
 tags: [Saison 13]

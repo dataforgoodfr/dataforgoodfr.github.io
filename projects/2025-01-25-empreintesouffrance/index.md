@@ -1,4 +1,4 @@
-slug: empreinte-souffrance-produits-animaux
+slug: empreintesouffrance
 title: "L’empreinte souffrance des produits d’origine animale"
 header_image_url: img/projects/empreinte-souffrance.png
 tags: [Saison 13]

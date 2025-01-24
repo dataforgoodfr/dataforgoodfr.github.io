@@ -1,4 +1,4 @@
-slug: brigade-surveillance-coupes-rases
+slug: brigadecoupesrases
 title: "Brigade de surveillance des coupes rases"
 header_image_url: img/projects/brigadecoupesrases.png
 tags: [Saison 13]

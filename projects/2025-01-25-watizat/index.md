@@ -1,4 +1,4 @@
-slug: 505-chatbot
+slug: watizat
 title: "505 : Un chatbot WhatsApp basé sur les émojis pour l'accès aux services essentiels"
 header_image_url: img/projects/505-chatbot.png
 tags: [Saison 13]
