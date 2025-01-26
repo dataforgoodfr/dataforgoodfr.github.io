@@ -60,7 +60,7 @@ L’approche OD&IS aide à favoriser l’accueil et la mobilité des personnes e
 
 👉 Si vous voulez contribuer à ce projet, rejoignez Boris et Nassima dans le canal [#13_odis](https://data-for-good.slack.com/archives/C08AF157HK2)
 
-### [⛺ Projet 6 : Potentiel S(c)olaire) - Greenpeace](/projects/potentiels(c)olaire)
+### [⛺ Projet 6 : Potentiel S(c)olaire) - Greenpeace](/projects/potentielscolaire)
 
 Dans le cadre d'une campagne plus large sur les établissements scolaires français, Greenpeace souhaiterait trouver des chiffres fiables et clairs sur le potentiel photovoltaïque des bâtiments publics afin d'inciter les chefs d'établissements ou politiques à prendre des mesures. Le but est de construire une base de données contenant chaque école et son potentiel solaire, puis de l’exploiter dans un produit sous forme de carte.
 
