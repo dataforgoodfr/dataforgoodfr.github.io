@@ -1,5 +1,5 @@
 ---
-slug: potentiels(c)olaire
+slug: potentielscolaire
 title: "Potentiel s(c)olaire"
 header_image_url: img/projects/potentiel-scolaire.png
 tags: [Saison 13]
