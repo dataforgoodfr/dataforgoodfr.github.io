@@ -129,6 +129,21 @@ const teamList = [
   // {src:"img/team/fred.png","name":"Frédéric Bardolle","role":"Conseil des sages","contact":"https://www.linkedin.com/in/fbardolle/"},
 ];
 
+const funderList = [
+  {
+    src: "img/funders/fondation-de-france.jpg",
+    name: "La fondation de France",
+  },
+  {
+    src: "img/funders/institut_du_permanumerique_logo.jpeg",
+    name: "L'institut du permanumérique",
+  },
+  {
+    src: "img/funders/entreprendre_et_plus_logo.png",
+    name: "Entreprendre et Plus",
+  },
+];
+
 const SectionTeam = () => {
   return (
     <div
@@ -149,6 +164,43 @@ const SectionTeam = () => {
           role={el.role}
         />
       ))}
+    </div>
+  );
+};
+
+const SectionFunders = () => {
+  return (
+    <div
+      className=""
+      style={{
+        display: "flex",
+        "align-items": "center",
+        "justify-content": "center",
+        "flex-wrap": "wrap",
+        gap: "6rem",
+        "margin-top": "50px",
+      }}
+    >
+      {funderList.map((el) => (
+        <Funder src={el.src} name={el.name} />
+      ))}
+    </div>
+  );
+};
+
+const Funder = ({ src, name }) => {
+  return (
+    <div>
+      <img
+        alt="team"
+        src={`${useBaseUrl(src)}`}
+        style={{
+          maxHeight: "128px",
+        }}
+      />
+      <div>
+        <h3 style={{ "align-content": "baseline" }}>{name}</h3>
+      </div>
     </div>
   );
 };
@@ -394,6 +446,12 @@ export default function Home() {
           </div>
         </section>
         <section>
+          <div className="container main-section">
+            <h1>Nos financeurs</h1>
+            <SectionFunders />
+          </div>
+        </section>
+        <section className="light-green">
           <div className="container main-section">
             <h1>Nos partenaires</h1>
             <SectionPartners />
