@@ -98,7 +98,7 @@ const teamList = [
   {
     src: "img/team/lou.jpg",
     name: "Lou Welgryn",
-    role: "Co-Présidente",
+    role: "Secrétaire générale",
     contact: "https://www.linkedin.com/in/lou-welgryn-460434b0/",
   },
   // {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
