@@ -133,14 +133,17 @@ const funderList = [
   {
     src: "img/funders/fondation-de-france.jpg",
     name: "La fondation de France",
+    url: "https://www.fondationdefrance.org/fr/",
   },
   {
     src: "img/funders/institut_du_permanumerique_logo.jpeg",
     name: "L'institut du permanumérique",
+    url: "https://www.linkedin.com/showcase/institut-du-permanumerique/?originalSubdomain=fr",
   },
   {
     src: "img/funders/entreprendre_et_plus_logo.png",
     name: "Entreprendre et Plus",
+    url: "https://www.entreprendreetplus.org/",
   },
 ];
 
@@ -182,15 +185,16 @@ const SectionFunders = () => {
       }}
     >
       {funderList.map((el) => (
-        <Funder src={el.src} name={el.name} />
+        <Funder src={el.src} name={el.name} url={el.url} />
       ))}
     </div>
   );
 };
 
-const Funder = ({ src, name }) => {
+const Funder = ({ src, name, url }) => {
   return (
     <div>
+      <a href={url} target="_blank">
       <img
         alt="team"
         src={`${useBaseUrl(src)}`}
@@ -198,6 +202,7 @@ const Funder = ({ src, name }) => {
           maxHeight: "128px",
         }}
       />
+      </a>
       <div>
         <h3 style={{ "align-content": "baseline" }}>{name}</h3>
       </div>
