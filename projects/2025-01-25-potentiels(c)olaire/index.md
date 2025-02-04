@@ -1,7 +1,7 @@
 ---
 slug: potentielscolaire
 title: "Potentiel s(c)olaire"
-header_image_url: img/projects/potentiel-scolaire.png
+header_image_url: img/projects/potentiel-scolaire.jpg
 tags: [Saison 13]
 description: "Évaluer et cartographier le potentiel photovoltaïque des établissements scolaires pour accélérer la transition énergétique."
 keywords:

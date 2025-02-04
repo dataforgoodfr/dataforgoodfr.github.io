@@ -1,6 +1,6 @@
 ---
 slug: pollutioneau
-title: "Rendre visible la pollution de l’eau"
+title: "Rendre visible la pollution de l’eau potable"
 header_image_url: img/projects/pollution-eau-visible.png
 tags: [Saison 13]
 description: "Développer une plateforme interactive pour rendre transparentes et accessibles les données sur la pollution chimique de l'eau."
