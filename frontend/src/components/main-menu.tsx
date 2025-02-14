@@ -13,6 +13,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import Image from "next/image";
 
 const menu = [
   {
@@ -26,6 +27,11 @@ const menu = [
       {
         title: "Le fonctionnement de l'équipe",
         href: "/about/team",
+        detail: {
+          title: "",
+          image:
+            "https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        },
       },
       {
         title: "Nos axes d'action",
@@ -104,10 +110,19 @@ const menu = [
 ] as Array<{
   title: string;
   href: string;
-  children?: Array<{ title: string; href: string; description: string }>;
+  children?: Array<{
+    title: string;
+    href: string;
+    detail?: {
+      title: string;
+      image: string;
+    };
+  }>;
 }>;
 
 export function MainMenu() {
+  const [activeChild, setActiveChild] = React.useState<string | null>(null);
+
   return (
     <NavigationMenu className="z-50">
       <NavigationMenuList>
@@ -124,22 +139,42 @@ export function MainMenu() {
             )}
             {item.children && (
               <NavigationMenuContent>
-                <ul className="grid w-[200px] gap-2 p-4 md:w-[300px] grid-cols-1 lg:w-[400px]">
-                  {item.children.map((child) => (
-                    <li key={child.title}>
-                      <Link href={child.href} legacyBehavior passHref>
-                        <a
-                          className={cn(
-                            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                          )}
-                        >
-                          <div className="text-sm font-medium leading-none">
-                            {child.title}
-                          </div>
-                        </a>
-                      </Link>
-                    </li>
-                  ))}
+                <ul className="grid w-[1000px] gap-2 p-4 md:h-[200px] md:grid-cols-3 lg:h-[400px] bg-gradient-to-b from-muted/50 to-muted ">
+                  <div className="col-span-1">
+                    {item.children.map((child) => (
+                      <li
+                        key={child.title}
+                        onMouseEnter={() => setActiveChild(child.title)}
+                        onMouseLeave={() => setActiveChild(null)}
+                      >
+                        <Link href={child.href} legacyBehavior passHref>
+                          <a
+                            className={cn(
+                              "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            )}
+                          >
+                            <div className="text-sm font-medium leading-none">
+                              {child.title}
+                            </div>
+                          </a>
+                        </Link>
+                      </li>
+                    ))}
+                  </div>
+                  <div className="bg-white col-span-2 row-span-3 rounded-sm">
+                    {activeChild ? (
+                      <HoveredItem
+                        title={
+                          item.children.find((c) => c.title === activeChild)
+                            ?.detail?.title
+                        }
+                        image={
+                          item.children.find((c) => c.title === activeChild)
+                            ?.detail?.image
+                        }
+                      />
+                    ) : null}
+                  </div>
                 </ul>
               </NavigationMenuContent>
             )}
@@ -175,3 +210,37 @@ const ListItem = React.forwardRef<
   );
 });
 ListItem.displayName = "ListItem";
+
+function HoveredItem({
+  title,
+  image,
+}: {
+  title: string | undefined;
+  image: string | undefined;
+}) {
+  return (
+    <li>
+      <NavigationMenuLink asChild>
+        <a
+          className="flex h-full w-full select-none flex-col justify-end rounded-md bg-white p-6 no-underline outline-none focus:shadow-md"
+          href="/"
+        >
+          {title ? (
+            <p className="text-sm leading-tight text-muted-foreground">
+              {title}
+            </p>
+          ) : null}
+          {image && (
+            <Image
+              className="rounded"
+              src={image}
+              width={500}
+              height={300}
+              alt="Description of the image"
+            />
+          )}
+        </a>
+      </NavigationMenuLink>
+    </li>
+  );
+}

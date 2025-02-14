@@ -7,6 +7,7 @@ const nextConfig = {
       "dataforgood.fr",
       "strapi.services.dataforgood.fr",
       "s3.fr-par.scw.cloud",
+      "images.pexels.com",
     ],
   },
   // VRAIMENT PAS OUF

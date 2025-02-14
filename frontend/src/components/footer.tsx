@@ -70,8 +70,8 @@ export function Footer() {
   return (
     <footer className="relative border-t bg-background text-foreground transition-colors duration-300">
       <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-          <div className="relative">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
+          <div className="relative px-4">
             <div className="flex gap-2 items-center mb-2">
               <Image
                 src="http://localhost:3000/_next/image?url=https%3A%2F%2Fs3.fr-par.scw.cloud%2Fstrapi-uploads%2Flogo_dfg_new2_78089b7aec.png&w=384&q=75"
@@ -79,14 +79,14 @@ export function Footer() {
                 width={48}
                 alt="logo"
               />
-              <h2 className="text-2xl font-bold tracking-tight">
+              <h2 className="text-xl font-bold tracking-tight">
                 Data For Good
               </h2>
             </div>
-            <p className="mb-6 text-sm text-black">
+            <p className="mb-4 text-sm text-black">
               La technologie au service de l'intérêt général.
             </p>
-            <div className="mb-6 flex space-x-4">
+            <div className="mb-4 flex space-x-4">
               <TooltipProvider>
                 <Tooltip>
                   <TooltipTrigger asChild>
