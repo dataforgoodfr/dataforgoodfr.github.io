@@ -20,6 +20,21 @@ export async function Header() {
 
   const logoImage = getImage(logo);
 
+  const ctas = [
+    {
+      label: "Je suis une association",
+      href: "/association",
+    },
+    {
+      label: "Je veux être bénévole",
+      href: "/volunteer",
+    },
+    {
+      label: "Je veux financer",
+      href: "/funder",
+    },
+  ];
+
   return (
     <header className="bg-white py-2 px-6 flex items-center justify-between">
       <div className="flex gap-4">
@@ -30,15 +45,13 @@ export async function Header() {
         <MainMenu />
       </div>
       <div className="flex space-x-2">
-        <Button className="bg-[#35c4d7] text-white hover:bg-[#35c4d7]/90">
-          Rejoindre la communauté
-        </Button>
-        <Button
-          variant="outline"
-          className="border-[#35c4d7] text-[#35c4d7] hover:bg-[#35c4d7] hover:text-white"
-        >
-          Proposer un projet
-        </Button>
+        {ctas.map((cta) => (
+          <Link key={cta.label} href={cta.href}>
+            <Button className="bg-[#35c4d7] text-white hover:bg-[#35c4d7]/90">
+              {cta.label}
+            </Button>
+          </Link>
+        ))}
       </div>
     </header>
   );

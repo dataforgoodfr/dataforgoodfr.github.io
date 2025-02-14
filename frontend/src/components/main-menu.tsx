@@ -14,72 +14,137 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-const projects: { title: string; href: string }[] = [
+const menu = [
   {
-    title: "Tous les projets",
+    title: "Accueil",
+    href: "/",
+  },
+  {
+    title: "À propos",
+    href: "/about",
+    children: [
+      {
+        title: "Le fonctionnement de l'équipe",
+        href: "/about/team",
+      },
+      {
+        title: "Nos axes d'action",
+        href: "/about/axes",
+      },
+      {
+        title: "Nos antennes",
+        href: "/about/antennas",
+      },
+      {
+        title: "Nos rapports d'activité",
+        href: "/about/reports",
+      },
+      {
+        title: "Nous contacter",
+        href: "/about/contact",
+      },
+    ],
+  },
+  {
+    title: "Projets",
     href: "/projects",
+    children: [
+      {
+        title: "A venir",
+        href: "/projects/upcoming",
+      },
+      {
+        title: "En cours",
+        href: "/projects/ongoing",
+      },
+      {
+        title: "Passés",
+        href: "/projects/past",
+      },
+      {
+        title: "Tous les projets",
+        href: "/projects/all",
+      },
+      {
+        title: "Hors saison",
+        href: "/projects/offseason",
+      },
+    ],
   },
   {
-    title: "Saison 12",
-    href: "/projects/saison-12",
+    title: "Événements",
+    href: "/events",
   },
   {
-    title: "Saison 11",
-    href: "/projects/saison-11",
+    title: "Ressources",
+    href: "/resources",
+    children: [
+      {
+        title: "Nos formations",
+        href: "/resources/training",
+      },
+      {
+        title: "Articles de presse",
+        href: "/resources/press",
+      },
+      {
+        title: "Serment d'Hippocrate",
+        href: "/resources/hippocrate",
+      },
+      {
+        title: "Les grands défis de l'IA",
+        href: "/resources/ia-challenges",
+      },
+      {
+        title: "Charte diversité",
+        href: "/resources/diversity",
+      },
+    ],
   },
-  {
-    title: "Saison 10",
-    href: "/projects/saison-10",
-  },
-  {
-    title: "Le serment d'Hippocrate du Data Scientist",
-    href: "/hippocrate",
-  },
-  {
-    title: "Les projets qui ont besoin d'aide",
-    href: "https://dataforgood.notion.site/Trouver-un-projet-6244df9394d048fca5e7350260919c8c",
-  },
-];
+] as Array<{
+  title: string;
+  href: string;
+  children?: Array<{ title: string; href: string; description: string }>;
+}>;
 
 export function MainMenu() {
   return (
     <NavigationMenu className="z-50">
       <NavigationMenuList>
-        <NavigationMenuItem>
-          <Link href="https://dataforgood.notion.site/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              🌎 Qui sommes-nous ?
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>⭐ Projets</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[200px] gap-2 p-4 md:w-[300px] grid-cols-1 lg:w-[400px] ">
-              {projects.map((component) => (
-                <ListItem
-                  key={component.title}
-                  title={component.title}
-                  href={component.href}
-                ></ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/blog" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              📚 Blog
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/iagenerative" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              🤖 IA Générative
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+        {menu.map((item) => (
+          <NavigationMenuItem key={item.title}>
+            {(item.children && (
+              <NavigationMenuTrigger>{item.title}</NavigationMenuTrigger>
+            )) || (
+              <Link href={item.href} legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  {item.title}
+                </NavigationMenuLink>
+              </Link>
+            )}
+            {item.children && (
+              <NavigationMenuContent>
+                <ul className="grid w-[200px] gap-2 p-4 md:w-[300px] grid-cols-1 lg:w-[400px]">
+                  {item.children.map((child) => (
+                    <li key={child.title}>
+                      <Link href={child.href} legacyBehavior passHref>
+                        <a
+                          className={cn(
+                            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                          )}
+                        >
+                          <div className="text-sm font-medium leading-none">
+                            {child.title}
+                          </div>
+                        </a>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </NavigationMenuContent>
+            )}
+          </NavigationMenuItem>
+        ))}
       </NavigationMenuList>
     </NavigationMenu>
   );

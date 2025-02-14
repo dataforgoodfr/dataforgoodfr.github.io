@@ -1,101 +1,247 @@
-import { ExternalLinkIcon } from "@radix-ui/react-icons";
-import Link from "next/link";
+import * as React from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  Moon,
+  Send,
+  Sun,
+  Twitter,
+} from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
+  const about = {
+    title: "à propos",
+    links: [
+      { title: "Le fonctionnement", href: "#" },
+      { title: "Nos axes d'action", href: "#" },
+      { title: "Nos antennes", href: "#" },
+      { title: "Nos rapports d'activité", href: "#" },
+      { title: "Nous contacter", href: "#" },
+      { title: "On recrute", href: "#" },
+      { title: "FAQ", href: "#" },
+      { title: "CGU", href: "#" },
+    ],
+  };
+
+  const projects = {
+    title: "nos projets",
+    links: [
+      { title: "À venir", href: "#" },
+      { title: "En cours", href: "#" },
+      { title: "Passés", href: "#" },
+      { title: "Hors saison", href: "#" },
+    ],
+  };
+
+  const events = {
+    title: "nos événements",
+    links: [
+      { title: "Webinaires", href: "#" },
+      { title: "Meetings", href: "#" },
+      { title: "Conférnces", href: "#" },
+      { title: "????", href: "#" },
+      { title: "????", href: "#" },
+    ],
+  };
+
+  const resources = {
+    title: "Nos ressources",
+    links: [
+      { title: "Conférences", href: "#" },
+      { title: "Formations", href: "#" },
+      { title: "Articles de presse", href: "#" },
+      { title: "Serment d'Hippocrate", href: "#" },
+      { title: "IA Générative", href: "#" },
+      { title: "Charte diversité", href: "#" },
+    ],
+  };
+
   return (
-    <footer className="bg-gray-100 py-8">
-      <div className="container mx-auto px-24">
-        <div className="flex flex-wrap justify-between">
-          <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="font-bold mb-4">Pages</h3>
-            <ul className="text-gray-500 gap-2">
-              <li className="flex items-center gap-1">
-                <Link href="https://dataforgood.notion.site/">
-                  L'association Data For Good
-                </Link>
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://dataforgood.fr/hippocrate">
-                  Serment d'Hippocrate
-                </Link>
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://dataforgood.notion.site/f58df2b6f02849a4ae94d8cb9ce49e5f?v=c165effdeeb140ea9fe964ca966485a6">
-                  FAQ
-                </Link>
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://dataforgood.fr/confidentialite">
-                  Politique de confidentialité
-                </Link>
-              </li>
-            </ul>
+    <footer className="relative border-t bg-background text-foreground transition-colors duration-300">
+      <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
+          <div className="relative">
+            <div className="flex gap-2 items-center mb-2">
+              <Image
+                src="http://localhost:3000/_next/image?url=https%3A%2F%2Fs3.fr-par.scw.cloud%2Fstrapi-uploads%2Flogo_dfg_new2_78089b7aec.png&w=384&q=75"
+                height={36}
+                width={48}
+                alt="logo"
+              />
+              <h2 className="text-2xl font-bold tracking-tight">
+                Data For Good
+              </h2>
+            </div>
+            <p className="mb-6 text-sm text-black">
+              La technologie au service de l'intérêt général.
+            </p>
+            <div className="mb-6 flex space-x-4">
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="rounded-full"
+                    >
+                      <Facebook className="h-4 w-4" />
+                      <span className="sr-only">Facebook</span>
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Follow us on Facebook</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="rounded-full"
+                    >
+                      <Twitter className="h-4 w-4" />
+                      <span className="sr-only">Twitter</span>
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Follow us on Twitter</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="rounded-full"
+                    >
+                      <Instagram className="h-4 w-4" />
+                      <span className="sr-only">Instagram</span>
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Follow us on Instagram</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="rounded-full"
+                    >
+                      <Linkedin className="h-4 w-4" />
+                      <span className="sr-only">LinkedIn</span>
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Connect with us on LinkedIn</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            </div>
+            <form className="relative">
+              <Label htmlFor="email">S'inscrire à la newsletter</Label>
+              <Input
+                id="email"
+                type="email"
+                placeholder="Enter your email"
+                className="pr-12 backdrop-blur-sm"
+              />
+              <Button
+                type="submit"
+                size="icon"
+                className="absolute right-1 top-1 h-8 w-8 rounded-full bg-primary text-primary-foreground transition-transform hover:scale-105"
+              >
+                <Send className="h-4 w-4" />
+                <span className="sr-only">Subscribe</span>
+              </Button>
+            </form>
+            <p className="text-xs text-muted-foreground mt-4">
+              {`Data For Good © 2014-${new Date().getFullYear()}`}
+            </p>
+            <div className="absolute -right-4 top-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
           </div>
-          <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className=" font-bold mb-4">Liens Externes</h3>
-            <ul className="text-gray-500">
-              <li className="flex items-center gap-1">
-                <Link href="https://github.com/dataforgoodfr">Github</Link>
-                <ExternalLinkIcon />
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://www.youtube.com/channel/UCA_utdbmVhAOFujulWlaaCQ">
-                  Youtube
-                </Link>
-                <ExternalLinkIcon />
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://www.meetup.com/Data-for-Good-FR">
-                  Meetup
-                </Link>
-                <ExternalLinkIcon />
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://huggingface.co/DataForGood">
-                  Hugging Face
-                </Link>
-                <ExternalLinkIcon />
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://twitch.tv/dataforgood">Twitch</Link>
-                <ExternalLinkIcon />
-              </li>
-            </ul>
+          <div>
+            <h3 className="mb-4 text-lg font-semibold uppercase">
+              {about.title}
+            </h3>
+            <nav className="space-y-2 text-sm">
+              {about.links.map((link) => (
+                <a
+                  key={link.title}
+                  href={link.href}
+                  className="block transition-colors text-muted-foreground hover:text-primary"
+                >
+                  {link.title}
+                </a>
+              ))}
+            </nav>
           </div>
-          <div className="w-full md:w-1/3">
-            <h3 className=" font-bold mb-4">Mais aussi</h3>
-            <ul className="text-gray-500">
-              <li className="flex items-center gap-1">
-                <Link href="/blog">Blog</Link>
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://dataforgood.notion.site/">Notion</Link>
-                <ExternalLinkIcon />
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://www.linkedin.com/company/dataforgood">
-                  Linkedin
-                </Link>
-                <ExternalLinkIcon />
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://www.instagram.com/dataforgoodfr/">
-                  Instagram
-                </Link>
-                <ExternalLinkIcon />
-              </li>
-              <li className="flex items-center gap-1">
-                <Link href="https://twitter.com/dataforgood_fr">Twitter</Link>
-                <ExternalLinkIcon />
-              </li>
-            </ul>
+          <div>
+            <h3 className="mb-4 text-lg font-semibold uppercase">
+              {projects.title}
+            </h3>
+            <nav className="space-y-2 text-sm">
+              {projects.links.map((link) => (
+                <a
+                  key={link.title}
+                  href={link.href}
+                  className="block transition-colors text-muted-foreground hover:text-primary"
+                >
+                  {link.title}
+                </a>
+              ))}
+            </nav>
           </div>
-        </div>
-        <div className="mt-8 text-center text-sm">
-          <p>
-            Copyright © {new Date().getFullYear()} Data For Good - Avec amour
-            depuis 2014 ❤ - contact à hellodataforgood@gmail.com
-          </p>
+          <div>
+            <h3 className="mb-4 text-lg font-semibold uppercase">
+              {events.title}
+            </h3>
+            <nav className="space-y-2 text-sm">
+              {events.links.map((link) => (
+                <a
+                  key={link.title}
+                  href={link.href}
+                  className="block transition-colors text-muted-foreground hover:text-primary"
+                >
+                  {link.title}
+                </a>
+              ))}
+            </nav>
+          </div>
+          <div>
+            <h3 className="mb-4 text-lg font-semibold uppercase">
+              {resources.title}
+            </h3>
+            <nav className="space-y-2 text-sm">
+              {resources.links.map((link) => (
+                <a
+                  key={link.title}
+                  href={link.href}
+                  className="block transition-colors text-muted-foreground hover:text-primary"
+                >
+                  {link.title}
+                </a>
+              ))}
+            </nav>
+          </div>
         </div>
       </div>
     </footer>
