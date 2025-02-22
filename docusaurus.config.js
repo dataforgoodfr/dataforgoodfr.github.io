@@ -61,7 +61,11 @@ const config = {
       }),
     ],
   ],
-
+  scripts: [{
+    src: 'https://plausible.io/js/script.file-downloads.hash.outbound-links.js', 
+    defer: true,
+    'data-domain': 'dataforgood.fr'}
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
