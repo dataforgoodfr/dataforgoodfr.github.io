@@ -58,7 +58,10 @@ function HomepageHeader() {
             /> */}
             <HomeButton text="💪 Rejoindre la communauté" to="/join" />
             <HomeButton text="💡 Proposer un projet" to="/propose" />
-            <HomeButton text="🤗 Faire un don" to="https://www.helloasso.com/associations/data-for-good/formulaires/1" />
+            <HomeButton
+              text="🤗 Faire un don"
+              to="https://www.helloasso.com/associations/data-for-good/formulaires/1"
+            />
           </div>
         </div>
       </div>
@@ -145,6 +148,11 @@ const funderList = [
     name: "Entreprendre et Plus",
     url: "https://www.entreprendreetplus.org/",
   },
+  {
+    src: "img/funders/afnic.svg",
+    name: "AFNIC",
+    url: "https://www.afnic.fr",
+  },
 ];
 
 const SectionTeam = () => {
@@ -177,7 +185,7 @@ const SectionFunders = () => {
       className=""
       style={{
         display: "flex",
-        "align-items": "center",
+        "align-items": "end",
         "justify-content": "center",
         "flex-wrap": "wrap",
         gap: "6rem",
@@ -195,13 +203,13 @@ const Funder = ({ src, name, url }) => {
   return (
     <div>
       <a href={url} target="_blank">
-      <img
-        alt="team"
-        src={`${useBaseUrl(src)}`}
-        style={{
-          maxHeight: "128px",
-        }}
-      />
+        <img
+          alt="team"
+          src={`${useBaseUrl(src)}`}
+          style={{
+            maxHeight: "128px",
+          }}
+        />
       </a>
       <div>
         <h3 style={{ "align-content": "baseline" }}>{name}</h3>
@@ -369,16 +377,25 @@ export default function Home() {
           <div className="container main-section">
             <h1>Les news</h1>
             <h2>La Saison 13 Data For Good</h2>
-            <p>La saison 13 de Data For Good commencera le 25 janvier 2025 pour 3 mois ! Stay tuned !</p>
-            <p>Rendez-vous en ligne ou à Paris à partir de 15h le 25 janvier 2025 - Inscriptions <a href="https://www.eventbrite.com/e/billets-lancement-saison-13-data-for-good-a-paris-en-ligne-1118963131849?aff=oddtdtcreator">ici</a></p>
+            <p>
+              La saison 13 de Data For Good commencera le 25 janvier 2025 pour 3
+              mois ! Stay tuned !
+            </p>
+            <p>
+              Rendez-vous en ligne ou à Paris à partir de 15h le 25 janvier 2025
+              - Inscriptions{" "}
+              <a href="https://www.eventbrite.com/e/billets-lancement-saison-13-data-for-good-a-paris-en-ligne-1118963131849?aff=oddtdtcreator">
+                ici
+              </a>
+            </p>
             <a href="https://www.eventbrite.com/e/billets-lancement-saison-13-data-for-good-a-paris-en-ligne-1118963131849?aff=oddtdtcreator">
-            <img
-                  src={`${useBaseUrl("img/saison13_1.png")}`}
-                  alt="dfg-saison12"
-                  style={{ width: "100%", "margin-bottom": "20px" }}
-                />
+              <img
+                src={`${useBaseUrl("img/saison13_1.png")}`}
+                alt="dfg-saison12"
+                style={{ width: "100%", "margin-bottom": "20px" }}
+              />
             </a>
-            </div>  
+          </div>
         </section>
 
         <section className="light-green">
