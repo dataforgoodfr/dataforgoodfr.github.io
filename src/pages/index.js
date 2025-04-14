@@ -149,7 +149,7 @@ const funderList = [
     url: "https://www.entreprendreetplus.org/",
   },
   {
-    src: "img/funders/afnic.svg",
+    src: "img/funders/afnic.png",
     name: "AFNIC",
     url: "https://www.afnic.fr",
   },
