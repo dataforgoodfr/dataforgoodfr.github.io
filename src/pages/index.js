@@ -151,7 +151,7 @@ const funderList = [
   {
     src: "img/funders/afnic.svg",
     name: "AFNIC",
-    url: "https://www.afnic.fr",
+    url: "https://www.fondation-afnic.fr/fr/Accueil.htm",
   },
 ];
 
